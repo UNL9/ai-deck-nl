@@ -18,7 +18,7 @@ Een eigen Europees frontierlab kost volgens één raming 790 miljard euro in dri
 
 **Leveranciersrisico is ook geopolitiek risico.** Wie zijn bedrijfsprocessen op een Amerikaans model bouwt, is afhankelijk van Amerikaans beleid. Dat hoeft geen reden te zijn om het niet te doen, wel om een uitwijkmogelijkheid te hebben.
 
-**De uitstel van de AI Act is geen reden om te wachten.** De hoog-risicoregels komen er, alleen later. Organisaties die AI inzetten voor beslissingen over mensen, hebben de extra tijd nodig om hun systemen te inventariseren, te documenteren en het menselijk toezicht in te richten.
+**Het uitstel van de AI Act is geen reden om te wachten.** De hoog-risicoregels komen er, alleen later. Organisaties die AI inzetten voor beslissingen over mensen, hebben de extra tijd nodig om hun systemen te inventariseren, te documenteren en het menselijk toezicht in te richten.
 
 **Transparantie geldt al.** Chatbots moeten zich als AI kenbaar maken en synthetische inhoud moet herkenbaar zijn. Dat raakt klantcontact en marketing nu.
 
