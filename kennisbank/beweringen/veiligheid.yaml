@@ -1,0 +1,28 @@
+# Thema: veiligheid en risico
+- id: K-VEI-001
+  bewering: "Op het aanvalsparcours 'The Last Ones' van het UK AISI (32 stappen, circa 20 expert-uren) voltooide Mythos Preview 6 van 10 pogingen en GPT-5.5 3 van 10 (update mei 2026)."
+  peildatum: 2026-05
+  bron: uk-aisi
+  vindplaats: "State of AI Report 2026, slide 205"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 90
+  status: actueel
+  slides: [VEI-02]
+- id: K-VEI-002
+  bewering: "De beste open modellen lopen 4 tot 7 maanden achter op gesloten modellen in de cybertests van het UK AISI."
+  peildatum: 2026-09
+  bron: uk-aisi
+  vindplaats: "State of AI Report 2026, slide 213"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 90
+  status: actueel
+  slides: [VEI-04]
+- id: K-VEI-003
+  bewering: "De leiders van frontierlabs en 1.386 medewerkers vragen overheden om de mogelijkheid het tempo van AI-ontwikkeling te vertragen; er is geen overeenstemming over wie pauzes mag opleggen en controleren."
+  peildatum: 2026-09
+  bron: soai
+  vindplaats: "State of AI Report 2026, slide 233"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 90
+  status: actueel
+  slides: [VEI-09]

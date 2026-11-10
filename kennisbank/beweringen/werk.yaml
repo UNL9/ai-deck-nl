@@ -1,0 +1,28 @@
+# Thema: werk en organisatie
+- id: K-WRK-001
+  bewering: "In de VS is de instroom van 22- tot 25-jarigen in beroepen die AI raakt vertraagd; de oorzaak is onzeker en de werkloosheid in die beroepen is niet duidelijk gestegen."
+  peildatum: 2026-09
+  bron: soai
+  vindplaats: "State of AI Report 2026, slide 105 (Anthropic-onderzoek)"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 180
+  status: actueel
+  slides: [WRK-06]
+- id: K-WRK-002
+  bewering: "The Economist schat 320.000 extra banen in Amerikaanse infrastructuur en 730.000 in AI-gerelateerde beroepen, boven de bredere trend."
+  peildatum: 2026-09
+  bron: soai
+  vindplaats: "State of AI Report 2026, slide 107"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 180
+  status: actueel
+  slides: [WRK-08]
+- id: K-WRK-003
+  bewering: "45% van de bedrijven in de ICONIQ-enquête plant een andere mix van rollen, 33% plant actief een kleiner team."
+  peildatum: 2026-05
+  bron: iconiq
+  vindplaats: "ICONIQ State of AI 2026, executive summary (slide 5)"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 180
+  status: actueel
+  slides: [WRK-09]

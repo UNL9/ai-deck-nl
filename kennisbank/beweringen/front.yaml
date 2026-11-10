@@ -1,0 +1,73 @@
+# Thema: het front (capaciteiten, benchmarks, onderzoek)
+- id: K-FRT-001
+  bewering: "Op de Artificial Analysis Intelligence Index leidt Claude Opus 5.5 met 58; GPT-6 Astra en Gemini 4 Argon volgen met 53."
+  peildatum: 2026-09
+  bron: soai
+  vindplaats: "State of AI Report 2026, slide 6 (citeert Artificial Analysis)"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 14
+  status: actueel
+  slides: [FRT-01]
+- id: K-FRT-002
+  bewering: "Op de standaardranglijst van LMArena leidt Gemini 4 Argon (1525), volgen Claude-modellen rond 1505 en staat het beste OpenAI-model (GPT-5.6 Sol) op plaats 20."
+  peildatum: 2026-09
+  bron: soai
+  vindplaats: "State of AI Report 2026, slide 6"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 14
+  status: actueel
+  slides: [FRT-02]
+- id: K-FRT-003
+  bewering: "Het beste Chinese open model, Xiaomi MiMo-V2.6-Pro, scoort 46 op de Intelligence Index."
+  peildatum: 2026-09
+  bron: soai
+  vindplaats: "State of AI Report 2026, slide 6"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 30
+  status: actueel
+  slides: [FRT-03]
+- id: K-FRT-004
+  bewering: "FrontierMath Tier 4 ging van 22% (GPT-5, augustus 2025) naar 100% (GPT-6.1 Sol, september 2026)."
+  peildatum: 2026-09
+  bron: soai
+  vindplaats: "State of AI Report 2026, slide 39 (citeert Epoch AI)"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 90
+  status: actueel
+  slides: [FRT-04]
+- id: K-FRT-005
+  bewering: "Het aandeel model-R&D-taken bij Anthropic waarin Claude de leiding heeft (onder menselijk toezicht) steeg van minder dan 1% in februari naar 26% in augustus 2026."
+  peildatum: 2026-08
+  bron: soai
+  vindplaats: "State of AI Report 2026, slide 21 (Anthropic, interne automatiseringsindex)"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 90
+  status: actueel
+  slides: [FRT-07]
+- id: K-FRT-006
+  bewering: "Epoch volgt 49 onopgeloste onderzoeksproblemen in de wiskunde; AI wordt gecrediteerd voor negen oplossingen, waarvan vier zonder menselijke hulp."
+  peildatum: 2026-09
+  bron: soai
+  vindplaats: "State of AI Report 2026, slide 39"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 60
+  status: actueel
+  slides: [FRT-08]
+- id: K-FRT-007
+  bewering: "Medicijnen uit AI-first geneesmiddelenonderzoek hebben fase 3 van klinische studies bereikt."
+  peildatum: 2026-09
+  bron: soai
+  vindplaats: "State of AI Report 2026, slide 119"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 180
+  status: actueel
+  slides: [FRT-10]
+- id: K-FRT-008
+  bewering: "Waymo: 220 miljoen mijl zonder chauffeur (t/m maart 2026), ruim 500.000 betaalde ritten per week in 14 Amerikaanse steden, 94% minder ongevallen met ernstig letsel dan menselijke bestuurders op dezelfde wegen."
+  peildatum: 2026-06
+  bron: soai
+  vindplaats: "State of AI Report 2026, slide 146 (Waymo safety hub)"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 90
+  status: actueel
+  slides: [FRT-12]

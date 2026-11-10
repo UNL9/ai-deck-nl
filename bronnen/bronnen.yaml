@@ -1,0 +1,237 @@
+# Bronnenregister AI-deck NL
+#
+# betrouwbaarheid:
+#   A = primaire data of officiële bron (bedrijfscijfers, statistiekbureaus, wetgeving, eigen metingen van onderzoeksinstituten)
+#   B = kwalitatief sterke analyse met transparante methode (jaarrapporten, onderzoeksnotities)
+#   C = signaal (nieuwsbrieven, blogs, commentaar); cijfers altijd terugleiden naar A of B
+# frequentie: hoe vaak er nieuwe inhoud verschijnt, en dus hoe vaak de wekelijkse run kijkt
+# hergebruik: wat we mogen overnemen. Standaard: cijfers met bronvermelding, geen grafieken of beeld.
+
+rapporten:
+  - id: soai
+    naam: State of AI Report (Air Street Capital, Nathan Benaich)
+    url: https://www.stateof.ai
+    type: jaarrapport
+    frequentie: jaarlijks   # oktober
+    betrouwbaarheid: B
+    secties: [onderzoek, industrie, politiek, veiligheid, voorspellingen]
+    laatste_editie: 2026-10-08
+  - id: evans
+    naam: Benedict Evans, jaarlijkse presentatie (AI eats the world)
+    url: https://www.ben-evans.com/presentations
+    type: presentatie
+    frequentie: halfjaarlijks
+    betrouwbaarheid: B
+    laatste_editie: 2026-05
+  - id: iconiq
+    naam: ICONIQ State of AI
+    url: https://www.iconiqcapital.com/growth/reports
+    type: enquêterapport
+    frequentie: halfjaarlijks
+    betrouwbaarheid: B
+    opmerking: enquête onder AI-bouwers, vooral VS en groeibedrijven; niet representatief voor Nederlandse corporates
+    laatste_editie: 2026-07
+  - id: ai-index
+    naam: Stanford HAI AI Index
+    url: https://hai.stanford.edu/ai-index
+    type: jaarrapport
+    frequentie: jaarlijks   # april
+    betrouwbaarheid: A
+    hergebruik: publiceert onderliggende data; licentie per dataset controleren
+  - id: bond
+    naam: BOND (Mary Meeker), AI trends
+    url: https://www.bondcap.com
+    type: rapport
+    frequentie: onregelmatig
+    betrouwbaarheid: B
+  - id: mckinsey-sai
+    naam: McKinsey, The state of AI (enquête)
+    url: https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai
+    type: enquêterapport
+    frequentie: halfjaarlijks
+    betrouwbaarheid: B
+  - id: menlo
+    naam: Menlo Ventures, State of Generative AI in the Enterprise
+    url: https://menlovc.com
+    type: enquêterapport
+    frequentie: jaarlijks
+    betrouwbaarheid: B
+  - id: iea-energy-ai
+    naam: IEA, Energy and AI
+    url: https://www.iea.org/topics/artificial-intelligence
+    type: rapport
+    frequentie: jaarlijks
+    betrouwbaarheid: A
+
+data_en_metingen:
+  - id: epoch
+    naam: Epoch AI (data over modellen, rekenkracht, benchmarks)
+    url: https://epoch.ai/data
+    type: dataset
+    frequentie: wekelijks
+    betrouwbaarheid: A
+    hergebruik: datasets onder CC-BY; eigen grafieken toegestaan met bronvermelding
+  - id: artificial-analysis
+    naam: Artificial Analysis (Intelligence Index, prijs en snelheid per model)
+    url: https://artificialanalysis.ai
+    type: ranglijst
+    frequentie: wekelijks
+    betrouwbaarheid: B
+  - id: lmarena
+    naam: LMArena (ranglijst op basis van stemmen van gebruikers)
+    url: https://lmarena.ai/leaderboard
+    type: ranglijst
+    frequentie: wekelijks
+    betrouwbaarheid: B
+  - id: metr
+    naam: METR (lengte van taken die AI-agents zelfstandig afronden)
+    url: https://metr.org
+    type: onderzoek
+    frequentie: per publicatie
+    betrouwbaarheid: A
+  - id: openrouter
+    naam: OpenRouter rankings (marktaandeel tokens via OpenRouter)
+    url: https://openrouter.ai/rankings
+    type: dataset
+    frequentie: wekelijks
+    betrouwbaarheid: B
+    opmerking: alleen verkeer via OpenRouter; oververtegenwoordiging van ontwikkelaars en open modellen
+  - id: ramp
+    naam: Ramp AI Index (zakelijke uitgaven aan AI in de VS)
+    url: https://ramp.com/data/ai-index
+    type: dataset
+    frequentie: maandelijks
+    betrouwbaarheid: B
+  - id: anthropic-econ
+    naam: Anthropic Economic Index
+    url: https://www.anthropic.com/economic-index
+    type: onderzoek
+    frequentie: per publicatie
+    betrouwbaarheid: A
+    opmerking: over eigen gebruik; let op belang van de bron
+  - id: openai-research
+    naam: OpenAI, onderzoek naar gebruik en economie
+    url: https://openai.com/research
+    type: onderzoek
+    frequentie: per publicatie
+    betrouwbaarheid: A
+    opmerking: over eigen gebruik; let op belang van de bron
+  - id: uk-aisi
+    naam: UK AI Security Institute
+    url: https://www.aisi.gov.uk
+    type: onderzoek
+    frequentie: per publicatie
+    betrouwbaarheid: A
+  - id: cnas-sovereign
+    naam: CNAS, tracker soevereine AI-projecten
+    url: https://www.cnas.org
+    type: dataset
+    frequentie: per publicatie
+    betrouwbaarheid: B
+  - id: gallup
+    naam: Gallup, AI op de werkvloer (VS)
+    url: https://www.gallup.com
+    type: enquête
+    frequentie: kwartaal
+    betrouwbaarheid: A
+
+bedrijfsbronnen:
+  # Primair voor omzet, gebruikers en releases. Altijd belang van de bron vermelden.
+  - id: lab-blogs
+    naam: Nieuws- en onderzoekspagina's van Anthropic, OpenAI, Google DeepMind, Meta, Mistral, DeepSeek, Qwen
+    type: bedrijfsbron
+    frequentie: dagelijks
+    betrouwbaarheid: A
+  - id: earnings
+    naam: Kwartaalcijfers Microsoft, Alphabet, Amazon, Meta, NVIDIA, TSMC, ASML
+    type: bedrijfsbron
+    frequentie: kwartaal
+    betrouwbaarheid: A
+
+nederland_en_europa:
+  - id: cbs
+    naam: CBS, ICT-gebruik en AI bij bedrijven en personen
+    url: https://www.cbs.nl
+    type: statistiek
+    frequentie: jaarlijks   # december (bedrijven)
+    betrouwbaarheid: A
+  - id: eurostat
+    naam: Eurostat, AI-gebruik door ondernemingen (isoc_eb_ai)
+    url: https://ec.europa.eu/eurostat
+    type: statistiek
+    frequentie: jaarlijks
+    betrouwbaarheid: A
+    opmerking: maakt Europese vergelijking mogelijk
+  - id: ap-ran
+    naam: Autoriteit Persoonsgegevens, Rapportage AI- en Algoritmerisico's Nederland
+    url: https://www.autoriteitpersoonsgegevens.nl
+    type: toezicht
+    frequentie: halfjaarlijks
+    betrouwbaarheid: A
+  - id: eu-ai-act
+    naam: EU AI Act (EUR-Lex) en AI Office
+    url: https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai
+    type: wetgeving
+    frequentie: per wijziging
+    betrouwbaarheid: A
+  - id: rijksoverheid
+    naam: Rijksoverheid, AI-beleid en AI-fabriek Groningen
+    url: https://www.rijksoverheid.nl
+    type: overheid
+    frequentie: per publicatie
+    betrouwbaarheid: A
+  - id: rathenau
+    naam: Rathenau Instituut
+    url: https://www.rathenau.nl
+    type: onderzoek
+    frequentie: per publicatie
+    betrouwbaarheid: B
+  - id: tno
+    naam: TNO (onder meer GPT-NL)
+    url: https://www.tno.nl
+    type: onderzoek
+    frequentie: per publicatie
+    betrouwbaarheid: B
+  - id: dnb-afm
+    naam: DNB en AFM over AI in de financiële sector
+    type: toezicht
+    frequentie: per publicatie
+    betrouwbaarheid: A
+
+signaal:
+  # Wekelijks lezen om te zien wat er speelt; niet als bron voor cijfers zonder controle.
+  - id: import-ai
+    naam: Import AI (Jack Clark)
+    url: https://jack-clark.net
+    frequentie: wekelijks
+    betrouwbaarheid: C
+  - id: exponential-view
+    naam: Exponential View (Azeem Azhar)
+    url: https://www.exponentialview.co
+    frequentie: wekelijks
+    betrouwbaarheid: C
+  - id: interconnects
+    naam: Interconnects (Nathan Lambert)
+    url: https://www.interconnects.ai
+    frequentie: wekelijks
+    betrouwbaarheid: C
+  - id: one-useful-thing
+    naam: One Useful Thing (Ethan Mollick)
+    url: https://www.oneusefulthing.org
+    frequentie: wekelijks
+    betrouwbaarheid: C
+  - id: simon-willison
+    naam: Simon Willison's weblog
+    url: https://simonwillison.net
+    frequentie: dagelijks
+    betrouwbaarheid: C
+  - id: the-batch
+    naam: The Batch (DeepLearning.AI)
+    url: https://www.deeplearning.ai/the-batch
+    frequentie: wekelijks
+    betrouwbaarheid: C
+  - id: evans-newsletter
+    naam: Benedict Evans, nieuwsbrief
+    url: https://www.ben-evans.com/newsletter
+    frequentie: wekelijks
+    betrouwbaarheid: C

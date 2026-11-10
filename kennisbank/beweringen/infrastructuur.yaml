@@ -1,0 +1,47 @@
+# Thema: infrastructuur, chips en energie
+- id: K-INF-001
+  bewering: "Microsoft, Alphabet, Amazon en Meta investeren in 2026 samen 733 miljard dollar; een stijging van 349 miljard ten opzichte van 2025."
+  peildatum: 2026-09
+  bron: soai
+  vindplaats: "State of AI Report 2026, slide 135"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 90
+  status: actueel
+  slides: [INF-01]
+- id: K-INF-002
+  bewering: "AI is naar schatting 64% van de geplande investeringen van zeven cloudbedrijven in 2026 (circa 563 van 879 miljard dollar). De marktconsensus voor vijf hyperscalers ligt boven 1.000 miljard per jaar in 2027-2030."
+  peildatum: 2026-09
+  bron: soai
+  vindplaats: "State of AI Report 2026, slide 125 (Exponential View; Bloomberg-consensus)"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 90
+  status: actueel
+  slides: [INF-02]
+- id: K-INF-003
+  bewering: "De EU-27 heeft 79.657 H100-equivalenten aan geïnstalleerde AI-rekenkracht: 5% van de gedocumenteerde wereldvoorraad exclusief China, tegen 80% voor de VS. Fase 3 van xAI Colossus in Memphis is 3,5 keer zo groot."
+  peildatum: 2026-09
+  bron: epoch
+  vindplaats: "State of AI Report 2026, slide 134 (Epoch AI)"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 90
+  status: actueel
+  slides: [INF-09]
+- id: K-INF-004
+  bewering: "Het eerste EU-bedrag voor AI-gigafabrieken is 1 miljard euro; de aanbesteding sluit half november 2026, bouw vanaf 2027, in gebruik in 2028."
+  peildatum: 2026-09
+  bron: soai
+  vindplaats: "State of AI Report 2026, slide 135"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 30
+  status: actueel
+  slides: [INF-10]
+  noot: "Uitkomst aanbesteding volgen"
+- id: K-INF-005
+  bewering: "Stroomprijs voor bedrijven 2025: Finland 0,085 en VS-industrie 0,086 dollar per kWh, China circa 0,109, VK 0,373. Voor een datacenter van 1 GW kost 1 cent per kWh extra 87,6 miljoen dollar per jaar."
+  peildatum: 2025
+  bron: soai
+  vindplaats: "State of AI Report 2026, slide 178"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 365
+  status: actueel
+  slides: [INF-08]

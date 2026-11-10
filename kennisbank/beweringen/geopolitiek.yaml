@@ -1,0 +1,20 @@
+# Thema: geopolitiek en regelgeving
+- id: K-GEO-001
+  bewering: "CNAS telt buiten de VS en China 184 door overheden gesteunde AI-projecten in 67 landen (18 in 2023), met samen circa 84 miljard dollar aan bekende budgetten."
+  peildatum: 2026-09
+  bron: cnas-sovereign
+  vindplaats: "State of AI Report 2026, slide 170"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 180
+  status: actueel
+  slides: [GEO-03]
+- id: K-GEO-002
+  bewering: "Digital Omnibus AI Act: voorlopig akkoord Parlement en Raad op 7 mei 2026. Hoog-risicoverplichtingen (Annex III) gelden vanaf 2 december 2027, voor productgebonden systemen vanaf 2 augustus 2028. Transparantieplichten (art. 50) gaan door per 2 augustus 2026."
+  peildatum: 2026-07
+  bron: eu-ai-act
+  vindplaats: "White & Case, 'EU agrees Digital Omnibus deal to simplify AI rules'; State of AI Report 2026, slide 186"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 30
+  status: te_verifieren
+  noot: "Formele vaststelling en publicatie in Publicatieblad controleren bij EUR-Lex"
+  slides: [GEO-06, GEO-09]

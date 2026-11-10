@@ -1,0 +1,29 @@
+# Thema: Nederland
+- id: K-NLD-001
+  bewering: "17% van de Nederlandse bedrijven (2 of meer werkzame personen) gebruikte AI in 2025, tegen 13% in 2024 en 8% in 2023. Naar grootte: 10-50 personen 27%, 50-250 personen 45%, 250 of meer 66%."
+  peildatum: 2025
+  bron: cbs
+  vindplaats: "https://www.cbs.nl/nl-nl/nieuws/2025/50/bedrijven-gebruiken-ai-vaakst-voor-marketing-of-verkoop (12 december 2025)"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 400
+  status: actueel
+  slides: [NLD-01]
+- id: K-NLD-002
+  bewering: "Bedrijven die AI gebruiken doen dat het vaakst voor marketing of verkoop (35%), administratie of bestuur (32%) en R&D of innovatie (25%). Sector informatie en communicatie: 54%; horeca, vervoer en opslag en bouw: 6 tot 7%."
+  peildatum: 2025
+  bron: cbs
+  vindplaats: "https://www.cbs.nl/nl-nl/nieuws/2025/50/bedrijven-gebruiken-ai-vaakst-voor-marketing-of-verkoop (12 december 2025)"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 400
+  status: actueel
+  slides: [NLD-02, WRK-03]
+- id: K-NLD-003
+  bewering: "Het kabinet zet in op 200 miljoen euro voor een AI-fabriek in Groningen, samen met regio en Defensie."
+  peildatum: 2025-06-27
+  bron: rijksoverheid
+  vindplaats: "https://www.rijksoverheid.nl/actueel/nieuws/2025/06/27/nederland-zet-in-op-200-miljoen-euro-voor-aifabriek-in-groningen"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 90
+  status: te_verifieren
+  noot: "Alleen kop gezien. Bedragen, partners en huidige status (start medio 2026?) controleren"
+  slides: [NLD-04]

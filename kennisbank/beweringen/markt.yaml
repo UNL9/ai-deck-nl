@@ -1,0 +1,82 @@
+# Thema: markt en economie
+- id: K-MKT-001
+  bewering: "OpenAI en Anthropic hebben samen een omzet op jaarbasis van circa 105 miljard dollar, tegen 30 miljard begin 2026."
+  peildatum: 2026-08
+  bron: soai
+  vindplaats: "State of AI Report 2026, slides 83-84"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 30
+  status: actueel
+  slides: [MKT-01, MKT-02]
+- id: K-MKT-002
+  bewering: "OpenAI: omzet op jaarbasis boven 40 miljard dollar (augustus 2026). Anthropic: 65 miljard dollar (juli 2026), van 9 miljard aan het begin van het jaar. OpenAI stelt dat bruto-boeking via cloudpartners Anthropic tot 8 miljard hoger laat uitkomen."
+  peildatum: 2026-08
+  bron: soai
+  vindplaats: "State of AI Report 2026, slide 83"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 30
+  status: actueel
+  slides: [MKT-01]
+- id: K-MKT-003
+  bewering: "Van de tokenuitgaven die Ramp meet, ging tot 3 oktober 2026 52,4% naar Anthropic, 43,3% naar OpenAI en 4,2% naar overige aanbieders."
+  peildatum: 2026-10-03
+  bron: ramp
+  vindplaats: "State of AI Report 2026, slide 86"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 30
+  status: actueel
+  slides: [MKT-04]
+- id: K-MKT-004
+  bewering: "OpenAI Codex ging van 1,6 miljoen wekelijkse gebruikers (begin februari 2026) naar 25 miljoen actieve gebruikers (31 augustus 2026). Ruim 1.000 klanten besteden meer dan 1 miljoen dollar per jaar bij Anthropic."
+  peildatum: 2026-08
+  bron: soai
+  vindplaats: "State of AI Report 2026, slide 85"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 60
+  status: actueel
+  slides: [FRT-06, MKT-05]
+- id: K-MKT-005
+  bewering: "ChatGPT heeft ruim 900 miljoen wekelijkse gebruikers, van wie circa 5% betaalt. Minstens 80% van de gebruikers stuurde in 2025 minder dan 1.000 berichten."
+  peildatum: 2026-05
+  bron: evans
+  vindplaats: "Benedict Evans, AI eats the world (mei 2026), slides 29-30 (citeert OpenAI)"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 60
+  status: actueel
+  slides: [MKT-03]
+- id: K-MKT-006
+  bewering: "Na de lancering van Claude Cowork verdween begin februari 2026 bijna 285 miljard dollar aan beurswaarde van softwarebedrijven; de S&P 500 software- en dienstenindex daalde 26% vanaf de piek van oktober 2025. In september was het verlies goedgemaakt."
+  peildatum: 2026-09
+  bron: soai
+  vindplaats: "State of AI Report 2026, slide 108"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 180
+  status: actueel
+  slides: [MKT-06]
+- id: K-MKT-007
+  bewering: "Bij AI-bouwers in de ICONIQ-enquête stijgt het aandeel AI-producten in de omzet van 32% (2025) naar verwacht 42% (2026); brutomarges van 45% naar 53%, op weg naar circa 59% in 2027."
+  peildatum: 2026-05
+  bron: iconiq
+  vindplaats: "ICONIQ State of AI 2026, executive summary (slide 5)"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 180
+  status: actueel
+  slides: [MKT-09]
+- id: K-MKT-008
+  bewering: "AI-bouwers gebruiken gemiddeld 3,3 modelaanbieders (3,1 in Q4 2025). Het aandeel respondenten dat Anthropic gebruikt steeg van 51% (Q4 2025) naar 81% (Q2 2026)."
+  peildatum: 2026-05
+  bron: iconiq
+  vindplaats: "ICONIQ State of AI 2026, executive summary (slide 5)"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 180
+  status: actueel
+  slides: [MKT-10]
+- id: K-MKT-009
+  bewering: "In 249.834 onderzochte consumentengesprekken met Claude (voorjaar 2026) ging 56% over belangrijk of zwaarwegend werk; in 72% leidde de mens en assisteerde AI."
+  peildatum: 2026-05
+  bron: soai
+  vindplaats: "State of AI Report 2026, slide 97 (Stanford SALT Lab)"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 180
+  status: actueel
+  slides: [MKT-11]
