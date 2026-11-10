@@ -185,11 +185,11 @@ Nieuwe technologie wordt eerst ingepast in bestaand werk, dan ontstaan nieuwe we
 
 **WRK-02** [K] **Iedereen heeft een pilot, weinigen hebben productie**  
 Per bedrijfsfunctie is de kloof tussen proef en productie groot. Bedrijfssoftware kost tijd.
-<br><sub>Bronnen: evans, mckinsey-sai</sub>
+<br><sub>Bronnen: evans, mckinsey-sai, gallup, soai</sub>
 
 **WRK-03** [K] **De meeste winst zit nu in programmeren, klantenservice en marketing**  
 Programmeerhulp levert de grootste productiviteitswinst. In Nederland is marketing en verkoop de meest genoemde toepassing.
-<br><sub>Bronnen: iconiq, cbs</sub>
+<br><sub>Bronnen: iconiq, cbs, gallup</sub>
 
 **WRK-04** [K] **De mens blijft aan het stuur, ook bij agents**  
 In 72 procent van de onderzochte gesprekken leidt de mens en assisteert AI. Bij taken met meerdere stappen grijpt een mens vaak in, waardoor de winst van agents beperkt blijft.
@@ -197,7 +197,7 @@ In 72 procent van de onderzochte gesprekken leidt de mens en assisteert AI. Bij 
 
 **WRK-05** [S] **Een taak automatiseren is iets anders dan een baan vervangen**  
 De liftbediende verdween, de accountant niet. Automatisering verandert vaker het werk dan dat ze het opheft.
-<br><sub>Bronnen: evans</sub>
+<br><sub>Bronnen: evans · Open: Grafiekdata nog nodig: historische beroepentelling VS (IPUMS of Census); Evans geeft alleen de grafiek. Bewering K-WRK-011 kan als actueel voorbeeld.</sub>
 
 **WRK-06** [K] **Jonge werknemers lijken het eerst geraakt**  
 De instroom van 22- tot 25-jarigen in beroepen die AI raakt is vertraagd. De oorzaak is onzeker, de werkloosheid in die beroepen is niet duidelijk gestegen.
