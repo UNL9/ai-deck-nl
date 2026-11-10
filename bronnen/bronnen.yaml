@@ -223,6 +223,12 @@ nederland_en_europa:
     type: overheid
     frequentie: per publicatie
     betrouwbaarheid: A
+  - id: aifabriek
+    naam: Nederlandse AI-fabriek (consortium met SURF, TNO, AIC4NL en Samenwerking Noord)
+    url: https://aifabriek.nl
+    type: overheid
+    frequentie: per publicatie
+    betrouwbaarheid: A
 
 signaal:
   # Wekelijks lezen om te zien wat er speelt; niet als bron voor cijfers zonder controle.

@@ -1,0 +1,11 @@
+# bron: Landelijk Actieprogramma Netcongestie, Actualisatie van de voortgang najaar 2026, p. 21; op basis van Netbeheer Nederland, Stand van de Uitvoering (oktober 2026)
+# url: https://www.eerstekamer.nl/overig/20261005/actualisatie_van_de_voortgang_lan/document
+# licentie: overheidspublicatie, hergebruik met bronvermelding
+# opgehaald: 2026-11-10
+# wachtlijst voor afname bij de regionale netbeheerders (grootverbruikers): aantal unieke transportverzoeken en gevraagd transportvermogen in MW, eind van elk jaar; 2026 is de stand op 30 juni. Kleinverbruikers (sinds 1 juli 2026 op de wachtlijst) zitten er niet in.
+peildatum,verzoeken,gevraagd_mw
+2022-12-31,668,811
+2023-12-31,6065,3472
+2024-12-31,11922,6739
+2025-12-31,15154,9305
+2026-06-30,15498,9986

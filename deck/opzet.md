@@ -100,7 +100,7 @@ METR mat in april 17 uur menselijk expertwerk voor Claude Mythos Preview, tegen 
 
 **FRT-06** [K] **Programmeren is de eerste toepassing die echt kantelt**  
 Programmeren is de grootste post in de zakelijke uitgaven aan AI-toepassingen. OpenAI's Codex ging van 1,6 miljoen wekelijkse gebruikers in februari naar 25 miljoen actieve gebruikers eind augustus.
-<br><sub>Bronnen: soai, evans · Open: Grafiek 'Zakelijke AI-uitgaven per toepassing' pas bouwen als het primaire a16z-cijfer er is (K-FRT-021, te verifiëren); tot dan zonder grafiek. OpenAI wisselde in juli van definitie (wekelijks actief naar actief).</sub>
+<br><sub>Bronnen: soai, evans, menlo · Open: OpenAI wisselde in juli van definitie (wekelijks actief naar actief).</sub>
 
 **FRT-07** [K] **AI helpt AI bouwen: Claude leidt een kwart van het modelonderzoek bij Anthropic**  
 Volgens Anthropic steeg het aandeel taken waarin Claude de leiding heeft van minder dan 1 naar 26 procent in zes maanden, onder menselijk toezicht. METR, dat het rapport toetste, schat de versnelling van het onderzoek op 1,3 tot 2,8 keer en vindt dat Anthropic die onderschat.
@@ -134,7 +134,7 @@ Ruim 130 miljard dollar is ruim vier keer de omzet van TCS en meer dan de helft 
 
 **MKT-04** [W] **Zakelijke AI-uitgaven gaan vrijwel volledig naar twee labs**  
 Van de tokenuitgaven die Ramp meet, ging eind oktober 60 procent naar Anthropic en 35 procent naar OpenAI. Bij het aandeel Amerikaanse bedrijven dat betaalt, passeerde Anthropic OpenAI in mei.
-<br><sub>Bronnen: ramp, soai · Open: Amerikaanse cijfers; zo vermelden.</sub>
+<br><sub>Bronnen: ramp, soai, menlo · Open: Amerikaanse cijfers; zo vermelden. Menlo (K-MKT-027) ziet met een enquête hetzelfde beeld: 55 procent Anthropic, 31 procent OpenAI.</sub>
 
 **MKT-05** [K] **Agents breken door buiten de IT-afdeling**  
 Niet-ontwikkelaars gebruiken codeeragents in hoger tempo dan ontwikkelaars. Ruim 1.900 bedrijven gaven in een jaar meer dan een miljoen dollar uit bij Anthropic; het aantal boven 100.000 dollar ging van 950 naar 11.900.
@@ -290,7 +290,7 @@ Licentieovereenkomsten nemen toe. Japan en Singapore staan training breder toe d
 
 **SAM-05** [K] **Het stroomverbruik van AI groeit snel en wordt een klimaatvraag**  
 Datacenters gebruikten in 2025 circa 485 TWh, ruim 1,5 procent van alle stroom, en dat verdubbelt naar verwachting tot 2030. AI groeit drie keer zo snel als de rest. Gascentrales voor AI staan op gespannen voet met klimaatdoelen.
-<br><sub>Bronnen: iea-energy-ai, soai · Open: IEA-cijfers verifiëren (K-SAM-006: IEA-document niet zelf geopend). Het aandeel van 1,5 procent is een afleiding; bevestigen bij het IEA.</sub>
+<br><sub>Bronnen: iea-energy-ai, soai · Open: Het aandeel van ruim 1,5 procent is een afleiding uit de IEA-cijfers (K-SAM-007); in de voetregel zo vermelden.</sub>
 
 **SAM-06** [S] **Modellen nemen over wat in de data zit, ook vooroordelen**  
 Eerlijkheid, uitlegbaarheid en controleerbaarheid zijn geen bijzaak. Ze bepalen of AI in gevoelige beslissingen gebruikt mag worden.
@@ -376,7 +376,7 @@ Een derde van de Nederlandse bedrijven gebruikt AI, tegen een vijfde in de EU. B
 
 **NLD-03** [K] **De AI-fabriek in Groningen: 200 miljoen euro voor Nederlandse rekenkracht**  
 Rijk, regio en EuroHPC investeren samen ruim 200 miljoen euro. Het expertisecentrum start in 2026, de supercomputer met circa 1.800 GPU's draait naar verwachting begin 2028 op volle kracht.
-<br><sub>Bronnen: rijksoverheid, eurohpc · Open: Status en capaciteit verifiëren (K-NLD-006). Ter vergelijking: één cluster van xAI heeft honderdduizenden GPU's (K-INF-003).</sub>
+<br><sub>Bronnen: rijksoverheid, eurohpc, aifabriek · Open: Aantal GPU's bijwerken na de aanbesteding van januari 2027 (K-NLD-011, te verifiëren). Ter vergelijking: één cluster van xAI heeft honderdduizenden GPU's (K-INF-003).</sub>
 
 **NLD-04** [S] **Nederland is onmisbaar in de keten, en dat is een onderhandelingspositie**  
 Zonder machines van ASML geen geavanceerde chips. Dat geeft Nederland en Europa iets om mee te onderhandelen.
@@ -384,7 +384,7 @@ Zonder machines van ASML geen geavanceerde chips. Dat geeft Nederland en Europa 
 
 **NLD-05** [K] **GPT-NL en andere Nederlandse modellen: wat is het doel?**  
 Een eigen taalmodel draait niet om de frontier, maar om transparantie, taal en onafhankelijkheid.
-<br><sub>Bronnen: tno · Open: Status GPT-NL verifiëren (K-NLD-007: bèta sinds februari 2026, te verifiëren)</sub>
+<br><sub>Bronnen: tno · Open: Bredere uitrol van GPT-NL nog niet bevestigd (K-NLD-007, te verifiëren).</sub>
 
 **NLD-06** [K] **Wie houdt in Nederland toezicht op AI?**  
 Bestaande toezichthouders houden toezicht binnen hun domein. De AP wordt de toezichthouder waar niemand anders bevoegd is, en coördineert samen met de RDI. De wet die dat regelt, is nog niet in werking.
@@ -392,7 +392,7 @@ Bestaande toezichthouders houden toezicht binnen hun domein. De AP wordt de toez
 
 **NLD-07** [K] **Netcongestie maakt stroom ook in Nederland een knelpunt voor datacenters**  
 Wachtlijsten voor netaansluitingen en beleid voor hyperscale datacenters bepalen waar rekenkracht kan komen.
-<br><sub>Bronnen: rijksoverheid, eurostat · Open: Cijfers netbeheerders en datacenterbeleid ophalen (wachtrij: K-NLD-009, te verifiëren; datacenterbeleid nog niet)</sub>
+<br><sub>Bronnen: rijksoverheid, eurostat · Open: Datacenterbeleid (hyperscale) nog uitzoeken.</sub>
 
 ## Governance en verantwoord gebruik (7)
 

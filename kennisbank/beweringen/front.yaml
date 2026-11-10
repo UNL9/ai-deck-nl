@@ -219,9 +219,10 @@
   vindplaats: "Benedict Evans, AI eats the world, mei 2026, slide 37 (bron: a16z)"
   vastgesteld: 2026-11-10
   houdbaarheid_dagen: 180
-  status: te_verifieren
+  status: vervangen
+  vervangen_door: K-FRT-029
   slides: [FRT-06]
-  noot: "Alleen als grafiek bij Evans, zonder cijfers in de tekst. Primaire a16z-publicatie zoeken voor het bedrag."
+  noot: "Alleen als grafiek bij Evans, zonder cijfers in de tekst. Primaire a16z-publicatie zoeken voor het bedrag. Geen a16z-publicatie met bedragen gevonden; vervangen door Menlo Ventures."
 
 # FRT-07: AI helpt AI bouwen
 - id: K-FRT-022
@@ -296,3 +297,17 @@
   houdbaarheid_dagen: 180
   status: actueel
   slides: [FRT-10]
+
+# ---------- Verificatie, 2026-11-10 ----------
+
+# FRT-06: programmeren
+- id: K-FRT-029
+  bewering: "Programmeren is de grootste categorie in de zakelijke uitgaven aan AI-toepassingen: 34,0 miljard dollar op jaarbasis in september 2026, 7,7 keer zoveel als een jaar eerder en 44% van de markt voor toepassingen (77,3 miljard). Claude Code en Codex hebben samen 24,0 miljard (70%) van de uitgaven aan programmeren; AI-native aanbieders 96%."
+  peildatum: 2026-09
+  bron: menlo
+  vindplaats: "Menlo Ventures, 2026: The State of Enterprise AI (3 november 2026), Part III; data/FRT-06_ai_toepassingen.csv"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 365
+  status: actueel
+  slides: [FRT-06]
+  noot: "Menlo is belegger in Anthropic (en in onder meer Lovable en Factory); zo vermelden. Bedragen zijn schattingen van Menlo op basis van een enquête onder bijna 400 Amerikaanse beslissers (Morning Consult, 8-26 september 2026), openbare cijfers en derde partijen."

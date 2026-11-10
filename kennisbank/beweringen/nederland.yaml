@@ -60,9 +60,10 @@
   vindplaats: "Voortgangsbrief regering 1 juli 2026 (eerstekamer.nl); Dutch IT Channel, IO+ en The Next Web over de gunning"
   vastgesteld: 2026-11-10
   houdbaarheid_dagen: 90
-  status: te_verifieren
+  status: vervangen
+  vervangen_door: K-NLD-010
   slides: [NLD-03]
-  noot: "Voortgangsbrief niet zelf gelezen; bedragen, GPU-aantal en gunning via vakpers. Controleren in de brief en bij SURF."
+  noot: "Voortgangsbrief niet zelf gelezen; bedragen, GPU-aantal en gunning via vakpers. Controleren in de brief en bij SURF. Bedragen en planning bevestigd in Kamerbrieven (K-NLD-010); GPU-aantal en gunning in K-NLD-011."
 
 # NLD-05: GPT-NL
 - id: K-NLD-007
@@ -74,7 +75,7 @@
   houdbaarheid_dagen: 60
   status: te_verifieren
   slides: [NLD-05]
-  noot: "Primaire TNO-pagina niet gelezen. Nagaan of de bredere uitrol inmiddels heeft plaatsgevonden."
+  noot: "Primaire TNO-pagina gelezen (K-NLD-013); die bevestigt de partners maar noemt geen aantal gebruikers en geen datum voor de bredere uitrol. Pilots en planning blijven via vakpers."
 
 # NLD-06: toezicht
 - id: K-NLD-008
@@ -96,6 +97,54 @@
   vindplaats: "Bijlage bij Kamerbrief over uitvoering moties (eerstekamer.nl, 5 oktober 2026); Kamerantwoorden op basis van Netbeheer Nederland"
   vastgesteld: 2026-11-10
   houdbaarheid_dagen: 180
-  status: te_verifieren
+  status: vervangen
+  vervangen_door: K-NLD-012
   slides: [NLD-07]
-  noot: "Cijfers via zoekresultaten uit Kamerstukken; documenten niet zelf geopend. Geen apart cijfer voor datacenters gevonden."
+  noot: "Cijfers via zoekresultaten uit Kamerstukken; documenten niet zelf geopend. Geen apart cijfer voor datacenters gevonden. Gecontroleerd in de LAN-actualisatie: peildatum is 30 juni, en de vergelijking met een jaar eerder klopte niet."
+
+# ---------- Verificatie, 2026-11-10 ----------
+
+# NLD-03: AI-fabriek Groningen
+- id: K-NLD-010
+  bewering: "De AI-fabriek in Groningen kost ruim 200 miljoen euro: ongeveer 71,7 miljoen van EuroHPC, 70 miljoen van het Rijk en maximaal 60 miljoen van de regio Groningen en Noord-Drenthe. Het expertisecentrum in de voormalige Niemeyer-fabriek start medio 2026. De aanbesteding van de supercomputer loopt via EuroHPC; de machine moet begin 2028 volledig beschikbaar zijn."
+  peildatum: 2026-07-01
+  bron: rijksoverheid
+  vindplaats: "Kamerbrief 'Honorering EU-financiering voor de AI-fabriek in Groningen' (13 oktober 2025, DGED/101661816); Kamerstuk 26 643, nr. 1538 (1 juli 2026)"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 90
+  status: actueel
+  slides: [NLD-03]
+- id: K-NLD-011
+  bewering: "SURF gunde op 21 september 2026 de huisvesting van de supercomputer (circa 1.800 GPU's in de oorspronkelijke opzet) aan het datacenter van Eurofiber op Zernike. Het budget voor de machine zelf is 64 miljoen euro; door gestegen prijzen van GPU's en andere onderdelen koopt dat minder rekenkracht dan gepland. De aanbesteding voor de hardware wordt in januari 2027 verwacht."
+  peildatum: 2026-09-21
+  bron: aifabriek
+  vindplaats: "Dutch IT Channel (19 augustus 2026, op basis van aifabriek.nl); The Next Web en IO+ over de gunning (september 2026)"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 90
+  status: te_verifieren
+  slides: [NLD-03]
+  noot: "aifabriek.nl was niet bereikbaar. Hoeveel GPU's het wordt, hangt af van de aanbesteding."
+
+# NLD-05: GPT-NL
+- id: K-NLD-013
+  bewering: "GPT-NL wordt gebouwd door TNO, SURF en het NFI, met 13,5 miljoen euro van RVO namens het ministerie van Economische Zaken. De broncode is open source; de gewichten komen beschikbaar onder een gecontroleerde licentie. Rechthebbenden praten mee via een Content Board en krijgen een deel van de opbrengst. DPG Media test GPT-NL op de redactie."
+  peildatum: 2026-11-10
+  bron: tno
+  vindplaats: "https://www.tno.nl/en/digital/artificial-intelligence/gpt-nl/"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 90
+  status: actueel
+  slides: [NLD-05]
+  noot: "De pagina verwijst naar een voortgangsrapportage (Nederlands) en een bericht over de test bij DPG Media; die zijn niet zelf gelezen."
+
+# NLD-07: netcongestie
+- id: K-NLD-012
+  bewering: "Op 30 juni 2026 stonden bij de regionale netbeheerders 15.498 verzoeken voor afname op de wachtlijst, samen bijna 10 GW (9.986 MW). Eind 2022 waren dat 668 verzoeken voor 811 MW, eind 2025 15.154 voor 9.305 MW. Bij TenneT, waar ook datacenters op de wachtlijst staan, ging het om 205 aanvragen voor afname. Sinds 1 juli 2026 komen ook kleinverbruikers op de wachtlijst."
+  peildatum: 2026-06-30
+  bron: rijksoverheid
+  vindplaats: "Landelijk Actieprogramma Netcongestie, Actualisatie van de voortgang najaar 2026 (oktober 2026), p. 21-23, op basis van Netbeheer Nederland, Stand van de Uitvoering (oktober 2026); data/NLD-07_wachtlijst_afname.csv"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 180
+  status: actueel
+  slides: [NLD-07]
+  noot: "Geen apart cijfer voor datacenters; het kabinet heeft geen overzicht naar sector."
