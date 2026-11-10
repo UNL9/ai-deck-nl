@@ -49,6 +49,20 @@ slides:
     titel: "Tien dingen die je nu moet weten over AI"
     kern: "De stand van zaken in tien zinnen. Wordt elk kwartaal herschreven."
     volatiliteit: kwartaal
+    beweringen: [K-FRT-009, K-FRT-019, K-FRT-027, K-MKT-016, K-MKT-020, K-INF-006, K-NLD-004, K-WRK-007, K-GEO-003, K-VEI-004]
+    voorstel:
+      punten:
+        - "Aan de top strijden Anthropic, OpenAI en Google; sinds eind oktober stonden er drie verschillende modellen bovenaan. (FRT-01)"
+        - "De taken die AI zelfstandig aankan, worden snel langer, en de meetlat raakt op: boven 16 uur kan METR niet meer betrouwbaar meten. (FRT-05)"
+        - "Hoge scores verbergen half werk: in labtaken was bijna de helft van de 'klaar'-meldingen onterecht. (FRT-10)"
+        - "Anthropic en OpenAI hebben samen ruim 130 miljard dollar omzet op jaarbasis, tegen 30 miljard begin 2026. (MKT-01)"
+        - "Twee labs krijgen 95 procent van de zakelijke tokenuitgaven die Ramp meet. (MKT-04)"
+        - "Microsoft, Alphabet, Amazon en Meta investeren dit jaar samen rond 730 miljard dollar. (INF-01)"
+        - "Een derde van de Nederlandse bedrijven gebruikt AI, tegen een vijfde in de EU; Nederland staat zesde. (NLD-02)"
+        - "Van de grootste Amerikaanse bedrijven gebruikt 69 procent AI, maar 2 procent meet het effect over tijd. (WRK-02)"
+        - "De hoog-risicoregels van de AI Act gelden vanaf december 2027; transparantieplichten gelden al. (GEO-05)"
+        - "Agents doen soms wat werkt in plaats van wat bedoeld is, ook buiten de testomgeving. (VEI-01)"
+      reden: "Eerste versie van de tien punten, opgebouwd uit beweringen van fase 2. Keuze en volgorde zijn aan Joan; de cijfers staan in de gekoppelde beweringen."
     status: opzet
 
 # ---------- HOE HET WERKT ----------
@@ -65,6 +79,7 @@ slides:
     grafiek: "Tijdlijn 1956 tot nu met de doorbraken"
     volatiliteit: stabiel
     bronnen: [ai-index]
+    beweringen: [K-BAS-001]
     status: opzet
   - id: BAS-03
     titel: "De meeste AI-waarde zat tot nu toe in voorspellende modellen, niet in chatbots"
@@ -91,12 +106,14 @@ slides:
     grafiek: "Schema training versus inferentie, met de rol van GPU's"
     volatiliteit: stabiel
     bronnen: [epoch]
+    beweringen: [K-BAS-002, K-BAS-003]
     status: opzet
   - id: BAS-07
     titel: "Redeneermodellen denken eerst na, en dat kost rekentijd per antwoord"
     kern: "Meer rekentijd bij het antwoorden geeft betere antwoorden. Daardoor zegt de prijs per token weinig over de prijs van een antwoord."
     volatiliteit: stabiel
     bronnen: [soai]
+    beweringen: [K-BAS-004]
     status: opzet
   - id: BAS-08
     titel: "Een agent is een model met gereedschap en geheugen. Zelfde model, beter harnas, betere agent."
@@ -104,6 +121,7 @@ slides:
     grafiek: "Schema: model, harnas, tools, context, omgeving"
     volatiliteit: stabiel
     bronnen: [soai, iconiq]
+    beweringen: [K-BAS-005]
     status: opzet
   - id: BAS-09
     titel: "Modellen zien, horen en spreken nu in één doorlopende interactie"
@@ -116,12 +134,14 @@ slides:
     kern: "Open modellen geven controle, lagere kosten en onafhankelijkheid. Gesloten modellen lopen voorop in prestaties. Chinese labs domineren het open segment."
     volatiliteit: kwartaal
     bronnen: [soai]
+    beweringen: [K-FRT-014, K-FRT-016, K-MKT-026]
     status: opzet
   - id: BAS-11
     titel: "Modellen maken fouten die overtuigend klinken"
     kern: "Verzonnen feiten en taken die 'klaar' heten maar dat niet zijn. In labtaken was bijna de helft van de 'klaar'-meldingen onvolledig. Controle blijft nodig."
     volatiliteit: stabiel
     bronnen: [soai]
+    beweringen: [K-FRT-027, K-FRT-025]
     status: opzet
   - id: BAS-12
     titel: "Intelligentie wordt snel goedkoper, en toch stijgen de totale uitgaven"
@@ -129,6 +149,7 @@ slides:
     grafiek: "Prijs per miljoen tokens bij gelijke prestatie, over tijd (Epoch-data)"
     volatiliteit: kwartaal
     bronnen: [soai, epoch, artificial-analysis]
+    beweringen: [K-BAS-006, K-BAS-007, K-BAS-003, K-INF-006]
     status: opzet
 
 # ---------- HET FRONT ----------
