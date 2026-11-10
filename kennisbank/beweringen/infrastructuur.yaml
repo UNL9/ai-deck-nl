@@ -33,9 +33,10 @@
   vindplaats: "State of AI Report 2026, slide 135"
   vastgesteld: 2026-11-10
   houdbaarheid_dagen: 30
-  status: actueel
+  status: vervangen
+  vervangen_door: K-INF-019
   slides: [INF-07]
-  noot: "Uitkomst aanbesteding volgen"
+  noot: "Uitkomst aanbesteding volgen. Sluitingsdatum klopt niet meer (zie K-INF-019)."
 - id: K-INF-005
   bewering: "Stroomprijs voor bedrijven 2025: Finland 0,085 en VS-industrie 0,086 dollar per kWh, China circa 0,109, VK 0,373. Voor een datacenter van 1 GW kost 1 cent per kWh extra 87,6 miljoen dollar per jaar."
   peildatum: 2025
@@ -45,3 +46,154 @@
   houdbaarheid_dagen: 365
   status: actueel
   slides: [INF-06]
+
+# ---------- Fase 2, 2026-11-10: primaire bronnen voor sectie INF ----------
+
+# INF-01 en INF-02: investeringen
+- id: K-INF-006
+  bewering: "Verwachte investeringen voor 2026 volgens de bedrijven zelf: Amazon circa 220 miljard dollar, Alphabet 195 tot 205 miljard, Meta 135 tot 145 miljard (inclusief finance leases), Microsoft circa 170 miljard over kalenderjaar 2026. Samen rond 730 miljard."
+  peildatum: 2026-10-29
+  bron: earnings
+  vindplaats: "Kwartaalberichten Q3 2026 (8-K, exhibit 99.1) van Amazon (2026-10-29) en Meta (2026-10-21); Alphabet en Microsoft: toelichting in de analistencall van 2026-10-28"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 90
+  status: actueel
+  slides: [INF-01]
+  noot: "Bevestigt de 733 miljard van K-INF-001. Alphabet en Microsoft noemen de verwachting alleen in de call, niet in het persbericht; het Microsoft-cijfer (kalenderjaar) wordt in verslagen uiteenlopend weergegeven (170 tot 175 miljard). Microsoft heeft een boekjaar tot 30 juni."
+- id: K-INF-007
+  bewering: "In het derde kwartaal van 2026 gaven de vier samen ruim 200 miljard dollar uit aan investeringen: Amazon 77,3 miljard, Alphabet 51,4 miljard, Microsoft 39,4 miljard (45,2 inclusief finance leases) en Meta 34,9 miljard."
+  peildatum: 2026-09-30
+  bron: earnings
+  vindplaats: "Kasstroomoverzichten in de kwartaalberichten Q3 2026 (SEC 8-K, exhibit 99.1)"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 90
+  status: actueel
+  slides: [INF-01]
+  noot: "Microsoft-kwartaal is Q1 van boekjaar 2027 (juli tot en met september 2026). Meta inclusief aflossing finance leases."
+- id: K-INF-008
+  bewering: "De investeringen van Microsoft, Alphabet, Amazon en Meta (kasuitgaven voor materiële vaste activa) stegen van 7,3 miljard dollar in 2010 naar 357,5 miljard in 2025. Bij Meta en Microsoft is dat ruim een derde van de omzet, tegen 15 en 3 procent in 2010."
+  peildatum: 2025-12-31
+  bron: sec-edgar
+  vindplaats: "Jaarverslagen (10-K) via SEC XBRL companyfacts; data/INF-01_capex_hyperscalers.csv"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 365
+  status: actueel
+  slides: [INF-01, INF-02]
+  noot: "Exclusief finance leases, daarom lager dan de 410 miljard voor 2025 in SoAI. Microsoft: boekjaar tot juni. Meta 2025: 34,7% van de omzet; Microsoft boekjaar 2026: 34,9%."
+- id: K-INF-009
+  bewering: "Anthropic sloot in 2026 één leasecontract voor AI-apparatuur met huurbetalingen van in totaal ongeveer 125,2 miljard dollar over vijf jaar, niet opzegbaar."
+  peildatum: 2026-11-10
+  bron: sec-edgar
+  vindplaats: "Anthropic, PBC, S-1/A van 2026-11-10, Risk Factors (2026 Lease Arrangement), p. 78"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 180
+  status: actueel
+  slides: [INF-02]
+  noot: "Voorbeeld van een verplichting die buiten de balans begint: betalingen starten pas als de apparatuur in gebruik is."
+- id: K-INF-010
+  bewering: "Hyperscalers en chipmakers hebben volgens Morgan Stanley samen ruim 3.000 miljard dollar aan verplichtingen buiten de balans, vooral inkoopverplichtingen en huur van datacenters die nog niet open zijn. Google heeft het meest: 890 miljard."
+  peildatum: 2026-09
+  bron: soai
+  vindplaats: "State of AI Report 2026, slide 128 (Morgan Stanley)"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 180
+  status: actueel
+  slides: [INF-02]
+
+# INF-03: chips
+- id: K-INF-011
+  bewering: "NVIDIA boekte in het kwartaal tot 26 juli 2026 96,2 miljard dollar omzet (plus 106%), waarvan 89,0 miljard uit datacenters (plus 117%), bij een brutomarge van 75%. Voor het volgende kwartaal verwacht NVIDIA 108 miljard, zonder omzet uit China."
+  peildatum: 2026-07-26
+  bron: earnings
+  vindplaats: "NVIDIA, persbericht Q2 boekjaar 2027 (SEC 8-K, 2026-08-26, exhibit 99.1)"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 30
+  status: actueel
+  slides: [INF-03]
+  noot: "Volgende cijfers verwacht eind november 2026."
+- id: K-INF-012
+  bewering: "Van alle geïnstalleerde AI-rekenkracht eind 2025 (20,4 miljoen H100-equivalenten) is volgens Epoch 67% ontworpen door NVIDIA en 19% door Google (TPU). AMD heeft 6%, Amazon (Trainium) 5% en Huawei 3,5%. Eind 2024 had NVIDIA nog 70% en Google 14%."
+  peildatum: 2025-12-31
+  bron: epoch
+  vindplaats: "Epoch AI, Data on AI chip owners (cumulative_by_designer.csv, bijgewerkt 2026-05-12); data/INF-03_rekenkracht_per_chipontwerper.csv"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 180
+  status: actueel
+  slides: [INF-03]
+  noot: "Eigen optelling over eigenaren; mediaanschattingen met ruime marges. NVIDIA inclusief geschatte smokkel naar China."
+- id: K-INF-013
+  bewering: "Frontierlabs spreiden hun rekenkracht over leveranciers: OpenAI legde 2 GW Trainium en 0,75 GW Cerebras vast naast 10 GW met Broadcom; Anthropic noemt 5 GW Google TPU en tot 5 GW via AWS, plus NVIDIA via Azure."
+  peildatum: 2026-09
+  bron: soai
+  vindplaats: "State of AI Report 2026, slide 137"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 180
+  status: actueel
+  slides: [INF-03]
+  noot: "Aangekondigde capaciteit, deels overlappend; niet op te tellen tot een gecontracteerd totaal."
+
+# INF-04: ASML en TSMC
+- id: K-INF-014
+  bewering: "ASML verkocht 48 EUV-machines in 2025 tegen 42 in 2021; de gemiddelde opbrengst per machine steeg van circa 150 naar 242 miljoen euro (plus 61%)."
+  peildatum: 2025-12-31
+  bron: soai
+  vindplaats: "State of AI Report 2026, slide 136"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 365
+  status: actueel
+  slides: [INF-04]
+  noot: "Eenheden en gemiddelde prijs nog niet zelf gecontroleerd in de jaarverslagen van ASML."
+- id: K-INF-015
+  bewering: "ASML boekte in het derde kwartaal van 2026 11,7 miljard euro omzet en 5,0 miljard nettowinst en verwacht voor heel 2026 44 tot 45 miljard euro. Volgens ASML zal de geplande productiecapaciteit voor 2027 en 2028 de vraag niet volledig dekken, vooral door AI-investeringen van klanten."
+  peildatum: 2026-10-14
+  bron: earnings
+  vindplaats: "ASML, persbericht Q3 2026 (SEC 6-K, 2026-10-14)"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 90
+  status: actueel
+  slides: [INF-04]
+  noot: "ASML plant 30% meer capaciteit voor low-NA EUV en DUV-immersie in 2027 en onderzoekt nog eens 30% voor 2028. Orderinstroom staat niet in het persbericht."
+
+# INF-05: schaarste
+- id: K-INF-016
+  bewering: "De huurprijzen van tien GPU-typen bereikten tussen eind 2024 en begin 2026 een dieptepunt en stegen daarna gemiddeld 30%. Een A100 (uit 2020) kost in september 2026 1,76 dollar per uur, een V100 (uit 2017) 0,95 dollar, 43% meer dan een jaar eerder."
+  peildatum: 2026-09
+  bron: soai
+  vindplaats: "State of AI Report 2026, slides 129-130"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 90
+  status: actueel
+  slides: [INF-05]
+
+# INF-06: stroom
+- id: K-INF-017
+  bewering: "Nederlandse bedrijven met het grootste verbruik (meer dan 150 GWh per jaar) betaalden in het eerste halfjaar van 2026 10,6 eurocent per kWh exclusief btw. EU-gemiddelde 11,3, Duitsland 12,7, Ierland 16,5, Frankrijk 7,2 en Zweden 8,8 cent."
+  peildatum: 2026-S1
+  bron: eurostat
+  vindplaats: "Eurostat nrg_pc_205 (bijgewerkt 2026-10-19), verbruiksklasse MWH_GE150000, exclusief btw en verrekenbare heffingen"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 180
+  status: actueel
+  slides: [INF-06]
+  noot: "Retailtarieven, geen datacentercontracten. Finland heeft geen cijfer in deze klasse; in de klasse 20 tot 70 GWh betaalt Finland 7,6 en Nederland 13,9 cent. In euro's, dus niet direct vergelijkbaar met de dollarcijfers in K-INF-005. Data: data/INF-06_stroomprijs_bedrijven.csv."
+- id: K-INF-018
+  bewering: "De drie grote fabrikanten van gasturbines (GE Vernova, Siemens Energy, Mitsubishi) hebben orders voor 220 GW tegen een wereldwijde bouwcapaciteit van 60 tot 70 GW per jaar. Turbineprijzen stegen sinds 2019 met 195%."
+  peildatum: 2026-06-30
+  bron: soai
+  vindplaats: "State of AI Report 2026, slide 132"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 180
+  status: actueel
+  slides: [INF-06]
+
+# INF-07: Europa
+- id: K-INF-019
+  bewering: "De EuroHPC-aanbesteding voor AI-gigafabrieken (gepubliceerd 30 juli 2026) sluit voor grote gigafabrieken op 3 december 2026; voor middelgrote is de termijn verlengd tot 4 februari 2027. De EU wil zo meer dan 30 miljard euro aan investeringen losmaken voor maximaal zeven faciliteiten. De eerste EU-bijdrage is 1 miljard euro."
+  peildatum: 2026-11-10
+  bron: eurohpc
+  vindplaats: "https://eurohpc-ju.europa.eu/call-tenders-selection-artificial-intelligence-gigafactory-consortia-and-establishment-ai_en (EUROHPC-2026-CEI-AIGF-01)"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 30
+  status: actueel
+  slides: [INF-07]
+  noot: "Data gelezen via zoekfragment van de officiële pagina. 30 miljard en zeven faciliteiten uit het EU-persbericht van 30 juli (via secundaire bronnen); 1 miljard uit SoAI slide 135. Selectie verwacht begin 2027."
