@@ -96,6 +96,13 @@ data_en_metingen:
     frequentie: wekelijks
     betrouwbaarheid: B
     opmerking: alleen verkeer via OpenRouter; oververtegenwoordiging van ontwikkelaars en open modellen
+  - id: arc-prize
+    naam: ARC Prize (ranglijst ARC-AGI-2 en ARC-AGI-3)
+    url: https://arcprize.org/leaderboard
+    type: ranglijst
+    frequentie: wekelijks
+    betrouwbaarheid: A
+    opmerking: eigen metingen van de ARC Prize Foundation; scores met standaardopzet en met koppeling van de aanbieder apart vermeld
   - id: ramp
     naam: Ramp AI Index (zakelijke uitgaven aan AI in de VS)
     url: https://ramp.com/data/ai-index

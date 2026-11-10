@@ -137,73 +137,104 @@ slides:
     kern: "Op de Intelligence Index leidt Claude Opus 5.5 (58), GPT-6 Astra en Gemini 4 Argon volgen (53). Op andere ranglijsten is de volgorde anders."
     grafiek: "Beste model per lab over tijd (Artificial Analysis)"
     volatiliteit: wekelijks
-    bronnen: [artificial-analysis, soai]
-    beweringen: [K-FRT-001]
-    status: opzet
+    bronnen: [artificial-analysis, epoch, soai]
+    beweringen: [K-FRT-001, K-FRT-009, K-FRT-010, K-FRT-011]
+    status: herzien
+    voorstel:
+      kern: "Claude Fable 5.2 leidt sinds 9 november op de Intelligence Index (65), gevolgd door Gemini 4 Carbon (60, nog beperkt beschikbaar) en GPT-6 Astra (57). Sinds de nieuwe versie van de index op 27 oktober stonden er drie verschillende modellen bovenaan."
+      grafiek: "Beste model per lab over tijd op de Epoch Capabilities Index (data/FRT-01_eci_beste_per_lab.csv), huidige stand Artificial Analysis als voetnoot"
+      reden: "Cijfers in de kern waren v4 van de Intelligence Index; AA rekent sinds 27 oktober met v5, niet vergelijkbaar. De geschiedenis van AA is geen open data; de ECI wel (CC-BY) en die laat dezelfde top drie zien. Titel blijft staan."
   - id: FRT-02
     titel: "Welk model het beste is, hangt af van wie meet en wat er gemeten wordt"
     kern: "Op LMArena leidt Gemini 4 Argon en staat het beste OpenAI-model op plaats 20. Bij lange codeertaken wisselt de ranglijst per taak en budget."
     grafiek: "Zelfde modellen, drie ranglijsten naast elkaar"
     volatiliteit: wekelijks
-    bronnen: [lmarena, artificial-analysis, soai]
-    beweringen: [K-FRT-002]
-    status: opzet
+    bronnen: [lmarena, artificial-analysis, epoch, soai]
+    beweringen: [K-FRT-002, K-FRT-009, K-FRT-011, K-FRT-012, K-FRT-013]
+    status: herzien
+    voorstel:
+      kern: "Op LMArena, waar gebruikers stemmen, leidt Gemini 4 Carbon en staat het beste OpenAI-model op plaats 22. Op de Epoch-index staat OpenAI juist tweede. Bij lange programmeertaken wisselt de winnaar per taak en budget."
+      grafiek: "Vijf labs, drie ranglijsten: rangorde van het beste model per lab op AA, LMArena en ECI (data/FRT-02_drie_ranglijsten.csv)"
+      reden: "LMArena-stand van september vervangen door die van 9 november. Meta staat op LMArena tweede lab, op AA vierde: goed voorbeeld voor de titel."
   - id: FRT-03
     titel: "China leidt bij open modellen, maar loopt aan de top achter"
     kern: "Het beste Chinese open model scoort 46 op de Intelligence Index, tegen 58 voor de koploper. Chinese open modellen zijn wel de standaard in onderzoekspapers."
     volatiliteit: kwartaal
-    bronnen: [soai, artificial-analysis]
-    beweringen: [K-FRT-003]
-    status: opzet
+    bronnen: [soai, artificial-analysis, epoch]
+    beweringen: [K-FRT-003, K-FRT-014, K-FRT-015, K-FRT-016]
+    status: herzien
+    voorstel:
+      grafiek: "Beste score VS tegen China per maand op de Epoch Capabilities Index (data/FRT-03_eci_vs_china.csv)"
+      kern: "Het beste Chinese model, Kimi K3.1 Pro, scoort 46 op de Intelligence Index tegen 65 voor de koploper. In onderzoekspapers worden Chinese open modellen inmiddels vaker genoemd dan Amerikaanse (31 tegen 23 procent)."
+      reden: "Cijfers in de kern waren v4. 'De standaard in onderzoekspapers' is sterker dan de bron (Zeta Alpha): gesloten Amerikaanse modellen zijn met 42% nog de grootste groep. Let op: volgens AA zijn de gewichten van Kimi K3.1 Pro nog niet vrijgegeven; het beste Chinese model met vrijgegeven gewichten scoort 33. Titel blijft staan."
   - id: FRT-04
     titel: "Benchmarks die jaren moesten meegaan, zijn binnen maanden verzadigd"
     kern: "De zwaarste wiskundetest ging in veertien maanden van 22 naar 100 procent. ARC-AGI-3 hield vijf maanden stand."
     grafiek: "Score op FrontierMath Tier 4 over tijd (Epoch-data)"
     volatiliteit: wekelijks
-    bronnen: [epoch, soai]
-    beweringen: [K-FRT-004]
-    status: opzet
+    bronnen: [epoch, arc-prize, soai]
+    beweringen: [K-FRT-004, K-FRT-017, K-FRT-018]
+    status: herzien
+    voorstel:
+      kern: "De zwaarste wiskundetest ging in veertien maanden van 22 naar 100 procent; inmiddels halen twee modellen de volle score. ARC-AGI-3 begon in maart op 0,5 procent en staat nu op 81 procent."
+      reden: "Cijfers bevestigd bij Epoch en ARC Prize; Claude Fable 5.2 haalt ook 100% op FrontierMath Tier 4 en 81,2% op ARC-AGI-3. In de voetregel vermelden dat OpenAI FrontierMath financiert. Data: data/FRT-04_frontiermath_tier4.csv."
   - id: FRT-05
     titel: "Agents voeren steeds langere taken zelfstandig uit"
     kern: "De lengte van taken die agents zelfstandig afronden blijft snel groeien. METR heeft zwaardere taken nodig om de sterkste modellen nog te meten."
     grafiek: "METR-tijdshorizon per model, logaritmische schaal"
     volatiliteit: wekelijks
-    bronnen: [metr, soai]
-    status: opzet
-    noot: "Actuele METR-cijfers ophalen"
+    bronnen: [metr, epoch, soai]
+    beweringen: [K-FRT-019, K-FRT-020]
+    status: herzien
+    voorstel:
+      titel: "Agents kunnen steeds langere taken aan, maar de meetlat raakt op"
+      kern: "METR mat in april 17 uur menselijk expertwerk voor Claude Mythos Preview, tegen een uur voor Claude 3.7 Sonnet begin 2025. Boven 16 uur is de meting onbetrouwbaar, en voor de nieuwste modellen is er geen meting meer."
+      volatiliteit: kwartaal
+      reden: "De tijdshorizon meet hoe moeilijk een taak is, niet hoe lang een agent zonder toezicht werkt; 'zelfstandig' wekt een verkeerde indruk. METR werkt de reeks sinds 8 september niet meer bij, dus wekelijkse controle levert niets op. Data: data/FRT-05_metr_tijdshorizon.csv (logaritmische schaal vermelden)."
   - id: FRT-06
     titel: "Programmeren is de eerste toepassing die echt kantelt"
     kern: "Codeeragents zijn de grootste zakelijke AI-toepassing. Codex ging van 1,6 naar 25 miljoen gebruikers in zeven maanden."
     grafiek: "Zakelijke AI-uitgaven per toepassing"
     volatiliteit: kwartaal
     bronnen: [soai, evans]
-    beweringen: [K-MKT-004]
+    beweringen: [K-MKT-004, K-FRT-021]
     status: opzet
+    voorstel:
+      kern: "Programmeren is de grootste post in de zakelijke uitgaven aan AI-toepassingen. OpenAI's Codex ging van 1,6 miljoen wekelijkse gebruikers in februari naar 25 miljoen actieve gebruikers eind augustus."
+      reden: "OpenAI wisselde in juli van definitie (wekelijks actief naar actief); de kern moet dat niet als zuivere groei presenteren. 'Grootste toepassing' rust nu alleen op een a16z-grafiek bij Evans (K-FRT-021, te verifiëren); grafiek pas bouwen als het primaire a16z-cijfer er is."
   - id: FRT-07
     titel: "AI helpt AI bouwen: Claude leidt een kwart van het modelonderzoek bij Anthropic"
     kern: "Het aandeel taken waarin AI de leiding heeft steeg van minder dan 1 naar 26 procent in zes maanden, onder menselijk toezicht. Volledig autonoom is nog niets."
     volatiliteit: kwartaal
-    bronnen: [soai]
-    beweringen: [K-FRT-005]
+    bronnen: [soai, metr]
+    beweringen: [K-FRT-005, K-FRT-022]
     status: opzet
+    voorstel:
+      kern: "Volgens Anthropic steeg het aandeel taken waarin Claude de leiding heeft van minder dan 1 naar 26 procent in zes maanden, onder menselijk toezicht. METR, dat het rapport toetste, schat de versnelling van het onderzoek op 1,3 tot 2,8 keer en vindt dat Anthropic die onderschat."
+      reden: "Het 26%-cijfer komt van Anthropic zelf; de onafhankelijke toets van METR (5 november) hoort erbij. Primaire Anthropic-publicatie voor K-FRT-005 nog niet gevonden."
   - id: FRT-08
     titel: "AI lost open wiskundeproblemen op en versnelt wetenschappelijk werk"
     kern: "AI kreeg negen van 49 gevolgde open wiskundeproblemen op zijn naam, vier zonder menselijke hulp. In de wetenschap blijft menselijke controle nodig."
     volatiliteit: kwartaal
     bronnen: [epoch, soai]
-    beweringen: [K-FRT-006]
-    status: opzet
+    beweringen: [K-FRT-006, K-FRT-023, K-FRT-027]
+    status: herzien
+    voorstel:
+      kern: "AI hielp bij de oplossing van tien van de 49 open wiskundeproblemen die Epoch volgt, vijf keer zonder menselijke hulp. In het lab meldden modellen 89 van de 192 keer ten onrechte dat een taak af was."
+      reden: "Epoch-teller bijgewerkt (stand 7 oktober). Het lab-voorbeeld maakt 'menselijke controle blijft nodig' concreet."
   - id: FRT-09
     titel: "Robotica heeft zijn GPT-2-moment: generalisatie groeit mee met voortraining"
     kern: "Robotmodellen generaliseren beter naarmate ze meer voortraining krijgen. Data over handelen is het knelpunt; gesimuleerde werelden zijn een deel van de oplossing."
     volatiliteit: kwartaal
     bronnen: [soai]
+    beweringen: [K-FRT-024]
     status: opzet
   - id: FRT-10
     titel: "Hoge scores verbergen nog veel half werk"
     kern: "Agents die goed scoren op benchmarks laten in de praktijk analyses onaf, missen fraude en ontdekken de regels van onbekende situaties slecht."
     volatiliteit: kwartaal
     bronnen: [soai]
+    beweringen: [K-FRT-025, K-FRT-026, K-FRT-027, K-FRT-028]
     status: opzet
 
 # ---------- MARKT EN ECONOMIE ----------

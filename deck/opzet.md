@@ -67,23 +67,23 @@ De prijs per eenheid prestatie daalt hard. Het gebruik groeit harder, vooral doo
 
 **FRT-01** [W] **De race aan de top is een driestrijd: Anthropic, OpenAI en Google**  
 Op de Intelligence Index leidt Claude Opus 5.5 (58), GPT-6 Astra en Gemini 4 Argon volgen (53). Op andere ranglijsten is de volgorde anders.
-<br><sub>Bronnen: artificial-analysis, soai</sub>
+<br><sub>Bronnen: artificial-analysis, epoch, soai</sub>
 
 **FRT-02** [W] **Welk model het beste is, hangt af van wie meet en wat er gemeten wordt**  
 Op LMArena leidt Gemini 4 Argon en staat het beste OpenAI-model op plaats 20. Bij lange codeertaken wisselt de ranglijst per taak en budget.
-<br><sub>Bronnen: lmarena, artificial-analysis, soai</sub>
+<br><sub>Bronnen: lmarena, artificial-analysis, epoch, soai</sub>
 
 **FRT-03** [K] **China leidt bij open modellen, maar loopt aan de top achter**  
 Het beste Chinese open model scoort 46 op de Intelligence Index, tegen 58 voor de koploper. Chinese open modellen zijn wel de standaard in onderzoekspapers.
-<br><sub>Bronnen: soai, artificial-analysis</sub>
+<br><sub>Bronnen: soai, artificial-analysis, epoch</sub>
 
 **FRT-04** [W] **Benchmarks die jaren moesten meegaan, zijn binnen maanden verzadigd**  
 De zwaarste wiskundetest ging in veertien maanden van 22 naar 100 procent. ARC-AGI-3 hield vijf maanden stand.
-<br><sub>Bronnen: epoch, soai</sub>
+<br><sub>Bronnen: epoch, arc-prize, soai</sub>
 
 **FRT-05** [W] **Agents voeren steeds langere taken zelfstandig uit**  
 De lengte van taken die agents zelfstandig afronden blijft snel groeien. METR heeft zwaardere taken nodig om de sterkste modellen nog te meten.
-<br><sub>Bronnen: metr, soai · Open: Actuele METR-cijfers ophalen</sub>
+<br><sub>Bronnen: metr, epoch, soai</sub>
 
 **FRT-06** [K] **Programmeren is de eerste toepassing die echt kantelt**  
 Codeeragents zijn de grootste zakelijke AI-toepassing. Codex ging van 1,6 naar 25 miljoen gebruikers in zeven maanden.
@@ -91,7 +91,7 @@ Codeeragents zijn de grootste zakelijke AI-toepassing. Codex ging van 1,6 naar 2
 
 **FRT-07** [K] **AI helpt AI bouwen: Claude leidt een kwart van het modelonderzoek bij Anthropic**  
 Het aandeel taken waarin AI de leiding heeft steeg van minder dan 1 naar 26 procent in zes maanden, onder menselijk toezicht. Volledig autonoom is nog niets.
-<br><sub>Bronnen: soai</sub>
+<br><sub>Bronnen: soai, metr</sub>
 
 **FRT-08** [K] **AI lost open wiskundeproblemen op en versnelt wetenschappelijk werk**  
 AI kreeg negen van 49 gevolgde open wiskundeproblemen op zijn naam, vier zonder menselijke hulp. In de wetenschap blijft menselijke controle nodig.
