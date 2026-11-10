@@ -1,0 +1,14 @@
+# bron: Anthropic, PBC, S-1/A (SEC EDGAR, CIK 2130357), Quarterly Results of Operations (p. 164) en Summary Consolidated Financial Data
+# url: https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/anthropicpbc-sx1ax2.htm
+# licentie: openbaar document (SEC); cijfers met bronvermelding
+# opgehaald: 2026-11-10 (S-1/A van 2026-11-10)
+# bedragen in miljoenen dollars, GAAP; kwartaalcijfers niet door accountant gecontroleerd. Run-rate is geen GAAP-maatstaf en staat in een aparte kolom (alleen waar het prospectus hem geeft).
+kwartaal,einddatum,omzet_mln_usd,bedrijfsresultaat_mln_usd,runrate_mld_usd_op_einddatum
+2025-Q1,2025-03-31,376,-935,
+2025-Q2,2025-06-30,787,-1200,
+2025-Q3,2025-09-30,1382,-3089,
+2025-Q4,2025-12-31,2040,-2836,
+2026-Q1,2026-03-31,4731,-1667,
+2026-Q2,2026-06-30,11555,974,
+2026-Q3,2026-09-30,16956,-567,71
+2026-10,2026-10-31,,,81

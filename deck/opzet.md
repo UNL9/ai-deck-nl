@@ -109,15 +109,15 @@ Agents die goed scoren op benchmarks laten in de praktijk analyses onaf, missen 
 
 **MKT-01** [W] **OpenAI en Anthropic groeien elk jaar meer dan drie keer, vanaf een steeds hogere basis**  
 Samen ruim 105 miljard dollar omzet op jaarbasis, tegen 30 miljard begin 2026. Anthropic is OpenAI voorbijgestreefd.
-<br><sub>Bronnen: soai, lab-blogs · Open: Boekhoudverschil vermelden: OpenAI zegt dat bruto-boeking Anthropic tot 8 miljard dollar hoger laat uitkomen</sub>
+<br><sub>Bronnen: soai, lab-blogs, sec-edgar, financiele-pers · Open: Boekhoudverschil vermelden: OpenAI zegt dat bruto-boeking Anthropic tot 8 miljard dollar hoger laat uitkomen</sub>
 
 **MKT-02** [K] **De omzet van twee AI-labs is al groter dan hele sectoren die ze willen veranderen**  
 105 miljard dollar is twee keer TCS en Infosys samen, en bijna de helft van de Big Four.
-<br><sub>Bronnen: soai</sub>
+<br><sub>Bronnen: soai, sec-edgar, jaarcijfers-dienstverleners</sub>
 
 **MKT-03** [K] **Bijna een miljard mensen gebruikt ChatGPT, maar meestal oppervlakkig**  
 Ruim 900 miljoen wekelijkse gebruikers, van wie 5 procent betaalt. Voor minstens 80 procent is het nog geen dagelijks gereedschap.
-<br><sub>Bronnen: evans, openai-research</sub>
+<br><sub>Bronnen: evans, openai-research, lab-blogs</sub>
 
 **MKT-04** [W] **Zakelijke AI-uitgaven gaan vrijwel volledig naar twee labs**  
 Van de tokenuitgaven die Ramp meet, gaat 52 procent naar Anthropic en 43 procent naar OpenAI. De rest deelt 4 procent.
@@ -125,7 +125,7 @@ Van de tokenuitgaven die Ramp meet, gaat 52 procent naar Anthropic en 43 procent
 
 **MKT-05** [K] **Agents breken door buiten de IT-afdeling**  
 Niet-ontwikkelaars gebruiken codeeragents in hoger tempo dan ontwikkelaars. Ruim 1.000 bedrijven geven meer dan een miljoen dollar per jaar uit bij Anthropic.
-<br><sub>Bronnen: soai</sub>
+<br><sub>Bronnen: soai, sec-edgar</sub>
 
 **MKT-06** [K] **Eén productlancering kostte softwarebedrijven 285 miljard dollar aan beurswaarde**  
 Na de lancering van Claude Cowork daalde de softwarebeurs in februari scherp. In september was het verlies goedgemaakt, maar de vraag blijft of prijzen per gebruiker overleven.
@@ -133,7 +133,7 @@ Na de lancering van Claude Cowork daalde de softwarebeurs in februari scherp. In
 
 **MKT-07** [K] **Modellen zijn uitwisselbaar, en bedrijven gebruiken er meerdere naast elkaar**  
 Er zijn geen netwerkeffecten tussen modellen. AI-bouwers gebruiken gemiddeld 3,3 aanbieders; waarde verschuift naar product, distributie en integratie in werkprocessen.
-<br><sub>Bronnen: evans, iconiq</sub>
+<br><sub>Bronnen: evans, iconiq, ramp, soai</sub>
 
 **MKT-08** [K] **AI verkoopt steeds vaker het werk, niet het gereedschap**  
 Prijzen op basis van verbruik en resultaat nemen toe. Bij AI-bouwers stijgt het aandeel AI in de omzet van 32 naar 42 procent, met brutomarges van 45 naar 53 procent.
@@ -141,7 +141,7 @@ Prijzen op basis van verbruik en resultaat nemen toe. Bij AI-bouwers stijgt het 
 
 **MKT-09** [K] **Vrijwel al het durfkapitaal gaat naar AI, en waarderingen verdubbelen in maanden**  
 Verdubbeltijden van 3,5 tot 13 maanden. Megarondes nemen het grootste deel; techbedrijven kopen teams zonder het bedrijf te kopen; het venster voor beursgangen gaat open.
-<br><sub>Bronnen: soai</sub>
+<br><sub>Bronnen: soai, sec-edgar</sub>
 
 ## Infrastructuur, chips en energie (8)
 
