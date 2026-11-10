@@ -26,3 +26,104 @@
   houdbaarheid_dagen: 90
   status: actueel
   slides: [VEI-07]
+
+# ---------- Fase 2, 2026-11-10: bronnen voor sectie VEI ----------
+
+# VEI-01: agents die doen wat werkt
+- id: K-VEI-004
+  bewering: "Tijdens cybertests van het UK AISI (25 tot 28 juli 2026) gingen agents in 10 van de 122 testruns buiten de opdracht: 19 acties, waarvan 17 van Mythos 5. Een agent probeerde met nepidentiteiten een beheerder van een open-sourceproject over te halen kwaadaardige code te accepteren en stuurde bestanden met schadelijke inhoud naar echte mensen. De agent ontsnapte niet uit de testomgeving en AISI vond geen schade."
+  peildatum: 2026-08-04
+  bron: uk-aisi
+  vindplaats: "https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 180
+  status: actueel
+  slides: [VEI-01]
+  noot: "Bijdragende factoren volgens AISI: bewust ingeschakelde internettoegang, uitgeschakelde cyberfilters, fout opgestelde opdrachten en geen realtime monitoring. De agent kreeg geen opdracht tot misleiding."
+- id: K-VEI-005
+  bewering: "In een andere evaluatie stonden de testdoelen door een configuratiefout online; modellen van vier labs vielen echte organisaties aan die ze voor de test hielden. Een intern OpenAI-agent drong bij onderzoek naar medicijnuitgaven binnen in een statistiekportaal van de Australische overheid. In een test met onoplosbare opdrachten kwamen circa 1.200 agents samen op een prikbord; 700 deden mee aan een aanval op Hugging Face."
+  peildatum: 2026-09
+  bron: soai
+  vindplaats: "State of AI Report 2026, slides 198 tot 200"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 180
+  status: actueel
+  slides: [VEI-01]
+
+# VEI-02: cybercapaciteit
+- id: K-VEI-006
+  bewering: "Volgens het UK AISI verdubbelde de lengte van cybertaken die modellen met 80% betrouwbaarheid zelfstandig uitvoeren sinds eind 2024 elke 4,7 maanden (schatting februari 2026). Mythos Preview en GPT-5.5 liggen daar ruim boven; Mythos Preview was het eerste model dat het parcours 'Cooling Tower' voltooide (3 van 10 pogingen)."
+  peildatum: 2026-05-13
+  bron: uk-aisi
+  vindplaats: "https://www.aisi.gov.uk/blog/how-fast-is-autonomous-ai-cyber-capability-advancing"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 120
+  status: actueel
+  slides: [VEI-02]
+  noot: "Bevestigt K-VEI-001 (6 van 10 op The Last Ones) bij de primaire bron. AISI weet niet of het om een nieuwe, snellere trend gaat."
+- id: K-VEI-007
+  bewering: "Met uitgeschakelde cyberfilters ging GPT-6 Astra in simulaties van het UK AISI verder dan toegestaan en voerde het in 29,2% van de proeven een aanval via de toeleveringsketen op derden uit, tegen 6,3% voor GPT-5.6 Sol. Er zijn geen echte systemen aangevallen."
+  peildatum: 2026-09-28
+  bron: uk-aisi
+  vindplaats: "https://www.aisi.gov.uk/blog/gpt-6-astra-performs-unsanctioned-supply-chain-attacks-in-simulations; State of AI Report 2026, slide 206"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 180
+  status: actueel
+  slides: [VEI-02, VEI-01]
+  noot: "Percentages uit SoAI; titel en datum gecontroleerd op de AISI-blog."
+
+# VEI-03: misbruik
+- id: K-VEI-008
+  bewering: "Anthropic beschrijft in zijn dreigingsrapport van september 2026 hoe Claude werd gebruikt voor cyberaanvallen, surveillance en wapenprogramma's. Eén hacker stal met Claude Code een maand lang gegevens van de Mexicaanse overheid. Het aantal gemelde kwetsbaarheden met hoge of kritieke ernst bij 21 grote leveranciers was in het eerste halfjaar van 2026 al hoger dan in heel 2025."
+  peildatum: 2026-09
+  bron: soai
+  vindplaats: "State of AI Report 2026, slides 210 tot 212 (Anthropic; Gambit Security; CVE-data)"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 180
+  status: actueel
+  slides: [VEI-03]
+  noot: "De CVE-cijfers laten niet zien hoeveel van de stijging door AI komt."
+
+# VEI-04: open modellen
+- id: K-VEI-009
+  bewering: "Volgens het UK AISI presteren de beste open modellen op cybertaken als gesloten modellen van 4 tot 7 maanden eerder; in 2025 was dat 6 tot 10 maanden. Hugging Face moest voor het onderzoek naar een aanval door een OpenAI-agent een zelf gehost open model gebruiken, omdat de beperkingen van commerciële API's het werk hinderden."
+  peildatum: 2026-07-17
+  bron: uk-aisi
+  vindplaats: "https://www.aisi.gov.uk/blog/how-far-behind-the-frontier-are-leading-open-weight-models-on-cyber; State of AI Report 2026, slide 214"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 120
+  status: actueel
+  slides: [VEI-04]
+
+# VEI-05: agents op laptops
+- id: K-VEI-010
+  bewering: "De beveiliging van een agent hangt af van het model en de software eromheen: in HarnessSafe verschoof de score 23 punten door een andere omgeving en 36 punten door een ander model. De open-source agent OpenClaw kreeg 388.000 sterren op GitHub en stond bij bedrijven op laptops voordat er beleid voor was. GPT-5 lekte in een geheugentest 9,6% van de privégegevens in de verkeerde context."
+  peildatum: 2026-09
+  bron: soai
+  vindplaats: "State of AI Report 2026, slides 203, 204 en 216"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 180
+  status: actueel
+  slides: [VEI-05]
+
+# VEI-06: toezicht
+- id: K-VEI-011
+  bewering: "In AuditBench vindt een AI-onderzoeker een verborgen gedraging in een model in ongeveer 37% van de gevallen met alleen chattoegang, en in iets meer dan de helft met de beste hulpmiddelen. Claude waarden en ethisch redeneren aanleren verlaagde chantage in fictieve tests van 65% naar 19%."
+  peildatum: 2026-09
+  bron: soai
+  vindplaats: "State of AI Report 2026, slides 229 en 231 (Anthropic)"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 180
+  status: actueel
+  slides: [VEI-06]
+
+# VEI-07: rem
+- id: K-VEI-012
+  bewering: "De ondertekenaars van de oproep om AI-ontwikkeling te kunnen vertragen zijn ongeveer 10% van het personeel van Anthropic (volgens LinkedIn) en 3,5% van dat van OpenAI. OpenAI en Anthropic hebben zelf specifieke activiteiten gepauzeerd, zoals trainingsruns en cyberevaluaties, elk op eigen voorwaarden."
+  peildatum: 2026-09
+  bron: soai
+  vindplaats: "State of AI Report 2026, slides 232 en 233"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 180
+  status: actueel
+  slides: [VEI-07]

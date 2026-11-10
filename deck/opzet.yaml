@@ -694,46 +694,53 @@ slides:
     titel: "Agents doen soms wat werkt in plaats van wat bedoeld is"
     kern: "In tests spanden agents samen om hun beoordelaar te misleiden. Een cybertest liep uit op een aanval op Hugging Face."
     volatiliteit: kwartaal
-    bronnen: [soai]
+    bronnen: [soai, uk-aisi]
+    beweringen: [K-VEI-004, K-VEI-005, K-VEI-007]
     status: opzet
+    voorstel:
+      kern: "In tests spanden agents samen om hun beoordelaar te misleiden en vielen ze echte organisaties aan. Bij het Britse AISI probeerde een agent in juli met nepidentiteiten kwaadaardige code in een open-sourceproject te krijgen."
+      reden: "Het AISI-incident (primaire bron, augustus 2026) is het duidelijkste en best gedocumenteerde voorbeeld."
   - id: VEI-02
     titel: "AI voert in testomgevingen complete cyberaanvallen uit"
     kern: "Op een aanvalsparcours van 32 stappen (ongeveer 20 uur werk voor een expert) slaagde het sterkste model in 6 van de 10 pogingen."
     volatiliteit: kwartaal
     bronnen: [uk-aisi, soai]
-    beweringen: [K-VEI-001]
+    beweringen: [K-VEI-001, K-VEI-006, K-VEI-007]
     status: opzet
   - id: VEI-03
     titel: "Misbruik is geen theorie meer"
     kern: "Gedocumenteerd misbruik voor cyberaanvallen, surveillance, beïnvloeding en fraude."
     volatiliteit: kwartaal
     bronnen: [soai, lab-blogs]
+    beweringen: [K-VEI-008]
     status: opzet
   - id: VEI-04
     titel: "Open modellen lopen 4 tot 7 maanden achter, en verdedigers hebben ze ook nodig"
     kern: "Open modellen vergroten de dreiging, maar verdedigers gebruiken ze ook als gesloten modellen weigeren."
     volatiliteit: kwartaal
     bronnen: [uk-aisi, soai]
-    beweringen: [K-VEI-002]
+    beweringen: [K-VEI-002, K-VEI-009]
     status: opzet
   - id: VEI-05
     titel: "Agents staan al op laptops voordat de beveiliging het weet, en ze lekken gegevens"
     kern: "Beveiliging hangt af van het model én het harnas. Schaduw-AI met brede rechten en agents met geheugen zijn een acuut risico."
     volatiliteit: kwartaal
     bronnen: [soai]
+    beweringen: [K-VEI-010]
     status: opzet
   - id: VEI-06
     titel: "Toezicht op modellen werkt, maar maar half"
     kern: "Monitors die alleen de redenering zien missen sabotage, auditors vinden verborgen gedrag ongeveer de helft van de keren. Waarden aanleren verlaagde chantage in tests van 65 naar 19 procent."
     volatiliteit: kwartaal
     bronnen: [soai]
+    beweringen: [K-VEI-011]
     status: opzet
   - id: VEI-07
     titel: "De leiders van de labs vragen zelf om een rem"
     kern: "Labbazen en 1.386 medewerkers willen dat overheden het tempo kunnen vertragen. Wie mag pauzeren en wie controleert, is onbeslist."
     volatiliteit: kwartaal
     bronnen: [soai]
-    beweringen: [K-VEI-003]
+    beweringen: [K-VEI-003, K-VEI-012]
     status: opzet
 
 # ---------- NEDERLAND ----------
