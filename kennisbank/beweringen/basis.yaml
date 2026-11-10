@@ -1,0 +1,79 @@
+# Thema: hoe het werkt
+# Fase 2, 2026-11-10
+
+# BAS-02: geschiedenis
+- id: K-BAS-001
+  bewering: "Mijlpalen: AlexNet won in 2012 de ImageNet-wedstrijd met deep learning op GPU's; de transformer werd in juni 2017 beschreven in 'Attention Is All You Need' (Vaswani e.a.); ChatGPT kwam op 30 november 2022 uit."
+  peildatum: 2022-11-30
+  bron: ai-index
+  vindplaats: "Krizhevsky e.a. (NeurIPS 2012); Vaswani e.a. (arXiv 1706.03762); OpenAI, 'Introducing ChatGPT' (30 november 2022)"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 3650
+  status: actueel
+  slides: [BAS-02]
+  noot: "Historische feiten; bron-ID ai-index als algemene referentie."
+
+# BAS-06: training en gebruik
+- id: K-BAS-002
+  bewering: "Ook tijdens het trainen gaat steeds meer rekenkracht naar het genereren van antwoorden: MAI-Thinking-1 gebruikte 4.096 van zijn 4.864 GB200-chips voor inferentie, ongeveer vijf keer zoveel als voor het leren zelf."
+  peildatum: 2026
+  bron: soai
+  vindplaats: "State of AI Report 2026, slide 27"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 365
+  status: actueel
+  slides: [BAS-06]
+- id: K-BAS-003
+  bewering: "Bij Anthropic was rekenkracht en infrastructuur in de eerste negen maanden van 2026 de grootste kostenpost: 18,8 miljard van 34,5 miljard dollar aan bedrijfslasten (55%)."
+  peildatum: 2026-09-30
+  bron: sec-edgar
+  vindplaats: "Anthropic, PBC, S-1/A van 2026-11-10, Summary Consolidated Financial Data"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 120
+  status: actueel
+  slides: [BAS-06, BAS-12]
+
+# BAS-07: redeneermodellen
+- id: K-BAS-004
+  bewering: "Hoeveel een model nadenkt, bepaalt de score: Claude Opus 5.5 scoort 35 op de Intelligence Index bij lage inspanning en 58 bij maximale. Het mediane aantal uitvoertokens per taak in de index steeg met versie 5 van 35.000 naar 59.000."
+  peildatum: 2026-10-27
+  bron: artificial-analysis
+  vindplaats: "Artificial Analysis, artikel over Intelligence Index v5 (27 oktober 2026)"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 180
+  status: actueel
+  slides: [BAS-07]
+  noot: "Cijfers via zoekfragmenten van de AA-artikelpagina's; de score bij maximale inspanning staat nu op 59 (v5.0.1)."
+
+# BAS-08: agents en harnas
+- id: K-BAS-005
+  bewering: "Met hetzelfde model leverde een ander harnas (de software rond het model) een zesvoudige winst op SWE-Bench Mobile, en tilde Meta-Harness Claude Haiku 4.5 van 27,5% naar 37,6% op Terminal-Bench 2. In een gecontroleerde test was de variatie door het harnas 7,8 keer zo groot als die door het model."
+  peildatum: 2026
+  bron: soai
+  vindplaats: "State of AI Report 2026, slide 8"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 365
+  status: actueel
+  slides: [BAS-08]
+
+# BAS-12: goedkoper en toch duurder
+- id: K-BAS-006
+  bewering: "De prijs om een vast prestatieniveau te halen daalde volgens Epoch met een factor 9 tot 900 per jaar, afhankelijk van taak en niveau. Voor het niveau van GPT-4 op vragen op promotieniveau daalde de prijs 40 keer per jaar."
+  peildatum: 2025-03-12
+  bron: epoch
+  vindplaats: "https://epoch.ai/data-insights/llm-inference-price-trends"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 365
+  status: actueel
+  slides: [BAS-12]
+  noot: "Analyse over drie jaar tot maart 2025; actualisering zoeken."
+- id: K-BAS-007
+  bewering: "Volgens Anthropic verlaagde Claude Opus 5.5 de kosten per taak voor klanten met ongeveer 40% ten opzichte van Opus 5. In dezelfde periode groeide de omzet van Anthropic in een jaar met 1.127%."
+  peildatum: 2026-09-30
+  bron: sec-edgar
+  vindplaats: "Anthropic, PBC, S-1/A van 2026-11-10, Prospectus Summary"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 180
+  status: actueel
+  slides: [BAS-12]
+  noot: "Eigen bewering van Anthropic in het prospectus."
