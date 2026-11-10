@@ -355,15 +355,15 @@ Labbazen en 1.386 medewerkers willen dat overheden het tempo kunnen vertragen. W
 
 **NLD-01** [K] **Eén op de zes Nederlandse bedrijven gebruikt AI, bij grote bedrijven twee derde**  
 17 procent in 2025, tegen 8 procent in 2023. Bij 250 of meer medewerkers 66 procent; in ICT 54 procent, in bouw en horeca 6 tot 7 procent.
-<br><sub>Bronnen: cbs</sub>
+<br><sub>Bronnen: cbs, eurostat</sub>
 
 **NLD-02** [K] **Waar staat Nederland in Europa?**  
 Vergelijking van AI-gebruik door bedrijven en burgers met de rest van de EU.
-<br><sub>Bronnen: eurostat, cbs · Open: Eurostat-cijfers 2025 en CBS-cijfers over gebruik door personen ophalen</sub>
+<br><sub>Bronnen: eurostat, cbs · Open: Eurostat-cijfers 2025 en CBS-cijfers over gebruik door personen ophalen (Eurostat gedaan; CBS-cijfers over personen nog niet)</sub>
 
 **NLD-03** [K] **De AI-fabriek in Groningen: 200 miljoen euro voor Nederlandse rekenkracht**  
 Rijk, regio en Defensie investeren samen in rekenkracht voor onderzoek, bedrijven en overheid.
-<br><sub>Bronnen: rijksoverheid · Open: Huidige status en capaciteit verifiëren</sub>
+<br><sub>Bronnen: rijksoverheid, eurohpc · Open: Huidige status en capaciteit verifiëren (K-NLD-006 te verifiëren)</sub>
 
 **NLD-04** [S] **Nederland is onmisbaar in de keten, en dat is een onderhandelingspositie**  
 Zonder machines van ASML geen geavanceerde chips. Dat geeft Nederland en Europa iets om mee te onderhandelen.
@@ -371,15 +371,15 @@ Zonder machines van ASML geen geavanceerde chips. Dat geeft Nederland en Europa 
 
 **NLD-05** [K] **GPT-NL en andere Nederlandse modellen: wat is het doel?**  
 Een eigen taalmodel draait niet om de frontier, maar om transparantie, taal en onafhankelijkheid.
-<br><sub>Bronnen: tno · Open: Status GPT-NL verifiëren</sub>
+<br><sub>Bronnen: tno · Open: Status GPT-NL verifiëren (K-NLD-007: bèta sinds februari 2026, te verifiëren)</sub>
 
 **NLD-06** [K] **Wie houdt in Nederland toezicht op AI?**  
 De AP coördineert het toezicht op algoritmes. DNB en AFM kijken naar de financiële sector.
-<br><sub>Bronnen: ap-ran, dnb-afm · Open: Aanwijzing markttoezichthouders AI Act in Nederland verifiëren</sub>
+<br><sub>Bronnen: ap-ran, dnb-afm, rijksoverheid · Open: Aanwijzing markttoezichthouders AI Act in Nederland verifiëren (wetsvoorstel nog niet in werking, zie K-NLD-008)</sub>
 
 **NLD-07** [K] **Netcongestie maakt stroom ook in Nederland een knelpunt voor datacenters**  
 Wachtlijsten voor netaansluitingen en beleid voor hyperscale datacenters bepalen waar rekenkracht kan komen.
-<br><sub>Bronnen: rijksoverheid · Open: Cijfers netbeheerders en datacenterbeleid ophalen</sub>
+<br><sub>Bronnen: rijksoverheid, eurostat · Open: Cijfers netbeheerders en datacenterbeleid ophalen (wachtrij: K-NLD-009, te verifiëren; datacenterbeleid nog niet)</sub>
 
 ## Governance en verantwoord gebruik (7)
 

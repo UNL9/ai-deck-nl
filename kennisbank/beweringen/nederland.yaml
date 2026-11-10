@@ -24,6 +24,78 @@
   vindplaats: "https://www.rijksoverheid.nl/actueel/nieuws/2025/06/27/nederland-zet-in-op-200-miljoen-euro-voor-aifabriek-in-groningen"
   vastgesteld: 2026-11-10
   houdbaarheid_dagen: 90
-  status: te_verifieren
-  noot: "Alleen kop gezien. Bedragen, partners en huidige status (start medio 2026?) controleren"
+  status: vervangen
+  vervangen_door: K-NLD-006
+  noot: "Alleen kop gezien. Bedragen, partners en huidige status (start medio 2026?) controleren. Bijgewerkt in K-NLD-006."
   slides: [NLD-03]
+
+# ---------- Fase 2, 2026-11-10: bronnen voor sectie NLD ----------
+
+# NLD-02: Nederland in Europa
+- id: K-NLD-004
+  bewering: "Van de Nederlandse bedrijven met 10 of meer werknemers gebruikte 33,2% in 2025 AI, tegen 20,0% gemiddeld in de EU. Nederland staat daarmee zesde van 27, na Denemarken (42,0%), Finland (37,8%), Zweden (35,0%), België (34,5%) en Luxemburg (33,6%)."
+  peildatum: 2025
+  bron: eurostat
+  vindplaats: "Eurostat isoc_eb_ai (bijgewerkt 2026-06-15), E_AI_TANY, GE10; data/NLD-02_eu_vergelijking.csv"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 400
+  status: actueel
+  slides: [NLD-02, NLD-01]
+  noot: "CBS (K-NLD-001) telt vanaf 2 werkzame personen en komt daarom op 17%."
+- id: K-NLD-005
+  bewering: "In 2025 gebruikte 44,7% van de Nederlanders (16 tot 74 jaar) generatieve AI, tegen 32,7% in de EU; voor werk 26,6% tegen 15,4%. Nederland staat zesde van 27 bij het algemene gebruik en derde bij gebruik voor werk. Onder 16- tot 24-jarigen is het 74%, onder 55- tot 74-jarigen 19%."
+  peildatum: 2025
+  bron: eurostat
+  vindplaats: "Eurostat isoc_ai_iaiu (bijgewerkt 2026-06-05), I_IUAI en I_IUAIWP"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 400
+  status: actueel
+  slides: [NLD-02]
+
+# NLD-03: AI-fabriek Groningen
+- id: K-NLD-006
+  bewering: "De AI-fabriek in Groningen kost ruim 200 miljoen euro: circa 71,7 miljoen van EuroHPC, maximaal 60 miljoen van de regio Groningen en Noord-Drenthe, de rest van het Rijk. Het expertisecentrum start medio 2026 in de Niemeyerfabriek. SURF gunde op 21 september 2026 de huisvesting van de supercomputer (circa 1.800 GPU's) aan de datacentercampus van Eurofiber op Zernike; volledig in bedrijf naar verwachting begin 2028."
+  peildatum: 2026-09-21
+  bron: rijksoverheid
+  vindplaats: "Voortgangsbrief regering 1 juli 2026 (eerstekamer.nl); Dutch IT Channel, IO+ en The Next Web over de gunning"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 90
+  status: te_verifieren
+  slides: [NLD-03]
+  noot: "Voortgangsbrief niet zelf gelezen; bedragen, GPU-aantal en gunning via vakpers. Controleren in de brief en bij SURF."
+
+# NLD-05: GPT-NL
+- id: K-NLD-007
+  bewering: "GPT-NL, het taalmodel van TNO, SURF en het NFI, wordt sinds februari 2026 als bèta getest door een eerste groep gebruikers (vier overheidsorganisaties en TNO). Een bredere uitrol staat gepland voor de tweede helft van 2026. ANP en uitgevers stellen nieuwsdata beschikbaar voor training."
+  peildatum: 2026-02
+  bron: tno
+  vindplaats: "Computer Weekly, 'Netherlands moves GPT-NL from lab to live'; Dutch IT Channel (26 en 27 februari 2026); TNO-nieuws juli 2025"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 60
+  status: te_verifieren
+  slides: [NLD-05]
+  noot: "Primaire TNO-pagina niet gelezen. Nagaan of de bredere uitrol inmiddels heeft plaatsgevonden."
+
+# NLD-06: toezicht
+- id: K-NLD-008
+  bewering: "Het kabinet stelt voor dat bestaande toezichthouders binnen hun eigen domein toezicht houden op AI. De Autoriteit Persoonsgegevens wordt toezichthouder voor gebieden zonder duidelijke toezichthouder, met een speciale AI-bestuurder; AP en RDI krijgen een coördinerende rol. Het wetsvoorstel (Uitvoeringswet AI-verordening) lag tot 1 juni 2026 in consultatie en is nog niet in werking."
+  peildatum: 2026-04-20
+  bron: rijksoverheid
+  vindplaats: "https://www.rijksoverheid.nl/actueel/nieuws/2026/04/20/kabinet-zet-stap-met-toezicht-op-europese-ai-regels"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 90
+  status: actueel
+  slides: [NLD-06]
+  noot: "Volgens juridische analyses noemt het voorstel tien markttoezichthouders, onder wie AP, RDI, ILT, IGJ, NVWA, Arbeidsinspectie, AFM en DNB; dat staat niet op de pagina van de Rijksoverheid zelf."
+
+# NLD-07: netcongestie
+- id: K-NLD-009
+  bewering: "Op 1 juli 2026 stonden bijna 15.500 partijen in de wachtrij voor afname van transportcapaciteit op het stroomnet. Een jaar eerder ging het om 14.044 verzoeken van grootverbruikers voor samen 9,1 GW."
+  peildatum: 2026-07-01
+  bron: rijksoverheid
+  vindplaats: "Bijlage bij Kamerbrief over uitvoering moties (eerstekamer.nl, 5 oktober 2026); Kamerantwoorden op basis van Netbeheer Nederland"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 180
+  status: te_verifieren
+  slides: [NLD-07]
+  noot: "Cijfers via zoekresultaten uit Kamerstukken; documenten niet zelf geopend. Geen apart cijfer voor datacenters gevonden."
