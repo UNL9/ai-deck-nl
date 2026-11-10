@@ -15,6 +15,88 @@
   vindplaats: "White & Case, 'EU agrees Digital Omnibus deal to simplify AI rules'; State of AI Report 2026, slide 186"
   vastgesteld: 2026-11-10
   houdbaarheid_dagen: 30
-  status: te_verifieren
-  noot: "Formele vaststelling en publicatie in Publicatieblad controleren bij EUR-Lex"
+  status: vervangen
+  vervangen_door: K-GEO-003
+  noot: "Formele vaststelling en publicatie in Publicatieblad controleren bij EUR-Lex. Vastgesteld in juli 2026, zie K-GEO-003."
   slides: [GEO-05, SAM-02]
+
+# ---------- Fase 2, 2026-11-10: bronnen voor sectie GEO ----------
+
+# GEO-05: AI Act
+- id: K-GEO-003
+  bewering: "De wijziging van de AI Act (Digital Omnibus on AI) is formeel aangenomen: Parlement 16 juni, Raad 29 juni 2026, gepubliceerd als Verordening (EU) 2026/1744 op 24 juli 2026. Hoog-risicoverplichtingen voor losse systemen (Annex III) gelden vanaf 2 december 2027, voor systemen in producten (Annex I) vanaf 2 augustus 2028. Transparantieplichten (art. 50) en het toezicht op algemene modellen gingen in op 2 augustus 2026; een verbod op AI voor niet-consensuele intieme beelden geldt vanaf 2 december 2026."
+  peildatum: 2026-07-24
+  bron: eu-ai-act
+  vindplaats: "Verordening (EU) 2026/1744; Addleshaw Goddard, 'EU AI Act: AI Omnibus formally adopted' (1 juli 2026); Dastra en Mondaq"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 180
+  status: actueel
+  slides: [GEO-05, SAM-02]
+  noot: "Nummer en publicatiedatum via juridische vakbronnen; EUR-Lex was met de beschikbare middelen niet leesbaar. Voor systemen die al vóór 2 augustus 2026 op de markt waren, geldt voor watermerken een overgangstermijn tot 2 december 2026. AI-geletterdheid is afgezwakt tot een inspanningsverplichting."
+
+# GEO-01 en GEO-02: Washington en de labs
+- id: K-GEO-004
+  bewering: "Amerikaanse exportregels hielden Claude Fable en Mythos op 12 juni 2026 tegen; Fable kwam op 1 juli terug. In september vroeg het Witte Huis volgens Politico om Amerikaanse toetsing voordat OpenAI en Anthropic nieuwe modellen met Britse testers deelden."
+  peildatum: 2026-09
+  bron: soai
+  vindplaats: "State of AI Report 2026, slide 166"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 180
+  status: actueel
+  slides: [GEO-01]
+- id: K-GEO-005
+  bewering: "Anthropic weigerde Claude in te zetten voor binnenlandse massasurveillance en volledig autonome dodelijke wapens; het Pentagon merkte het bedrijf daarop aan als risico in de toeleveringsketen. Een rechter in Californië vernietigde op 27 augustus 2026 één aanwijzing als onrechtmatige vergelding; op 25 september handhaafde het hof in Washington de uitsluiting van defensie-aanbestedingen."
+  peildatum: 2026-09-25
+  bron: soai
+  vindplaats: "State of AI Report 2026, slide 167"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 90
+  status: actueel
+  slides: [GEO-02]
+  noot: "Belang van de bron: Anthropic is partij. Uitspraken zelf niet ingezien. Volgens Axios werd Claude gebruikt bij de operatie waarbij Maduro werd opgepakt (SoAI slide 168)."
+
+# GEO-03: soevereine AI
+- id: K-GEO-006
+  bewering: "NVIDIA verdiende in boekjaar 2026 ruim 30 miljard dollar aan soevereine AI-projecten. CNAS noemt NVIDIA als leverancier bij 53 soevereine projecten, tegen 18 voor HPE als nummer twee."
+  peildatum: 2026-01
+  bron: soai
+  vindplaats: "State of AI Report 2026, slide 172"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 180
+  status: actueel
+  slides: [GEO-03]
+
+# GEO-04: China
+- id: K-GEO-007
+  bewering: "Chinese provincies (Gansu, Guizhou, Binnen-Mongolië) gaven datacenters met binnenlandse chips volgens de FT tot 50% korting op stroom. China draaide in april 2026 de overname van Manus door Meta (circa 2 miljard dollar) terug en eist sinds juli 2026 goedkeuring voor het uitzenden van personeel of technische hulp bij gecontroleerde technologie."
+  peildatum: 2026-07
+  bron: soai
+  vindplaats: "State of AI Report 2026, slides 179 en 182"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 180
+  status: actueel
+  slides: [GEO-04]
+  noot: "NVIDIA rekent voor zijn volgende kwartaal op geen datacenteromzet uit China (K-INF-011)."
+
+# GEO-06: Amerikaanse staten
+- id: K-GEO-008
+  bewering: "De Amerikaanse Senaat verwierp in juli 2025 met 99 tegen 1 een voorstel om regulering door staten tien jaar te bevriezen. Trump zet sinds december 2025 rechtszaken en financiële druk in tegen wetten van staten. Californië nam op 9 september 2026 twee wetten aan die onafhankelijke beoordeling van AI-veiligheidsclaims regelen; de criteria voor erkende beoordelaars moeten er in januari 2028 zijn."
+  peildatum: 2026-09-09
+  bron: soai
+  vindplaats: "State of AI Report 2026, slides 184 en 185"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 180
+  status: actueel
+  slides: [GEO-06]
+
+# GEO-08: Europees frontierlab
+- id: K-GEO-009
+  bewering: "Een onafhankelijke Europese AI-strategie raamt de bouw van een Europees frontierlab op 790 miljard euro in drie jaar (bandbreedte 445 tot 1.040 miljard), waarvan 529 miljard voor chips en faciliteiten. Mistral zegde 1 GW Europese rekenkracht toe voor 2030; Mistral Large 4 Preview scoort 20 punten onder Claude Opus 5.5 op de Intelligence Index."
+  peildatum: 2026-09
+  bron: soai
+  vindplaats: "State of AI Report 2026, slides 175 en 177"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 365
+  status: actueel
+  slides: [GEO-08]
+  noot: "Een scenario van de auteurs, geen EU-beleid. Zie K-FRT-014 voor de actuele score van Mistral Large 4 (26 op Index v5)."

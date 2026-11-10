@@ -628,12 +628,17 @@ slides:
     kern: "Amerikaanse exportregels maken toegang tot de beste modellen voorwaardelijk."
     volatiliteit: kwartaal
     bronnen: [soai]
+    beweringen: [K-GEO-004]
     status: opzet
+    voorstel:
+      kern: "Amerikaanse exportregels hielden in juni de nieuwste Claude-modellen drie weken tegen. Toegang tot de beste modellen is voorwaardelijk, ook voor bondgenoten."
+      reden: "Concreet voorbeeld uit SoAI (K-GEO-004)."
   - id: GEO-02
     titel: "Wie bepaalt de grenzen van militair AI-gebruik: de overheid of het lab?"
     kern: "Het conflict tussen Anthropic en het Pentagon, terwijl frontier-AI al in militaire operaties wordt ingezet."
     volatiliteit: kwartaal
     bronnen: [soai]
+    beweringen: [K-GEO-005]
     status: opzet
   - id: GEO-03
     titel: "67 landen bouwen aan soevereine AI, maar soevereiniteit kun je niet huren"
@@ -641,13 +646,14 @@ slides:
     grafiek: "Aantal soevereine AI-projecten, cumulatief"
     volatiliteit: kwartaal
     bronnen: [cnas-sovereign, soai]
-    beweringen: [K-GEO-001]
+    beweringen: [K-GEO-001, K-GEO-006]
     status: opzet
   - id: GEO-04
     titel: "China bouwt een eigen keten, van stroom tot chips"
     kern: "Goedkope stroom bevoordeelt Chinese chips. China beperkt nu ook de export van kennis."
     volatiliteit: kwartaal
     bronnen: [soai]
+    beweringen: [K-GEO-007, K-INF-012]
     status: opzet
   - id: GEO-05
     titel: "De AI Act: hoog-risicoregels uitgesteld, transparantieplichten gaan door"
@@ -655,25 +661,32 @@ slides:
     grafiek: "Tijdlijn AI Act"
     volatiliteit: kwartaal
     bronnen: [eu-ai-act, soai]
-    beweringen: [K-GEO-002]
+    beweringen: [K-GEO-002, K-GEO-003]
     status: opzet
+    voorstel:
+      kern: "Regels voor algemene modellen gelden sinds augustus 2025, transparantieplichten sinds augustus 2026. Hoog-risico schuift naar december 2027 en augustus 2028. Vanaf december 2026 is AI voor niet-consensuele naaktbeelden verboden."
+      reden: "De wijziging is inmiddels vastgesteld (Verordening 2026/1744, juli 2026); de datums in de kern kloppen. Het nieuwe verbod en de afgezwakte plicht tot AI-geletterdheid zijn relevant voor bestuurders."
   - id: GEO-06
     titel: "In de VS reguleren de staten, ondanks Washington"
     kern: "Californië bouwt onafhankelijk toezicht op veiligheidsclaims. De federale overheid wil één nationaal kader."
     volatiliteit: kwartaal
     bronnen: [soai]
+    beweringen: [K-GEO-008]
     status: opzet
   - id: GEO-07
     titel: "Verzet tegen datacenters groeit"
     kern: "Amerikaanse staten stellen strengere voorwaarden. Het antwoord van Washington: betaal je eigen stroom."
     volatiliteit: kwartaal
     bronnen: [soai]
+    beweringen: [K-SAM-003]
     status: opzet
+    noot: "'Betaal je eigen stroom' en de strengere voorwaarden van staten nog niet onderbouwd met een bewering."
   - id: GEO-08
     titel: "Een Europees frontierlab kost honderden miljarden"
     kern: "Eén berekening komt op 790 miljard euro in drie jaar. Europa kan ook onderhandelen met locaties, stroom en chipmachines."
     volatiliteit: stabiel
     bronnen: [soai]
+    beweringen: [K-GEO-009]
     status: opzet
 
 # ---------- VEILIGHEID EN RISICO ----------
