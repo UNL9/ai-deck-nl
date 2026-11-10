@@ -40,5 +40,7 @@ Als er in een week niets materieels is veranderd, zeg dat in het verslag. Dat is
 
 ## Werken in VS Code
 
+- De bronrapporten als PDF staan lokaal in `bronnen/pdf/` (niet in git, zie `.gitignore`): State of AI Report 2026, ICONIQ State of AI 2026, Benedict Evans mei 2026. Lees ze met paginabereik; de State of AI PDF heeft 244 pagina's.
+
 - `python3 scripts/render_opzet.py` maakt `deck/opzet.md` (leesbaar overzicht) uit `deck/opzet.yaml`. Draai dit na elke wijziging in de opzet.
 - Vraag bij inhoudelijke keuzes over de verhaallijn eerst Joan; de opzet is van hem.
