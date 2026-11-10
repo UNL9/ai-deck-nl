@@ -423,21 +423,25 @@ slides:
     kern: "Per bedrijfsfunctie is de kloof tussen proef en productie groot. Bedrijfssoftware kost tijd."
     grafiek: "Pilot versus productie per functie"
     volatiliteit: kwartaal
-    bronnen: [evans, mckinsey-sai]
+    bronnen: [evans, mckinsey-sai, gallup, soai]
+    beweringen: [K-WRK-004, K-WRK-005, K-WRK-006, K-WRK-007]
     status: opzet
+    voorstel:
+      kern: "Van de S&P 500-bedrijven heeft 69 procent AI in gebruik, maar 2 procent volgt het effect over tijd. Een kwart van de Amerikaanse werknemers zegt dat hun organisatie een duidelijk plan voor AI heeft."
+      reden: "Kern had nog geen cijfers. McKinsey (agents op schaal: 40 procent bij grote, 22 procent bij kleinere organisaties) is te verifiëren; de PDF was niet te downloaden. Voor de grafiek 'pilot versus productie per functie' is de McKinsey-PDF nodig."
   - id: WRK-03
     titel: "De meeste winst zit nu in programmeren, klantenservice en marketing"
     kern: "Programmeerhulp levert de grootste productiviteitswinst. In Nederland is marketing en verkoop de meest genoemde toepassing."
     volatiliteit: kwartaal
-    bronnen: [iconiq, cbs]
-    beweringen: [K-NLD-002]
+    bronnen: [iconiq, cbs, gallup]
+    beweringen: [K-NLD-002, K-WRK-006, K-WRK-008]
     status: opzet
   - id: WRK-04
     titel: "De mens blijft aan het stuur, ook bij agents"
     kern: "In 72 procent van de onderzochte gesprekken leidt de mens en assisteert AI. Bij taken met meerdere stappen grijpt een mens vaak in, waardoor de winst van agents beperkt blijft."
     volatiliteit: kwartaal
     bronnen: [soai, iconiq, anthropic-econ]
-    beweringen: [K-MKT-009]
+    beweringen: [K-MKT-009, K-WRK-009]
     status: opzet
   - id: WRK-05
     titel: "Een taak automatiseren is iets anders dan een baan vervangen"
@@ -445,7 +449,9 @@ slides:
     grafiek: "Liftbedienden en accountants als aandeel van werkgelegenheid"
     volatiliteit: stabiel
     bronnen: [evans]
+    beweringen: [K-WRK-011]
     status: opzet
+    noot: "Grafiekdata nog nodig: historische beroepentelling VS (IPUMS of Census); Evans geeft alleen de grafiek. Bewering K-WRK-011 kan als actueel voorbeeld."
   - id: WRK-06
     titel: "Jonge werknemers lijken het eerst geraakt"
     kern: "De instroom van 22- tot 25-jarigen in beroepen die AI raakt is vertraagd. De oorzaak is onzeker, de werkloosheid in die beroepen is niet duidelijk gestegen."
@@ -458,20 +464,21 @@ slides:
     kern: "Ontwikkelaars die met AI een nieuwe bibliotheek leerden, konden de code daarna slechter uitleggen en fouten slechter vinden."
     volatiliteit: stabiel
     bronnen: [soai]
+    beweringen: [K-WRK-010]
     status: opzet
   - id: WRK-08
     titel: "De bouw van AI levert ook banen op"
     kern: "In de VS naar schatting 320.000 extra banen in infrastructuur en 730.000 in AI-gerelateerde beroepen."
     volatiliteit: kwartaal
     bronnen: [soai]
-    beweringen: [K-WRK-002]
+    beweringen: [K-WRK-002, K-WRK-011]
     status: opzet
   - id: WRK-09
     titel: "Organisaties worden platter, en de koplopers besteden honderden keren meer"
     kern: "45 procent van de AI-bouwers plant een andere rolverdeling, 33 procent een kleiner team. De top 1 procent besteedt 580 keer zoveel aan AI per medewerker als de mediaan."
     volatiliteit: kwartaal
     bronnen: [iconiq, soai, ramp]
-    beweringen: [K-WRK-003]
+    beweringen: [K-WRK-003, K-WRK-012]
     status: opzet
 
 # ---------- TOEPASSINGEN PER SECTOR ----------

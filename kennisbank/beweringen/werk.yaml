@@ -26,3 +26,105 @@
   houdbaarheid_dagen: 180
   status: actueel
   slides: [WRK-09]
+
+# ---------- Fase 2, 2026-11-10: bronnen voor sectie WRK ----------
+
+# WRK-02: pilot en productie
+- id: K-WRK-004
+  bewering: "Bij grote organisaties steeg het aandeel dat agents op schaal inzet in minstens één functie van 27% naar 40%; bij kleinere organisaties bleef het rond 22%. Ongeveer twee op de tien organisaties zetten codeeragents op schaal in."
+  peildatum: 2026-06
+  bron: mckinsey-sai
+  vindplaats: "McKinsey, The state of AI in 2026: On the road to ROI (augustus 2026); enquête 4 mei tot 8 juni 2026, 1.719 deelnemers"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 180
+  status: te_verifieren
+  slides: [WRK-02]
+  noot: "PDF van McKinsey was niet te downloaden; cijfers via zoekfragment van de PDF en secundaire verslagen. Secundair ook: 44% schaalt AI over de hele organisatie, 37% ziet effect op het bedrijfsresultaat, ongeveer 6% 'high performers'. Controleren in de PDF."
+- id: K-WRK-005
+  bewering: "47% van de Amerikaanse werknemers zegt dat hun organisatie AI heeft ingevoerd; 25% zegt dat de organisatie een duidelijk plan voor AI heeft gecommuniceerd."
+  peildatum: 2026-05
+  bron: gallup
+  vindplaats: "Gallup, Indicator: Artificial Intelligence (https://www.gallup.com/699797/indicator-artificial-intelligence.aspx)"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 120
+  status: actueel
+  slides: [WRK-02]
+  noot: "Sinds Q3 2025 met antwoordoptie 'weet niet'; niet vergelijkbaar met eerdere metingen."
+- id: K-WRK-006
+  bewering: "In mei 2026 gebruikte 15% van de Amerikaanse werknemers dagelijks AI in het werk, 30% minstens een paar keer per week en 52% minstens een paar keer per jaar. Dagelijks gebruik is het hoogst in de techsector (42%), de financiële sector (27%) en de zakelijke dienstverlening (22%)."
+  peildatum: 2026-05
+  bron: gallup
+  vindplaats: "Gallup, Indicator: Artificial Intelligence"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 120
+  status: actueel
+  slides: [WRK-02, WRK-03]
+  noot: "Sectorcijfers uit het zoekfragment van dezelfde pagina."
+- id: K-WRK-007
+  bewering: "Van de S&P 500-bedrijven meldt 69% dat AI in gebruik is, maar 2% rapporteert maatstaven die over tijd gevolgd worden."
+  peildatum: 2026
+  bron: soai
+  vindplaats: "State of AI Report 2026, slide 98"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 180
+  status: actueel
+  slides: [WRK-02]
+
+# WRK-03: waar de winst zit
+- id: K-WRK-008
+  bewering: "Bij AI-bouwers in de ICONIQ-enquête levert programmeerhulp de grootste productiviteitswinst: gemiddeld 48% bij snelgroeiende bedrijven, tegen 32% bij de rest."
+  peildatum: 2026-05
+  bron: iconiq
+  vindplaats: "ICONIQ State of AI 2026, slide 37"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 180
+  status: actueel
+  slides: [WRK-03]
+  noot: "Zelfgerapporteerd door AI-bouwers, vooral VS; niet representatief voor Nederlandse organisaties."
+
+# WRK-04: de mens aan het stuur
+- id: K-WRK-009
+  bewering: "Van de actieve medewerkers van OpenAI gebruikte 97,9% Codex in de afgelopen 28 dagen, tegen 17,3% van de zakelijke en 0,7% van de individuele ChatGPT-gebruikers. Het aandeel individuele gebruikers dat Codex een taak van naar schatting acht uur gaf, steeg van 2,1% (december 2025) naar 25,6% (mei 2026)."
+  peildatum: 2026-05
+  bron: soai
+  vindplaats: "State of AI Report 2026, slide 98 (OpenAI-data)"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 180
+  status: actueel
+  slides: [WRK-04, WRK-09]
+
+# WRK-07: kennisverlies
+- id: K-WRK-010
+  bewering: "In een experiment van Anthropic leerden 52 ontwikkelaars een nieuwe Python-bibliotheek. Wie dat met AI deed, scoorde daarna 50% op een begripstoets zonder AI, tegen 67% voor wie het zonder AI leerde. De snelheidswinst door AI was niet significant."
+  peildatum: 2026
+  bron: soai
+  vindplaats: "State of AI Report 2026, slide 105 (Anthropic)"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 365
+  status: actueel
+  slides: [WRK-07]
+  noot: "Meet direct leren, geen langetermijnverlies van vaardigheden. Primaire Anthropic-publicatie nog niet gecontroleerd."
+
+# WRK-08: banen
+- id: K-WRK-011
+  bewering: "In de VS groeide de werkgelegenheid tussen mei 2023 en mei 2025 voor datawetenschappers (plus 37%) en paralegals (plus 11%), en daalde die voor klantenservice (min 9%) en data-invoer (min 18%)."
+  peildatum: 2025-05
+  bron: soai
+  vindplaats: "State of AI Report 2026, slide 107 (Amerikaanse beroepenstatistiek)"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 365
+  status: actueel
+  slides: [WRK-08, WRK-05]
+  noot: "Primaire bron: BLS Occupational Employment and Wage Statistics; nog niet zelf gecontroleerd."
+
+# WRK-09: koplopers
+- id: K-WRK-012
+  bewering: "In augustus 2026 besteedde het mediane bedrijf in de top 1% van Ramp 7.205 dollar per medewerker per maand aan AI, tegen 12,50 dollar voor het mediane bedrijf: ongeveer 580 keer zoveel. 1% van de klanten is goed voor circa 80% van de uitgaven aan OpenAI en Anthropic."
+  peildatum: 2026-08
+  bron: ramp
+  vindplaats: "State of AI Report 2026, slide 96 (Ramp)"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 90
+  status: actueel
+  slides: [WRK-09]
+  noot: "Amerikaanse bedrijven die via Ramp betalen."
