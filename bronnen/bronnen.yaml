@@ -79,7 +79,7 @@ data_en_metingen:
     betrouwbaarheid: B
   - id: lmarena
     naam: LMArena (ranglijst op basis van stemmen van gebruikers)
-    url: https://lmarena.ai/leaderboard
+    url: https://arena.ai/leaderboard/text
     type: ranglijst
     frequentie: wekelijks
     betrouwbaarheid: B
