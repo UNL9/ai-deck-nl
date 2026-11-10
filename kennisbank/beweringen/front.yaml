@@ -77,8 +77,10 @@
   vindplaats: "State of AI Report 2026, slide 146 (Waymo safety hub)"
   vastgesteld: 2026-11-10
   houdbaarheid_dagen: 90
-  status: actueel
+  status: vervangen
+  vervangen_door: K-SEC-009
   slides: [SEC-10]
+  noot: "Mijlen en veiligheidscijfer vervangen door K-SEC-009 (Waymo, juni 2026). Ritten per week en aantal steden nog niet opnieuw vastgesteld."
 
 # ---------- Fase 2, 2026-11-10: primaire bronnen voor sectie FRT ----------
 
