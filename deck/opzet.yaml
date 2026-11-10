@@ -815,36 +815,46 @@ slides:
     titel: "AI hoort op de agenda van bestuur en raad van commissarissen"
     kern: "Vijf vragen die elke raad nu moet stellen: over strategie, waarde, risico, mensen en leveranciers."
     volatiliteit: stabiel
+    beweringen: [K-WRK-005, K-WRK-007]
     status: opzet
   - id: GOV-02
     titel: "Een AI-strategie begint bij processen en data, en meet waarde in plaats van gebruik"
     kern: "Aantal gebruikers en tokenuitgaven zeggen weinig, en de kosten van interne AI zijn moeilijk te voorspellen. Meet doorlooptijd, kwaliteit en kosten per proces."
     volatiliteit: stabiel
-    bronnen: [iconiq]
+    bronnen: [iconiq, soai, gallup]
+    beweringen: [K-WRK-007, K-WRK-004, K-MKT-014]
     status: opzet
   - id: GOV-03
     titel: "Bouwen, kopen of laten doen: de keuze verschuift"
     kern: "Modellen worden uitwisselbaar, aanbieders verkopen werk in plaats van software, en de labs bieden met eigen adviesbedrijven zelf implementatie aan."
     volatiliteit: stabiel
-    bronnen: [soai, evans]
+    bronnen: [soai, evans, iconiq]
+    beweringen: [K-SEC-003, K-MKT-008]
     status: opzet
   - id: GOV-04
     titel: "Ken je risico's: schaduw-AI, datalekken en afhankelijkheid van twee leveranciers"
     kern: "De drie risico's die nu het vaakst onderschat worden."
     volatiliteit: stabiel
+    beweringen: [K-VEI-010, K-MKT-020, K-MKT-021]
     status: opzet
   - id: GOV-05
     titel: "AI-geletterdheid is een wettelijke plicht"
     kern: "Artikel 4 van de AI Act verplicht organisaties die AI inzetten om te zorgen dat hun mensen er voldoende van weten."
     volatiliteit: kwartaal
     bronnen: [eu-ai-act]
-    status: opzet
-    noot: "Verifiëren of de Digital Omnibus deze plicht heeft gewijzigd"
+    beweringen: [K-GOV-001]
+    status: herzien
+    noot: "Verifiëren of de Digital Omnibus deze plicht heeft gewijzigd (ja: inspanningsverplichting, K-GOV-001)"
+    voorstel:
+      titel: "AI-geletterdheid blijft een plicht, maar wordt een inspanningsverplichting"
+      kern: "Sinds de wijziging van de AI Act in juli 2026 moeten organisaties maatregelen nemen om de AI-kennis van hun mensen te ondersteunen. Een bepaald niveau per persoon hoeven ze niet te garanderen."
+      reden: "De Digital Omnibus heeft artikel 4 afgezwakt. De oude kern ('zorgen dat hun mensen er voldoende van weten') is strenger dan de huidige tekst."
   - id: GOV-06
     titel: "Verantwoord gebruik vraagt een register, een eigenaar en menselijk toezicht"
     kern: "Weet welke AI-systemen je gebruikt, wie verantwoordelijk is en waar een mens meekijkt. De overheid doet het voor met het algoritmeregister."
     volatiliteit: stabiel
-    bronnen: [ap-ran, eu-ai-act]
+    bronnen: [ap-ran, eu-ai-act, rijksoverheid]
+    beweringen: [K-GOV-002, K-SEC-004]
     status: opzet
   - id: GOV-07
     titel: "Wat de komende twaalf maanden op de bestuursagenda hoort"
@@ -858,12 +868,14 @@ slides:
     kern: "De voorspellingen uit het State of AI Report, met per voorspelling de stand van zaken."
     volatiliteit: kwartaal
     bronnen: [soai]
+    beweringen: [K-VBK-001, K-VBK-002]
     status: opzet
   - id: VBK-02
     titel: "AGI: wanneer, en wat bedoelen we er eigenlijk mee?"
     kern: "Labbazen noemen jaartallen, maar definities lopen uiteen. Bij elke platformverschuiving mislukten de meeste voorspellingen; de goede vraag is wat er nu al kan."
     volatiliteit: kwartaal
     bronnen: [soai, evans]
+    beweringen: [K-VBK-002, K-VBK-001]
     status: opzet
   - id: VBK-03
     titel: "Bronnen en verder lezen"

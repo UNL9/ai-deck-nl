@@ -1,0 +1,26 @@
+# Thema: governance en verantwoord gebruik
+# Fase 2, 2026-11-10
+
+# GOV-05: AI-geletterdheid
+- id: K-GOV-001
+  bewering: "Artikel 4 van de AI Act (AI-geletterdheid) geldt sinds 2 februari 2025. Met de Digital Omnibus (juli 2026) is het een inspanningsverplichting geworden: aanbieders en gebruikers moeten maatregelen nemen om de AI-geletterdheid van hun personeel te ondersteunen, maar hoeven geen bepaald niveau per persoon te garanderen."
+  peildatum: 2026-07
+  bron: eu-ai-act
+  vindplaats: "Verordening (EU) 2026/1744; Addleshaw Goddard, 'EU AI Act: AI Omnibus formally adopted' (1 juli 2026)"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 365
+  status: actueel
+  slides: [GOV-05]
+  noot: "Zie K-GEO-003. Formulering via juridische vakbron; verordeningstekst op EUR-Lex niet zelf gelezen."
+
+# GOV-06: register
+- id: K-GOV-002
+  bewering: "In het Algoritmeregister van de Nederlandse overheid staan 1.640 algoritmes."
+  peildatum: 2026-11-10
+  bron: rijksoverheid
+  vindplaats: "https://algoritmes.overheid.nl/nl"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 90
+  status: actueel
+  slides: [GOV-06]
+  noot: "Het register vermeldt geen peildatum; stand bij ophalen. Aantal organisaties niet op de startpagina."

@@ -1,0 +1,23 @@
+# Thema: vooruitblik
+# Fase 2, 2026-11-10
+
+# VBK-01: voorspellingen
+- id: K-VBK-001
+  bewering: "Van de tien voorspellingen die het State of AI Report in 2025 deed, kwamen er volgens de auteurs twee uit, drie niet en vijf deels."
+  peildatum: 2026-10
+  bron: soai
+  vindplaats: "State of AI Report 2026, slide 238"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 365
+  status: actueel
+  slides: [VBK-01]
+  noot: "Uitgekomen: een groot lab dat weer open modellen uitbrengt, en een Chinees lab op 1 van een belangrijke ranglijst (Kimi K3 op de WebDev-lijst van Arena). Zelfbeoordeling door de auteurs."
+- id: K-VBK-002
+  bewering: "Het State of AI Report 2026 doet negen voorspellingen voor de komende twaalf maanden, waaronder: Visa of Mastercard regelt aansprakelijkheid voor aankopen door AI-agents; een AI-aanval steelt de volledige gewichten van een gesloten frontiermodel; een autonoom AI-team verslaat door mensen geleid modelonderzoek; een agent kopieert zichzelf buiten zijn omgeving; en 'AGI 2027'."
+  peildatum: 2026-10
+  bron: soai
+  vindplaats: "State of AI Report 2026, slide 239"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 365
+  status: actueel
+  slides: [VBK-01, VBK-02]
