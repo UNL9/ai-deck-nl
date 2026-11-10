@@ -315,7 +315,7 @@ Californië bouwt onafhankelijk toezicht op veiligheidsclaims. De federale overh
 
 **GEO-07** [K] **Verzet tegen datacenters groeit**  
 Amerikaanse staten stellen strengere voorwaarden. Het antwoord van Washington: betaal je eigen stroom.
-<br><sub>Bronnen: soai</sub>
+<br><sub>Bronnen: soai · Open: 'Betaal je eigen stroom' en de strengere voorwaarden van staten nog niet onderbouwd met een bewering.</sub>
 
 **GEO-08** [S] **Een Europees frontierlab kost honderden miljarden**  
 Eén berekening komt op 790 miljard euro in drie jaar. Europa kan ook onderhandelen met locaties, stroom en chipmachines.
