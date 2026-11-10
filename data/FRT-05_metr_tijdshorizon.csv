@@ -1,0 +1,29 @@
+# bron: METR, Time Horizon 1.1 (via Epoch AI Benchmarking hub, metr_time_horizons_external.csv)
+# url: https://metr.org/time-horizons ; https://epoch.ai/benchmarks
+# licentie: CC-BY 4.0 (Epoch AI-dataset); oorspronkelijke metingen METR
+# opgehaald: 2026-11-10
+# 50%-tijdshorizon in uren menselijk expertwerk, 95%-betrouwbaarheidsinterval. METR: metingen boven 16 uur onbetrouwbaar; pagina sinds 2026-09-08 niet meer bijgewerkt. Logaritmische schaal vermelden.
+uitkomstdatum,model,lab,horizon_50_uur,ci_laag_uur,ci_hoog_uur,horizon_80_uur
+2023-03-14,gpt-4-0314,OpenAI,0.07,0.03,0.13,0.01
+2023-11-06,gpt-4-1106-preview,OpenAI,0.07,0.03,0.14,0.01
+2024-02-29,claude-3-opus-20240229,Anthropic,0.07,0.03,0.15,0.01
+2024-04-09,gpt-4-turbo-2024-04-09,OpenAI,0.06,0.03,0.11,0.02
+2024-05-13,gpt-4o-2024-05-13,OpenAI,0.12,0.06,0.21,0.02
+2024-06-20,claude-3-5-sonnet-20240620,Anthropic,0.19,0.09,0.37,0.03
+2024-09-12,o1-preview-2024-09-12,OpenAI,0.34,0.20,0.56,0.07
+2024-10-22,claude-3-5-sonnet-20241022,Anthropic,0.34,0.17,0.68,0.04
+2024-12-17,o1-2024-12-17_medium,OpenAI,0.65,0.35,1.08,0.12
+2025-02-24,claude-3-7-sonnet-20250219,Anthropic,1.01,0.56,1.79,0.20
+2025-04-16,o3-2025-04-16_unknown,OpenAI,2.00,1.22,3.19,0.50
+2025-05-22,claude-opus-4-20250514_unknown,Anthropic,1.67,1.01,2.72,0.34
+2025-08-05,claude-opus-4-1-20250805,Anthropic,1.67,1.00,2.63,0.39
+2025-08-07,gpt-5-2025-08-07_high,OpenAI,3.38,1.90,6.78,0.64
+2025-11-18,gemini-3-pro-preview,Google,3.74,2.28,6.46,0.90
+2025-11-19,gpt-5.1-codex-max,OpenAI,3.73,2.24,6.60,0.84
+2025-11-24,claude-opus-4-5-20251101,Anthropic,4.88,2.68,10.64,0.82
+2025-12-11,gpt-5.2-2025-12-11_high,OpenAI,5.87,3.19,14.37,1.10
+2026-02-05,claude-opus-4-6_unknown,Anthropic,11.98,5.32,65.83,1.16
+2026-02-05,gpt-5.3-codex,OpenAI,5.83,3.20,14.31,0.91
+2026-02-19,gemini-3.1-pro-preview,Google,6.40,3.89,11.58,1.50
+2026-03-05,gpt-5.4-2026-03-05_xhigh,OpenAI,5.70,3.11,12.81,0.90
+2026-04-07,claude-mythos-preview-early,Anthropic,17.41,8.48,55.07,3.10

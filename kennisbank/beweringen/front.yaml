@@ -6,8 +6,10 @@
   vindplaats: "State of AI Report 2026, slide 6 (citeert Artificial Analysis)"
   vastgesteld: 2026-11-10
   houdbaarheid_dagen: 14
-  status: actueel
+  status: vervangen
+  vervangen_door: K-FRT-009
   slides: [FRT-01]
+  noot: "Gemeten op Index v4.x. Artificial Analysis stapte op 2026-10-27 over op v5; scores niet vergelijkbaar (zie K-FRT-010)."
 - id: K-FRT-002
   bewering: "Op de standaardranglijst van LMArena leidt Gemini 4 Argon (1525), volgen Claude-modellen rond 1505 en staat het beste OpenAI-model (GPT-5.6 Sol) op plaats 20."
   peildatum: 2026-09
@@ -15,7 +17,8 @@
   vindplaats: "State of AI Report 2026, slide 6"
   vastgesteld: 2026-11-10
   houdbaarheid_dagen: 14
-  status: actueel
+  status: vervangen
+  vervangen_door: K-FRT-012
   slides: [FRT-02]
 - id: K-FRT-003
   bewering: "Het beste Chinese open model, Xiaomi MiMo-V2.6-Pro, scoort 46 op de Intelligence Index."
@@ -24,8 +27,10 @@
   vindplaats: "State of AI Report 2026, slide 6"
   vastgesteld: 2026-11-10
   houdbaarheid_dagen: 30
-  status: actueel
+  status: vervangen
+  vervangen_door: K-FRT-014
   slides: [FRT-03]
+  noot: "Gemeten op Index v4.x. Op v5 scoort MiMo-V2.6-Pro 30."
 - id: K-FRT-004
   bewering: "FrontierMath Tier 4 ging van 22% (GPT-5, augustus 2025) naar 100% (GPT-6.1 Sol, september 2026)."
   peildatum: 2026-09
@@ -33,8 +38,10 @@
   vindplaats: "State of AI Report 2026, slide 39 (citeert Epoch AI)"
   vastgesteld: 2026-11-10
   houdbaarheid_dagen: 90
-  status: actueel
+  status: vervangen
+  vervangen_door: K-FRT-017
   slides: [FRT-04]
+  noot: "Cijfers bevestigd bij Epoch (primair); vervangen door de primaire regel, aangevuld met Claude Fable 5.2."
 - id: K-FRT-005
   bewering: "Het aandeel model-R&D-taken bij Anthropic waarin Claude de leiding heeft (onder menselijk toezicht) steeg van minder dan 1% in februari naar 26% in augustus 2026."
   peildatum: 2026-08
@@ -51,7 +58,8 @@
   vindplaats: "State of AI Report 2026, slide 39"
   vastgesteld: 2026-11-10
   houdbaarheid_dagen: 60
-  status: actueel
+  status: vervangen
+  vervangen_door: K-FRT-023
   slides: [FRT-08]
 - id: K-FRT-007
   bewering: "Medicijnen uit AI-first geneesmiddelenonderzoek hebben fase 3 van klinische studies bereikt."
@@ -71,3 +79,218 @@
   houdbaarheid_dagen: 90
   status: actueel
   slides: [SEC-10]
+
+# ---------- Fase 2, 2026-11-10: primaire bronnen voor sectie FRT ----------
+
+# FRT-01 en FRT-02: ranglijsten
+- id: K-FRT-009
+  bewering: "Op de Artificial Analysis Intelligence Index (v5.0.1) leidt Claude Fable 5.2 (max) met 65. Gemini 4 Carbon (high) volgt met 60, GPT-6 Astra (max) met 57. Gemini 4 Carbon is beperkt beschikbaar."
+  peildatum: 2026-11-10
+  bron: artificial-analysis
+  vindplaats: "https://artificialanalysis.ai/leaderboards/models"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 14
+  status: actueel
+  slides: [FRT-01, FRT-02]
+  noot: "Fable 5.2 uitgebracht 2026-11-09 (anthropic.com/news). Gemini 4 Carbon aangekondigd 2026-10-28, eerst voor partners en cyberverdedigers; Epoch labelt het als 'Unreleased'. Data: data/FRT-01_aa_index_v5.csv."
+- id: K-FRT-010
+  bewering: "Artificial Analysis voerde op 27 oktober 2026 versie 5 van de Intelligence Index in: nieuwe en vervangen onderdelen, en 60% van de index rust nu op niet-openbare testsets. Scores van v4 en v5 zijn niet onderling vergelijkbaar."
+  peildatum: 2026-10-27
+  bron: artificial-analysis
+  vindplaats: "https://artificialanalysis.ai/articles/artificial-analysis-intelligence-index-v5"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 180
+  status: actueel
+  slides: [FRT-01, FRT-02, FRT-03]
+  noot: "AA zegt niet letterlijk dat v4 en v5 onvergelijkbaar zijn, maar negen onderdelen veranderden. AA lanceerde tegelijk een Progress Index v1 voor vergelijking over tijd."
+- id: K-FRT-011
+  bewering: "Op de Epoch Capabilities Index leidt Claude Fable 5.2 met 174,2 (95%-interval 170,1 tot 178,8). Daarna volgt een cluster binnen drie punten: GPT-6 Astra 169,2, GPT-6.1 Sol 168,9, Claude Opus 5.5 168,7 en Gemini 4 Argon 166,5."
+  peildatum: 2026-11-10
+  bron: epoch
+  vindplaats: "https://epoch.ai/eci (benchmark_data.zip, eci_scores.csv)"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 14
+  status: actueel
+  slides: [FRT-01, FRT-02]
+  noot: "Open data (CC-BY), daarom basis voor de grafiek van FRT-01. Gemini 4 Carbon staat nog niet in de ECI. Data: data/FRT-01_eci_beste_per_lab.csv."
+- id: K-FRT-012
+  bewering: "Op LMArena (tekst, standaardweergave) leidt Gemini 4 Carbon (1526), gevolgd door Gemini 4 Argon (1522), Meta Muse Wonder (1511) en Claude Opus 5.5 (1506). Het beste OpenAI-model, GPT-5.6 Sol, staat op plaats 22 (1485)."
+  peildatum: 2026-11-09
+  bron: lmarena
+  vindplaats: "https://arena.ai/leaderboard/text (lmarena.ai verwijst nu door naar arena.ai)"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 14
+  status: actueel
+  slides: [FRT-02]
+  noot: "Gemini 4 Carbon heeft nog weinig stemmen (4.282, marge ±10): de eerste plaats is statistisch niet te onderscheiden van Argon. Claude Fable 5.2 staat er nog niet op. Data: data/FRT-02_drie_ranglijsten.csv."
+- id: K-FRT-013
+  bewering: "Bij lange programmeertaken hangt de winnaar af van taak en budget. FrontierSWE: GPT-6 Astra 65,5% tegen Claude Opus 5.5 62,3%, bij 1.030 tegen 99 dollar per poging. MirrorCode: Opus 5.5 77% tegen Astra 47%."
+  peildatum: 2026-09
+  bron: soai
+  vindplaats: "State of AI Report 2026, slide 42"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 90
+  status: actueel
+  slides: [FRT-02]
+  noot: "Primaire bronnen (FrontierSWE, MirrorCode) nog niet zelf gecontroleerd."
+
+# FRT-03: China en open modellen
+- id: K-FRT-014
+  bewering: "Het beste Chinese model op de Intelligence Index (v5) is Kimi K3.1 Pro van Moonshot met 46, 19 punten onder de koploper. Van de modellen waarvan de gewichten echt zijn vrijgegeven, scoort DeepSeek V4.1 Flash 1017 het hoogst (33). Het beste Europese open model, Mistral Large 4, scoort 26."
+  peildatum: 2026-11-10
+  bron: artificial-analysis
+  vindplaats: "https://artificialanalysis.ai/models/open-source ; artikel Index v5"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 14
+  status: actueel
+  slides: [FRT-03]
+  noot: "Volgens AA zijn de gewichten van Kimi K3.1 Pro nog niet vrijgegeven; Epoch labelt het model als 'Open weights (restricted use)'. Bij volgende controle nagaan. AA meldt dat het verschil tussen open en gesloten modellen bij de overgang naar v5 groeide van 3 naar 12 punten."
+- id: K-FRT-015
+  bewering: "Op de Epoch Capabilities Index scoort het beste Chinese model (Kimi K3.1 Pro) 162,0 tegen 174,2 voor het beste Amerikaanse. In september was dat 158,5 tegen 169,2. De achterstand is dus niet kleiner geworden."
+  peildatum: 2026-11-10
+  bron: epoch
+  vindplaats: "eci_scores.csv; eigen bewerking in data/FRT-03_eci_vs_china.csv"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 30
+  status: actueel
+  slides: [FRT-03]
+  noot: "Eigen afleiding: hoogste ECI tot en met de maand. Intervallen van circa ±3 punten."
+- id: K-FRT-016
+  bewering: "In AI-papers op arXiv groeide het aandeel Chinese modelfamilies onder de vermeldingen van open modellen van 9% (2024) naar 31% (2026); Amerikaanse open modellen daalden van 31% naar 23%. Qwen haalde Llama in. Gesloten Amerikaanse modellen zijn met 42% van alle vermeldingen nog de grootste groep."
+  peildatum: 2026
+  bron: soai
+  vindplaats: "State of AI Report 2026, slide 7 (analyse Zeta Alpha)"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 365
+  status: actueel
+  slides: [FRT-03]
+
+# FRT-04: verzadiging van benchmarks
+- id: K-FRT-017
+  bewering: "FrontierMath Tier 4 (41 privé-opgaven op onderzoeksniveau, versie 2): GPT-5 scoorde 22% (augustus 2025), GPT-6.1 Sol 100% (september 2026). Claude Fable 5.2 haalde in november ook 100%, Claude Opus 5.5 95%."
+  peildatum: 2026-11-09
+  bron: epoch
+  vindplaats: "https://epoch.ai/frontiermath/tiers-1-4 (benchmark_data.zip, frontiermath_tier_4_v2.csv)"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 30
+  status: actueel
+  slides: [FRT-04]
+  noot: "Versie 2 sinds 2026-06-12 (fouten in 42% van de opgaven hersteld); oudere modellen opnieuw gemeten. Op versie 1 scoorde GPT-5 12,5%. OpenAI financiert FrontierMath en heeft toegang tot 30 van de oorspronkelijke 50 Tier 4-opgaven. Data: data/FRT-04_frontiermath_tier4.csv."
+- id: K-FRT-018
+  bewering: "ARC-AGI-3 (maart 2026; mensen 100%, eerste modellen 0,5%): Claude Fable 5.2 haalt 81,2% met de standaardopzet, GPT-6 Astra 62,7%. Met een eigen koppeling van de aanbieder scoren de beste modellen 96 tot 99,9%."
+  peildatum: 2026-11-09
+  bron: arc-prize
+  vindplaats: "https://arcprize.org/leaderboard (kolommen Standard en Provider adapter)"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 14
+  status: actueel
+  slides: [FRT-04]
+  noot: "Menselijke en startscore uit State of AI 2026, slide 40. Uitslag ARC Prize 2026 volgt op 2026-12-04."
+
+# FRT-05: tijdshorizon van agents
+- id: K-FRT-019
+  bewering: "METR mat de taaklengte (in uren werk van een menselijke expert) die een model in de helft van de gevallen afrondt: Claude 3.7 Sonnet 1,0 uur (februari 2025), Claude Opus 4.5 4,9 uur (november 2025), Claude Opus 4.6 12,0 uur (februari 2026), Claude Mythos Preview 17,4 uur (april 2026, interval 8,5 tot 55,1 uur)."
+  peildatum: 2026-05
+  bron: metr
+  vindplaats: "https://metr.org/time-horizons; data via Epoch (metr_time_horizons_external.csv, Time Horizon 1.1)"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 90
+  status: actueel
+  slides: [FRT-05]
+  noot: "Beste OpenAI-meting: GPT-5.2 (high) 5,9 uur; beste Google: Gemini 3.1 Pro 6,4 uur. Data: data/FRT-05_metr_tijdshorizon.csv."
+- id: K-FRT-020
+  bewering: "METR noemt metingen boven 16 uur onbetrouwbaar met de huidige takenset en werkt de tijdshorizonpagina sinds 8 september 2026 niet meer actief bij. Voor Claude Fable 5.x, Claude Opus 5.5 en GPT-6 is er geen meting."
+  peildatum: 2026-09-08
+  bron: metr
+  vindplaats: "https://metr.org/time-horizons (wijzigingslog en FAQ)"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 30
+  status: actueel
+  slides: [FRT-05]
+  noot: "De tijdshorizon meet hoe moeilijk een taak is, niet hoe lang een agent zonder toezicht werkt (State of AI 2026, slide 44). Nagaan of METR een opvolger publiceert."
+
+# FRT-06: programmeren
+- id: K-FRT-021
+  bewering: "Programmeren is volgens a16z de grootste categorie in de zakelijke uitgaven aan AI-toepassingen (op jaarbasis, maart 2026)."
+  peildatum: 2026-03
+  bron: evans
+  vindplaats: "Benedict Evans, AI eats the world, mei 2026, slide 37 (bron: a16z)"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 180
+  status: te_verifieren
+  slides: [FRT-06]
+  noot: "Alleen als grafiek bij Evans, zonder cijfers in de tekst. Primaire a16z-publicatie zoeken voor het bedrag."
+
+# FRT-07: AI helpt AI bouwen
+- id: K-FRT-022
+  bewering: "METR beoordeelde Anthropic's risicorapport (augustus 2026) en schat de versnelling van AI-onderzoek bij Anthropic op 1,3 tot 2,8 keer, afhankelijk van definitie en periode. Volgens METR onderschat het openbare rapport die versnelling; volledige automatisering van het onderzoek ziet METR nog niet."
+  peildatum: 2026-07-15
+  bron: metr
+  vindplaats: "https://metr.org/blog/2026-11-05-rd-section-anthropic-risk-report-august-2026-review/"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 90
+  status: actueel
+  slides: [FRT-07]
+  noot: "Onafhankelijke toets op K-FRT-005, dat van Anthropic zelf komt. METR acht het denkbaar dat Anthropic's waarschuwingsdrempel (2x versnelling) per 15 juli al was bereikt; de meeste betrokken onderzoekers denken van niet."
+
+# FRT-08: wiskunde en wetenschap
+- id: K-FRT-023
+  bewering: "Epoch volgt 49 open onderzoeksproblemen in de wiskunde. Tien zijn opgelost met AI: vijf door AI alleen, vijf door mensen en AI samen."
+  peildatum: 2026-10-07
+  bron: epoch
+  vindplaats: "https://epoch.ai/frontiermath/open-problems"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 60
+  status: actueel
+  slides: [FRT-08]
+  noot: "Kop op de pagina noemt 50 problemen, het filter 49. Twee problemen (Hadamard-matrix 668, M23) staan in de lijst anders dan in het wijzigingslog. Laatste wijzigingslog 2026-09-16, data 2026-10-07."
+
+# FRT-09: robotica
+- id: K-FRT-024
+  bewering: "Skild S1 rondt onbekende robottaken na één voorbeeldvideo af in 66% van de gevallen bij 100.000 uur voortraining, tegen ongeveer 0% bij 1.000 uur. Een model met taalinstructies op dezelfde data blijft op 9%. Sunday Robotics ziet hetzelfde bij het vouwen van was."
+  peildatum: 2026
+  bron: soai
+  vindplaats: "State of AI Report 2026, slide 56"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 180
+  status: actueel
+  slides: [FRT-09]
+  noot: "Bedrijfscijfers van Skild en Sunday Robotics; primaire publicatie nog niet gecontroleerd."
+
+# FRT-10: hoge scores, half werk
+- id: K-FRT-025
+  bewering: "Op FrontierChallenge (97 wetenschappelijke analyses) scoort GPT-5.6 Sol 87,9 van 100 punten, maar rondt het 20,6% van de taken volledig af. Op OSWorld 2.0 (kantoortaken) haalt Claude Opus 5 77,7% deelscore en voltooit het 44,3%."
+  peildatum: 2026
+  bron: soai
+  vindplaats: "State of AI Report 2026, slide 43"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 180
+  status: actueel
+  slides: [FRT-10]
+- id: K-FRT-026
+  bewering: "In E-CommerceBench (een gesimuleerd jaar webwinkels runnen) behaalt GPT-5.6 Sol het hoogste rendement, maar gaat 18,48% van zijn inkoop naar frauduleuze leveranciers. Bij Claude Opus 4.7 is dat 0,12%."
+  peildatum: 2026
+  bron: soai
+  vindplaats: "State of AI Report 2026, slide 46 (Alibaba en HKUST)"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 180
+  status: actueel
+  slides: [FRT-10]
+- id: K-FRT-027
+  bewering: "Toen drie frontiermodellen robotarmen in een lab bestuurden, was 89 van de 192 keer dat een model 'klaar' meldde, de taak niet af."
+  peildatum: 2026
+  bron: soai
+  vindplaats: "State of AI Report 2026, slide 72 (Mecka)"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 180
+  status: actueel
+  slides: [FRT-10, FRT-08]
+- id: K-FRT-028
+  bewering: "In DiG-bench (70 onbekende tekstspellen zonder uitleg van de regels) loste Claude Opus 5 er 50 op, maar losten de frontiermodellen samen 9 van de 20 moeilijkste op. Gemini 3.1 Pro ging van 18 naar 69 van de 70 toen het de regels kreeg."
+  peildatum: 2026
+  bron: soai
+  vindplaats: "State of AI Report 2026, slide 47"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 180
+  status: actueel
+  slides: [FRT-10]

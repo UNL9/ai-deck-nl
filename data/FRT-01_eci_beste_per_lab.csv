@@ -1,0 +1,81 @@
+# bron: Epoch AI, Epoch Capabilities Index (ECI)
+# url: https://epoch.ai/eci
+# licentie: CC-BY 4.0 (Epoch AI)
+# opgehaald: 2026-11-10 (benchmark_data.zip, bijgewerkt 2026-11-10)
+# per lab alleen modellen die bij uitkomst een nieuw labrecord zetten; 'Beste Chinese lab' = hoogste Chinese model ongeacht lab; Gemini 4 Carbon nog niet in de ECI
+datum,lab,organisatie,model,eci,eci_ci_laag,eci_ci_hoog,toegang
+2023-02-24,Meta,Meta AI,LLaMA-65B,102.1,93.9,109.5,Open weights (non-commercial)
+2023-03-14,OpenAI,OpenAI,GPT-4 (Mar 2023),121.9,118.1,125.3,API access
+2023-07-11,Anthropic,Anthropic,Claude 2,117.2,112.8,121.1,API access
+2023-07-18,Meta,Meta AI,Llama 2-70B,106.0,100.0,111.5,Open weights (restricted use)
+2023-09-06,Beste Chinese lab,Baichuan,Baichuan2-13B,92.6,81.8,102.0,Open weights (restricted use)
+2023-09-24,Beste Chinese lab,Alibaba,Qwen-14B,102.2,93.5,109.8,Open weights (restricted use)
+2024-01-25,OpenAI,OpenAI,GPT-4 Turbo (Nov 2023),124.8,121.5,127.8,API access
+2024-02-21,Google,Google DeepMind,Gemma 7B,103.6,95.9,110.3,Open weights (restricted use)
+2024-02-29,Anthropic,Anthropic,Claude 3 Opus,125.6,122.6,128.3,API access
+2024-04-09,OpenAI,OpenAI,GPT-4 Turbo (Apr 2024),125.9,122.7,128.8,API access
+2024-04-18,Meta,Meta AI,Llama 3-70B,121.3,117.5,124.8,Open weights (restricted use)
+2024-05-07,Beste Chinese lab,DeepSeek,"DeepSeek-V2 (MoE-236B, May 2024)",120.8,114.1,127.5,Open weights (restricted use)
+2024-05-13,OpenAI,OpenAI,GPT-4o (May 2024),128.2,125.4,130.9,API access
+2024-05-14,Google,Google DeepMind,Gemini 1.5 Pro (May 2024),125.4,122.1,128.5,API access
+2024-06-07,Beste Chinese lab,Alibaba,Qwen2-72B,122.3,118.7,125.7,Open weights (unrestricted)
+2024-06-20,Anthropic,Anthropic,Claude 3.5 Sonnet,130.0,,,API access
+2024-07-23,Meta,Meta AI,Llama 3.1-405B,127.9,125.0,130.6,Open weights (restricted use)
+2024-09-12,OpenAI,OpenAI,o1-mini,135.4,133.2,137.5,API access
+2024-09-19,Beste Chinese lab,Alibaba,Qwen2.5-72B,127.2,124.5,129.8,Open weights (unrestricted)
+2024-09-24,Google,Google DeepMind,Gemini 1.5 Pro (Sept 2024),130.4,127.7,132.9,API access
+2024-10-22,Anthropic,Anthropic,Claude 3.5 Sonnet (October 2024),133.5,131.2,135.7,API access
+2024-12-17,OpenAI,OpenAI,o1,141.2,139.5,142.8,API access
+2024-12-26,Beste Chinese lab,DeepSeek,DeepSeek-V3,131.7,129.2,134.1,Open weights (restricted use)
+2025-01-20,Beste Chinese lab,DeepSeek,DeepSeek-R1,138.7,136.7,140.4,Open weights (unrestricted)
+2025-01-21,Google,"Google DeepMind,Google",Gemini 2.0 Flash Thinking (Jan 2025),133.7,130.7,136.5,API access
+2025-02-05,Google,Google DeepMind,Gemini 2.0 Pro,135.3,132.4,137.9,Hosted access (no API)
+2025-02-24,Anthropic,Anthropic,Claude 3.7 Sonnet,141.0,139.4,142.5,API access
+2025-03-31,Google,Google DeepMind,Gemini 2.5 Pro (Mar 2025),143.9,142.0,145.9,API access
+2025-04-06,Meta,Meta AI,Llama 4 Maverick,132.1,129.8,134.3,Open weights (restricted use)
+2025-04-16,OpenAI,OpenAI,o3,147.0,145.5,148.5,API access
+2025-05-22,Anthropic,Anthropic,Claude Opus 4,142.9,141.3,144.5,API access
+2025-05-28,Beste Chinese lab,DeepSeek,DeepSeek-R1 (May 2025),140.8,139.0,142.5,Open weights (unrestricted)
+2025-06-05,Google,Google DeepMind,Gemini 2.5 Pro (Jun 2025),144.8,143.4,146.2,API access
+2025-06-10,OpenAI,OpenAI,o3-pro,147.4,145.6,149.3,API access
+2025-07-12,Beste Chinese lab,Moonshot,Kimi K2 (Jul 2025),141.3,138.4,144.0,Open weights (restricted use)
+2025-07-25,Beste Chinese lab,Alibaba,Qwen3-235B-A22B-Thinking (Jul 2025),143.2,141.3,145.1,Open weights (unrestricted)
+2025-08-05,Anthropic,Anthropic,Claude Opus 4.1,144.8,143.0,146.5,API access
+2025-08-07,OpenAI,OpenAI,GPT-5,150.0,,,API access
+2025-09-29,Anthropic,Anthropic,Claude Sonnet 4.5,147.6,146.2,149.1,API access
+2025-09-29,Beste Chinese lab,DeepSeek,DeepSeek-V3.2-Exp,144.4,142.1,146.7,Open weights (unrestricted)
+2025-10-07,OpenAI,OpenAI,GPT-5 Pro,151.2,149.3,153.2,API access
+2025-11-06,Beste Chinese lab,Moonshot,Kimi K2 Thinking,145.5,143.7,147.4,Open weights (restricted use)
+2025-11-18,Google,Google DeepMind,Gemini 3 Pro,152.9,151.3,154.6,API access
+2025-11-24,Anthropic,Anthropic,Claude Opus 4.5,151.8,150.3,153.5,API access
+2025-12-01,Beste Chinese lab,DeepSeek,DeepSeek-V3.2,146.2,144.8,147.7,Open weights (unrestricted)
+2025-12-11,OpenAI,OpenAI,GPT-5.2 Pro,157.2,154.9,159.8,API access
+2026-01-27,Beste Chinese lab,Moonshot,Kimi K2.5,148.8,147.3,150.3,Open weights (unrestricted)
+2026-02-05,Anthropic,Anthropic,Claude Opus 4.6,156.3,154.6,158.2,API access
+2026-02-19,Google,Google DeepMind,Gemini 3.1 Pro,156.2,154.5,158.1,API access
+2026-03-05,OpenAI,OpenAI,GPT-5.4 Pro,160.2,157.7,162.9,API access
+2026-03-31,Beste Chinese lab,Alibaba,Qwen 3.6 Plus,148.9,146.9,150.9,API access
+2026-04-07,Beste Chinese lab,Z.ai (Zhipu AI),GLM-5.1,150.7,148.7,152.8,Open weights (unrestricted)
+2026-04-08,Meta,Meta AI,Muse Spark,153.1,151.0,155.4,API access
+2026-04-16,Anthropic,Anthropic,Claude Opus 4.7,157.6,155.7,159.6,API access
+2026-04-20,Beste Chinese lab,Moonshot,Kimi K2.6,151.5,149.8,153.4,Open weights (unrestricted)
+2026-04-23,OpenAI,OpenAI,GPT-5.5 Pro,162.8,160.0,165.8,API access
+2026-05-19,Beste Chinese lab,Alibaba,Qwen3.7-Max,154.5,152.4,156.6,API access
+2026-05-28,Anthropic,Anthropic,Claude Opus 4.8,159.9,157.8,162.2,API access
+2026-06-09,Anthropic,Anthropic,Claude Fable 5,164.2,161.8,167.0,API access
+2026-07-09,OpenAI,OpenAI,GPT-5.6 Sol,163.0,160.7,165.6,API access
+2026-07-09,Meta,Meta AI,Muse Spark 1.1,154.8,152.2,157.6,API access
+2026-07-16,Beste Chinese lab,Moonshot,Kimi K3,158.5,156.5,160.7,Open weights (non-commercial)
+2026-07-24,Anthropic,Anthropic,Claude Opus 5,164.5,162.0,167.3,API access
+2026-08-05,Meta,Meta AI,Muse Spark 1.2,155.0,152.7,157.5,API access
+2026-08-13,Google,Google DeepMind,Gemini 3.7 Flash,158.4,156.4,160.6,API access
+2026-09-01,Anthropic,Anthropic,Claude Fable 5.1,167.0,164.3,170.2,API access
+2026-09-02,Google,Google DeepMind,Gemini 3.8 Flash,158.7,156.6,160.9,API access
+2026-09-02,Meta,Meta AI,Muse Spark 1.3,158.0,155.9,160.3,API access
+2026-09-03,OpenAI,OpenAI,GPT-6 Astra,169.2,166.2,172.5,API access
+2026-09-22,Anthropic,Anthropic,Claude Opus 5.5,168.7,165.8,171.9,API access
+2026-09-30,Google,Google DeepMind,Gemini 4 Argon,166.5,163.9,169.5,Limited access
+2026-10-12,Meta,Meta AI,Muse Wonder,162.0,159.6,164.7,API access
+2026-10-17,Beste Chinese lab,DeepSeek,DeepSeek V4.1 Flash 1017,159.3,157.1,161.9,Open weights (unrestricted)
+2026-10-23,Beste Chinese lab,Moonshot,Kimi K3.1 Pro,162.0,159.4,164.9,Open weights (restricted use)
+2026-11-09,Anthropic,Anthropic,Claude Fable 5.2,174.2,170.1,178.8,API access

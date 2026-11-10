@@ -1,0 +1,86 @@
+# bron: Epoch AI, FrontierMath Tier 4 v2 (privé-set, 41 opgaven)
+# url: https://epoch.ai/frontiermath/tiers-1-4
+# licentie: CC-BY 4.0 (Epoch AI)
+# opgehaald: 2026-11-10 (benchmark_data.zip, bijgewerkt 2026-11-10)
+# v2 sinds 2026-06-12 (fouten in 42% van de opgaven gecorrigeerd); oudere modellen opnieuw gemeten. OpenAI financiert FrontierMath en heeft toegang tot een deel van de opgaven. record = hoogste score tot dan toe
+uitkomstdatum,modelversie,lab,score_pct,stderr_pct,record
+2025-01-31,o3-mini-2025-01-31_high,OpenAI,0.0,0.0,ja
+2025-04-16,o4-mini-2025-04-16_high,OpenAI,4.9,3.4,ja
+2025-06-17,gemini-2.5-pro,Google,0.0,0.0,nee
+2025-08-05,claude-opus-4-1-20250805_32K,Anthropic,2.4,2.4,nee
+2025-08-07,gpt-5-2025-08-07_high,OpenAI,22.0,6.5,ja
+2025-08-07,gpt-5-mini-2025-08-07_high,OpenAI,12.2,5.2,nee
+2025-08-07,gpt-5-nano-2025-08-07_high,OpenAI,2.4,2.4,nee
+2025-09-29,claude-sonnet-4-5-20250929_32K,Anthropic,2.4,2.4,nee
+2025-10-07,gpt-5-pro-2025-10-06_high,OpenAI,19.5,6.3,nee
+2025-11-24,claude-opus-4-5-20251101_32K,Anthropic,4.9,3.4,nee
+2025-12-11,gpt-5.2-pro-2025-12-11_xhigh,OpenAI,46.0,7.8,ja
+2025-12-11,gpt-5.2-2025-12-11_xhigh,OpenAI,31.7,7.3,nee
+2025-12-17,gemini-3-flash-preview,Google,17.1,5.9,nee
+2026-02-05,claude-opus-4-6_max,Anthropic,26.8,7.0,nee
+2026-02-17,grok-4.20-0309-reasoning,xAI,17.1,5.9,nee
+2026-02-19,gemini-3.1-pro-preview,Google,26.8,7.0,nee
+2026-03-05,gpt-5.4-pro-2026-03-05_xhigh,OpenAI,58.5,7.8,ja
+2026-03-05,gpt-5.4-2026-03-05_xhigh,OpenAI,49.0,8.0,nee
+2026-03-17,gpt-5.4-nano-2026-03-17_high,OpenAI,12.2,5.2,nee
+2026-03-17,gpt-5.4-mini-2026-03-17_xhigh,OpenAI,9.8,4.7,nee
+2026-04-16,claude-opus-4-7_max,Anthropic,31.7,7.4,nee
+2026-04-17,grok-4.3_high,xAI,14.6,5.6,nee
+2026-04-20,kimi-k2.6,Moonshot,25.6,7.1,nee
+2026-04-23,gpt-5.5-pro_xhigh,OpenAI,78.0,6.5,ja
+2026-04-23,gpt-5.5_xhigh,OpenAI,72.5,7.1,nee
+2026-04-24,deepseek-v4-pro_max,DeepSeek,2.4,2.4,nee
+2026-05-05,gpt-5.5-instant,OpenAI,2.4,2.4,nee
+2026-05-08,gdm-ai-co-mathematician,Google,75.6,6.7,nee
+2026-05-19,qwen3.7-max,Alibaba,34.1,7.5,nee
+2026-05-19,gemini-3.5-flash_high,Google,26.8,7.0,nee
+2026-05-28,claude-opus-4-8_max,Anthropic,56.1,7.8,nee
+2026-06-09,claude-fable-5_max,Anthropic,90.2,4.6,ja
+2026-06-12,kimi-k2.7-code,Moonshot,12.2,5.2,nee
+2026-06-16,glm-5.2_max,Z.ai (Zhipu AI),29.3,7.2,nee
+2026-06-30,claude-sonnet-5_max,Anthropic,29.3,7.2,nee
+2026-07-08,grok-4.5_high,xAI,24.4,6.8,nee
+2026-07-09,gpt-5.6-sol_max,OpenAI,82.9,5.9,nee
+2026-07-09,gpt-5.6-sol_promax,OpenAI,80.5,6.3,nee
+2026-07-09,gpt-5.6-terra_max,OpenAI,70.7,7.2,nee
+2026-07-09,gpt-5.6-luna_max,OpenAI,61.0,7.7,nee
+2026-07-15,inkling-small_xhigh,Thinking Machines,17.1,5.9,nee
+2026-07-15,Inkling_xhigh,Thinking Machines,4.9,3.4,nee
+2026-07-16,kimi-k3_max,Moonshot,39.0,7.7,nee
+2026-07-21,gemini-3.6-flash_high,Google,22.0,6.5,nee
+2026-07-21,gemini-3.5-flash-lite_high,Google,0.0,0.0,nee
+2026-07-24,claude-opus-5_max,Anthropic,73.2,7.0,nee
+2026-07-31,deepseek-v4-flash-0731_max,DeepSeek,24.4,6.8,nee
+2026-08-02,qwen3.8-max_xhigh,Alibaba,46.3,7.9,nee
+2026-08-12,grok-4.6_xhigh,xAI,31.7,7.4,nee
+2026-08-13,gemini-3.7-flash_high,Google,36.6,7.6,nee
+2026-08-13,deepseek-v4-pro-0813_max,DeepSeek,26.8,7.0,nee
+2026-08-14,glm-5.3_max,Z.ai (Zhipu AI),29.3,7.2,nee
+2026-08-20,glm-5.3-flash_max,Z.ai (Zhipu AI),17.1,5.9,nee
+2026-09-01,claude-fable-5-1_max,Anthropic,87.8,5.2,nee
+2026-09-01,qwen3.8-max-0902_xhigh,Alibaba,34.1,7.5,nee
+2026-09-02,muse-spark-1.3_max,Meta,46.3,7.9,nee
+2026-09-02,muse-spark-1.3_xhigh,Meta,41.5,7.8,nee
+2026-09-02,gemini-3.8-flash_high,Google,22.0,6.5,nee
+2026-09-03,gpt-6-astra_high,OpenAI,97.6,2.4,ja
+2026-09-03,gpt-6-astra_xhigh,OpenAI,97.6,2.4,nee
+2026-09-03,gpt-6-astra_max,OpenAI,97.6,2.4,nee
+2026-09-03,gpt-6-astra_medium,OpenAI,97.6,2.4,nee
+2026-09-03,gpt-6-astra_low,OpenAI,87.8,5.2,nee
+2026-09-03,gpt-6-astra_none,OpenAI,82.9,5.9,nee
+2026-09-09,deepseek-v4.1-flash_max,DeepSeek,26.8,7.0,nee
+2026-09-21,grok-4.7_xhigh,xAI,17.1,5.9,nee
+2026-09-22,claude-opus-5-5_max,Anthropic,95.0,4.1,nee
+2026-09-22,gpt-6-sol_max,OpenAI,90.0,5.2,nee
+2026-09-22,gpt-6-luna_max,OpenAI,56.1,7.8,nee
+2026-09-28,claude-sonnet-5-5_max,Anthropic,80.5,6.3,nee
+2026-09-29,gpt-6.1-sol_max,OpenAI,100.0,0.0,ja
+2026-09-30,gemini-4-argon_high,Google,78.0,6.5,nee
+2026-10-06,mistral-large-4-0_high,Mistral AI,26.8,7.0,nee
+2026-10-07,claude-haiku-5-5_max,Anthropic,46.3,7.9,nee
+2026-10-12,muse-wonder-1.0_max,Meta,70.7,7.2,nee
+2026-10-15,Muse-Spark-Open-816B-A42B_xhigh,Meta,31.7,7.4,nee
+2026-10-17,deepseek-v4.1-flash-1017_max,DeepSeek,46.3,7.9,nee
+2026-10-23,kimi-k3.1-pro-together_max,Moonshot,65.9,7.5,nee
+2026-10-26,gpt-6.1-terra_max,OpenAI,92.7,4.1,nee
+2026-11-09,claude-fable-5-2_max,Anthropic,100.0,0.0,nee

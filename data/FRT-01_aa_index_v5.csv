@@ -1,0 +1,11 @@
+# bron: Artificial Analysis, Intelligence Index v5.0.1 (ranglijst modellen)
+# url: https://artificialanalysis.ai/leaderboards/models
+# licentie: niet vermeld; alleen cijfers met bronvermelding overnemen, geen grafieken
+# opgehaald: 2026-11-10 (handmatig overgenomen van de ranglijst)
+# beste variant per lab, top 25 van de ranglijst; v5 ingevoerd 2026-10-27, niet vergelijkbaar met v4-scores (zoals in State of AI 2026)
+lab,model,inspanning,index_v5,positie_in_top25,uitkomstdatum,beschikbaarheid
+Anthropic,Claude Fable 5.2,max,65,1,2026-11-09,algemeen
+Google,Gemini 4 Carbon,high,60,4,2026-10-28,beperkt (partners en cyberverdedigers)
+OpenAI,GPT-6 Astra,max,57,8,2026-09-03,algemeen
+Meta,Muse Wonder Full,max,50,22,2026-10-12,algemeen
+Moonshot (China),Kimi K3.1 Pro,,46,25,2026-10-23,API; gewichten volgens AA nog niet vrijgegeven
