@@ -749,51 +749,66 @@ slides:
     kern: "17 procent in 2025, tegen 8 procent in 2023. Bij 250 of meer medewerkers 66 procent; in ICT 54 procent, in bouw en horeca 6 tot 7 procent."
     grafiek: "AI-gebruik naar bedrijfsgrootte, 2023 tot 2025 (CBS)"
     volatiliteit: kwartaal
-    bronnen: [cbs]
-    beweringen: [K-NLD-001, K-NLD-002]
+    bronnen: [cbs, eurostat]
+    beweringen: [K-NLD-001, K-NLD-002, K-NLD-004, K-SEC-001]
     status: opzet
   - id: NLD-02
     titel: "Waar staat Nederland in Europa?"
     kern: "Vergelijking van AI-gebruik door bedrijven en burgers met de rest van de EU."
     volatiliteit: kwartaal
     bronnen: [eurostat, cbs]
-    status: opzet
-    noot: "Eurostat-cijfers 2025 en CBS-cijfers over gebruik door personen ophalen"
+    beweringen: [K-NLD-004, K-NLD-005]
+    status: herzien
+    noot: "Eurostat-cijfers 2025 en CBS-cijfers over gebruik door personen ophalen (Eurostat gedaan; CBS-cijfers over personen nog niet)"
+    voorstel:
+      titel: "Nederland hoort bij de Europese kopgroep, maar niet bij de top"
+      kern: "Een derde van de Nederlandse bedrijven gebruikt AI, tegen een vijfde in de EU. Bijna de helft van de Nederlanders gebruikte generatieve AI in 2025. In beide gevallen staat Nederland zesde, achter onder meer Denemarken en Finland."
+      grafiek: "AI-gebruik door bedrijven en personen per EU-land, 2025, Nederland gemarkeerd (data/NLD-02_eu_vergelijking.csv, Eurostat)"
+      reden: "Slide had nog een vraag als titel en geen cijfers. Bij gebruik voor werk staat Nederland derde (26,6 procent)."
   - id: NLD-03
     titel: "De AI-fabriek in Groningen: 200 miljoen euro voor Nederlandse rekenkracht"
     kern: "Rijk, regio en Defensie investeren samen in rekenkracht voor onderzoek, bedrijven en overheid."
     volatiliteit: kwartaal
-    bronnen: [rijksoverheid]
-    beweringen: [K-NLD-003]
-    status: opzet
-    noot: "Huidige status en capaciteit verifiëren"
+    bronnen: [rijksoverheid, eurohpc]
+    beweringen: [K-NLD-003, K-NLD-006]
+    status: herzien
+    noot: "Huidige status en capaciteit verifiëren (K-NLD-006 te verifiëren)"
+    voorstel:
+      kern: "Rijk, regio en EuroHPC investeren samen ruim 200 miljoen euro. Het expertisecentrum start in 2026, de supercomputer met circa 1.800 GPU's draait naar verwachting begin 2028 op volle kracht."
+      reden: "Status bijgewerkt via de voortgangsbrief (juli 2026) en berichtgeving over de gunning aan Eurofiber (september). Ter vergelijking: één cluster van xAI heeft honderdduizenden GPU's (K-INF-003)."
   - id: NLD-04
     titel: "Nederland is onmisbaar in de keten, en dat is een onderhandelingspositie"
     kern: "Zonder machines van ASML geen geavanceerde chips. Dat geeft Nederland en Europa iets om mee te onderhandelen."
     volatiliteit: stabiel
     bronnen: [earnings, soai]
+    beweringen: [K-INF-014, K-INF-015, K-GEO-009]
     status: opzet
   - id: NLD-05
     titel: "GPT-NL en andere Nederlandse modellen: wat is het doel?"
     kern: "Een eigen taalmodel draait niet om de frontier, maar om transparantie, taal en onafhankelijkheid."
     volatiliteit: kwartaal
     bronnen: [tno]
+    beweringen: [K-NLD-007]
     status: opzet
-    noot: "Status GPT-NL verifiëren"
+    noot: "Status GPT-NL verifiëren (K-NLD-007: bèta sinds februari 2026, te verifiëren)"
   - id: NLD-06
     titel: "Wie houdt in Nederland toezicht op AI?"
     kern: "De AP coördineert het toezicht op algoritmes. DNB en AFM kijken naar de financiële sector."
     volatiliteit: kwartaal
-    bronnen: [ap-ran, dnb-afm]
+    bronnen: [ap-ran, dnb-afm, rijksoverheid]
+    beweringen: [K-NLD-008]
     status: opzet
-    noot: "Aanwijzing markttoezichthouders AI Act in Nederland verifiëren"
+    noot: "Aanwijzing markttoezichthouders AI Act in Nederland verifiëren (wetsvoorstel nog niet in werking, zie K-NLD-008)"
+    voorstel:
+      kern: "Bestaande toezichthouders houden toezicht binnen hun domein. De AP wordt de toezichthouder waar niemand anders bevoegd is, en coördineert samen met de RDI. De wet die dat regelt, is nog niet in werking."
   - id: NLD-07
     titel: "Netcongestie maakt stroom ook in Nederland een knelpunt voor datacenters"
     kern: "Wachtlijsten voor netaansluitingen en beleid voor hyperscale datacenters bepalen waar rekenkracht kan komen."
     volatiliteit: kwartaal
-    bronnen: [rijksoverheid]
+    bronnen: [rijksoverheid, eurostat]
+    beweringen: [K-NLD-009, K-INF-017]
     status: opzet
-    noot: "Cijfers netbeheerders en datacenterbeleid ophalen"
+    noot: "Cijfers netbeheerders en datacenterbeleid ophalen (wachtrij: K-NLD-009, te verifiëren; datacenterbeleid nog niet)"
 
 # ---------- GOVERNANCE EN VERANTWOORD GEBRUIK ----------
   - id: GOV-01
