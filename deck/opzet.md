@@ -261,7 +261,7 @@ Waymo reed 220 miljoen mijl zonder chauffeur en doet ruim 500.000 betaalde ritte
 
 **SAM-01** [K] **AI als gezelschap: chatbots worden vriend en vertrouweling**  
 Voor veel mensen wordt een chatbot een vriend of vertrouweling. Californië regelt nu hoe chatbots relaties met kinderen aangaan; China en de EU hebben eigen regels.
-<br><sub>Bronnen: soai</sub>
+<br><sub>Bronnen: soai · Open: 'Voor veel mensen' nog niet met een cijfer onderbouwd (aandeel gebruikers dat chatbots als gezelschap gebruikt).</sub>
 
 **SAM-02** [K] **Echt en nep zijn steeds moeilijker te onderscheiden**  
 Deepfakes worden ingezet voor fraude en beïnvloeding. De EU verplicht labels op synthetische inhoud en verbiedt niet-consensuele seksuele deepfakes.
@@ -269,15 +269,15 @@ Deepfakes worden ingezet voor fraude en beïnvloeding. De EU verplicht labels op
 
 **SAM-03** [K] **Antwoordmachines vervangen het zoeken, en dat raakt de hele informatievoorziening**  
 Wie een antwoord krijgt, klikt niet meer door. Dat raakt uitgevers, adverteerders en de vindbaarheid van bronnen.
-<br><sub>Bronnen: soai, evans</sub>
+<br><sub>Bronnen: soai, evans · Open: Cijfer over minder doorklikken na een AI-antwoord nog nodig (bijvoorbeeld Pew of Similarweb).</sub>
 
 **SAM-04** [K] **Auteursrecht: veel deals met uitgevers, de kernvragen liggen nog bij de rechter**  
 Licentieovereenkomsten nemen toe. Japan en Singapore staan training breder toe dan het VK; in de VS lopen de grote zaken nog.
-<br><sub>Bronnen: soai</sub>
+<br><sub>Bronnen: soai, sec-edgar</sub>
 
 **SAM-05** [K] **Het stroomverbruik van AI groeit snel en wordt een klimaatvraag**  
 Datacenters zijn een klein maar snel groeiend deel van het wereldwijde stroomverbruik. Gascentrales voor AI staan op gespannen voet met klimaatdoelen.
-<br><sub>Bronnen: iea-energy-ai, soai · Open: Actuele IEA-cijfers ophalen</sub>
+<br><sub>Bronnen: iea-energy-ai, soai · Open: Actuele IEA-cijfers ophalen (K-SAM-006 is te verifiëren: IEA-document niet zelf geopend)</sub>
 
 **SAM-06** [S] **Modellen nemen over wat in de data zit, ook vooroordelen**  
 Eerlijkheid, uitlegbaarheid en controleerbaarheid zijn geen bijzaak. Ze bepalen of AI in gevoelige beslissingen gebruikt mag worden.
@@ -285,7 +285,7 @@ Eerlijkheid, uitlegbaarheid en controleerbaarheid zijn geen bijzaak. Ze bepalen 
 
 **SAM-07** [K] **Wie profiteert? Het risico van een tweedeling**  
 Tussen bedrijven (koplopers versus microbedrijven), tussen werknemers (ervaren versus starters) en tussen landen (wie rekenkracht heeft en wie niet).
-<br><sub>Bronnen: soai, cbs</sub>
+<br><sub>Bronnen: soai, cbs, ramp, epoch</sub>
 
 ## Geopolitiek en regelgeving (8)
 

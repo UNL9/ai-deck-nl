@@ -1,0 +1,67 @@
+# Thema: samenleving
+# Fase 2, 2026-11-10
+
+# SAM-01: AI als gezelschap
+- id: K-SAM-001
+  bewering: "Californië regelt met 'Adam's Law' hoe chatbots relaties met kinderen aangaan: standaard maximaal een uur per sessie en twee uur per dag, en waarborgen tegen romantische toenadering, vleierij en afhankelijkheid. De belangrijkste ontwerpregels gelden vanaf juli 2027. China verbiedt sinds juli 2026 virtuele intieme relaties voor minderjarigen; de EU verbiedt via de AI Act schadelijke manipulatie; het VK kondigde verplichte pauzes voor gebruikers onder 18 aan."
+  peildatum: 2026-09
+  bron: soai
+  vindplaats: "State of AI Report 2026, slide 187"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 180
+  status: actueel
+  slides: [SAM-01]
+  noot: "De wet is genoemd naar een tiener van wie de ouders stellen dat ChatGPT bijdroeg aan zijn zelfmoord; OpenAI ontkent dat. Wettekst zelf nog niet gecontroleerd."
+
+# SAM-02: echt en nep
+- id: K-SAM-002
+  bewering: "De angst dat deepfakes verkiezingen zouden beslissen, loopt tot nu toe voor op het bewijs. Experimenten laten wel zien dat gesprekken met AI mensen vaker een petitie laten tekenen, en dat AI beter geld inzamelt dan ervaren menselijke fondsenwervers."
+  peildatum: 2026-09
+  bron: soai
+  vindplaats: "State of AI Report 2026, slide 188"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 180
+  status: actueel
+  slides: [SAM-02]
+- id: K-SAM-003
+  bewering: "In de VS maakt 52% van de volwassenen zich meer zorgen over AI dan dat ze er enthousiast over zijn. 71% is tegen een AI-datacenter in de eigen omgeving, tegen 53% voor een kerncentrale. Lokaal verzet blokkeerde of vertraagde in het tweede kwartaal van 2026 minstens 45 projecten met een waarde van bijna 68 miljard dollar."
+  peildatum: 2026-06
+  bron: soai
+  vindplaats: "State of AI Report 2026, slide 189 (peilingen; Data Center Watch)"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 180
+  status: actueel
+  slides: [SAM-02, SAM-05]
+
+# SAM-04: auteursrecht
+- id: K-SAM-004
+  bewering: "Landen verschillen sterk in wat ze toestaan bij training zonder licentie: Japan en Singapore staan commerciële training breed toe, de EU staat tekst- en datamining toe tenzij rechthebbenden bezwaar maken, de VS beoordeelt fair use per geval, het VK beperkt het tot niet-commercieel onderzoek (maart 2026) en Australië wees een brede uitzondering af."
+  peildatum: 2026-09
+  bron: soai
+  vindplaats: "State of AI Report 2026, slide 193"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 180
+  status: actueel
+  slides: [SAM-04]
+- id: K-SAM-005
+  bewering: "Een Amerikaanse rechter oordeelde dat training op boeken fair use was, maar de claims over boeken uit illegale bibliotheken werden geschikt voor 1,5 miljard dollar (goedgekeurd juli 2026). In München won GEMA in juli 2026 een niet-definitieve zaak tegen Suno over beschermde muziek in de uitvoer."
+  peildatum: 2026-07
+  bron: soai
+  vindplaats: "State of AI Report 2026, slide 194"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 180
+  status: actueel
+  slides: [SAM-04]
+  noot: "De schikking (Bartz tegen Anthropic) staat als post van 1,5 miljard dollar in de kosten over 2025 in het S-1/A van Anthropic."
+
+# SAM-05: stroom en klimaat
+- id: K-SAM-006
+  bewering: "Datacenters gebruikten wereldwijd circa 485 TWh stroom in 2025, 17% meer dan in 2024 (416 TWh). Datacenters voor AI gebruikten circa 155 TWh, een groei van ongeveer 50%. Het IEA verwacht circa 950 TWh in 2030, ongeveer 3% van het wereldwijde stroomverbruik."
+  peildatum: 2025
+  bron: iea-energy-ai
+  vindplaats: "IEA, Key Questions on Energy and AI (16 april 2026)"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 365
+  status: te_verifieren
+  slides: [SAM-05, INF-06]
+  noot: "IEA-document zelf niet geopend; cijfers via secundaire bronnen die het citeren. In de editie van 2025 was de projectie 945 TWh."

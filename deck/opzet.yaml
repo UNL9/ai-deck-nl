@@ -571,44 +571,55 @@ slides:
     kern: "Voor veel mensen wordt een chatbot een vriend of vertrouweling. Californië regelt nu hoe chatbots relaties met kinderen aangaan; China en de EU hebben eigen regels."
     volatiliteit: kwartaal
     bronnen: [soai]
+    beweringen: [K-SAM-001]
     status: opzet
+    noot: "'Voor veel mensen' nog niet met een cijfer onderbouwd (aandeel gebruikers dat chatbots als gezelschap gebruikt)."
   - id: SAM-02
     titel: "Echt en nep zijn steeds moeilijker te onderscheiden"
     kern: "Deepfakes worden ingezet voor fraude en beïnvloeding. De EU verplicht labels op synthetische inhoud en verbiedt niet-consensuele seksuele deepfakes."
     volatiliteit: kwartaal
     bronnen: [soai, eu-ai-act]
-    beweringen: [K-GEO-002]
+    beweringen: [K-GEO-002, K-SAM-002, K-SAM-003]
     status: opzet
   - id: SAM-03
     titel: "Antwoordmachines vervangen het zoeken, en dat raakt de hele informatievoorziening"
     kern: "Wie een antwoord krijgt, klikt niet meer door. Dat raakt uitgevers, adverteerders en de vindbaarheid van bronnen."
     volatiliteit: kwartaal
     bronnen: [soai, evans]
+    beweringen: [K-SEC-006, K-SEC-007]
     status: opzet
+    noot: "Cijfer over minder doorklikken na een AI-antwoord nog nodig (bijvoorbeeld Pew of Similarweb)."
   - id: SAM-04
     titel: "Auteursrecht: veel deals met uitgevers, de kernvragen liggen nog bij de rechter"
     kern: "Licentieovereenkomsten nemen toe. Japan en Singapore staan training breder toe dan het VK; in de VS lopen de grote zaken nog."
     volatiliteit: kwartaal
-    bronnen: [soai]
+    bronnen: [soai, sec-edgar]
+    beweringen: [K-SAM-004, K-SAM-005]
     status: opzet
   - id: SAM-05
     titel: "Het stroomverbruik van AI groeit snel en wordt een klimaatvraag"
     kern: "Datacenters zijn een klein maar snel groeiend deel van het wereldwijde stroomverbruik. Gascentrales voor AI staan op gespannen voet met klimaatdoelen."
     volatiliteit: kwartaal
     bronnen: [iea-energy-ai, soai]
+    beweringen: [K-SAM-006, K-SAM-003, K-INF-018]
     status: opzet
-    noot: "Actuele IEA-cijfers ophalen"
+    noot: "Actuele IEA-cijfers ophalen (K-SAM-006 is te verifiëren: IEA-document niet zelf geopend)"
+    voorstel:
+      kern: "Datacenters gebruikten in 2025 circa 485 TWh, ruim 1,5 procent van alle stroom, en dat verdubbelt naar verwachting tot 2030. AI groeit drie keer zo snel als de rest. Gascentrales voor AI staan op gespannen voet met klimaatdoelen."
+      reden: "IEA-cijfers ingevuld (te verifiëren). Het aandeel van 1,5 procent in 2025 is een afleiding: 485 TWh tegen een wereldverbruik van circa 30.000 TWh; nog bevestigen bij het IEA."
   - id: SAM-06
     titel: "Modellen nemen over wat in de data zit, ook vooroordelen"
     kern: "Eerlijkheid, uitlegbaarheid en controleerbaarheid zijn geen bijzaak. Ze bepalen of AI in gevoelige beslissingen gebruikt mag worden."
     volatiliteit: stabiel
     bronnen: [ap-ran, rathenau]
+    beweringen: [K-SEC-004]
     status: opzet
   - id: SAM-07
     titel: "Wie profiteert? Het risico van een tweedeling"
     kern: "Tussen bedrijven (koplopers versus microbedrijven), tussen werknemers (ervaren versus starters) en tussen landen (wie rekenkracht heeft en wie niet)."
     volatiliteit: kwartaal
-    bronnen: [soai, cbs]
+    bronnen: [soai, cbs, ramp, epoch]
+    beweringen: [K-NLD-001, K-WRK-012, K-WRK-001, K-INF-003]
     status: opzet
 
 # ---------- GEOPOLITIEK EN REGELGEVING ----------
