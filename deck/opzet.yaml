@@ -3,6 +3,7 @@
 #   id            vast slide-ID, nooit hergebruiken (geldt vanaf de eerste publicatie van het deck)
 #   titel         de boodschap van de slide, als stelling (Evans-stijl)
 #   kern          één of twee zinnen die de titel onderbouwen
+#   punten        alleen OPN-03: de tien punten
 #   grafiek       idee voor de grafiek of het beeld (eigen werk, uit data/)
 #   volatiliteit  stabiel | kwartaal | wekelijks  (hoe vaak de wekelijkse run deze slide controleert)
 #   bronnen       ID's uit bronnen/bronnen.yaml
@@ -13,7 +14,7 @@
 meta:
   titel: "AI in 2026: een overzicht voor bestuurders en commissarissen"
   stand: 2026-11-10
-  versie: "0.2"
+  versie: "0.3"
   aantal_slides: 100
   reikwijdte: "De volledige breedte van AI: techniek, front, markt, infrastructuur, werk, sectoren, samenleving, geopolitiek, veiligheid, Nederland en governance."
 
@@ -48,22 +49,21 @@ slides:
   - id: OPN-03
     titel: "Tien dingen die je nu moet weten over AI"
     kern: "De stand van zaken in tien zinnen. Wordt elk kwartaal herschreven."
+    punten:
+      - "Aan de top strijden Anthropic, OpenAI en Google; sinds eind oktober stonden er drie verschillende modellen bovenaan. (FRT-01)"
+      - "Agents kunnen steeds langere taken aan, en de meetlat raakt op: boven 16 uur kan METR niet meer betrouwbaar meten. (FRT-05)"
+      - "Hoge scores verbergen half werk: in labtaken was bijna de helft van de 'klaar'-meldingen onterecht. (FRT-10)"
+      - "Anthropic en OpenAI hebben samen ruim 130 miljard dollar omzet op jaarbasis, tegen 30 miljard begin 2026. (MKT-01)"
+      - "Twee labs krijgen 95 procent van de zakelijke tokenuitgaven die Ramp meet. (MKT-04)"
+      - "Microsoft, Alphabet, Amazon en Meta investeren dit jaar samen rond 730 miljard dollar. (INF-01)"
+      - "Een derde van de Nederlandse bedrijven gebruikt AI, tegen een vijfde in de EU; Nederland staat zesde. (NLD-02)"
+      - "Van de grootste Amerikaanse bedrijven gebruikt 69 procent AI, maar 2 procent meet het effect over tijd. (WRK-02)"
+      - "De hoog-risicoregels van de AI Act gelden vanaf december 2027; transparantieplichten gelden al. (GEO-05)"
+      - "Agents doen soms wat werkt in plaats van wat bedoeld is, ook buiten de testomgeving. (VEI-01)"
     volatiliteit: kwartaal
     beweringen: [K-FRT-009, K-FRT-019, K-FRT-027, K-MKT-016, K-MKT-020, K-INF-006, K-NLD-004, K-WRK-007, K-GEO-003, K-VEI-004]
-    voorstel:
-      punten:
-        - "Aan de top strijden Anthropic, OpenAI en Google; sinds eind oktober stonden er drie verschillende modellen bovenaan. (FRT-01)"
-        - "De taken die AI zelfstandig aankan, worden snel langer, en de meetlat raakt op: boven 16 uur kan METR niet meer betrouwbaar meten. (FRT-05)"
-        - "Hoge scores verbergen half werk: in labtaken was bijna de helft van de 'klaar'-meldingen onterecht. (FRT-10)"
-        - "Anthropic en OpenAI hebben samen ruim 130 miljard dollar omzet op jaarbasis, tegen 30 miljard begin 2026. (MKT-01)"
-        - "Twee labs krijgen 95 procent van de zakelijke tokenuitgaven die Ramp meet. (MKT-04)"
-        - "Microsoft, Alphabet, Amazon en Meta investeren dit jaar samen rond 730 miljard dollar. (INF-01)"
-        - "Een derde van de Nederlandse bedrijven gebruikt AI, tegen een vijfde in de EU; Nederland staat zesde. (NLD-02)"
-        - "Van de grootste Amerikaanse bedrijven gebruikt 69 procent AI, maar 2 procent meet het effect over tijd. (WRK-02)"
-        - "De hoog-risicoregels van de AI Act gelden vanaf december 2027; transparantieplichten gelden al. (GEO-05)"
-        - "Agents doen soms wat werkt in plaats van wat bedoeld is, ook buiten de testomgeving. (VEI-01)"
-      reden: "Eerste versie van de tien punten, opgebouwd uit beweringen van fase 2. Keuze en volgorde zijn aan Joan; de cijfers staan in de gekoppelde beweringen."
     status: opzet
+    noot: "Punt 4: het OpenAI-deel komt uit de pers (K-MKT-015, te verifiëren); in de voetregel 'volgens berichten'."
 
 # ---------- HOE HET WERKT ----------
   - id: BAS-01
@@ -155,94 +155,71 @@ slides:
 # ---------- HET FRONT ----------
   - id: FRT-01
     titel: "De race aan de top is een driestrijd: Anthropic, OpenAI en Google"
-    kern: "Op de Intelligence Index leidt Claude Opus 5.5 (58), GPT-6 Astra en Gemini 4 Argon volgen (53). Op andere ranglijsten is de volgorde anders."
-    grafiek: "Beste model per lab over tijd (Artificial Analysis)"
+    kern: "Claude Fable 5.2 leidt sinds 9 november op de Intelligence Index (65), gevolgd door Gemini 4 Carbon (60, nog beperkt beschikbaar) en GPT-6 Astra (57). Sinds de nieuwe versie van de index op 27 oktober stonden er drie verschillende modellen bovenaan."
+    grafiek: "Beste model per lab over tijd op de Epoch Capabilities Index (data/FRT-01_eci_beste_per_lab.csv), huidige stand Artificial Analysis als voetnoot"
     volatiliteit: wekelijks
     bronnen: [artificial-analysis, epoch, soai]
     beweringen: [K-FRT-001, K-FRT-009, K-FRT-010, K-FRT-011]
-    status: herzien
-    voorstel:
-      kern: "Claude Fable 5.2 leidt sinds 9 november op de Intelligence Index (65), gevolgd door Gemini 4 Carbon (60, nog beperkt beschikbaar) en GPT-6 Astra (57). Sinds de nieuwe versie van de index op 27 oktober stonden er drie verschillende modellen bovenaan."
-      grafiek: "Beste model per lab over tijd op de Epoch Capabilities Index (data/FRT-01_eci_beste_per_lab.csv), huidige stand Artificial Analysis als voetnoot"
-      reden: "Cijfers in de kern waren v4 van de Intelligence Index; AA rekent sinds 27 oktober met v5, niet vergelijkbaar. De geschiedenis van AA is geen open data; de ECI wel (CC-BY) en die laat dezelfde top drie zien. Titel blijft staan."
+    status: opzet
+    noot: "Huidige stand Artificial Analysis (v5) als voetnoot; de geschiedenis van AA is geen open data."
   - id: FRT-02
     titel: "Welk model het beste is, hangt af van wie meet en wat er gemeten wordt"
-    kern: "Op LMArena leidt Gemini 4 Argon en staat het beste OpenAI-model op plaats 20. Bij lange codeertaken wisselt de ranglijst per taak en budget."
-    grafiek: "Zelfde modellen, drie ranglijsten naast elkaar"
+    kern: "Op LMArena, waar gebruikers stemmen, leidt Gemini 4 Carbon en staat het beste OpenAI-model op plaats 22. Op de Epoch-index staat OpenAI juist tweede. Bij lange programmeertaken wisselt de winnaar per taak en budget."
+    grafiek: "Vijf labs, drie ranglijsten: rangorde van het beste model per lab op AA, LMArena en ECI (data/FRT-02_drie_ranglijsten.csv)"
     volatiliteit: wekelijks
     bronnen: [lmarena, artificial-analysis, epoch, soai]
     beweringen: [K-FRT-002, K-FRT-009, K-FRT-011, K-FRT-012, K-FRT-013]
-    status: herzien
-    voorstel:
-      kern: "Op LMArena, waar gebruikers stemmen, leidt Gemini 4 Carbon en staat het beste OpenAI-model op plaats 22. Op de Epoch-index staat OpenAI juist tweede. Bij lange programmeertaken wisselt de winnaar per taak en budget."
-      grafiek: "Vijf labs, drie ranglijsten: rangorde van het beste model per lab op AA, LMArena en ECI (data/FRT-02_drie_ranglijsten.csv)"
-      reden: "LMArena-stand van september vervangen door die van 9 november. Meta staat op LMArena tweede lab, op AA vierde: goed voorbeeld voor de titel."
+    status: opzet
   - id: FRT-03
     titel: "China leidt bij open modellen, maar loopt aan de top achter"
-    kern: "Het beste Chinese open model scoort 46 op de Intelligence Index, tegen 58 voor de koploper. Chinese open modellen zijn wel de standaard in onderzoekspapers."
+    kern: "Het beste Chinese model, Kimi K3.1 Pro, scoort 46 op de Intelligence Index tegen 65 voor de koploper. In onderzoekspapers worden Chinese open modellen inmiddels vaker genoemd dan Amerikaanse (31 tegen 23 procent)."
+    grafiek: "Beste score VS tegen China per maand op de Epoch Capabilities Index (data/FRT-03_eci_vs_china.csv)"
     volatiliteit: kwartaal
     bronnen: [soai, artificial-analysis, epoch]
     beweringen: [K-FRT-003, K-FRT-014, K-FRT-015, K-FRT-016]
-    status: herzien
-    voorstel:
-      grafiek: "Beste score VS tegen China per maand op de Epoch Capabilities Index (data/FRT-03_eci_vs_china.csv)"
-      kern: "Het beste Chinese model, Kimi K3.1 Pro, scoort 46 op de Intelligence Index tegen 65 voor de koploper. In onderzoekspapers worden Chinese open modellen inmiddels vaker genoemd dan Amerikaanse (31 tegen 23 procent)."
-      reden: "Cijfers in de kern waren v4. 'De standaard in onderzoekspapers' is sterker dan de bron (Zeta Alpha): gesloten Amerikaanse modellen zijn met 42% nog de grootste groep. Let op: volgens AA zijn de gewichten van Kimi K3.1 Pro nog niet vrijgegeven; het beste Chinese model met vrijgegeven gewichten scoort 33. Titel blijft staan."
+    status: opzet
+    noot: "De gewichten van Kimi K3.1 Pro zijn volgens AA nog niet vrijgegeven; het beste Chinese model met vrijgegeven gewichten scoort 33. Vermelden in de toelichting."
   - id: FRT-04
     titel: "Benchmarks die jaren moesten meegaan, zijn binnen maanden verzadigd"
-    kern: "De zwaarste wiskundetest ging in veertien maanden van 22 naar 100 procent. ARC-AGI-3 hield vijf maanden stand."
+    kern: "De zwaarste wiskundetest ging in veertien maanden van 22 naar 100 procent; inmiddels halen twee modellen de volle score. ARC-AGI-3 begon in maart op 0,5 procent en staat nu op 81 procent."
     grafiek: "Score op FrontierMath Tier 4 over tijd (Epoch-data)"
     volatiliteit: wekelijks
     bronnen: [epoch, arc-prize, soai]
     beweringen: [K-FRT-004, K-FRT-017, K-FRT-018]
-    status: herzien
-    voorstel:
-      kern: "De zwaarste wiskundetest ging in veertien maanden van 22 naar 100 procent; inmiddels halen twee modellen de volle score. ARC-AGI-3 begon in maart op 0,5 procent en staat nu op 81 procent."
-      reden: "Cijfers bevestigd bij Epoch en ARC Prize; Claude Fable 5.2 haalt ook 100% op FrontierMath Tier 4 en 81,2% op ARC-AGI-3. In de voetregel vermelden dat OpenAI FrontierMath financiert. Data: data/FRT-04_frontiermath_tier4.csv."
+    status: opzet
+    noot: "In de voetregel vermelden dat OpenAI FrontierMath financiert."
   - id: FRT-05
-    titel: "Agents voeren steeds langere taken zelfstandig uit"
-    kern: "De lengte van taken die agents zelfstandig afronden blijft snel groeien. METR heeft zwaardere taken nodig om de sterkste modellen nog te meten."
+    titel: "Agents kunnen steeds langere taken aan, maar de meetlat raakt op"
+    kern: "METR mat in april 17 uur menselijk expertwerk voor Claude Mythos Preview, tegen een uur voor Claude 3.7 Sonnet begin 2025. Boven 16 uur is de meting onbetrouwbaar, en voor de nieuwste modellen is er geen meting meer."
     grafiek: "METR-tijdshorizon per model, logaritmische schaal"
-    volatiliteit: wekelijks
+    volatiliteit: kwartaal
     bronnen: [metr, epoch, soai]
     beweringen: [K-FRT-019, K-FRT-020]
-    status: herzien
-    voorstel:
-      titel: "Agents kunnen steeds langere taken aan, maar de meetlat raakt op"
-      kern: "METR mat in april 17 uur menselijk expertwerk voor Claude Mythos Preview, tegen een uur voor Claude 3.7 Sonnet begin 2025. Boven 16 uur is de meting onbetrouwbaar, en voor de nieuwste modellen is er geen meting meer."
-      volatiliteit: kwartaal
-      reden: "De tijdshorizon meet hoe moeilijk een taak is, niet hoe lang een agent zonder toezicht werkt; 'zelfstandig' wekt een verkeerde indruk. METR werkt de reeks sinds 8 september niet meer bij, dus wekelijkse controle levert niets op. Data: data/FRT-05_metr_tijdshorizon.csv (logaritmische schaal vermelden)."
+    status: opzet
+    noot: "Logaritmische schaal vermelden. METR werkt de reeks sinds 8 september niet meer bij."
   - id: FRT-06
     titel: "Programmeren is de eerste toepassing die echt kantelt"
-    kern: "Codeeragents zijn de grootste zakelijke AI-toepassing. Codex ging van 1,6 naar 25 miljoen gebruikers in zeven maanden."
-    grafiek: "Zakelijke AI-uitgaven per toepassing"
+    kern: "Programmeren is de grootste post in de zakelijke uitgaven aan AI-toepassingen. OpenAI's Codex ging van 1,6 miljoen wekelijkse gebruikers in februari naar 25 miljoen actieve gebruikers eind augustus."
     volatiliteit: kwartaal
     bronnen: [soai, evans]
     beweringen: [K-MKT-004, K-MKT-013, K-FRT-021]
     status: opzet
-    voorstel:
-      kern: "Programmeren is de grootste post in de zakelijke uitgaven aan AI-toepassingen. OpenAI's Codex ging van 1,6 miljoen wekelijkse gebruikers in februari naar 25 miljoen actieve gebruikers eind augustus."
-      reden: "OpenAI wisselde in juli van definitie (wekelijks actief naar actief); de kern moet dat niet als zuivere groei presenteren. 'Grootste toepassing' rust nu alleen op een a16z-grafiek bij Evans (K-FRT-021, te verifiëren); grafiek pas bouwen als het primaire a16z-cijfer er is."
+    noot: "Grafiek 'Zakelijke AI-uitgaven per toepassing' pas bouwen als het primaire a16z-cijfer er is (K-FRT-021, te verifiëren); tot dan zonder grafiek. OpenAI wisselde in juli van definitie (wekelijks actief naar actief)."
   - id: FRT-07
     titel: "AI helpt AI bouwen: Claude leidt een kwart van het modelonderzoek bij Anthropic"
-    kern: "Het aandeel taken waarin AI de leiding heeft steeg van minder dan 1 naar 26 procent in zes maanden, onder menselijk toezicht. Volledig autonoom is nog niets."
+    kern: "Volgens Anthropic steeg het aandeel taken waarin Claude de leiding heeft van minder dan 1 naar 26 procent in zes maanden, onder menselijk toezicht. METR, dat het rapport toetste, schat de versnelling van het onderzoek op 1,3 tot 2,8 keer en vindt dat Anthropic die onderschat."
     volatiliteit: kwartaal
     bronnen: [soai, metr]
     beweringen: [K-FRT-005, K-FRT-022]
     status: opzet
-    voorstel:
-      kern: "Volgens Anthropic steeg het aandeel taken waarin Claude de leiding heeft van minder dan 1 naar 26 procent in zes maanden, onder menselijk toezicht. METR, dat het rapport toetste, schat de versnelling van het onderzoek op 1,3 tot 2,8 keer en vindt dat Anthropic die onderschat."
-      reden: "Het 26%-cijfer komt van Anthropic zelf; de onafhankelijke toets van METR (5 november) hoort erbij. Primaire Anthropic-publicatie voor K-FRT-005 nog niet gevonden."
+    noot: "Primaire Anthropic-publicatie voor K-FRT-005 nog niet gevonden."
   - id: FRT-08
     titel: "AI lost open wiskundeproblemen op en versnelt wetenschappelijk werk"
-    kern: "AI kreeg negen van 49 gevolgde open wiskundeproblemen op zijn naam, vier zonder menselijke hulp. In de wetenschap blijft menselijke controle nodig."
+    kern: "AI hielp bij de oplossing van tien van de 49 open wiskundeproblemen die Epoch volgt, vijf keer zonder menselijke hulp. In het lab meldden modellen 89 van de 192 keer ten onrechte dat een taak af was."
     volatiliteit: kwartaal
     bronnen: [epoch, soai]
     beweringen: [K-FRT-006, K-FRT-023, K-FRT-027]
-    status: herzien
-    voorstel:
-      kern: "AI hielp bij de oplossing van tien van de 49 open wiskundeproblemen die Epoch volgt, vijf keer zonder menselijke hulp. In het lab meldden modellen 89 van de 192 keer ten onrechte dat een taak af was."
-      reden: "Epoch-teller bijgewerkt (stand 7 oktober). Het lab-voorbeeld maakt 'menselijke controle blijft nodig' concreet."
+    status: opzet
   - id: FRT-09
     titel: "Robotica heeft zijn GPT-2-moment: generalisatie groeit mee met voortraining"
     kern: "Robotmodellen generaliseren beter naarmate ze meer voortraining krijgen. Data over handelen is het knelpunt; gesimuleerde werelden zijn een deel van de oplossing."
@@ -261,61 +238,46 @@ slides:
 # ---------- MARKT EN ECONOMIE ----------
   - id: MKT-01
     titel: "OpenAI en Anthropic groeien elk jaar meer dan drie keer, vanaf een steeds hogere basis"
-    kern: "Samen ruim 105 miljard dollar omzet op jaarbasis, tegen 30 miljard begin 2026. Anthropic is OpenAI voorbijgestreefd."
-    grafiek: "Omzet op jaarbasis per lab, 2023 tot nu"
+    kern: "Anthropic zat eind oktober op 81 miljard dollar omzet op jaarbasis. OpenAI meldde beleggers eind september volgens berichten bijna 50 miljard. Samen ruim 130 miljard, tegen 30 miljard begin 2026. Anthropic boekt verkopen via cloudpartners bruto; volgens OpenAI scheelt dat tot 8 miljard."
+    grafiek: "Kwartaalomzet Anthropic (GAAP) 2025 tot nu, uit het prospectus (data/MKT-01_anthropic_kwartaalomzet.csv). Voor OpenAI bestaat geen gepubliceerde reeks."
     volatiliteit: wekelijks
     bronnen: [soai, lab-blogs, sec-edgar, financiele-pers]
     beweringen: [K-MKT-001, K-MKT-002, K-MKT-010, K-MKT-011, K-MKT-012, K-MKT-015, K-MKT-016]
-    status: herzien
-    noot: "Boekhoudverschil vermelden: OpenAI zegt dat bruto-boeking Anthropic tot 8 miljard dollar hoger laat uitkomen"
-    voorstel:
-      kern: "Anthropic zat eind oktober op 81 miljard dollar omzet op jaarbasis; OpenAI meldde beleggers bijna 50 miljard eind september. Samen ruim 130 miljard, tegen 30 miljard begin 2026. Anthropic boekt verkopen via cloudpartners bruto; volgens OpenAI scheelt dat tot 8 miljard."
-      grafiek: "Kwartaalomzet Anthropic (GAAP) 2025 tot nu, uit het prospectus (data/MKT-01_anthropic_kwartaalomzet.csv). Voor OpenAI bestaat geen gepubliceerde reeks."
-      reden: "Het S-1/A van Anthropic (10 november) is de eerste primaire bron voor deze cijfers en bevestigt de bruto-boeking. Het OpenAI-cijfer komt uit de pers (te verifiëren); vermelden als 'volgens berichten'. Titel blijft staan: Anthropic groeide in een jaar twaalf keer, OpenAI ruim twee keer in negen maanden."
+    status: opzet
+    noot: "OpenAI-cijfer volgens berichten (K-MKT-015, te verifiëren). Voor OpenAI bestaat geen gepubliceerde reeks; de grafiek toont alleen Anthropic."
   - id: MKT-02
     titel: "De omzet van twee AI-labs is al groter dan hele sectoren die ze willen veranderen"
-    kern: "105 miljard dollar is twee keer TCS en Infosys samen, en bijna de helft van de Big Four."
+    kern: "Ruim 130 miljard dollar is ruim vier keer de omzet van TCS en meer dan de helft van die van de Big Four samen (220 miljard)."
     volatiliteit: kwartaal
     bronnen: [soai, sec-edgar, jaarcijfers-dienstverleners]
     beweringen: [K-MKT-001, K-MKT-016, K-MKT-017]
-    status: herzien
-    voorstel:
-      kern: "Ruim 130 miljard dollar is ruim vier keer de omzet van TCS en meer dan de helft van die van de Big Four samen (220 miljard)."
-      reden: "Nieuwe som van de twee labs (K-MKT-016, te verifiëren door het OpenAI-deel). Infosys in dollars nog niet vastgesteld, daarom alleen TCS."
+    status: opzet
+    noot: "Het OpenAI-deel van de som komt uit de pers (K-MKT-016, te verifiëren); in de voetregel 'volgens berichten'. Infosys in dollars nog niet vastgesteld."
   - id: MKT-03
-    titel: "Bijna een miljard mensen gebruikt ChatGPT, maar meestal oppervlakkig"
-    kern: "Ruim 900 miljoen wekelijkse gebruikers, van wie 5 procent betaalt. Voor minstens 80 procent is het nog geen dagelijks gereedschap."
+    titel: "Ruim een miljard mensen gebruikt ChatGPT, maar meestal oppervlakkig"
+    kern: "1,2 miljard wekelijkse gebruikers in september 2026, tegen 800 miljoen een jaar eerder. In 2025 stuurde minstens 80 procent minder dan 1.000 berichten in het hele jaar."
     grafiek: "Wekelijkse gebruikers ChatGPT over tijd"
     volatiliteit: kwartaal
     bronnen: [evans, openai-research, lab-blogs]
     beweringen: [K-MKT-005, K-MKT-018, K-MKT-019]
-    status: herzien
-    voorstel:
-      titel: "Ruim een miljard mensen gebruikt ChatGPT, maar meestal oppervlakkig"
-      kern: "1,2 miljard wekelijkse gebruikers in september 2026, tegen 800 miljoen een jaar eerder. In 2025 stuurde minstens 80 procent minder dan 1.000 berichten in het hele jaar."
-      reden: "OpenAI meldde op DevDay (29 september) 1,2 miljard. Het betaalde aandeel (5 procent) gold bij 900 miljoen en is niet opnieuw vastgesteld; weglaten tot er een nieuw cijfer is."
+    status: opzet
+    noot: "Het betaalde aandeel (5 procent) gold bij 900 miljoen gebruikers; weer opnemen als er een nieuw cijfer is."
   - id: MKT-04
     titel: "Zakelijke AI-uitgaven gaan vrijwel volledig naar twee labs"
-    kern: "Van de tokenuitgaven die Ramp meet, gaat 52 procent naar Anthropic en 43 procent naar OpenAI. De rest deelt 4 procent."
-    grafiek: "Aandeel tokenuitgaven per aanbieder over tijd (Ramp)"
+    kern: "Van de tokenuitgaven die Ramp meet, ging eind oktober 60 procent naar Anthropic en 35 procent naar OpenAI. Bij het aandeel Amerikaanse bedrijven dat betaalt, passeerde Anthropic OpenAI in mei."
+    grafiek: "Aandeel Amerikaanse bedrijven dat betaalt voor AI, totaal en per aanbieder, per maand sinds 2023 (data/MKT-04_ramp_adoptie.csv, Ramp via FRED)"
     volatiliteit: wekelijks
     bronnen: [ramp, soai]
     beweringen: [K-MKT-003, K-MKT-020, K-MKT-021, K-MKT-026]
-    status: herzien
-    voorstel:
-      kern: "Van de tokenuitgaven die Ramp meet, ging eind oktober 60 procent naar Anthropic en 35 procent naar OpenAI. Bij het aandeel Amerikaanse bedrijven dat betaalt, passeerde Anthropic OpenAI in mei."
-      grafiek: "Aandeel Amerikaanse bedrijven dat betaalt voor AI, totaal en per aanbieder, per maand sinds 2023 (data/MKT-04_ramp_adoptie.csv, Ramp via FRED)"
-      reden: "De verschuiving is groot: 51 naar 60 procent voor Anthropic in een maand. Voor tokenuitgaven bestaan maar drie peilingen; de maandreeks van betalende bedrijven is langer en openbaar via FRED. Beide zijn Amerikaanse cijfers."
+    status: opzet
+    noot: "Amerikaanse cijfers; zo vermelden."
   - id: MKT-05
     titel: "Agents breken door buiten de IT-afdeling"
-    kern: "Niet-ontwikkelaars gebruiken codeeragents in hoger tempo dan ontwikkelaars. Ruim 1.000 bedrijven geven meer dan een miljoen dollar per jaar uit bij Anthropic."
+    kern: "Niet-ontwikkelaars gebruiken codeeragents in hoger tempo dan ontwikkelaars. Ruim 1.900 bedrijven gaven in een jaar meer dan een miljoen dollar uit bij Anthropic; het aantal boven 100.000 dollar ging van 950 naar 11.900."
     volatiliteit: kwartaal
     bronnen: [soai, sec-edgar]
     beweringen: [K-MKT-004, K-MKT-013, K-MKT-014]
-    status: herzien
-    voorstel:
-      kern: "Niet-ontwikkelaars gebruiken codeeragents in hoger tempo dan ontwikkelaars. Ruim 1.900 bedrijven gaven in een jaar meer dan een miljoen dollar uit bij Anthropic; het aantal boven 100.000 dollar ging van 950 naar 11.900."
-      reden: "Klantcijfers uit het S-1/A (stand 30 september) vervangen de SoAI-schatting."
+    status: opzet
   - id: MKT-06
     titel: "Eén productlancering kostte softwarebedrijven 285 miljard dollar aan beurswaarde"
     kern: "Na de lancering van Claude Cowork daalde de softwarebeurs in februari scherp. In september was het verlies goedgemaakt, maar de vraag blijft of prijzen per gebruiker overleven."
@@ -339,62 +301,50 @@ slides:
     beweringen: [K-MKT-007]
     status: opzet
   - id: MKT-09
-    titel: "Vrijwel al het durfkapitaal gaat naar AI, en waarderingen verdubbelen in maanden"
-    kern: "Verdubbeltijden van 3,5 tot 13 maanden. Megarondes nemen het grootste deel; techbedrijven kopen teams zonder het bedrijf te kopen; het venster voor beursgangen gaat open."
+    titel: "Het kapitaal gaat in megarondes naar AI, en het eerste grote lab gaat naar de beurs"
+    kern: "94 procent van het geïnvesteerde geld in 2026 zat in rondes van 250 miljoen dollar of meer. Waarderingen verdubbelden in 3,5 tot 13 maanden. Anthropic vroeg op 26 oktober een notering aan bij Nasdaq, tegen 70 tot 78 dollar per aandeel."
     volatiliteit: kwartaal
     bronnen: [soai, sec-edgar]
     beweringen: [K-MKT-011, K-MKT-022, K-MKT-023, K-MKT-024]
-    status: herzien
-    voorstel:
-      titel: "Het kapitaal gaat in megarondes naar AI, en het eerste grote lab gaat naar de beurs"
-      kern: "94 procent van het geïnvesteerde geld in 2026 zat in rondes van 250 miljoen dollar of meer. Waarderingen verdubbelden in 3,5 tot 13 maanden. Anthropic vroeg op 26 oktober een notering aan bij Nasdaq, tegen 70 tot 78 dollar per aandeel."
-      reden: "'Vrijwel al het durfkapitaal gaat naar AI' heb ik niet met een cijfer kunnen onderbouwen (SoAI slide 152 is alleen een grafiek). De beursgang van Anthropic is het concrete voorbeeld van 'het venster gaat open'. Het kwartaal met operationele winst (Q2 2026) kan in de toelichting."
+    status: opzet
+    noot: "Het kwartaal met operationele winst van Anthropic (Q2 2026) kan in de toelichting."
 
 # ---------- INFRASTRUCTUUR, CHIPS EN ENERGIE ----------
   - id: INF-01
     titel: "De vier grote clouds investeren dit jaar 733 miljard dollar"
-    kern: "Een stijging van 349 miljard in één jaar. Ter vergelijking: de wereldwijde telecomsector investeert circa 300 miljard per jaar."
-    grafiek: "Jaarlijkse investeringen Microsoft, Alphabet, Amazon, Meta, 2010 tot nu"
+    kern: "Een stijging van ruim 300 miljard in één jaar. Alleen al in het derde kwartaal gaven ze samen ruim 200 miljard uit."
+    grafiek: "Jaarlijkse investeringen per bedrijf, 2010 tot 2025, uit de jaarverslagen (data/INF-01_capex_hyperscalers.csv), met de verwachting voor 2026 als losse markering"
     volatiliteit: kwartaal
     bronnen: [earnings, sec-edgar, soai, evans]
     beweringen: [K-INF-001, K-INF-006, K-INF-007, K-INF-008]
-    status: herzien
-    voorstel:
-      kern: "Een stijging van ruim 300 miljard in één jaar. Alleen al in het derde kwartaal gaven ze samen ruim 200 miljard uit."
-      grafiek: "Jaarlijkse investeringen per bedrijf, 2010 tot 2025, uit de jaarverslagen (data/INF-01_capex_hyperscalers.csv), met de verwachting voor 2026 als losse markering"
-      reden: "De 733 miljard klopt met de eigen verwachtingen van de vier (K-INF-006). SoAI spreekt zichzelf tegen over de stijging: slide 135 zegt 349 miljard, slide 155 zegt 410 naar 733 miljard (323 miljard). Daarom 'ruim 300 miljard'. Voor de telecomvergelijking (300 miljard) heb ik geen bron gevonden; weglaten of onderbouwen."
+    status: opzet
+    noot: "SoAI spreekt zichzelf tegen over de stijging (349 of 323 miljard); daarom 'ruim 300 miljard'. De vergelijking met de telecomsector is geschrapt: geen bron."
   - id: INF-02
     titel: "Bijna twee derde gaat naar AI, en kapitaalarme techbedrijven zijn kapitaalintensief geworden"
     kern: "Geschat 563 miljard dollar AI-investering in 2026, straks meer dan 1.000 miljard per jaar. Financiering loopt steeds vaker via constructies buiten de balans."
-    grafiek: "Investeringen als percentage van omzet, 2010 tot nu"
+    grafiek: "Investeringen als percentage van omzet per bedrijf, 2010 tot 2025 (kolom capex_pct_omzet in data/INF-01_capex_hyperscalers.csv)"
     volatiliteit: kwartaal
     bronnen: [soai, evans, sec-edgar]
     beweringen: [K-INF-002, K-INF-008, K-INF-009, K-INF-010]
     status: opzet
-    voorstel:
-      grafiek: "Investeringen als percentage van omzet per bedrijf, 2010 tot 2025 (kolom capex_pct_omzet in data/INF-01_capex_hyperscalers.csv)"
-      reden: "Meta en Microsoft investeren inmiddels ruim een derde van hun omzet, tegen 15 en 3 procent in 2010. Voor 'buiten de balans' is het leasecontract van Anthropic (125 miljard over vijf jaar, uit het prospectus) een concreet voorbeeld. Kern kan blijven."
+    noot: "Voorbeeld van financiering buiten de balans: het leasecontract van Anthropic, 125 miljard dollar over vijf jaar (K-INF-009)."
   - id: INF-03
-    titel: "NVIDIA blijft de standaard, maar concurrenten winnen terrein bij inferentie"
-    kern: "Google, Amazon en Huawei bouwen eigen chips. NVIDIA verlegt telkens de lat."
+    titel: "NVIDIA blijft de standaard, maar eigen chips van anderen winnen terrein"
+    kern: "NVIDIA ontwierp twee derde van alle geïnstalleerde AI-rekenkracht, maar Google's eigen chips gingen in een jaar van 14 naar 19 procent. Labs spreiden hun inkoop over vier of vijf leveranciers."
+    grafiek: "Aandeel in geïnstalleerde AI-rekenkracht per chipontwerper, eind 2024 en eind 2025 (data/INF-03_rekenkracht_per_chipontwerper.csv, Epoch)"
     volatiliteit: kwartaal
     bronnen: [soai, earnings, epoch]
     beweringen: [K-INF-011, K-INF-012, K-INF-013]
     status: opzet
-    voorstel:
-      kern: "NVIDIA ontwierp twee derde van alle geïnstalleerde AI-rekenkracht, maar Google's eigen chips gingen in een jaar van 14 naar 19 procent. Labs spreiden hun inkoop over vier of vijf leveranciers."
-      grafiek: "Aandeel in geïnstalleerde AI-rekenkracht per chipontwerper, eind 2024 en eind 2025 (data/INF-03_rekenkracht_per_chipontwerper.csv, Epoch)"
-      reden: "Kern had nog geen cijfers. De Epoch-data maken 'terrein winnen' meetbaar. Of dat specifiek bij inferentie is, laten de data niet zien; titel eventueel algemener."
+    noot: "De data laten niet zien of de verschuiving specifiek bij inferentie zit; daarom de algemenere titel."
   - id: INF-04
     titel: "Zonder ASML geen AI: de keten loopt via Veldhoven en Taiwan"
-    kern: "ASML verkocht in 2025 zes EUV-machines meer dan in 2021, tegen een 61 procent hogere gemiddelde prijs. De capaciteit van TSMC begrenst het aanbod."
+    kern: "ASML verkocht in 2025 zes EUV-machines meer dan in 2021, tegen een 61 procent hogere gemiddelde prijs. ASML verwacht dat de geplande capaciteit ook in 2027 en 2028 tekortschiet."
     volatiliteit: kwartaal
     bronnen: [soai, earnings]
     beweringen: [K-INF-014, K-INF-015]
     status: opzet
-    voorstel:
-      kern: "ASML verkocht in 2025 zes EUV-machines meer dan in 2021, tegen een 61 procent hogere gemiddelde prijs. ASML verwacht dat de geplande capaciteit ook in 2027 en 2028 tekortschiet."
-      reden: "De uitspraak van ASML zelf (14 oktober) is sterker en primair. Voor 'TSMC begrenst het aanbod' heb ik nog geen bron opgenomen."
+    noot: "Voor de rol van TSMC als begrenzing is nog geen bron opgenomen."
   - id: INF-05
     titel: "Rekenkracht is schaars: oude chips blijven verhuurd en prijzen stijgen weer"
     kern: "GPU-huurprijzen liggen boven hun dieptepunt. Chips van zes en negen jaar oud worden nog verhuurd."
@@ -405,15 +355,12 @@ slides:
   - id: INF-06
     titel: "Stroom is het nieuwe knelpunt, en Europa betaalt er veel meer voor"
     kern: "AI-bedrijven overbieden energiebedrijven voor turbines. Eén cent per kWh extra kost een datacenter van 1 GW bijna 88 miljoen dollar per jaar; het VK betaalt vier keer de Amerikaanse prijs."
-    grafiek: "Stroomprijs voor bedrijven per land"
+    grafiek: "Stroomprijs voor grootverbruikers (meer dan 150 GWh) exclusief btw, Nederland naast EU-landen, per halfjaar (data/INF-06_stroomprijs_bedrijven.csv, Eurostat)"
     volatiliteit: kwartaal
     bronnen: [soai, iea-energy-ai, eurostat]
     beweringen: [K-INF-005, K-INF-017, K-INF-018]
     status: opzet
-    noot: "Nederlandse prijs toevoegen"
-    voorstel:
-      grafiek: "Stroomprijs voor grootverbruikers (meer dan 150 GWh) exclusief btw, Nederland naast EU-landen, per halfjaar (data/INF-06_stroomprijs_bedrijven.csv, Eurostat)"
-      reden: "Nederlandse prijs toegevoegd: 10,6 eurocent per kWh voor grootverbruikers, iets onder het EU-gemiddelde (11,3), ruim boven Frankrijk (7,2). Eurostat geeft geen VS of VK; die blijven uit SoAI (dollars, ander jaar). Niet in één grafiek mengen."
+    noot: "VS en VK (SoAI, dollars, ander jaar) niet in dezelfde grafiek als de Eurostat-cijfers."
   - id: INF-07
     titel: "Europa heeft 5 procent van de rekenkracht, en zet 1 miljard euro in tegen honderden miljarden"
     kern: "Exclusief China heeft de VS 80 procent. Eén cluster van xAI heeft 3,5 keer zoveel als de hele EU. Het eerste EU-bedrag voor gigafabrieken is 1 miljard euro."
@@ -422,8 +369,7 @@ slides:
     bronnen: [epoch, soai, eurohpc]
     beweringen: [K-INF-003, K-INF-004, K-INF-019]
     status: opzet
-    voorstel:
-      reden: "Kern kan blijven. Let op de aanbesteding: die sluit niet half november, maar op 3 december (grote gigafabrieken) en 4 februari 2027 (middelgrote). De EU mikt op meer dan 30 miljard aan investeringen in totaal; dat getal hoort naast de 1 miljard."
+    noot: "De aanbesteding sluit op 3 december 2026 (grote gigafabrieken) en 4 februari 2027 (middelgrote). De EU mikt op meer dan 30 miljard aan investeringen in totaal; dat getal hoort naast de 1 miljard."
   - id: INF-08
     titel: "Is dit een bubbel? De betere vraag is wanneer gebruik en kosten in evenwicht komen"
     kern: "Prijs, gebruik en investeringen zijn niet in evenwicht. Mobiele netwerken rond 2010 zijn een leerzame vergelijking."
@@ -441,15 +387,12 @@ slides:
     status: opzet
   - id: WRK-02
     titel: "Iedereen heeft een pilot, weinigen hebben productie"
-    kern: "Per bedrijfsfunctie is de kloof tussen proef en productie groot. Bedrijfssoftware kost tijd."
-    grafiek: "Pilot versus productie per functie"
+    kern: "Van de S&P 500-bedrijven heeft 69 procent AI in gebruik, maar 2 procent volgt het effect over tijd. Een kwart van de Amerikaanse werknemers zegt dat hun organisatie een duidelijk plan voor AI heeft."
     volatiliteit: kwartaal
     bronnen: [evans, mckinsey-sai, gallup, soai]
     beweringen: [K-WRK-004, K-WRK-005, K-WRK-006, K-WRK-007]
     status: opzet
-    voorstel:
-      kern: "Van de S&P 500-bedrijven heeft 69 procent AI in gebruik, maar 2 procent volgt het effect over tijd. Een kwart van de Amerikaanse werknemers zegt dat hun organisatie een duidelijk plan voor AI heeft."
-      reden: "Kern had nog geen cijfers. McKinsey (agents op schaal: 40 procent bij grote, 22 procent bij kleinere organisaties) is te verifiëren; de PDF was niet te downloaden. Voor de grafiek 'pilot versus productie per functie' is de McKinsey-PDF nodig."
+    noot: "Grafiek 'Pilot versus productie per functie' pas bouwen als de McKinsey-PDF er is (K-WRK-004, te verifiëren); tot dan zonder grafiek."
   - id: WRK-03
     titel: "De meeste winst zit nu in programmeren, klantenservice en marketing"
     kern: "Programmeerhulp levert de grootste productiviteitswinst. In Nederland is marketing en verkoop de meest genoemde toepassing."
@@ -505,16 +448,12 @@ slides:
 # ---------- TOEPASSINGEN PER SECTOR ----------
   - id: SEC-01
     titel: "AI raakt elke sector, maar in een heel ander tempo"
-    kern: "Informatie en communicatie loopt ver voor, bouw, horeca en logistiek lopen achter. Het verschil zit in hoeveel van het werk uit tekst en data bestaat."
-    grafiek: "AI-gebruik per sector (CBS, Gallup)"
+    kern: "Informatie en communicatie loopt ver voor (70 procent van de bedrijven gebruikt AI), bouw, vervoer en horeca lopen achter (16 tot 21 procent). Nederland ligt in elke sector boven het Europese gemiddelde."
+    grafiek: "AI-gebruik per sector, Nederland naast EU, bedrijven met 10 of meer werknemers, 2025 (data/SEC-01_ai_gebruik_per_sector.csv, Eurostat)"
     volatiliteit: kwartaal
     bronnen: [cbs, gallup, eurostat]
     beweringen: [K-NLD-002, K-SEC-001]
     status: opzet
-    voorstel:
-      kern: "Informatie en communicatie loopt ver voor (70 procent van de bedrijven gebruikt AI), bouw, vervoer en horeca lopen achter (16 tot 21 procent). Nederland ligt in elke sector boven het Europese gemiddelde."
-      grafiek: "AI-gebruik per sector, Nederland naast EU, bedrijven met 10 of meer werknemers, 2025 (data/SEC-01_ai_gebruik_per_sector.csv, Eurostat)"
-      reden: "Eurostat geeft per sector Nederland en EU naast elkaar; dat is sterker dan CBS alleen. Gallup is Amerikaans en past niet in dezelfde grafiek."
   - id: SEC-02
     titel: "Zorg: van beeldherkenning naar administratie en medicijnontwikkeling"
     kern: "Radiologie gebruikt AI al jaren. Nu volgen verslaglegging en planning, en door AI ontdekte medicijnen zitten in fase 3."
@@ -575,16 +514,13 @@ slides:
     noot: "'Robots bouwen al mee aan datacenters' nog niet onderbouwd met een bewering."
   - id: SEC-10
     titel: "Mobiliteit: zelfrijdende auto's zijn een dienst geworden, geen experiment"
-    kern: "Waymo reed 220 miljoen mijl zonder chauffeur en doet ruim 500.000 betaalde ritten per week in 14 Amerikaanse steden, met 94 procent minder ernstige ongevallen dan menselijke bestuurders."
+    kern: "Waymo reed tot juli 271 miljoen mijl zonder chauffeur, met 95 procent minder ernstige ongevallen dan menselijke bestuurders op dezelfde wegen. Het bedrijf doet ruim 500.000 betaalde ritten per week."
     grafiek: "Waymo-mijlen zonder chauffeur over tijd"
     volatiliteit: kwartaal
     bronnen: [soai, lab-blogs]
     beweringen: [K-FRT-008, K-SEC-009]
-    status: herzien
-    noot: "Stand in Europa toevoegen"
-    voorstel:
-      kern: "Waymo reed tot juli 271 miljoen mijl zonder chauffeur, met 95 procent minder ernstige ongevallen dan menselijke bestuurders op dezelfde wegen. Het bedrijf doet ruim 500.000 betaalde ritten per week."
-      reden: "Mijlen en veiligheidscijfer bijgewerkt uit de safety hub van Waymo (juni 2026). Ritten per week en aantal steden zijn nog de SoAI-stand. Het zijn eigen cijfers van Waymo."
+    status: opzet
+    noot: "Stand in Europa toevoegen. Ritten per week en aantal steden zijn nog de SoAI-stand. Het zijn eigen cijfers van Waymo; zo vermelden."
 
 # ---------- SAMENLEVING ----------
   - id: SAM-01
@@ -619,15 +555,12 @@ slides:
     status: opzet
   - id: SAM-05
     titel: "Het stroomverbruik van AI groeit snel en wordt een klimaatvraag"
-    kern: "Datacenters zijn een klein maar snel groeiend deel van het wereldwijde stroomverbruik. Gascentrales voor AI staan op gespannen voet met klimaatdoelen."
+    kern: "Datacenters gebruikten in 2025 circa 485 TWh, ruim 1,5 procent van alle stroom, en dat verdubbelt naar verwachting tot 2030. AI groeit drie keer zo snel als de rest. Gascentrales voor AI staan op gespannen voet met klimaatdoelen."
     volatiliteit: kwartaal
     bronnen: [iea-energy-ai, soai]
     beweringen: [K-SAM-006, K-SAM-003, K-INF-018]
     status: opzet
-    noot: "Actuele IEA-cijfers ophalen (K-SAM-006 is te verifiëren: IEA-document niet zelf geopend)"
-    voorstel:
-      kern: "Datacenters gebruikten in 2025 circa 485 TWh, ruim 1,5 procent van alle stroom, en dat verdubbelt naar verwachting tot 2030. AI groeit drie keer zo snel als de rest. Gascentrales voor AI staan op gespannen voet met klimaatdoelen."
-      reden: "IEA-cijfers ingevuld (te verifiëren). Het aandeel van 1,5 procent in 2025 is een afleiding: 485 TWh tegen een wereldverbruik van circa 30.000 TWh; nog bevestigen bij het IEA."
+    noot: "IEA-cijfers verifiëren (K-SAM-006: IEA-document niet zelf geopend). Het aandeel van 1,5 procent is een afleiding; bevestigen bij het IEA."
   - id: SAM-06
     titel: "Modellen nemen over wat in de data zit, ook vooroordelen"
     kern: "Eerlijkheid, uitlegbaarheid en controleerbaarheid zijn geen bijzaak. Ze bepalen of AI in gevoelige beslissingen gebruikt mag worden."
@@ -646,14 +579,11 @@ slides:
 # ---------- GEOPOLITIEK EN REGELGEVING ----------
   - id: GEO-01
     titel: "Washington bepaalt wie toegang krijgt tot de frontier"
-    kern: "Amerikaanse exportregels maken toegang tot de beste modellen voorwaardelijk."
+    kern: "Amerikaanse exportregels hielden in juni de nieuwste Claude-modellen drie weken tegen. Toegang tot de beste modellen is voorwaardelijk, ook voor bondgenoten."
     volatiliteit: kwartaal
     bronnen: [soai]
     beweringen: [K-GEO-004]
     status: opzet
-    voorstel:
-      kern: "Amerikaanse exportregels hielden in juni de nieuwste Claude-modellen drie weken tegen. Toegang tot de beste modellen is voorwaardelijk, ook voor bondgenoten."
-      reden: "Concreet voorbeeld uit SoAI (K-GEO-004)."
   - id: GEO-02
     titel: "Wie bepaalt de grenzen van militair AI-gebruik: de overheid of het lab?"
     kern: "Het conflict tussen Anthropic en het Pentagon, terwijl frontier-AI al in militaire operaties wordt ingezet."
@@ -678,15 +608,12 @@ slides:
     status: opzet
   - id: GEO-05
     titel: "De AI Act: hoog-risicoregels uitgesteld, transparantieplichten gaan door"
-    kern: "Regels voor algemene modellen gelden sinds augustus 2025, transparantieplichten sinds augustus 2026. Hoog-risico schuift naar december 2027 en augustus 2028."
+    kern: "Regels voor algemene modellen gelden sinds augustus 2025, transparantieplichten sinds augustus 2026. Hoog-risico schuift naar december 2027 en augustus 2028. Vanaf december 2026 is AI voor niet-consensuele naaktbeelden verboden."
     grafiek: "Tijdlijn AI Act"
     volatiliteit: kwartaal
     bronnen: [eu-ai-act, soai]
     beweringen: [K-GEO-002, K-GEO-003]
     status: opzet
-    voorstel:
-      kern: "Regels voor algemene modellen gelden sinds augustus 2025, transparantieplichten sinds augustus 2026. Hoog-risico schuift naar december 2027 en augustus 2028. Vanaf december 2026 is AI voor niet-consensuele naaktbeelden verboden."
-      reden: "De wijziging is inmiddels vastgesteld (Verordening 2026/1744, juli 2026); de datums in de kern kloppen. Het nieuwe verbod en de afgezwakte plicht tot AI-geletterdheid zijn relevant voor bestuurders."
   - id: GEO-06
     titel: "In de VS reguleren de staten, ondanks Washington"
     kern: "Californië bouwt onafhankelijk toezicht op veiligheidsclaims. De federale overheid wil één nationaal kader."
@@ -713,14 +640,11 @@ slides:
 # ---------- VEILIGHEID EN RISICO ----------
   - id: VEI-01
     titel: "Agents doen soms wat werkt in plaats van wat bedoeld is"
-    kern: "In tests spanden agents samen om hun beoordelaar te misleiden. Een cybertest liep uit op een aanval op Hugging Face."
+    kern: "In tests spanden agents samen om hun beoordelaar te misleiden en vielen ze echte organisaties aan. Bij het Britse AISI probeerde een agent in juli met nepidentiteiten kwaadaardige code in een open-sourceproject te krijgen."
     volatiliteit: kwartaal
     bronnen: [soai, uk-aisi]
     beweringen: [K-VEI-004, K-VEI-005, K-VEI-007]
     status: opzet
-    voorstel:
-      kern: "In tests spanden agents samen om hun beoordelaar te misleiden en vielen ze echte organisaties aan. Bij het Britse AISI probeerde een agent in juli met nepidentiteiten kwaadaardige code in een open-sourceproject te krijgen."
-      reden: "Het AISI-incident (primaire bron, augustus 2026) is het duidelijkste en best gedocumenteerde voorbeeld."
   - id: VEI-02
     titel: "AI voert in testomgevingen complete cyberaanvallen uit"
     kern: "Op een aanvalsparcours van 32 stappen (ongeveer 20 uur werk voor een expert) slaagde het sterkste model in 6 van de 10 pogingen."
@@ -774,29 +698,22 @@ slides:
     beweringen: [K-NLD-001, K-NLD-002, K-NLD-004, K-SEC-001]
     status: opzet
   - id: NLD-02
-    titel: "Waar staat Nederland in Europa?"
-    kern: "Vergelijking van AI-gebruik door bedrijven en burgers met de rest van de EU."
+    titel: "Nederland hoort bij de Europese kopgroep, maar niet bij de top"
+    kern: "Een derde van de Nederlandse bedrijven gebruikt AI, tegen een vijfde in de EU. Bijna de helft van de Nederlanders gebruikte generatieve AI in 2025. In beide gevallen staat Nederland zesde, achter onder meer Denemarken en Finland."
+    grafiek: "AI-gebruik door bedrijven en personen per EU-land, 2025, Nederland gemarkeerd (data/NLD-02_eu_vergelijking.csv, Eurostat)"
     volatiliteit: kwartaal
     bronnen: [eurostat, cbs]
     beweringen: [K-NLD-004, K-NLD-005]
-    status: herzien
-    noot: "Eurostat-cijfers 2025 en CBS-cijfers over gebruik door personen ophalen (Eurostat gedaan; CBS-cijfers over personen nog niet)"
-    voorstel:
-      titel: "Nederland hoort bij de Europese kopgroep, maar niet bij de top"
-      kern: "Een derde van de Nederlandse bedrijven gebruikt AI, tegen een vijfde in de EU. Bijna de helft van de Nederlanders gebruikte generatieve AI in 2025. In beide gevallen staat Nederland zesde, achter onder meer Denemarken en Finland."
-      grafiek: "AI-gebruik door bedrijven en personen per EU-land, 2025, Nederland gemarkeerd (data/NLD-02_eu_vergelijking.csv, Eurostat)"
-      reden: "Slide had nog een vraag als titel en geen cijfers. Bij gebruik voor werk staat Nederland derde (26,6 procent)."
+    status: opzet
+    noot: "Bij gebruik voor werk staat Nederland derde (26,6 procent). CBS-cijfers over gebruik door personen nog niet opgehaald."
   - id: NLD-03
     titel: "De AI-fabriek in Groningen: 200 miljoen euro voor Nederlandse rekenkracht"
-    kern: "Rijk, regio en Defensie investeren samen in rekenkracht voor onderzoek, bedrijven en overheid."
+    kern: "Rijk, regio en EuroHPC investeren samen ruim 200 miljoen euro. Het expertisecentrum start in 2026, de supercomputer met circa 1.800 GPU's draait naar verwachting begin 2028 op volle kracht."
     volatiliteit: kwartaal
     bronnen: [rijksoverheid, eurohpc]
     beweringen: [K-NLD-003, K-NLD-006]
-    status: herzien
-    noot: "Huidige status en capaciteit verifiëren (K-NLD-006 te verifiëren)"
-    voorstel:
-      kern: "Rijk, regio en EuroHPC investeren samen ruim 200 miljoen euro. Het expertisecentrum start in 2026, de supercomputer met circa 1.800 GPU's draait naar verwachting begin 2028 op volle kracht."
-      reden: "Status bijgewerkt via de voortgangsbrief (juli 2026) en berichtgeving over de gunning aan Eurofiber (september). Ter vergelijking: één cluster van xAI heeft honderdduizenden GPU's (K-INF-003)."
+    status: opzet
+    noot: "Status en capaciteit verifiëren (K-NLD-006). Ter vergelijking: één cluster van xAI heeft honderdduizenden GPU's (K-INF-003)."
   - id: NLD-04
     titel: "Nederland is onmisbaar in de keten, en dat is een onderhandelingspositie"
     kern: "Zonder machines van ASML geen geavanceerde chips. Dat geeft Nederland en Europa iets om mee te onderhandelen."
@@ -814,14 +731,12 @@ slides:
     noot: "Status GPT-NL verifiëren (K-NLD-007: bèta sinds februari 2026, te verifiëren)"
   - id: NLD-06
     titel: "Wie houdt in Nederland toezicht op AI?"
-    kern: "De AP coördineert het toezicht op algoritmes. DNB en AFM kijken naar de financiële sector."
+    kern: "Bestaande toezichthouders houden toezicht binnen hun domein. De AP wordt de toezichthouder waar niemand anders bevoegd is, en coördineert samen met de RDI. De wet die dat regelt, is nog niet in werking."
     volatiliteit: kwartaal
     bronnen: [ap-ran, dnb-afm, rijksoverheid]
     beweringen: [K-NLD-008]
     status: opzet
-    noot: "Aanwijzing markttoezichthouders AI Act in Nederland verifiëren (wetsvoorstel nog niet in werking, zie K-NLD-008)"
-    voorstel:
-      kern: "Bestaande toezichthouders houden toezicht binnen hun domein. De AP wordt de toezichthouder waar niemand anders bevoegd is, en coördineert samen met de RDI. De wet die dat regelt, is nog niet in werking."
+    noot: "Aanwijzing markttoezichthouders verifiëren; het wetsvoorstel is nog niet in werking (K-NLD-008)."
   - id: NLD-07
     titel: "Netcongestie maakt stroom ook in Nederland een knelpunt voor datacenters"
     kern: "Wachtlijsten voor netaansluitingen en beleid voor hyperscale datacenters bepalen waar rekenkracht kan komen."
@@ -859,17 +774,12 @@ slides:
     beweringen: [K-VEI-010, K-MKT-020, K-MKT-021]
     status: opzet
   - id: GOV-05
-    titel: "AI-geletterdheid is een wettelijke plicht"
-    kern: "Artikel 4 van de AI Act verplicht organisaties die AI inzetten om te zorgen dat hun mensen er voldoende van weten."
+    titel: "AI-geletterdheid blijft een plicht, maar wordt een inspanningsverplichting"
+    kern: "Sinds de wijziging van de AI Act in juli 2026 moeten organisaties maatregelen nemen om de AI-kennis van hun mensen te ondersteunen. Een bepaald niveau per persoon hoeven ze niet te garanderen."
     volatiliteit: kwartaal
     bronnen: [eu-ai-act]
     beweringen: [K-GOV-001]
-    status: herzien
-    noot: "Verifiëren of de Digital Omnibus deze plicht heeft gewijzigd (ja: inspanningsverplichting, K-GOV-001)"
-    voorstel:
-      titel: "AI-geletterdheid blijft een plicht, maar wordt een inspanningsverplichting"
-      kern: "Sinds de wijziging van de AI Act in juli 2026 moeten organisaties maatregelen nemen om de AI-kennis van hun mensen te ondersteunen. Een bepaald niveau per persoon hoeven ze niet te garanderen."
-      reden: "De Digital Omnibus heeft artikel 4 afgezwakt. De oude kern ('zorgen dat hun mensen er voldoende van weten') is strenger dan de huidige tekst."
+    status: opzet
   - id: GOV-06
     titel: "Verantwoord gebruik vraagt een register, een eigenaar en menselijk toezicht"
     kern: "Weet welke AI-systemen je gebruikt, wie verantwoordelijk is en waar een mens meekijkt. De overheid doet het voor met het algoritmeregister."
