@@ -1,0 +1,9 @@
+# bron: Ramp AI Index, tokenuitgaven per aanbieder
+# url: https://ramp.com/data/ai-index
+# licentie: Copyright 2025-2026 Ramp Business Corporation. Citation required.
+# opgehaald: 2026-11-10
+# aandeel in tokenuitgaven, in procenten; steekproef: klanten van Ramp Token Spend Management (volgens Ramp niet representatief voor alle AI-uitgaven). De peiling van 3 oktober komt uit State of AI 2026, slide 86.
+week_eindigend,anthropic,openai,xai,google,overig
+2026-09-25,51.3,44.2,2.5,1.6,0.4
+2026-10-03,52.4,43.3,,,4.2
+2026-10-23,60.5,35.1,2.2,1.9,0.3

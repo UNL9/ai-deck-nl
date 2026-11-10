@@ -6,7 +6,8 @@
   vindplaats: "State of AI Report 2026, slides 83-84"
   vastgesteld: 2026-11-10
   houdbaarheid_dagen: 30
-  status: actueel
+  status: vervangen
+  vervangen_door: K-MKT-016
   slides: [MKT-01, MKT-02]
 - id: K-MKT-002
   bewering: "OpenAI: omzet op jaarbasis boven 40 miljard dollar (augustus 2026). Anthropic: 65 miljard dollar (juli 2026), van 9 miljard aan het begin van het jaar. OpenAI stelt dat bruto-boeking via cloudpartners Anthropic tot 8 miljard hoger laat uitkomen."
@@ -15,8 +16,10 @@
   vindplaats: "State of AI Report 2026, slide 83"
   vastgesteld: 2026-11-10
   houdbaarheid_dagen: 30
-  status: actueel
+  status: vervangen
+  vervangen_door: K-MKT-010
   slides: [MKT-01]
+  noot: "Anthropic-deel vervangen door K-MKT-010 (S-1/A), OpenAI-deel door K-MKT-015, boekhoudpunt door K-MKT-012."
 - id: K-MKT-003
   bewering: "Van de tokenuitgaven die Ramp meet, ging tot 3 oktober 2026 52,4% naar Anthropic, 43,3% naar OpenAI en 4,2% naar overige aanbieders."
   peildatum: 2026-10-03
@@ -24,7 +27,8 @@
   vindplaats: "State of AI Report 2026, slide 86"
   vastgesteld: 2026-11-10
   houdbaarheid_dagen: 30
-  status: actueel
+  status: vervangen
+  vervangen_door: K-MKT-020
   slides: [MKT-04]
 - id: K-MKT-004
   bewering: "OpenAI Codex ging van 1,6 miljoen wekelijkse gebruikers (begin februari 2026) naar 25 miljoen actieve gebruikers (31 augustus 2026). Ruim 1.000 klanten besteden meer dan 1 miljoen dollar per jaar bij Anthropic."
@@ -33,8 +37,10 @@
   vindplaats: "State of AI Report 2026, slide 85"
   vastgesteld: 2026-11-10
   houdbaarheid_dagen: 60
-  status: actueel
+  status: vervangen
+  vervangen_door: K-MKT-013
   slides: [FRT-06, MKT-05]
+  noot: "Codex-deel ongewijzigd naar K-MKT-013; klantdeel vervangen door K-MKT-014 (S-1/A)."
 - id: K-MKT-005
   bewering: "ChatGPT heeft ruim 900 miljoen wekelijkse gebruikers, van wie circa 5% betaalt. Minstens 80% van de gebruikers stuurde in 2025 minder dan 1.000 berichten."
   peildatum: 2026-05
@@ -42,8 +48,10 @@
   vindplaats: "Benedict Evans, AI eats the world (mei 2026), slides 29-30 (citeert OpenAI)"
   vastgesteld: 2026-11-10
   houdbaarheid_dagen: 60
-  status: actueel
+  status: vervangen
+  vervangen_door: K-MKT-018
   slides: [MKT-03]
+  noot: "Gebruikersaantal vervangen door K-MKT-018; het berichtencijfer staat apart in K-MKT-019. Het betaalde aandeel (5%) is niet opnieuw vastgesteld."
 - id: K-MKT-006
   bewering: "Na de lancering van Claude Cowork verdween begin februari 2026 bijna 285 miljard dollar aan beurswaarde van softwarebedrijven; de S&P 500 software- en dienstenindex daalde 26% vanaf de piek van oktober 2025. In september was het verlies goedgemaakt."
   peildatum: 2026-09
@@ -80,3 +88,171 @@
   houdbaarheid_dagen: 180
   status: actueel
   slides: [WRK-04]
+
+# ---------- Fase 2, 2026-11-10: primaire bronnen voor sectie MKT ----------
+
+# MKT-01 en MKT-02: omzet van de labs
+- id: K-MKT-010
+  bewering: "Anthropic had op 31 oktober 2026 een omzet op jaarbasis (run-rate) van ongeveer 81 miljard dollar, 10 miljard meer dan op 30 september."
+  peildatum: 2026-10-31
+  bron: sec-edgar
+  vindplaats: "Anthropic, PBC, S-1/A van 2026-11-10 (CIK 2130357), sectie Business, p. 203"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 30
+  status: actueel
+  slides: [MKT-01, MKT-02]
+  noot: "Definitie in het prospectus: verbruiksomzet over de laatste 28 dagen maal 13, plus maandelijkse abonnementen maal 12. Geen GAAP-cijfer; Anthropic waarschuwt zelf dat de groei zal afnemen. Belang van de bron: prospectus voor de eigen beursgang."
+- id: K-MKT-011
+  bewering: "Anthropic boekte in het derde kwartaal van 2026 17,0 miljard dollar omzet (GAAP), tegen 1,4 miljard een jaar eerder. Over heel 2025 was de omzet 4,6 miljard. Het bedrijfsresultaat was in het tweede kwartaal van 2026 voor het eerst positief (974 miljoen) en in het derde kwartaal weer negatief (min 567 miljoen)."
+  peildatum: 2026-09-30
+  bron: sec-edgar
+  vindplaats: "Anthropic, PBC, S-1/A van 2026-11-10, Summary Consolidated Financial Data en Quarterly Results of Operations (p. 164)"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 120
+  status: actueel
+  slides: [MKT-01, MKT-09]
+  noot: "Kwartaalcijfers niet gecontroleerd door de accountant; jaarcijfers 2023-2025 wel. Het nettoverlies over negen maanden (104 miljard) komt grotendeels uit herwaardering van converteerbare leningen (94,3 miljard). Data: data/MKT-01_anthropic_kwartaalomzet.csv."
+- id: K-MKT-012
+  bewering: "Anthropic boekt omzet via de marktplaatsen van cloudpartners bruto, omdat het zelf de contractpartij is en de prijs bepaalt."
+  peildatum: 2026-09-30
+  bron: sec-edgar
+  vindplaats: "Anthropic, PBC, S-1/A van 2026-11-10, toelichting op de jaarrekening, Revenue Recognition"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 365
+  status: actueel
+  slides: [MKT-01]
+  noot: "Bevestigt het punt dat OpenAI maakte (zie K-MKT-002): de cijfers van beide labs zijn niet zonder meer vergelijkbaar."
+- id: K-MKT-015
+  bewering: "OpenAI meldde beleggers een omzet op jaarbasis van bijna 50 miljard dollar eind september 2026, met 77% groei in het derde kwartaal. Eerdere berichten over 70 miljard kwamen volgens meerdere bronnen niet van OpenAI."
+  peildatum: 2026-09-30
+  bron: financiele-pers
+  vindplaats: "The Information (8 oktober 2026), bevestigd door CNBC en Financial Times"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 30
+  status: te_verifieren
+  slides: [MKT-01, MKT-02]
+  noot: "OpenAI publiceert geen omzetcijfers; geen SEC-filing gevonden. Gebruiken met vermelding 'volgens berichten'."
+- id: K-MKT-016
+  bewering: "Samen hebben Anthropic (81 miljard, oktober) en OpenAI (bijna 50 miljard, september) een omzet op jaarbasis van ruim 130 miljard dollar."
+  peildatum: 2026-10-31
+  bron: financiele-pers
+  vindplaats: "Som van K-MKT-010 en K-MKT-015"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 30
+  status: te_verifieren
+  slides: [MKT-01, MKT-02]
+  noot: "Verschillende peildata en boekhoudmethoden. Status volgt K-MKT-015."
+- id: K-MKT-017
+  bewering: "De Big Four hadden in boekjaar 2025 samen 220,4 miljard dollar omzet: Deloitte 70,5, PwC 56,9, EY 53,2 en KPMG 39,8 miljard. TCS had in boekjaar 2026 30,0 miljard dollar omzet."
+  peildatum: 2026-03
+  bron: jaarcijfers-dienstverleners
+  vindplaats: "Jaarcijfers van de firma's, via CPA Practice Advisor; TCS-jaarcijfers FY2026 (IFRS)"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 365
+  status: actueel
+  slides: [MKT-02]
+  noot: "Boekjaren eindigen in verschillende maanden. Infosys FY2026 in dollars nog niet vastgesteld."
+
+# MKT-03: consumentengebruik
+- id: K-MKT-018
+  bewering: "ChatGPT heeft 1,2 miljard wekelijkse gebruikers (DevDay, 29 september 2026), tegen ruim 900 miljoen in februari en 800 miljoen in oktober 2025."
+  peildatum: 2026-09-29
+  bron: lab-blogs
+  vindplaats: "https://openai.com/index/devday-2026-recap/"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 90
+  status: actueel
+  slides: [MKT-03]
+  noot: "De pagina van OpenAI gaf bij ophalen een 403; de tekst is gezien via het zoekfragment van de officiële pagina en bevestigd door The Verge."
+- id: K-MKT-019
+  bewering: "Minstens 80% van de ChatGPT-gebruikers stuurde in 2025 minder dan 1.000 berichten in het hele jaar."
+  peildatum: 2025-12
+  bron: evans
+  vindplaats: "Benedict Evans, AI eats the world (mei 2026), slides 29-30 (citeert OpenAI)"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 365
+  status: actueel
+  slides: [MKT-03]
+
+# MKT-04 en MKT-07: marktaandeel bij bedrijven
+- id: K-MKT-020
+  bewering: "Van de tokenuitgaven die Ramp meet, ging in de week tot 23 oktober 2026 60,5% naar Anthropic, 35,1% naar OpenAI, 2,2% naar xAI en 1,9% naar Google. Een maand eerder was dat 51,3% en 44,2%."
+  peildatum: 2026-10-23
+  bron: ramp
+  vindplaats: "https://ramp.com/data/ai-index"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 30
+  status: actueel
+  slides: [MKT-04]
+  noot: "Steekproef: klanten van Ramps product voor tokenbeheer, volgens Ramp niet representatief voor alle AI-uitgaven. Alleen Amerikaanse bedrijven. Data: data/MKT-04_ramp_tokenuitgaven.csv."
+- id: K-MKT-021
+  bewering: "In september 2026 betaalde 55,9% van de Amerikaanse bedrijven bij Ramp voor AI, 12,1 procentpunt meer dan een jaar eerder. 43,8% betaalde Anthropic, 40,6% OpenAI. Anthropic passeerde OpenAI in mei 2026."
+  peildatum: 2026-09
+  bron: ramp
+  vindplaats: "FRED, reeksen RAMPAIALL, RAMPAIANTHROPIC, RAMPAIOPENAI (bijgewerkt 2026-10-14)"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 45
+  status: actueel
+  slides: [MKT-04, MKT-07]
+  noot: "Meer dan 85.000 Amerikaanse bedrijven; telt alleen betaalde transacties, dus gratis gebruik en privé-accounts vallen erbuiten. Data: data/MKT-04_ramp_adoptie.csv. Copyright Ramp, bronvermelding verplicht."
+- id: K-MKT-026
+  bewering: "Marktaandeel hangt af van het platform: op OpenRouter hebben OpenAI en Anthropic samen 20,7% van de verzoeken. Bij Vercel verwerkten open modellen op 4 oktober 62,7% van de tokens, maar kregen ze 26,9% van de uitgaven."
+  peildatum: 2026-10-04
+  bron: soai
+  vindplaats: "State of AI Report 2026, slide 87"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 60
+  status: actueel
+  slides: [MKT-07, MKT-04]
+
+# MKT-05: zakelijke klanten
+- id: K-MKT-013
+  bewering: "OpenAI Codex ging van 1,6 miljoen wekelijkse gebruikers (begin februari 2026) naar 25 miljoen actieve gebruikers (31 augustus 2026)."
+  peildatum: 2026-08
+  bron: soai
+  vindplaats: "State of AI Report 2026, slide 85"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 60
+  status: actueel
+  slides: [FRT-06, MKT-05]
+  noot: "OpenAI telde tot en met juni wekelijkse gebruikers en vanaf juli 'actieve' gebruikers; geen zuivere reeks."
+- id: K-MKT-014
+  bewering: "Anthropic had op 30 september 2026 ruim 1.900 klanten die in twaalf maanden meer dan 1 miljoen dollar uitgaven en ongeveer 250 boven 10 miljoen. Het aantal klanten boven 100.000 dollar ging in een jaar van ruim 950 naar ruim 11.900."
+  peildatum: 2026-09-30
+  bron: sec-edgar
+  vindplaats: "Anthropic, PBC, S-1/A van 2026-11-10, Prospectus Summary en MD&A"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 120
+  status: actueel
+  slides: [MKT-05]
+  noot: "Anthropic meldt ook een netto-omzetbehoud van ongeveer 900% en dat de top-10 Fortune 500-klanten een groot deel van de omzet uitmaken."
+
+# MKT-09: kapitaal en beursgangen
+- id: K-MKT-022
+  bewering: "Anthropic vroeg op 26 oktober 2026 een beursnotering aan bij Nasdaq (symbool ANT). Het biedt 825 miljoen aandelen aan tegen 70 tot 78 dollar per stuk; de roadshow begon op 10 november."
+  peildatum: 2026-11-10
+  bron: sec-edgar
+  vindplaats: "Anthropic, PBC, S-1 (2026-10-26) en S-1/A (2026-11-10), voorblad; anthropic.com/news"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 14
+  status: actueel
+  slides: [MKT-09]
+  noot: "Koersband en aantallen kunnen tot de notering nog wijzigen."
+- id: K-MKT-023
+  bewering: "Van al het geld dat in 2026 in bedrijven werd geïnvesteerd, zat 94% in rondes van 250 miljoen dollar of meer, tegen 10% in 2022. Waarderingen van AI-bedrijven verdubbelden in 3,5 tot 13,3 maanden. Amerikaanse bedrijven halen ongeveer drie van elke vier AI-dollars op."
+  peildatum: 2026-09
+  bron: soai
+  vindplaats: "State of AI Report 2026, slides 152, 153 en 157 (Dealroom)"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 180
+  status: actueel
+  slides: [MKT-09]
+- id: K-MKT-024
+  bewering: "OpenAI en Anthropic kondigden in 2026 respectievelijk 122 en 95 miljard dollar aan nieuwe financiering aan."
+  peildatum: 2026-09
+  bron: soai
+  vindplaats: "State of AI Report 2026, slide 155"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 180
+  status: actueel
+  slides: [MKT-09]

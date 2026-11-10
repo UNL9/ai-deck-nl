@@ -154,6 +154,19 @@ bedrijfsbronnen:
     type: bedrijfsbron
     frequentie: kwartaal
     betrouwbaarheid: A
+  - id: sec-edgar
+    naam: SEC EDGAR, prospectussen (S-1) en jaarverslagen van AI-bedrijven, onder meer Anthropic (CIK 2130357)
+    url: https://www.sec.gov/edgar/search/
+    type: bedrijfsbron
+    frequentie: per publicatie
+    betrouwbaarheid: A
+    opmerking: "Wettelijk voorgeschreven en (voor jaarcijfers) door accountant gecontroleerd. Let op belang van de bron bij operationele maatstaven zoals run-rate. Automatische downloads vereisen een contactadres in de User-Agent."
+  - id: jaarcijfers-dienstverleners
+    naam: Jaarcijfers van Big Four (Deloitte, PwC, EY, KPMG) en IT-dienstverleners (TCS, Infosys, Accenture)
+    type: bedrijfsbron
+    frequentie: jaarlijks
+    betrouwbaarheid: A
+    opmerking: vergelijkingsmateriaal voor de omvang van AI-omzet; boekjaren lopen uiteen
 
 nederland_en_europa:
   - id: cbs
@@ -242,3 +255,8 @@ signaal:
     url: https://www.ben-evans.com/newsletter
     frequentie: wekelijks
     betrouwbaarheid: C
+  - id: financiele-pers
+    naam: Financiële pers (Financial Times, Bloomberg, Reuters, The Information, CNBC) over niet-openbare bedrijfscijfers
+    frequentie: dagelijks
+    betrouwbaarheid: C
+    opmerking: alleen voor cijfers die het bedrijf zelf niet publiceert (zoals omzet van OpenAI); altijd status te_verifieren en 'volgens berichten' vermelden

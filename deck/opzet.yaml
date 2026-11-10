@@ -197,7 +197,7 @@ slides:
     grafiek: "Zakelijke AI-uitgaven per toepassing"
     volatiliteit: kwartaal
     bronnen: [soai, evans]
-    beweringen: [K-MKT-004, K-FRT-021]
+    beweringen: [K-MKT-004, K-MKT-013, K-FRT-021]
     status: opzet
     voorstel:
       kern: "Programmeren is de grootste post in de zakelijke uitgaven aan AI-toepassingen. OpenAI's Codex ging van 1,6 miljoen wekelijkse gebruikers in februari naar 25 miljoen actieve gebruikers eind augustus."
@@ -243,40 +243,58 @@ slides:
     kern: "Samen ruim 105 miljard dollar omzet op jaarbasis, tegen 30 miljard begin 2026. Anthropic is OpenAI voorbijgestreefd."
     grafiek: "Omzet op jaarbasis per lab, 2023 tot nu"
     volatiliteit: wekelijks
-    bronnen: [soai, lab-blogs]
-    beweringen: [K-MKT-001, K-MKT-002]
-    status: opzet
+    bronnen: [soai, lab-blogs, sec-edgar, financiele-pers]
+    beweringen: [K-MKT-001, K-MKT-002, K-MKT-010, K-MKT-011, K-MKT-012, K-MKT-015, K-MKT-016]
+    status: herzien
     noot: "Boekhoudverschil vermelden: OpenAI zegt dat bruto-boeking Anthropic tot 8 miljard dollar hoger laat uitkomen"
+    voorstel:
+      kern: "Anthropic zat eind oktober op 81 miljard dollar omzet op jaarbasis; OpenAI meldde beleggers bijna 50 miljard eind september. Samen ruim 130 miljard, tegen 30 miljard begin 2026. Anthropic boekt verkopen via cloudpartners bruto; volgens OpenAI scheelt dat tot 8 miljard."
+      grafiek: "Kwartaalomzet Anthropic (GAAP) 2025 tot nu, uit het prospectus (data/MKT-01_anthropic_kwartaalomzet.csv). Voor OpenAI bestaat geen gepubliceerde reeks."
+      reden: "Het S-1/A van Anthropic (10 november) is de eerste primaire bron voor deze cijfers en bevestigt de bruto-boeking. Het OpenAI-cijfer komt uit de pers (te verifiëren); vermelden als 'volgens berichten'. Titel blijft staan: Anthropic groeide in een jaar twaalf keer, OpenAI ruim twee keer in negen maanden."
   - id: MKT-02
     titel: "De omzet van twee AI-labs is al groter dan hele sectoren die ze willen veranderen"
     kern: "105 miljard dollar is twee keer TCS en Infosys samen, en bijna de helft van de Big Four."
     volatiliteit: kwartaal
-    bronnen: [soai]
-    beweringen: [K-MKT-001]
-    status: opzet
+    bronnen: [soai, sec-edgar, jaarcijfers-dienstverleners]
+    beweringen: [K-MKT-001, K-MKT-016, K-MKT-017]
+    status: herzien
+    voorstel:
+      kern: "Ruim 130 miljard dollar is ruim vier keer de omzet van TCS en meer dan de helft van die van de Big Four samen (220 miljard)."
+      reden: "Nieuwe som van de twee labs (K-MKT-016, te verifiëren door het OpenAI-deel). Infosys in dollars nog niet vastgesteld, daarom alleen TCS."
   - id: MKT-03
     titel: "Bijna een miljard mensen gebruikt ChatGPT, maar meestal oppervlakkig"
     kern: "Ruim 900 miljoen wekelijkse gebruikers, van wie 5 procent betaalt. Voor minstens 80 procent is het nog geen dagelijks gereedschap."
     grafiek: "Wekelijkse gebruikers ChatGPT over tijd"
     volatiliteit: kwartaal
-    bronnen: [evans, openai-research]
-    beweringen: [K-MKT-005]
-    status: opzet
+    bronnen: [evans, openai-research, lab-blogs]
+    beweringen: [K-MKT-005, K-MKT-018, K-MKT-019]
+    status: herzien
+    voorstel:
+      titel: "Ruim een miljard mensen gebruikt ChatGPT, maar meestal oppervlakkig"
+      kern: "1,2 miljard wekelijkse gebruikers in september 2026, tegen 800 miljoen een jaar eerder. In 2025 stuurde minstens 80 procent minder dan 1.000 berichten in het hele jaar."
+      reden: "OpenAI meldde op DevDay (29 september) 1,2 miljard. Het betaalde aandeel (5 procent) gold bij 900 miljoen en is niet opnieuw vastgesteld; weglaten tot er een nieuw cijfer is."
   - id: MKT-04
     titel: "Zakelijke AI-uitgaven gaan vrijwel volledig naar twee labs"
     kern: "Van de tokenuitgaven die Ramp meet, gaat 52 procent naar Anthropic en 43 procent naar OpenAI. De rest deelt 4 procent."
     grafiek: "Aandeel tokenuitgaven per aanbieder over tijd (Ramp)"
     volatiliteit: wekelijks
     bronnen: [ramp, soai]
-    beweringen: [K-MKT-003]
-    status: opzet
+    beweringen: [K-MKT-003, K-MKT-020, K-MKT-021, K-MKT-026]
+    status: herzien
+    voorstel:
+      kern: "Van de tokenuitgaven die Ramp meet, ging eind oktober 60 procent naar Anthropic en 35 procent naar OpenAI. Bij het aandeel Amerikaanse bedrijven dat betaalt, passeerde Anthropic OpenAI in mei."
+      grafiek: "Aandeel Amerikaanse bedrijven dat betaalt voor AI, totaal en per aanbieder, per maand sinds 2023 (data/MKT-04_ramp_adoptie.csv, Ramp via FRED)"
+      reden: "De verschuiving is groot: 51 naar 60 procent voor Anthropic in een maand. Voor tokenuitgaven bestaan maar drie peilingen; de maandreeks van betalende bedrijven is langer en openbaar via FRED. Beide zijn Amerikaanse cijfers."
   - id: MKT-05
     titel: "Agents breken door buiten de IT-afdeling"
     kern: "Niet-ontwikkelaars gebruiken codeeragents in hoger tempo dan ontwikkelaars. Ruim 1.000 bedrijven geven meer dan een miljoen dollar per jaar uit bij Anthropic."
     volatiliteit: kwartaal
-    bronnen: [soai]
-    beweringen: [K-MKT-004]
-    status: opzet
+    bronnen: [soai, sec-edgar]
+    beweringen: [K-MKT-004, K-MKT-013, K-MKT-014]
+    status: herzien
+    voorstel:
+      kern: "Niet-ontwikkelaars gebruiken codeeragents in hoger tempo dan ontwikkelaars. Ruim 1.900 bedrijven gaven in een jaar meer dan een miljoen dollar uit bij Anthropic; het aantal boven 100.000 dollar ging van 950 naar 11.900."
+      reden: "Klantcijfers uit het S-1/A (stand 30 september) vervangen de SoAI-schatting."
   - id: MKT-06
     titel: "Eén productlancering kostte softwarebedrijven 285 miljard dollar aan beurswaarde"
     kern: "Na de lancering van Claude Cowork daalde de softwarebeurs in februari scherp. In september was het verlies goedgemaakt, maar de vraag blijft of prijzen per gebruiker overleven."
@@ -289,8 +307,8 @@ slides:
     titel: "Modellen zijn uitwisselbaar, en bedrijven gebruiken er meerdere naast elkaar"
     kern: "Er zijn geen netwerkeffecten tussen modellen. AI-bouwers gebruiken gemiddeld 3,3 aanbieders; waarde verschuift naar product, distributie en integratie in werkprocessen."
     volatiliteit: kwartaal
-    bronnen: [evans, iconiq]
-    beweringen: [K-MKT-008]
+    bronnen: [evans, iconiq, ramp, soai]
+    beweringen: [K-MKT-008, K-MKT-021, K-MKT-026]
     status: opzet
   - id: MKT-08
     titel: "AI verkoopt steeds vaker het werk, niet het gereedschap"
@@ -303,8 +321,13 @@ slides:
     titel: "Vrijwel al het durfkapitaal gaat naar AI, en waarderingen verdubbelen in maanden"
     kern: "Verdubbeltijden van 3,5 tot 13 maanden. Megarondes nemen het grootste deel; techbedrijven kopen teams zonder het bedrijf te kopen; het venster voor beursgangen gaat open."
     volatiliteit: kwartaal
-    bronnen: [soai]
-    status: opzet
+    bronnen: [soai, sec-edgar]
+    beweringen: [K-MKT-011, K-MKT-022, K-MKT-023, K-MKT-024]
+    status: herzien
+    voorstel:
+      titel: "Het kapitaal gaat in megarondes naar AI, en het eerste grote lab gaat naar de beurs"
+      kern: "94 procent van het geïnvesteerde geld in 2026 zat in rondes van 250 miljoen dollar of meer. Waarderingen verdubbelden in 3,5 tot 13 maanden. Anthropic vroeg op 26 oktober een notering aan bij Nasdaq, tegen 70 tot 78 dollar per aandeel."
+      reden: "'Vrijwel al het durfkapitaal gaat naar AI' heb ik niet met een cijfer kunnen onderbouwen (SoAI slide 152 is alleen een grafiek). De beursgang van Anthropic is het concrete voorbeeld van 'het venster gaat open'. Het kwartaal met operationele winst (Q2 2026) kan in de toelichting."
 
 # ---------- INFRASTRUCTUUR, CHIPS EN ENERGIE ----------
   - id: INF-01
