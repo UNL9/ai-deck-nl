@@ -217,6 +217,12 @@ nederland_en_europa:
     type: toezicht
     frequentie: per publicatie
     betrouwbaarheid: A
+  - id: eurohpc
+    naam: EuroHPC Joint Undertaking (AI-fabrieken en AI-gigafabrieken)
+    url: https://eurohpc-ju.europa.eu
+    type: overheid
+    frequentie: per publicatie
+    betrouwbaarheid: A
 
 signaal:
   # Wekelijks lezen om te zien wat er speelt; niet als bron voor cijfers zonder controle.

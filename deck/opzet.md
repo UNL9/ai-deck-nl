@@ -147,15 +147,15 @@ Verdubbeltijden van 3,5 tot 13 maanden. Megarondes nemen het grootste deel; tech
 
 **INF-01** [K] **De vier grote clouds investeren dit jaar 733 miljard dollar**  
 Een stijging van 349 miljard in één jaar. Ter vergelijking: de wereldwijde telecomsector investeert circa 300 miljard per jaar.
-<br><sub>Bronnen: earnings, soai, evans</sub>
+<br><sub>Bronnen: earnings, sec-edgar, soai, evans</sub>
 
 **INF-02** [K] **Bijna twee derde gaat naar AI, en kapitaalarme techbedrijven zijn kapitaalintensief geworden**  
 Geschat 563 miljard dollar AI-investering in 2026, straks meer dan 1.000 miljard per jaar. Financiering loopt steeds vaker via constructies buiten de balans.
-<br><sub>Bronnen: soai, evans</sub>
+<br><sub>Bronnen: soai, evans, sec-edgar</sub>
 
 **INF-03** [K] **NVIDIA blijft de standaard, maar concurrenten winnen terrein bij inferentie**  
 Google, Amazon en Huawei bouwen eigen chips. NVIDIA verlegt telkens de lat.
-<br><sub>Bronnen: soai, earnings</sub>
+<br><sub>Bronnen: soai, earnings, epoch</sub>
 
 **INF-04** [K] **Zonder ASML geen AI: de keten loopt via Veldhoven en Taiwan**  
 ASML verkocht in 2025 zes EUV-machines meer dan in 2021, tegen een 61 procent hogere gemiddelde prijs. De capaciteit van TSMC begrenst het aanbod.
@@ -167,11 +167,11 @@ GPU-huurprijzen liggen boven hun dieptepunt. Chips van zes en negen jaar oud wor
 
 **INF-06** [K] **Stroom is het nieuwe knelpunt, en Europa betaalt er veel meer voor**  
 AI-bedrijven overbieden energiebedrijven voor turbines. Eén cent per kWh extra kost een datacenter van 1 GW bijna 88 miljoen dollar per jaar; het VK betaalt vier keer de Amerikaanse prijs.
-<br><sub>Bronnen: soai, iea-energy-ai · Open: Nederlandse prijs toevoegen</sub>
+<br><sub>Bronnen: soai, iea-energy-ai, eurostat · Open: Nederlandse prijs toevoegen</sub>
 
 **INF-07** [K] **Europa heeft 5 procent van de rekenkracht, en zet 1 miljard euro in tegen honderden miljarden**  
 Exclusief China heeft de VS 80 procent. Eén cluster van xAI heeft 3,5 keer zoveel als de hele EU. Het eerste EU-bedrag voor gigafabrieken is 1 miljard euro.
-<br><sub>Bronnen: epoch, soai</sub>
+<br><sub>Bronnen: epoch, soai, eurohpc</sub>
 
 **INF-08** [S] **Is dit een bubbel? De betere vraag is wanneer gebruik en kosten in evenwicht komen**  
 Prijs, gebruik en investeringen zijn niet in evenwicht. Mobiele netwerken rond 2010 zijn een leerzame vergelijking.

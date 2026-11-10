@@ -335,57 +335,80 @@ slides:
     kern: "Een stijging van 349 miljard in één jaar. Ter vergelijking: de wereldwijde telecomsector investeert circa 300 miljard per jaar."
     grafiek: "Jaarlijkse investeringen Microsoft, Alphabet, Amazon, Meta, 2010 tot nu"
     volatiliteit: kwartaal
-    bronnen: [earnings, soai, evans]
-    beweringen: [K-INF-001]
-    status: opzet
+    bronnen: [earnings, sec-edgar, soai, evans]
+    beweringen: [K-INF-001, K-INF-006, K-INF-007, K-INF-008]
+    status: herzien
+    voorstel:
+      kern: "Een stijging van ruim 300 miljard in één jaar. Alleen al in het derde kwartaal gaven ze samen ruim 200 miljard uit."
+      grafiek: "Jaarlijkse investeringen per bedrijf, 2010 tot 2025, uit de jaarverslagen (data/INF-01_capex_hyperscalers.csv), met de verwachting voor 2026 als losse markering"
+      reden: "De 733 miljard klopt met de eigen verwachtingen van de vier (K-INF-006). SoAI spreekt zichzelf tegen over de stijging: slide 135 zegt 349 miljard, slide 155 zegt 410 naar 733 miljard (323 miljard). Daarom 'ruim 300 miljard'. Voor de telecomvergelijking (300 miljard) heb ik geen bron gevonden; weglaten of onderbouwen."
   - id: INF-02
     titel: "Bijna twee derde gaat naar AI, en kapitaalarme techbedrijven zijn kapitaalintensief geworden"
     kern: "Geschat 563 miljard dollar AI-investering in 2026, straks meer dan 1.000 miljard per jaar. Financiering loopt steeds vaker via constructies buiten de balans."
     grafiek: "Investeringen als percentage van omzet, 2010 tot nu"
     volatiliteit: kwartaal
-    bronnen: [soai, evans]
-    beweringen: [K-INF-002]
+    bronnen: [soai, evans, sec-edgar]
+    beweringen: [K-INF-002, K-INF-008, K-INF-009, K-INF-010]
     status: opzet
+    voorstel:
+      grafiek: "Investeringen als percentage van omzet per bedrijf, 2010 tot 2025 (kolom capex_pct_omzet in data/INF-01_capex_hyperscalers.csv)"
+      reden: "Meta en Microsoft investeren inmiddels ruim een derde van hun omzet, tegen 15 en 3 procent in 2010. Voor 'buiten de balans' is het leasecontract van Anthropic (125 miljard over vijf jaar, uit het prospectus) een concreet voorbeeld. Kern kan blijven."
   - id: INF-03
     titel: "NVIDIA blijft de standaard, maar concurrenten winnen terrein bij inferentie"
     kern: "Google, Amazon en Huawei bouwen eigen chips. NVIDIA verlegt telkens de lat."
     volatiliteit: kwartaal
-    bronnen: [soai, earnings]
+    bronnen: [soai, earnings, epoch]
+    beweringen: [K-INF-011, K-INF-012, K-INF-013]
     status: opzet
+    voorstel:
+      kern: "NVIDIA ontwierp twee derde van alle geïnstalleerde AI-rekenkracht, maar Google's eigen chips gingen in een jaar van 14 naar 19 procent. Labs spreiden hun inkoop over vier of vijf leveranciers."
+      grafiek: "Aandeel in geïnstalleerde AI-rekenkracht per chipontwerper, eind 2024 en eind 2025 (data/INF-03_rekenkracht_per_chipontwerper.csv, Epoch)"
+      reden: "Kern had nog geen cijfers. De Epoch-data maken 'terrein winnen' meetbaar. Of dat specifiek bij inferentie is, laten de data niet zien; titel eventueel algemener."
   - id: INF-04
     titel: "Zonder ASML geen AI: de keten loopt via Veldhoven en Taiwan"
     kern: "ASML verkocht in 2025 zes EUV-machines meer dan in 2021, tegen een 61 procent hogere gemiddelde prijs. De capaciteit van TSMC begrenst het aanbod."
     volatiliteit: kwartaal
     bronnen: [soai, earnings]
+    beweringen: [K-INF-014, K-INF-015]
     status: opzet
+    voorstel:
+      kern: "ASML verkocht in 2025 zes EUV-machines meer dan in 2021, tegen een 61 procent hogere gemiddelde prijs. ASML verwacht dat de geplande capaciteit ook in 2027 en 2028 tekortschiet."
+      reden: "De uitspraak van ASML zelf (14 oktober) is sterker en primair. Voor 'TSMC begrenst het aanbod' heb ik nog geen bron opgenomen."
   - id: INF-05
     titel: "Rekenkracht is schaars: oude chips blijven verhuurd en prijzen stijgen weer"
     kern: "GPU-huurprijzen liggen boven hun dieptepunt. Chips van zes en negen jaar oud worden nog verhuurd."
     volatiliteit: kwartaal
     bronnen: [soai]
+    beweringen: [K-INF-016]
     status: opzet
   - id: INF-06
     titel: "Stroom is het nieuwe knelpunt, en Europa betaalt er veel meer voor"
     kern: "AI-bedrijven overbieden energiebedrijven voor turbines. Eén cent per kWh extra kost een datacenter van 1 GW bijna 88 miljoen dollar per jaar; het VK betaalt vier keer de Amerikaanse prijs."
     grafiek: "Stroomprijs voor bedrijven per land"
     volatiliteit: kwartaal
-    bronnen: [soai, iea-energy-ai]
-    beweringen: [K-INF-005]
+    bronnen: [soai, iea-energy-ai, eurostat]
+    beweringen: [K-INF-005, K-INF-017, K-INF-018]
     status: opzet
     noot: "Nederlandse prijs toevoegen"
+    voorstel:
+      grafiek: "Stroomprijs voor grootverbruikers (meer dan 150 GWh) exclusief btw, Nederland naast EU-landen, per halfjaar (data/INF-06_stroomprijs_bedrijven.csv, Eurostat)"
+      reden: "Nederlandse prijs toegevoegd: 10,6 eurocent per kWh voor grootverbruikers, iets onder het EU-gemiddelde (11,3), ruim boven Frankrijk (7,2). Eurostat geeft geen VS of VK; die blijven uit SoAI (dollars, ander jaar). Niet in één grafiek mengen."
   - id: INF-07
     titel: "Europa heeft 5 procent van de rekenkracht, en zet 1 miljard euro in tegen honderden miljarden"
     kern: "Exclusief China heeft de VS 80 procent. Eén cluster van xAI heeft 3,5 keer zoveel als de hele EU. Het eerste EU-bedrag voor gigafabrieken is 1 miljard euro."
     grafiek: "Geïnstalleerde AI-rekenkracht per regio (Epoch-data)"
     volatiliteit: kwartaal
-    bronnen: [epoch, soai]
-    beweringen: [K-INF-003, K-INF-004]
+    bronnen: [epoch, soai, eurohpc]
+    beweringen: [K-INF-003, K-INF-004, K-INF-019]
     status: opzet
+    voorstel:
+      reden: "Kern kan blijven. Let op de aanbesteding: die sluit niet half november, maar op 3 december (grote gigafabrieken) en 4 februari 2027 (middelgrote). De EU mikt op meer dan 30 miljard aan investeringen in totaal; dat getal hoort naast de 1 miljard."
   - id: INF-08
     titel: "Is dit een bubbel? De betere vraag is wanneer gebruik en kosten in evenwicht komen"
     kern: "Prijs, gebruik en investeringen zijn niet in evenwicht. Mobiele netwerken rond 2010 zijn een leerzame vergelijking."
     volatiliteit: stabiel
     bronnen: [evans]
+    beweringen: [K-INF-008, K-INF-016]
     status: opzet
 
 # ---------- WERK EN ORGANISATIE ----------

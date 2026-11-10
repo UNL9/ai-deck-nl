@@ -1,0 +1,18 @@
+# bron: Epoch AI, Data on AI chip owners (cumulative_by_designer.csv)
+# url: https://epoch.ai/data/ai-chip-owners
+# licentie: CC-BY 4.0 (Epoch AI)
+# opgehaald: 2026-11-10 (dataset bijgewerkt 2026-05-12)
+# 2023 weggelaten: Epoch dekt dat jaar onvolledig (alleen NVIDIA en Google). Cumulatief geïnstalleerde AI-rekenkracht in miljoenen H100-equivalenten (mediaanschatting) per chipontwerper, opgeteld over alle eigenaren; NVIDIA inclusief naar China gesmokkelde chips (schatting Epoch). Niet alle eigenaren zijn gedekt (onder meer xAI ontbreekt als aparte rij).
+stand_eind,ontwerper,h100e_mln,aandeel_pct
+Q4-2024,Nvidia,4.70,70.2
+Q4-2024,Google,0.95,14.2
+Q4-2024,AMD,0.55,8.2
+Q4-2024,Amazon,0.31,4.6
+Q4-2024,Huawei,0.18,2.7
+Q4-2024,Cambricon,0.01,0.1
+Q4-2025,Nvidia,13.56,66.6
+Q4-2025,Google,3.81,18.7
+Q4-2025,AMD,1.24,6.1
+Q4-2025,Amazon,1.02,5.0
+Q4-2025,Huawei,0.71,3.5
+Q4-2025,Cambricon,0.03,0.2
