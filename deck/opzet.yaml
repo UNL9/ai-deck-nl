@@ -487,9 +487,13 @@ slides:
     kern: "Informatie en communicatie loopt ver voor, bouw, horeca en logistiek lopen achter. Het verschil zit in hoeveel van het werk uit tekst en data bestaat."
     grafiek: "AI-gebruik per sector (CBS, Gallup)"
     volatiliteit: kwartaal
-    bronnen: [cbs, gallup]
-    beweringen: [K-NLD-002]
+    bronnen: [cbs, gallup, eurostat]
+    beweringen: [K-NLD-002, K-SEC-001]
     status: opzet
+    voorstel:
+      kern: "Informatie en communicatie loopt ver voor (70 procent van de bedrijven gebruikt AI), bouw, vervoer en horeca lopen achter (16 tot 21 procent). Nederland ligt in elke sector boven het Europese gemiddelde."
+      grafiek: "AI-gebruik per sector, Nederland naast EU, bedrijven met 10 of meer werknemers, 2025 (data/SEC-01_ai_gebruik_per_sector.csv, Eurostat)"
+      reden: "Eurostat geeft per sector Nederland en EU naast elkaar; dat is sterker dan CBS alleen. Gallup is Amerikaans en past niet in dezelfde grafiek."
   - id: SEC-02
     titel: "Zorg: van beeldherkenning naar administratie en medicijnontwikkeling"
     kern: "Radiologie gebruikt AI al jaren. Nu volgen verslaglegging en planning, en door AI ontdekte medicijnen zitten in fase 3."
@@ -503,52 +507,63 @@ slides:
     kern: "Een topmodel haalde 100 procent op gestructureerde boekhoudtaken, maar slaagde voor slechts 12 procent van gesimuleerde bankopdrachten. Fraude en klantenservice zijn het verst."
     volatiliteit: kwartaal
     bronnen: [soai, dnb-afm]
+    beweringen: [K-SEC-002]
     status: opzet
   - id: SEC-04
     titel: "Juridische en professionele diensten: het verdienmodel per uur staat onder druk"
     kern: "Als werk goedkoop wordt, is het uurtarief geen goede maatstaf meer. De labs richten zich expliciet op juridisch, accountancy en advies."
     volatiliteit: kwartaal
     bronnen: [soai]
+    beweringen: [K-SEC-003, K-MKT-006, K-MKT-017]
     status: opzet
   - id: SEC-05
     titel: "Overheid: grote belofte, en een harde les uit de toeslagenaffaire"
     kern: "AI kan dienstverlening en uitvoering verbeteren. De toeslagenaffaire liet zien wat er gebeurt als een risicomodel discrimineert en niemand het controleert."
     volatiliteit: stabiel
     bronnen: [rijksoverheid, ap-ran]
+    beweringen: [K-SEC-004]
     status: opzet
   - id: SEC-06
     titel: "Onderwijs: de beste tutor geeft niet meteen het antwoord"
     kern: "Een gerandomiseerde proef met 1.763 leerlingen liet na acht weken betere wiskundescores zien. Algemene assistenten helpen te veel; leren vraagt ander gedrag."
     volatiliteit: kwartaal
     bronnen: [soai]
+    beweringen: [K-SEC-005]
     status: opzet
   - id: SEC-07
     titel: "Handel: AI-assistenten worden een nieuw winkelkanaal"
     kern: "Verkeer via AI-assistenten groeit hard maar is nog maar 0,4 procent van webwinkelbezoek, en converteert beter. Zoeken via AI vult zoekmachines voorlopig vooral aan."
     volatiliteit: kwartaal
     bronnen: [soai, evans]
+    beweringen: [K-SEC-006]
     status: opzet
   - id: SEC-08
     titel: "Media en creatieve sector: maken wordt goedkoop, aandacht en rechten worden schaars"
     kern: "Beeld, video en tekst genereren kost bijna niets. Uitgevers verliezen bezoek aan antwoordmachines en procederen over hergebruik."
     volatiliteit: kwartaal
     bronnen: [soai]
+    beweringen: [K-SEC-007]
     status: opzet
   - id: SEC-09
     titel: "Industrie en logistiek: AI komt via robots, planning en onderhoud"
     kern: "Unitree verkocht 5.215 humanoïde robots in 2025 en is winstgevend. Robots bouwen al mee aan datacenters."
     volatiliteit: kwartaal
     bronnen: [soai]
+    beweringen: [K-SEC-008]
     status: opzet
+    noot: "'Robots bouwen al mee aan datacenters' nog niet onderbouwd met een bewering."
   - id: SEC-10
     titel: "Mobiliteit: zelfrijdende auto's zijn een dienst geworden, geen experiment"
     kern: "Waymo reed 220 miljoen mijl zonder chauffeur en doet ruim 500.000 betaalde ritten per week in 14 Amerikaanse steden, met 94 procent minder ernstige ongevallen dan menselijke bestuurders."
     grafiek: "Waymo-mijlen zonder chauffeur over tijd"
     volatiliteit: kwartaal
-    bronnen: [soai]
-    beweringen: [K-FRT-008]
-    status: opzet
+    bronnen: [soai, lab-blogs]
+    beweringen: [K-FRT-008, K-SEC-009]
+    status: herzien
     noot: "Stand in Europa toevoegen"
+    voorstel:
+      kern: "Waymo reed tot juli 271 miljoen mijl zonder chauffeur, met 95 procent minder ernstige ongevallen dan menselijke bestuurders op dezelfde wegen. Het bedrijf doet ruim 500.000 betaalde ritten per week."
+      reden: "Mijlen en veiligheidscijfer bijgewerkt uit de safety hub van Waymo (juni 2026). Ritten per week en aantal steden zijn nog de SoAI-stand. Het zijn eigen cijfers van Waymo."
 
 # ---------- SAMENLEVING ----------
   - id: SAM-01

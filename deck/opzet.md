@@ -219,7 +219,7 @@ In de VS naar schatting 320.000 extra banen in infrastructuur en 730.000 in AI-g
 
 **SEC-01** [K] **AI raakt elke sector, maar in een heel ander tempo**  
 Informatie en communicatie loopt ver voor, bouw, horeca en logistiek lopen achter. Het verschil zit in hoeveel van het werk uit tekst en data bestaat.
-<br><sub>Bronnen: cbs, gallup</sub>
+<br><sub>Bronnen: cbs, gallup, eurostat</sub>
 
 **SEC-02** [K] **Zorg: van beeldherkenning naar administratie en medicijnontwikkeling**  
 Radiologie gebruikt AI al jaren. Nu volgen verslaglegging en planning, en door AI ontdekte medicijnen zitten in fase 3.
@@ -251,11 +251,11 @@ Beeld, video en tekst genereren kost bijna niets. Uitgevers verliezen bezoek aan
 
 **SEC-09** [K] **Industrie en logistiek: AI komt via robots, planning en onderhoud**  
 Unitree verkocht 5.215 humanoïde robots in 2025 en is winstgevend. Robots bouwen al mee aan datacenters.
-<br><sub>Bronnen: soai</sub>
+<br><sub>Bronnen: soai · Open: 'Robots bouwen al mee aan datacenters' nog niet onderbouwd met een bewering.</sub>
 
 **SEC-10** [K] **Mobiliteit: zelfrijdende auto's zijn een dienst geworden, geen experiment**  
 Waymo reed 220 miljoen mijl zonder chauffeur en doet ruim 500.000 betaalde ritten per week in 14 Amerikaanse steden, met 94 procent minder ernstige ongevallen dan menselijke bestuurders.
-<br><sub>Bronnen: soai · Open: Stand in Europa toevoegen</sub>
+<br><sub>Bronnen: soai, lab-blogs · Open: Stand in Europa toevoegen</sub>
 
 ## Samenleving (7)
 

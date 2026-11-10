@@ -1,0 +1,106 @@
+# Thema: toepassingen per sector
+# Fase 2, 2026-11-10
+
+# SEC-01: tempo per sector
+- id: K-SEC-001
+  bewering: "In 2025 gebruikte 33% van de Nederlandse bedrijven met 10 of meer werknemers AI, tegen 20% in de EU. Per sector in Nederland: informatie en communicatie 70%, specialistische zakelijke diensten 55%, industrie 29%, bouw 21%, vervoer en opslag 20%, horeca 16%."
+  peildatum: 2025
+  bron: eurostat
+  vindplaats: "Eurostat isoc_eb_ain2 (bijgewerkt 2026-06-15), indicator E_AI_TANY; data/SEC-01_ai_gebruik_per_sector.csv"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 400
+  status: actueel
+  slides: [SEC-01, NLD-01]
+  noot: "Eurostat telt bedrijven vanaf 10 werknemers; CBS (K-NLD-002) vanaf 2 personen, daarom liggen de CBS-cijfers lager. Financiële sector valt buiten de enquête. Nederland ligt in elke sector boven het EU-gemiddelde."
+
+# SEC-03: financiële sector
+- id: K-SEC-002
+  bewering: "Claude Opus 5 scoorde 100% in 20 pogingen op vier gestructureerde boekhoudtaken, maar slaagde voor 12,3% van de 100 gesimuleerde bankopdrachten in ATLAS-Finance, waarvoor een correcte spreadsheet en een goede oplevering nodig zijn."
+  peildatum: 2026
+  bron: soai
+  vindplaats: "State of AI Report 2026, slide 102 (Mercor; ATLAS-Finance)"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 180
+  status: actueel
+  slides: [SEC-03]
+
+# SEC-04: professionele diensten
+- id: K-SEC-003
+  bewering: "OpenAI en Anthropic richtten in mei 2026 elk een dienstverlener op voor de invoering van hun modellen bij bedrijven, gefinancierd door private-equityfondsen: OpenAI haalde ruim 4 miljard dollar op bij een waardering van 10 miljard, Anthropic kreeg circa 1,5 miljard aan toezeggingen van onder meer Blackstone en Goldman Sachs."
+  peildatum: 2026-05
+  bron: soai
+  vindplaats: "State of AI Report 2026, slide 109"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 180
+  status: actueel
+  slides: [SEC-04]
+  noot: "Zie ook K-MKT-006 (Claude Cowork met plugins voor juridisch, marketing en financiën) en K-MKT-017 (omzet Big Four)."
+
+# SEC-05: overheid
+- id: K-SEC-004
+  bewering: "De Autoriteit Persoonsgegevens legde de Belastingdienst in 2021 een boete van 2,75 miljoen euro op voor de discriminerende verwerking van de (dubbele) nationaliteit van aanvragers van kinderopvangtoeslag, en in 2022 3,7 miljoen euro voor de Fraudesignaleringsvoorziening (FSV), de hoogste boete die de AP tot dan toe oplegde."
+  peildatum: 2022
+  bron: ap-ran
+  vindplaats: "Kamerstuk 31066-1001 en AP-besluiten; https://zoek.officielebekendmakingen.nl/kst-31066-1001.html"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 1825
+  status: actueel
+  slides: [SEC-05]
+  noot: "Historisch feit; bedragen via Kamerstukken en vakpers, AP-besluit niet zelf ingezien. Bron-ID ap-ran staat voor de AP in het algemeen."
+
+# SEC-06: onderwijs
+- id: K-SEC-005
+  bewering: "In een gerandomiseerde proef in Sierra Leone (1.763 leerlingen in 48 klassen op 12 scholen) verbeterden door de leraar geleide activiteiten met Gemini de wiskundescores na acht weken met 0,26 standaarddeviatie (95%-interval 0,03 tot 0,49)."
+  peildatum: 2026
+  bron: soai
+  vindplaats: "State of AI Report 2026, slide 106"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 365
+  status: actueel
+  slides: [SEC-06]
+  noot: "Test een gestructureerd klasprogramma, geen vrij gebruik van een chatbot of leren op lange termijn."
+
+# SEC-07: handel
+- id: K-SEC-006
+  bewering: "Verwijzingen vanuit AI-assistenten naar webwinkels groeiden in een jaar met 203% (Similarweb), maar zijn nog 0,4% van de bezoeken. Bezoekers via AI kochten bij Shopify-winkels in het tweede kwartaal van 2026 ongeveer 80% vaker dan bezoekers via gewone zoekmachines."
+  peildatum: 2026-06
+  bron: soai
+  vindplaats: "State of AI Report 2026, slide 121 (Similarweb, Shopify)"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 180
+  status: actueel
+  slides: [SEC-07]
+
+# SEC-08: media
+- id: K-SEC-007
+  bewering: "Uitgevers en platforms procederen over hergebruik door antwoordmachines: CNN klaagt Perplexity aan over meer dan 17.000 stukken content, Reddit beschuldigt SerpApi ervan Google-beveiliging te omzeilen om content aan Perplexity te leveren. Er zijn nog geen uitspraken over aansprakelijkheid."
+  peildatum: 2026-09
+  bron: soai
+  vindplaats: "State of AI Report 2026, slide 195"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 180
+  status: actueel
+  slides: [SEC-08]
+
+# SEC-09: industrie en robots
+- id: K-SEC-008
+  bewering: "Unitree verkocht 5.215 humanoïde robots in 2025, tegen 412 in 2024, bij een 36% lagere gemiddelde prijs. De omzet steeg 333% naar circa 238 miljoen dollar, met 39 miljoen nettowinst."
+  peildatum: 2025-12-31
+  bron: soai
+  vindplaats: "State of AI Report 2026, slide 149 (jaarcijfers Unitree)"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 365
+  status: actueel
+  slides: [SEC-09]
+
+# SEC-10: mobiliteit
+- id: K-SEC-009
+  bewering: "Waymo heeft tot en met juni 2026 271,3 miljoen mijl gereden zonder chauffeur. Vergeleken met menselijke bestuurders op dezelfde wegen had Waymo 95% minder ongevallen met ernstig letsel of erger en 82% minder ongevallen met letsel."
+  peildatum: 2026-06-30
+  bron: lab-blogs
+  vindplaats: "https://waymo.com/safety/impact/"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 90
+  status: actueel
+  slides: [SEC-10]
+  noot: "Eigen cijfers van Waymo (belang van de bron). Vervangt de mijlen en het veiligheidscijfer uit K-FRT-008; het aantal ritten en steden komt nog uit SoAI. Bron-ID lab-blogs bij gebrek aan een aparte bedrijfsbron."

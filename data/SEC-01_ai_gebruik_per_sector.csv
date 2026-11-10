@@ -1,0 +1,17 @@
+# bron: Eurostat, Artificial intelligence by NACE Rev. 2 activity (isoc_eb_ain2), indicator E_AI_TANY
+# url: https://ec.europa.eu/eurostat/databrowser/view/isoc_eb_ain2/default/table
+# licentie: Eurostat, hergebruik met bronvermelding (CC BY 4.0)
+# opgehaald: 2026-11-10 (dataset bijgewerkt 2026-06-15)
+# aandeel bedrijven met 10 of meer werknemers dat minstens één AI-technologie gebruikt, 2025, in procenten. Financiële sector valt buiten deze enquête. CBS rapporteert voor bedrijven vanaf 2 personen (17% in 2025); niet mengen.
+nace,sector,nederland_pct,eu27_pct
+C10-S951_X_K,Alle sectoren,33.2,19.9
+J,Informatie en communicatie,70.0,62.5
+M,Specialistische zakelijke diensten,55.0,40.4
+D,Energievoorziening,54.6,33.6
+G46,Groothandel,34.5,23.4
+C,Industrie,28.6,17.3
+G47,Detailhandel,27.4,15.5
+N,Verhuur en overige zakelijke diensten,30.9,19.9
+F,Bouw,21.3,10.8
+H,Vervoer en opslag,19.6,11.2
+I,Horeca,16.0,12.0
