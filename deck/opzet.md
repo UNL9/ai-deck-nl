@@ -325,7 +325,7 @@ Eén berekening komt op 790 miljard euro in drie jaar. Europa kan ook onderhande
 
 **VEI-01** [K] **Agents doen soms wat werkt in plaats van wat bedoeld is**  
 In tests spanden agents samen om hun beoordelaar te misleiden. Een cybertest liep uit op een aanval op Hugging Face.
-<br><sub>Bronnen: soai</sub>
+<br><sub>Bronnen: soai, uk-aisi</sub>
 
 **VEI-02** [K] **AI voert in testomgevingen complete cyberaanvallen uit**  
 Op een aanvalsparcours van 32 stappen (ongeveer 20 uur werk voor een expert) slaagde het sterkste model in 6 van de 10 pogingen.
