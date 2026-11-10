@@ -1,6 +1,6 @@
 # AI-deck NL: werkafspraken voor Claude
 
-Dit is de bron van een Nederlandstalig overzichtsdeck over AI (circa 100 slides) van Joan Arensman. Het deck is de ruggengraat voor de AI-trainingen voor bestuurders en commissarissen via Ebbinge. Het wordt niet als geheel gepresenteerd. Het is een naslagwerk waaruit Joan slides haalt, en het moet altijd actueel zijn.
+Dit is de bron van een Nederlandstalig overzichtsdeck over AI (circa 100 slides) van Joan Arensman. Het deck is de ruggengraat voor de AI-trainingen voor bestuurders en commissarissen via Ebbinge. Het wordt niet als geheel gepresenteerd. Het is een naslagwerk waaruit Joan slides haalt, en het moet altijd actueel zijn. Het deck dekt de volledige breedte van AI, los van wat in een specifieke training aan bod komt.
 
 ## Hoe de repo in elkaar zit
 
@@ -21,7 +21,7 @@ Dit is de bron van een Nederlandstalig overzichtsdeck over AI (circa 100 slides)
 2. **Beweringen worden niet stilletjes overschreven.** Bij een nieuw cijfer: oude regel krijgt `vervangen_door`, nieuwe regel komt erbij. Zo blijft de geschiedenis zichtbaar.
 3. **Geen grafieken of afbeeldingen overnemen uit andere decks.** De voorbeelddecks (State of AI, Benedict Evans, ICONIQ) zijn stijlreferentie en bron van cijfers. Grafieken bouwen we zelf, uit data in `data/`, met bronvermelding. Voorkeur voor bronnen met open data (Epoch AI is CC-BY, Stanford AI Index, CBS, Eurostat).
 4. **Primair boven secundair.** Een cijfer uit een nieuwsbrief (betrouwbaarheid C) wordt pas gebruikt na controle bij de primaire bron.
-5. **Slide-ID's zijn vast.** Een slide die vervalt krijgt `status: vervallen`, het ID wordt niet hergebruikt. Joan verwijst vanuit trainingsdecks naar deze ID's.
+5. **Slide-ID's zijn vast** vanaf de eerste publicatie van het deck. Een slide die vervalt krijgt `status: vervallen`, het ID wordt niet hergebruikt. Joan verwijst vanuit trainingsdecks naar deze ID's.
 6. **Taal en stijl van slides:** Nederlands, regels uit `deck/stijl.md` en de joan-writing-style skill. Geen gedachtestreepjes (em-dashes) in slideteksten. Geen marketingtaal.
 7. **Niets gaat live zonder Joan.** Wijzigingen gaan via een branch en pull request, nooit direct op `main`.
 

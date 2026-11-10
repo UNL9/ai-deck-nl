@@ -25,7 +25,7 @@
   vastgesteld: 2026-11-10
   houdbaarheid_dagen: 90
   status: actueel
-  slides: [INF-09]
+  slides: [INF-07]
 - id: K-INF-004
   bewering: "Het eerste EU-bedrag voor AI-gigafabrieken is 1 miljard euro; de aanbesteding sluit half november 2026, bouw vanaf 2027, in gebruik in 2028."
   peildatum: 2026-09
@@ -34,7 +34,7 @@
   vastgesteld: 2026-11-10
   houdbaarheid_dagen: 30
   status: actueel
-  slides: [INF-10]
+  slides: [INF-07]
   noot: "Uitkomst aanbesteding volgen"
 - id: K-INF-005
   bewering: "Stroomprijs voor bedrijven 2025: Finland 0,085 en VS-industrie 0,086 dollar per kWh, China circa 0,109, VK 0,373. Voor een datacenter van 1 GW kost 1 cent per kWh extra 87,6 miljoen dollar per jaar."
@@ -44,4 +44,4 @@
   vastgesteld: 2026-11-10
   houdbaarheid_dagen: 365
   status: actueel
-  slides: [INF-08]
+  slides: [INF-06]

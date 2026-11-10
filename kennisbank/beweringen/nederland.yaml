@@ -16,7 +16,7 @@
   vastgesteld: 2026-11-10
   houdbaarheid_dagen: 400
   status: actueel
-  slides: [NLD-02, WRK-03]
+  slides: [NLD-01, WRK-03, SEC-01]
 - id: K-NLD-003
   bewering: "Het kabinet zet in op 200 miljoen euro voor een AI-fabriek in Groningen, samen met regio en Defensie."
   peildatum: 2025-06-27
@@ -26,4 +26,4 @@
   houdbaarheid_dagen: 90
   status: te_verifieren
   noot: "Alleen kop gezien. Bedragen, partners en huidige status (start medio 2026?) controleren"
-  slides: [NLD-04]
+  slides: [NLD-03]

@@ -61,7 +61,7 @@
   vastgesteld: 2026-11-10
   houdbaarheid_dagen: 180
   status: actueel
-  slides: [MKT-09]
+  slides: [MKT-08]
 - id: K-MKT-008
   bewering: "AI-bouwers gebruiken gemiddeld 3,3 modelaanbieders (3,1 in Q4 2025). Het aandeel respondenten dat Anthropic gebruikt steeg van 51% (Q4 2025) naar 81% (Q2 2026)."
   peildatum: 2026-05
@@ -70,7 +70,7 @@
   vastgesteld: 2026-11-10
   houdbaarheid_dagen: 180
   status: actueel
-  slides: [MKT-10]
+  slides: [MKT-07]
 - id: K-MKT-009
   bewering: "In 249.834 onderzochte consumentengesprekken met Claude (voorjaar 2026) ging 56% over belangrijk of zwaarwegend werk; in 72% leidde de mens en assisteerde AI."
   peildatum: 2026-05
@@ -79,4 +79,4 @@
   vastgesteld: 2026-11-10
   houdbaarheid_dagen: 180
   status: actueel
-  slides: [MKT-11]
+  slides: [WRK-04]

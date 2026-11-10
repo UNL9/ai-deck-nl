@@ -1,6 +1,6 @@
 # AI-deck NL
 
-Nederlandstalig overzichtsdeck over AI, circa 100 slides, wekelijks bijgewerkt. Ruggengraat voor de AI-trainingen voor bestuurders en commissarissen (Ebbinge). Een naslagwerk, geen presentatie: losse slides worden overgenomen in trainingsdecks en zijn te herkennen aan hun vaste ID.
+Nederlandstalig overzichtsdeck over AI, circa 100 slides, wekelijks bijgewerkt. Ruggengraat voor de AI-trainingen voor bestuurders en commissarissen (Ebbinge). Het dekt de volledige breedte van AI. Een naslagwerk, geen presentatie: losse slides worden overgenomen in trainingsdecks en zijn te herkennen aan hun vaste ID.
 
 ## Hoe het werkt
 
