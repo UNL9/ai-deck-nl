@@ -388,22 +388,22 @@ Vijf vragen die elke raad nu moet stellen: over strategie, waarde, risico, mense
 
 **GOV-02** [S] **Een AI-strategie begint bij processen en data, en meet waarde in plaats van gebruik**  
 Aantal gebruikers en tokenuitgaven zeggen weinig, en de kosten van interne AI zijn moeilijk te voorspellen. Meet doorlooptijd, kwaliteit en kosten per proces.
-<br><sub>Bronnen: iconiq</sub>
+<br><sub>Bronnen: iconiq, soai, gallup</sub>
 
 **GOV-03** [S] **Bouwen, kopen of laten doen: de keuze verschuift**  
 Modellen worden uitwisselbaar, aanbieders verkopen werk in plaats van software, en de labs bieden met eigen adviesbedrijven zelf implementatie aan.
-<br><sub>Bronnen: soai, evans</sub>
+<br><sub>Bronnen: soai, evans, iconiq</sub>
 
 **GOV-04** [S] **Ken je risico's: schaduw-AI, datalekken en afhankelijkheid van twee leveranciers**  
 De drie risico's die nu het vaakst onderschat worden.
 
 **GOV-05** [K] **AI-geletterdheid is een wettelijke plicht**  
 Artikel 4 van de AI Act verplicht organisaties die AI inzetten om te zorgen dat hun mensen er voldoende van weten.
-<br><sub>Bronnen: eu-ai-act · Open: Verifiëren of de Digital Omnibus deze plicht heeft gewijzigd</sub>
+<br><sub>Bronnen: eu-ai-act · Open: Verifiëren of de Digital Omnibus deze plicht heeft gewijzigd (ja: inspanningsverplichting, K-GOV-001)</sub>
 
 **GOV-06** [S] **Verantwoord gebruik vraagt een register, een eigenaar en menselijk toezicht**  
 Weet welke AI-systemen je gebruikt, wie verantwoordelijk is en waar een mens meekijkt. De overheid doet het voor met het algoritmeregister.
-<br><sub>Bronnen: ap-ran, eu-ai-act</sub>
+<br><sub>Bronnen: ap-ran, eu-ai-act, rijksoverheid</sub>
 
 **GOV-07** [K] **Wat de komende twaalf maanden op de bestuursagenda hoort**  
 Concrete agendapunten per kwartaal, afgeleid van de ontwikkelingen in dit deck.
