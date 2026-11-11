@@ -11,7 +11,6 @@ Wat in de opzet staat maar nog geen bewering heeft, staat niet als feit op de sl
 | Slide | Ontbreekt |
 |---|---|
 | BAS-01, BAS-02 | Tijdlijn vóór 2012 (Dartmouth 1956, expertsystemen); indeling in platformen van Evans. Bronnen gevonden maar niet leesbaar voor scripts: het voorstel voor Dartmouth (31 augustus 1955, herdrukt in AI Magazine 27(4), 2006, ojs.aaai.org/index.php/aimagazine/article/view/1904; botcheck) en McDermott, R1 (AAAI-80, cdn.aaai.org/AAAI/1980/AAAI80-076.pdf; scan zonder tekst). Volgens de zoekindex: R1 configureerde VAX-11/780-systemen en was sinds januari 1980 in gebruik bij Digital. Met de hand nalopen. |
-| BAS-03 | Cijfer dat de meeste AI-waarde tot nu toe in voorspellende modellen zat (de titel beweert het, de slide toont alleen een eigen indeling) |
 | BAS-09 | Voorbeelden van realtime multimodale modellen |
 | BAS-12 | Epoch-reeks van prijs per token bij gelijke prestatie (analyse loopt tot maart 2025); daarna grafiek bouwen |
 | MKT-06 | Reeks voor de S&P-grafiek |
@@ -24,7 +23,6 @@ Wat in de opzet staat maar nog geen bewering heeft, staat niet als feit op de sl
 | GEO-03 | Jaarcijfers CNAS (projecten, cumulatief) voor de grafiek |
 | GEO-05 | Regels voor algemene modellen sinds augustus 2025 (artikel 113 van Verordening (EU) 2024/1689). EUR-Lex gaf op 2026-11-11 een lege pagina en een lege 202 bij de pdf (vermoedelijk een botcheck); met de hand nalopen of via een andere officiële bron. |
 | GEO-07 | "Betaal je eigen stroom"; strengere voorwaarden van staten; verloop over meer dan één kwartaal |
-| VEI-01 | Agents die samenspannen om hun beoordelaar te misleiden |
 | INF-04 | Bron voor TSMC als begrenzing; gemiddelde prijs per EUV-machine bij ASML zelf (het persbericht Q4 2025 gaf een 403) |
 | VBK-01 | De vier ontbrekende voorspellingen voor 2027 en de stand per voorspelling |
 | NLD-07 | Bestaande regels voor hyperscale datacenters (Eemshaven en Middenmeer; Barro en Bkl) bij de primaire bron vaststellen. De nationale regie volgt in Q1 2027 (K-NLD-014). |

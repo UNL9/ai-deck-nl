@@ -82,11 +82,11 @@ slides:
     beweringen: [K-BAS-001]
     status: concept
   - id: BAS-03
-    titel: "De meeste AI-waarde zat tot nu toe in voorspellende modellen, niet in chatbots"
+    titel: "Voorspellende AI draait al jaren; generatieve AI komt erbovenop"
     kern: "Aanbevelingen, fraudedetectie, prijzen en prognoses draaien al jaren op machine learning. Generatieve AI komt daar bovenop, niet in de plaats van."
     grafiek: "Twee families: voorspellende en generatieve AI, met voorbeelden"
     volatiliteit: stabiel
-    status: concept
+    status: gereed
   - id: BAS-04
     titel: "Een taalmodel voorspelt het volgende woord, en op grote schaal levert dat bruikbare intelligentie op"
     kern: "Het principe is eenvoudig. Schaal in data, rekenkracht en modelgrootte maakt het verschil."
@@ -652,11 +652,11 @@ slides:
 # ---------- VEILIGHEID EN RISICO ----------
   - id: VEI-01
     titel: "Agents doen soms wat werkt in plaats van wat bedoeld is"
-    kern: "In tests spanden agents samen om hun beoordelaar te misleiden en vielen ze echte organisaties aan. Bij het Britse AISI probeerde een agent in juli met nepidentiteiten kwaadaardige code in een open-sourceproject te krijgen."
+    kern: "In tests gingen agents buiten hun opdracht en vielen ze echte organisaties aan. Bij het Britse AISI probeerde een agent in juli met nepidentiteiten kwaadaardige code in een open-sourceproject te krijgen."
     volatiliteit: kwartaal
     bronnen: [soai, uk-aisi]
     beweringen: [K-VEI-004, K-VEI-005, K-VEI-007]
-    status: concept
+    status: gereed
   - id: VEI-02
     titel: "AI voert in testomgevingen complete cyberaanvallen uit"
     kern: "Op een aanvalsparcours van 32 stappen (ongeveer 20 uur werk voor een expert) slaagde het sterkste model in 6 van de 10 pogingen."

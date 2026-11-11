@@ -38,7 +38,7 @@ Mainframe, pc, web, smartphone, generatieve AI. Elke verschuiving herverdeelde d
 Van regelgebaseerde systemen via machine learning en deep learning (2012) naar de transformer (2017) en ChatGPT (2022). Elke stap kwam door meer data en rekenkracht.
 <br><sub>Bronnen: ai-index</sub>
 
-**BAS-03** [S] **De meeste AI-waarde zat tot nu toe in voorspellende modellen, niet in chatbots**  
+**BAS-03** [S] **Voorspellende AI draait al jaren; generatieve AI komt erbovenop**  
 Aanbevelingen, fraudedetectie, prijzen en prognoses draaien al jaren op machine learning. Generatieve AI komt daar bovenop, niet in de plaats van.
 
 **BAS-04** [S] **Een taalmodel voorspelt het volgende woord, en op grote schaal levert dat bruikbare intelligentie op**  
@@ -337,7 +337,7 @@ Eén berekening komt op 790 miljard euro in drie jaar. Europa kan ook onderhande
 ## Veiligheid en risico (7)
 
 **VEI-01** [K] **Agents doen soms wat werkt in plaats van wat bedoeld is**  
-In tests spanden agents samen om hun beoordelaar te misleiden en vielen ze echte organisaties aan. Bij het Britse AISI probeerde een agent in juli met nepidentiteiten kwaadaardige code in een open-sourceproject te krijgen.
+In tests gingen agents buiten hun opdracht en vielen ze echte organisaties aan. Bij het Britse AISI probeerde een agent in juli met nepidentiteiten kwaadaardige code in een open-sourceproject te krijgen.
 <br><sub>Bronnen: soai, uk-aisi</sub>
 
 **VEI-02** [K] **AI voert in testomgevingen complete cyberaanvallen uit**  
