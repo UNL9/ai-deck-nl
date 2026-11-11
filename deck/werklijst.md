@@ -2,7 +2,7 @@
 
 Open punten in het deck die nog een bewering, een controle of een keuze van Joan nodig hebben. De wekelijkse update pakt elke week maximaal vijf punten op (primaire bron zoeken, bewering toevoegen, slide bijwerken) en haalt afgeronde punten hier weg. Keuzes voor Joan blijven staan tot hij beslist.
 
-Stand: 2026-11-11 (na de bouw van alle secties, PR #15).
+Stand: 2026-11-11 (na de eerste wekelijkse update, updates/2026-11-11.md).
 
 ## Ontbrekende beweringen
 
@@ -40,16 +40,17 @@ Wat in de opzet staat maar nog geen bewering heeft, staat niet als feit op de sl
 | GOV-02 | Kosten van interne AI zijn moeilijk te voorspellen |
 | VBK-01 | De vier ontbrekende voorspellingen voor 2027 en de stand per voorspelling |
 | VBK-02 | Evans: bij elke platformverschuiving mislukten de meeste voorspellingen |
-| NLD-07 | Beleid voor hyperscale datacenters |
+| NLD-07 | Bestaande regels voor hyperscale datacenters (Eemshaven en Middenmeer; Barro en Bkl) bij de primaire bron vaststellen. De nationale regie volgt in Q1 2027 (K-NLD-014). |
 
 ## Na te lopen
 
-- MKT-01: "30 miljard begin 2026" komt uit een vervangen bewering (K-MKT-001).
-- BAS-07: K-BAS-004 noemt 58, Artificial Analysis v5.0.1 nu 59.
-- NLD-02: EU-gemiddelde bedrijven 19,9 (CSV) of 20,0 procent (K-NLD-004).
-- Primaire bron nog niet zelf ingezien: AI Act op EUR-Lex (GOV-05), besluit van de AP (SEC-05, GOV-06), jaarverslagen ASML (NLD-04, K-INF-014), BLS (WRK-05, K-WRK-011), Anthropic (WRK-07, K-WRK-010; FRT-07, K-FRT-005), FrontierSWE en MirrorCode (K-FRT-013), Skild en Sunday Robotics (K-FRT-024).
+- MKT-01: "30 miljard begin 2026" komt uit een vervangen bewering (K-MKT-001). Geprobeerd op 2026-11-11: de blogpost van de financieel directeur van OpenAI (januari 2026) gaf een 403; alleen persverslagen gevonden.
+- BAS-07: score bij lage inspanning (35) en tokens per taak (59.000) komen nog uit versie 5.0 (K-BAS-004); opnieuw vaststellen op versie 5.0.1.
+- Primaire bron nog niet zelf ingezien: besluit van de AP (SEC-05, GOV-06), jaarverslagen ASML (NLD-04, K-INF-014), BLS (WRK-05, K-WRK-011), Anthropic (WRK-07, K-WRK-010), FrontierSWE en MirrorCode (K-FRT-013), Skild en Sunday Robotics (K-FRT-024).
 - Te verifiëren: K-MKT-015 en K-MKT-016 (omzet OpenAI), K-NLD-007 (GPT-NL), K-NLD-011 (GPU's AI-fabriek, aanbesteding januari 2027).
 
 ## Keuzes voor Joan
 
 - Interpreterende slotzinnen zonder cijfer op BAS-01, WRK-01, WRK-06, SEC-03, SEC-09 en GEO-08: laten staan of schrappen.
+- Kabinetsvisie op AI (6 november 2026, K-NLD-014): het deck heeft geen slide over Nederlands AI-beleid als geheel. Nu staat het als aanvulling op NLD-03 en NLD-07 (status herzien, met voorstel). Alternatief: NLD-06 verbreden van toezicht naar beleid en toezicht. Het adviesrapport over een Nederlands AI-veiligheidsinstituut (verwacht december 2026) kan ook in VEI of NLD.
+- Twaalf slides staan op herzien na deze update. Bij zeven gaat het alleen om de bron (OPN-03, FRT-07, SAM-02, GEO-05, GOV-05, GOV-07, VBK-02: een primaire regel vervangt een secundaire); die kunnen zonder inhoudelijke keuze terug naar concept.
