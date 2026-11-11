@@ -18,9 +18,7 @@ Wat in de opzet staat maar nog geen bewering heeft, staat niet als feit op de sl
 | WRK-03 | Cijfer voor klantenservice |
 | WRK-05 | Historische beroepentellingen VS (liftbedienden, accountants; IPUMS of Census) |
 | SEC-02 | Radiologie en administratie; voorbeelden uit de Nederlandse zorg |
-| SEC-07 | Zoeken via AI vult zoekmachines vooral aan |
 | SEC-08 | Verlies aan bezoek bij uitgevers |
-| SEC-09 | Robots bouwen mee aan datacenters |
 | SEC-10 | Stand in Europa; ritten per week en aantal steden opnieuw vaststellen (nu State of AI) |
 | SAM-06 | Bewijs dat modellen vooroordelen uit hun data overnemen; de AP-boetes op de slide gaan over een nationaliteitskenmerk dat bewust in het risicomodel zat, en dragen de titel daarom maar half |
 | SAM-01 | Chatbots als gezelschap |

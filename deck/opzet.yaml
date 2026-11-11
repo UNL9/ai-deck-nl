@@ -114,7 +114,7 @@ slides:
     volatiliteit: stabiel
     bronnen: [soai]
     beweringen: [K-BAS-008, K-BAS-004]
-    status: concept
+    status: gereed
     noot: "Score bij lage inspanning en tokens per taak opnieuw vaststellen op versie 5.0.1; de modelpagina toont alleen de maximale instelling."
   - id: BAS-08
     titel: "Een agent is een model met gereedschap en geheugen. Zelfde model, beter harnas, betere agent."
@@ -501,11 +501,11 @@ slides:
     status: gereed
   - id: SEC-07
     titel: "Handel: AI-assistenten worden een nieuw winkelkanaal"
-    kern: "Verkeer via AI-assistenten groeit hard maar is nog maar 0,4 procent van webwinkelbezoek, en converteert beter. Zoeken via AI vult zoekmachines voorlopig vooral aan."
+    kern: "Verkeer via AI-assistenten groeit hard maar is nog maar 0,4 procent van webwinkelbezoek, en converteert beter. Met 0,4 procent van het bezoek vult zoeken via AI zoekmachines voorlopig vooral aan."
     volatiliteit: kwartaal
     bronnen: [soai, evans]
     beweringen: [K-SEC-006]
-    status: concept
+    status: gereed
   - id: SEC-08
     titel: "Media en creatieve sector: maken wordt goedkoop, aandacht en rechten worden schaars"
     kern: "Beeld, video en tekst genereren kost bijna niets. Uitgevers verliezen bezoek aan antwoordmachines en procederen over hergebruik."
@@ -514,13 +514,13 @@ slides:
     beweringen: [K-SEC-007]
     status: concept
   - id: SEC-09
-    titel: "Industrie en logistiek: AI komt via robots, planning en onderhoud"
-    kern: "Unitree verkocht 5.215 humanoïde robots in 2025 en is winstgevend. Robots bouwen al mee aan datacenters."
+    titel: "Industrie en logistiek: AI komt binnen via robots"
+    kern: "Unitree verkocht 5.215 humanoïde robots in 2025 en is winstgevend."
     grafiek: "Verkochte humanoïde robots van Unitree, 2024 en 2025 (data/SEC-09_unitree_humanoiden.csv)"
     volatiliteit: kwartaal
     bronnen: [soai]
     beweringen: [K-SEC-008]
-    status: concept
+    status: gereed
     noot: "'Robots bouwen al mee aan datacenters' nog niet onderbouwd met een bewering."
   - id: SEC-10
     titel: "Mobiliteit: zelfrijdende auto's zijn een dienst geworden, geen experiment"
@@ -716,7 +716,7 @@ slides:
     volatiliteit: kwartaal
     bronnen: [eurostat, cbs]
     beweringen: [K-NLD-004, K-NLD-005]
-    status: concept
+    status: gereed
     noot: "Bij gebruik voor werk staat Nederland derde (26,6 procent). CBS-cijfers over gebruik door personen nog niet opgehaald."
   - id: NLD-03
     titel: "De AI-fabriek in Groningen: 200 miljoen euro voor Nederlandse rekenkracht"
@@ -724,7 +724,7 @@ slides:
     volatiliteit: kwartaal
     bronnen: [rijksoverheid, eurohpc, aifabriek]
     beweringen: [K-NLD-003, K-NLD-006, K-NLD-010, K-NLD-011, K-NLD-014]
-    status: concept
+    status: gereed
     noot: "Aantal GPU's bijwerken na de aanbesteding van januari 2027 (K-NLD-011, te verifiëren). Ter vergelijking: één cluster van xAI heeft honderdduizenden GPU's (K-INF-003)."
   - id: NLD-04
     titel: "Nederland is onmisbaar in de keten, en dat is een onderhandelingspositie"

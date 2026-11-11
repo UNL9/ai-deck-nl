@@ -255,15 +255,15 @@ Een gerandomiseerde proef met 1.763 leerlingen liet na acht weken betere wiskund
 <br><sub>Bronnen: soai</sub>
 
 **SEC-07** [K] **Handel: AI-assistenten worden een nieuw winkelkanaal**  
-Verkeer via AI-assistenten groeit hard maar is nog maar 0,4 procent van webwinkelbezoek, en converteert beter. Zoeken via AI vult zoekmachines voorlopig vooral aan.
+Verkeer via AI-assistenten groeit hard maar is nog maar 0,4 procent van webwinkelbezoek, en converteert beter. Met 0,4 procent van het bezoek vult zoeken via AI zoekmachines voorlopig vooral aan.
 <br><sub>Bronnen: soai, evans</sub>
 
 **SEC-08** [K] **Media en creatieve sector: maken wordt goedkoop, aandacht en rechten worden schaars**  
 Beeld, video en tekst genereren kost bijna niets. Uitgevers verliezen bezoek aan antwoordmachines en procederen over hergebruik.
 <br><sub>Bronnen: soai</sub>
 
-**SEC-09** [K] **Industrie en logistiek: AI komt via robots, planning en onderhoud**  
-Unitree verkocht 5.215 humanoïde robots in 2025 en is winstgevend. Robots bouwen al mee aan datacenters.
+**SEC-09** [K] **Industrie en logistiek: AI komt binnen via robots**  
+Unitree verkocht 5.215 humanoïde robots in 2025 en is winstgevend.
 <br><sub>Bronnen: soai · Open: 'Robots bouwen al mee aan datacenters' nog niet onderbouwd met een bewering.</sub>
 
 **SEC-10** [K] **Mobiliteit: zelfrijdende auto's zijn een dienst geworden, geen experiment**  
