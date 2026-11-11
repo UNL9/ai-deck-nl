@@ -1,0 +1,32 @@
+# bron: U.S. Food and Drug Administration, List of Artificial Intelligence-Enabled Medical Devices (CSV)
+# url: https://www.fda.gov/medical-devices/artificial-intelligence-enabled-medical-devices/list-artificial-intelligence-enabled-medical-devices ; https://www.fda.gov/media/178541/download?attachment
+# licentie: publiek domein (Amerikaanse overheid); grafiek is eigen werk
+# opgehaald: 2026-11-11; laatste beslissing in de lijst 2026-06-29 (2026 is een half jaar)
+# toegelaten AI-apparaten per jaar van de FDA-beslissing; radiologie = 'Panel (Lead)' Radiology. FDA: de lijst is niet uitputtend.
+jaar,totaal,radiologie,cumulatief_totaal,cumulatief_radiologie
+1995,2,0,2,0
+1997,1,0,3,0
+1998,2,2,5,2
+2001,2,1,7,3
+2002,1,1,8,4
+2004,1,0,9,4
+2005,1,0,10,4
+2006,1,0,11,4
+2008,5,2,16,6
+2010,2,0,18,6
+2011,3,1,21,7
+2012,5,2,26,9
+2013,4,0,30,9
+2014,6,5,36,14
+2015,6,1,42,15
+2016,18,11,60,26
+2017,27,16,87,42
+2018,65,40,152,82
+2019,80,51,232,133
+2020,114,99,346,232
+2021,129,110,475,342
+2022,162,138,637,480
+2023,226,178,863,658
+2024,235,183,1098,841
+2025,335,254,1433,1095
+2026,181,135,1614,1230

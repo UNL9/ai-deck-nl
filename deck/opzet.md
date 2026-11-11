@@ -36,7 +36,7 @@ Mainframe, pc, web, smartphone, generatieve AI. Elke verschuiving herverdeelde d
 
 **BAS-02** [S] **AI is ouder dan ChatGPT: zeventig jaar van regels naar leren**  
 Van regelgebaseerde systemen via machine learning en deep learning (2012) naar de transformer (2017) en ChatGPT (2022). Elke stap kwam door meer data en rekenkracht.
-<br><sub>Bronnen: ai-index</sub>
+<br><sub>Bronnen: historische-bronnen, ai-index</sub>
 
 **BAS-03** [S] **Voorspellende AI draait al jaren; generatieve AI komt erbovenop**  
 Aanbevelingen, fraudedetectie, prijzen en prognoses draaien al jaren op machine learning. Generatieve AI komt daar bovenop, niet in de plaats van.
@@ -74,7 +74,7 @@ Verzonnen feiten en taken die 'klaar' heten maar dat niet zijn. In labtaken was 
 
 **BAS-12** [K] **Intelligentie wordt snel goedkoper, en toch stijgen de totale uitgaven**  
 De prijs per eenheid prestatie daalt hard. Het gebruik groeit harder, vooral door agents en redeneermodellen.
-<br><sub>Bronnen: soai, epoch, artificial-analysis · Open: Gewenste grafiek: Prijs per miljoen tokens bij gelijke prestatie, over tijd (Epoch-data); nu grote getallen; bouwen zodra de Epoch-reeks in data/ staat.</sub>
+<br><sub>Bronnen: soai, epoch, artificial-analysis</sub>
 
 ## Het front (10)
 
@@ -142,7 +142,7 @@ Ruim 1.900 bedrijven gaven in een jaar meer dan een miljoen dollar uit bij Anthr
 
 **MKT-06** [K] **Eén productlancering kostte softwarebedrijven 285 miljard dollar aan beurswaarde**  
 Na de lancering van Claude Cowork daalde de softwarebeurs in februari scherp. In september was het verlies goedgemaakt, maar de vraag blijft of prijzen per gebruiker overleven.
-<br><sub>Bronnen: soai · Open: Gewenste grafiek: S&P 500 software-index, oktober 2025 tot nu; nu zonder grafiek; de S&P-reeks staat niet in data/.</sub>
+<br><sub>Bronnen: soai</sub>
 
 **MKT-07** [K] **Modellen zijn uitwisselbaar, en bedrijven gebruiken er meerdere naast elkaar**  
 Er zijn geen netwerkeffecten tussen modellen. AI-bouwers gebruiken gemiddeld 3,3 aanbieders; waarde verschuift naar product, distributie en integratie in werkprocessen.
@@ -171,8 +171,8 @@ NVIDIA ontwierp twee derde van alle geïnstalleerde AI-rekenkracht, maar Google'
 <br><sub>Bronnen: soai, earnings, epoch · Open: De data laten niet zien of de verschuiving specifiek bij inferentie zit; daarom de algemenere titel.</sub>
 
 **INF-04** [K] **Zonder ASML geen AI: de keten loopt via Veldhoven en Taiwan**  
-ASML boekte in 2025 de omzet van 48 EUV-machines, vier meer dan een jaar eerder, en verwacht dat de geplande capaciteit ook in 2027 en 2028 tekortschiet.
-<br><sub>Bronnen: soai, earnings · Open: Voor de rol van TSMC als begrenzing is nog geen bron opgenomen.</sub>
+ASML boekte in 2025 de omzet van 48 EUV-machines, vier meer dan een jaar eerder, en verwacht dat de geplande capaciteit ook in 2027 en 2028 tekortschiet. TSMC in Taiwan maakt de chips: 79 procent van zijn waferomzet komt uit 7 nm en kleiner, en de vraag ligt volgens TSMC ver boven wat het kan leveren.
+<br><sub>Bronnen: earnings, soai</sub>
 
 **INF-05** [K] **Rekenkracht is schaars: oude chips blijven verhuurd en prijzen stijgen weer**  
 GPU-huurprijzen liggen boven hun dieptepunt. Chips van zes en negen jaar oud worden nog verhuurd.
@@ -209,8 +209,8 @@ In 72 procent van de onderzochte gesprekken leidt de mens en assisteert AI.
 <br><sub>Bronnen: soai, iconiq, anthropic-econ</sub>
 
 **WRK-05** [S] **Een taak automatiseren is iets anders dan een baan vervangen**  
-De liftbediende verdween, de accountant niet. Automatisering verandert vaker het werk dan dat ze het opheft.
-<br><sub>Bronnen: evans, bls · Open: Grafiekdata nog nodig: historische beroepentelling VS (IPUMS of Census); Evans geeft alleen de grafiek. Bewering K-WRK-011 kan als actueel voorbeeld.</sub>
+Het aantal liftbedienden in de VS daalde tussen 1950 en 1970 met bijna twee derde; het aantal accountants verdubbelde bijna. Automatisering verandert vaker het werk dan dat ze het opheft.
+<br><sub>Bronnen: evans, bls, us-census</sub>
 
 **WRK-06** [K] **Jonge werknemers lijken het eerst geraakt**  
 De instroom van 22- tot 25-jarigen in beroepen die AI raakt is vertraagd. De oorzaak is onzeker, de werkloosheid in die beroepen is niet duidelijk gestegen.
@@ -235,8 +235,8 @@ Informatie en communicatie loopt ver voor (70 procent van de bedrijven gebruikt 
 <br><sub>Bronnen: cbs, gallup, eurostat</sub>
 
 **SEC-02** [K] **Zorg: van beeldherkenning naar administratie en medicijnontwikkeling**  
-Radiologie gebruikt AI al jaren. Nu volgen verslaglegging en planning, en door AI ontdekte medicijnen zitten in fase 3.
-<br><sub>Bronnen: soai, ai-index · Open: Voorbeelden uit de Nederlandse zorg toevoegen</sub>
+Radiologie gebruikt AI al jaren: driekwart van de AI-hulpmiddelen die de FDA toeliet, is voor radiologie. Nu volgt de administratie, waar VWS in Nederland eerst op inzet, en door AI ontdekte medicijnen zitten in fase 3.
+<br><sub>Bronnen: fda, rijksoverheid, soai</sub>
 
 **SEC-03** [K] **Financiële sector: sterk bij afgebakende taken, zwak bij complete opdrachten**  
 Een topmodel haalde 100 procent op gestructureerde boekhoudtaken, maar slaagde voor slechts 12 procent van gesimuleerde bankopdrachten.
@@ -267,14 +267,14 @@ Unitree verkocht 5.215 humanoïde robots in 2025 en is winstgevend.
 <br><sub>Bronnen: soai · Open: 'Robots bouwen al mee aan datacenters' nog niet onderbouwd met een bewering.</sub>
 
 **SEC-10** [K] **Mobiliteit: zelfrijdende auto's zijn een dienst geworden, geen experiment**  
-Waymo reed tot juli 271 miljoen mijl zonder chauffeur, met 95 procent minder ernstige ongevallen dan menselijke bestuurders op dezelfde wegen. Het bedrijf doet ruim 500.000 betaalde ritten per week.
-<br><sub>Bronnen: soai, lab-blogs · Open: Stand in Europa toevoegen. Ritten per week en aantal steden zijn nog de SoAI-stand. Het zijn eigen cijfers van Waymo; zo vermelden. Gewenste grafiek: Waymo-mijlen zonder chauffeur over tijd; nu zonder grafiek; twee meetpunten zijn te weinig voor een reeks over tijd.</sub>
+Waymo reed tot juli 271 miljoen mijl zonder chauffeur, met 95 procent minder ernstige ongevallen dan menselijke bestuurders op dezelfde wegen. Het bedrijf doet meer dan 500.000 ritten per week en rijdt in 15 Amerikaanse steden. In Europa rijdt nog geen robotaxi zonder iemand aan boord.
+<br><sub>Bronnen: lab-blogs, earnings, wayve</sub>
 
 ## Samenleving (7)
 
 **SAM-01** [K] **AI als gezelschap: wetgevers trekken grenzen voor chatbots en kinderen**  
 Californië regelt nu hoe chatbots relaties met kinderen aangaan; China en de EU hebben eigen regels.
-<br><sub>Bronnen: soai, vs-overheid · Open: 'Voor veel mensen' nog niet met een cijfer onderbouwd (aandeel gebruikers dat chatbots als gezelschap gebruikt).</sub>
+<br><sub>Bronnen: vs-overheid, cac, eu-ai-act, vk-overheid</sub>
 
 **SAM-02** [K] **Echt en nep zijn steeds moeilijker te onderscheiden**  
 De angst dat deepfakes verkiezingen beslissen, loopt tot nu toe voor op het bewijs. De EU verplicht labels op synthetische inhoud en verbiedt niet-consensuele seksuele deepfakes.
@@ -308,11 +308,11 @@ Amerikaanse exportregels hielden in juni de nieuwste Claude-modellen drie weken 
 
 **GEO-02** [K] **Wie bepaalt de grenzen van militair AI-gebruik: de overheid of het lab?**  
 Het conflict tussen Anthropic en het Pentagon, terwijl frontier-AI al in militaire operaties wordt ingezet.
-<br><sub>Bronnen: soai</sub>
+<br><sub>Bronnen: vs-rechtbanken, soai</sub>
 
 **GEO-03** [K] **67 landen bouwen aan soevereine AI, maar soevereiniteit kun je niet huren**  
 Buiten de VS en China lopen 184 overheidsprojecten met samen circa 84 miljard dollar. Wie niet aan de frontier meedoet, moet onderhandelen over toegang.
-<br><sub>Bronnen: cnas-sovereign, soai · Open: Gewenste grafiek: Aantal soevereine AI-projecten, cumulatief; vraagt jaarcijfers van CNAS; de kennisbank heeft alleen 2023 (18) en 2026 (184).</sub>
+<br><sub>Bronnen: cnas-sovereign, soai</sub>
 
 **GEO-04** [K] **China bouwt een eigen keten, van stroom tot chips**  
 Goedkope stroom bevoordeelt Chinese chips. China beperkt nu ook de export van kennis.
@@ -391,8 +391,8 @@ Bestaande toezichthouders houden toezicht binnen hun domein. De AP wordt de toez
 <br><sub>Bronnen: ap-ran, dnb-afm, rijksoverheid · Open: Aanwijzing markttoezichthouders verifiëren; het wetsvoorstel is nog niet in werking (K-NLD-008).</sub>
 
 **NLD-07** [K] **Netcongestie maakt stroom ook in Nederland een knelpunt voor datacenters**  
-Op 30 juni wachtten 15.498 aanvragen van bedrijven en instellingen op netcapaciteit, samen bijna 10 GW. Eind 2022 waren het er 668. Ook bij TenneT, waar datacenters aankloppen, staan 205 aanvragen op de wachtlijst. Het kabinet werkt aan regie op datacenterontwikkeling; de Kamerbrief volgt in het eerste kwartaal van 2027.
-<br><sub>Bronnen: rijksoverheid, eurostat · Open: Bestaande regels voor hyperscale datacenters (Eemshaven en Middenmeer, Barro en Bkl) nog bij de primaire bron vaststellen; nationale regie volgt in Q1 2027 (K-NLD-014).</sub>
+Op 30 juni wachtten 15.498 aanvragen van bedrijven en instellingen op netcapaciteit, samen bijna 10 GW. Eind 2022 waren het er 668. Ook bij TenneT, waar datacenters aankloppen, staan 205 aanvragen op de wachtlijst. Hyperscale datacenters mogen sinds 2024 alleen in de Eemshaven en bij Middenmeer. Het kabinet werkt aan regie op datacenterontwikkeling; de Kamerbrief volgt in het eerste kwartaal van 2027.
+<br><sub>Bronnen: rijksoverheid, eurostat</sub>
 
 ## Governance en verantwoord gebruik (7)
 

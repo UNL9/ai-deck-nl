@@ -212,3 +212,24 @@
   status: actueel
   slides: [INF-04]
   noot: "Primaire bron. 'Recognized' betekent: als omzet geboekt in 2025. Een gemiddelde prijs per EUV-machine geeft het jaarverslag niet; de State of AI noemde 242 miljoen euro (K-INF-014). Wordt na het jaarverslag 2026 vervangen."
+# Opruimronde D, 2026-11-11
+- id: K-INF-021
+  bewering: "TSMC haalde in het derde kwartaal van 2026 79 procent van de waferomzet uit chips van 7 nanometer en kleiner, en 68 procent van de omzet uit high-performance computing (een jaar eerder 57 procent). Volgens topman C.C. Wei ligt de vraag 'still far above our capability today to supply'."
+  peildatum: 2026-10-15
+  bron: earnings
+  vindplaats: "TSMC, 3Q26 Earnings Release en Management Report (15 okt. 2026); 3Q26 earnings call transcript (investor.tsmc.com)"
+  vastgesteld: 2026-11-11
+  houdbaarheid_dagen: 90
+  status: actueel
+  slides: [INF-04]
+  noot: "Zelf gelezen op investor.tsmc.com. Een cijfer voor de CoWoS-capaciteit geeft TSMC niet."
+- id: K-INF-022
+  bewering: "ASML boekte in 2025 11,6 miljard euro omzet uit EUV-systemen (39 procent meer dan in 2024) op 48 systemen, gemiddeld circa 242 miljoen euro per systeem."
+  peildatum: 2025-12-31
+  bron: earnings
+  vindplaats: "ASML, Investor Relations-presentatie Q4 2025 (28 jan. 2026), p. 7"
+  vastgesteld: 2026-11-11
+  houdbaarheid_dagen: 365
+  status: actueel
+  slides: [INF-04]
+  noot: "Het gemiddelde is een eigen berekening (11,6 miljard / 48) en mengt low-NA en High-NA; het klopt met de 242 miljoen uit State of AI (K-INF-014). Het cijfer voor 2021 (circa 150 miljoen) is niet bij ASML gevonden."

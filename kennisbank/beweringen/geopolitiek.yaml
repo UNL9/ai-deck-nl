@@ -52,7 +52,8 @@
   vindplaats: "State of AI Report 2026, slide 167"
   vastgesteld: 2026-11-10
   houdbaarheid_dagen: 90
-  status: actueel
+  status: vervangen
+  vervangen_door: K-GEO-011
   slides: [GEO-02]
   noot: "Belang van de bron: Anthropic is partij. Uitspraken zelf niet ingezien. Volgens Axios werd Claude gebruikt bij de operatie waarbij Maduro werd opgepakt (SoAI slide 168)."
 
@@ -113,3 +114,54 @@
   status: actueel
   slides: [GEO-05, SAM-02, GOV-05, GOV-07, OPN-03]
   noot: "Primaire controle van K-GEO-003: data en nummer kloppen. EUR-Lex zelf gaf een botcontrole; de tekst is gelezen via de officiële Cellar-dienst van het Publicatiebureau. Dat transparantieplichten en het toezicht op algemene modellen op 2 augustus 2026 ingingen, volgt uit de oorspronkelijke AI Act (Verordening 2024/1689, artikel 113) en is door de omnibus niet veranderd."
+# Opruimronde D, 2026-11-11
+- id: K-GEO-011
+  bewering: "Anthropic weigerde de beperkingen voor dodelijke autonome oorlogsvoering en massasurveillance van Amerikanen te schrappen; minister Hegseth wees het bedrijf daarop aan als risico in de toeleveringsketen. Op 27 augustus 2026 oordeelde rechter Rita Lin (N.D. Cal.) dat de aanwijzing onder 10 U.S.C. § 3252 in strijd was met de wet en onrechtmatige vergelding vormde (First Amendment); ze vernietigde die en legde een permanent verbod op."
+  peildatum: 2026-08-27
+  bron: vs-rechtbanken
+  vindplaats: "N.D. Cal., zaak 3:26-cv-01996-RFL, Document 250, ingediend 27-08-2026 (59 p.), kopie met griffiestempel via courthousenews.com/wp-content/uploads/2026/08/j-rita-lin-order.pdf"
+  vastgesteld: 2026-11-11
+  houdbaarheid_dagen: 180
+  status: actueel
+  slides: [GEO-02]
+  noot: "Vervangt K-GEO-005 voor het Californische deel; de uitspraak zelf gelezen op 2026-11-11. Belang: Anthropic is partij. Het hoger beroep in Washington staat in K-GEO-013."
+- id: K-GEO-013
+  bewering: "Op 25 september 2026 handhaafde het hof van beroep in Washington (D.C. Circuit, zaak 26-1049, gevoegd met 26-1162) de aparte aanwijzing van Anthropic onder 41 U.S.C. § 4713, met twee stemmen tegen één (tegenstem rechter Henderson). Anthropic vroeg om behandeling door het voltallige hof."
+  peildatum: 2026-09-25
+  bron: vs-rechtbanken
+  vindplaats: "Volgens Clark Hill, Taft, Holland & Knight, Miller & Chevalier en Courthouse News; de uitspraak zelf niet bereikbaar"
+  vastgesteld: 2026-11-11
+  houdbaarheid_dagen: 90
+  status: te_verifieren
+  slides: [GEO-02]
+  noot: "De uitspraak staat niet meer op media.cadc.uscourts.gov (document niet gevonden), govinfo gaf een lege zoekpagina, Justia en Leagle een 403, CourtListener vraagt een login. Op de slide als 'volgens berichten'. Joan kan de PDF via PACER of de site van het hof opvragen."
+- id: K-GEO-015
+  bewering: "Volgens Axios werd Claude gebruikt bij de operatie waarbij Maduro werd opgepakt."
+  peildatum: 2026-09
+  bron: soai
+  vindplaats: "State of AI Report 2026, slide 168 (Axios)"
+  vastgesteld: 2026-11-11
+  houdbaarheid_dagen: 180
+  status: actueel
+  slides: [GEO-02]
+  noot: "Afgesplitst uit de noot van K-GEO-005. De bewering is wat Axios meldde; op de slide staat 'volgens Axios'."
+- id: K-GEO-012
+  bewering: "Volgens artikel 113 van Verordening (EU) 2024/1689 gelden de hoofdstukken I en II (algemene bepalingen, AI-geletterdheid en verboden praktijken) sinds 2 februari 2025, en hoofdstuk V (AI-modellen voor algemene doeleinden) sinds 2 augustus 2025, met uitzondering van de boetes van artikel 101. De rest van de verordening geldt vanaf 2 augustus 2026."
+  peildatum: 2024-07-12
+  bron: eu-ai-act
+  vindplaats: "Verordening (EU) 2024/1689, PB L 2024/1689 van 12.7.2024, artikel 113 (Nederlandse tekst via publications.europa.eu, CELEX 32024R1689)"
+  vastgesteld: 2026-11-11
+  houdbaarheid_dagen: 365
+  status: actueel
+  slides: [GEO-05]
+  noot: "Primair gelezen op 2026-11-11 via de Cellar-dienst van het Publicatiebureau (EUR-Lex zelf gaf een lege pagina). De omnibus (2026/1744) laat deze data voor hoofdstuk V ongemoeid (zie K-GEO-010)."
+- id: K-GEO-014
+  bewering: "Het aantal door overheden gesteunde AI-projecten buiten de VS en China groeide cumulatief van 18 eind 2023 naar 57 eind 2024, 145 eind 2025 en 184 in juni 2026."
+  peildatum: 2026-06-30
+  bron: cnas-sovereign
+  vindplaats: "CNAS Sovereign AI Index, grafiek Sovereign AI Projects Have Accelerated (datawrapper qoh2w versie 19), bijgewerkt 18 aug. 2026; interactives.cnas.org/sovereign-ai-index"
+  vastgesteld: 2026-11-11
+  houdbaarheid_dagen: 180
+  status: actueel
+  slides: [GEO-03]
+  noot: "Reeks per kwartaal in data/GEO-03_soevereine_ai_projecten.csv. Eindstand en 2023 kloppen met K-GEO-001."

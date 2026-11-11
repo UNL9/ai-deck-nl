@@ -21,3 +21,13 @@
   houdbaarheid_dagen: 365
   status: actueel
   slides: [VBK-01, VBK-02]
+- id: K-VBK-003
+  bewering: "De overige vier voorspellingen van het State of AI Report 2026: een agent halveert zijn foutpercentage op nieuwe taken na een maand klantwerk, zonder nieuw model; een Amerikaanse toezichthouder of beurs wijt een abnormale koersbeweging aan gelijktijdige orders van AI-agents van particulieren; een Amerikaanse staat verplicht bedrijven opzeggingen en claims van AI-agents van consumenten te accepteren; Amerikaanse labs lanceren officieel producten voor cyberverdediging tegen frontier-AI."
+  peildatum: 2026-10
+  bron: soai
+  vindplaats: "State of AI Report 2026, slide 239"
+  vastgesteld: 2026-11-11
+  houdbaarheid_dagen: 365
+  status: actueel
+  slides: [VBK-01, VBK-02]
+  noot: "Stand op 2026-11-11: van geen van de negen voorspellingen is bij een primaire bron vastgesteld dat hij uitkwam. Volgens de pers (Fortune, 5 nov. 2026) lanceerde OpenAI een model voor cyberverdediging; de OpenAI-pagina gaf een 403 (zie werklijst). De wekelijkse update houdt de stand bij."

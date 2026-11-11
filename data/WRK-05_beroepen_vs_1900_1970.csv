@@ -1,0 +1,14 @@
+# bron: U.S. Bureau of the Census, Historical Statistics of the United States, Colonial Times to 1970 (1975), deel 1, hoofdstuk D, Series D 233-682 "Detailed Occupation of the Economically Active Population: 1900 to 1970", reeksen D 235 (Accountants and auditors), D 587 (Elevator operators), D 233 (Total)
+# url: https://www2.census.gov/library/publications/1975/compendia/hist_stats_colonial-1970/hist_stats_colonial-1970p1-chD.pdf (boekpagina's 140 en 144; scan, met de hand overgenomen)
+# licentie: publiek domein (Amerikaanse overheid); grafiek is eigen werk
+# opgehaald: 2026-11-11
+# in duizenden personen van 14 jaar en ouder; 1950 in de indeling van 1950, 1960 in de indeling van 1960, 1970 personen 14+ (zelfde basis als eerdere jaren). Aandeel = eigen berekening.
+jaar,accountants_duizend,liftbedienden_duizend,totaal_duizend,accountants_per_10000,liftbedienden_per_10000
+1900,23,13,29030,7.9,4.5
+1910,39,25,37291,10.5,6.7
+1920,118,41,42206,28.0,9.7
+1930,192,68,48686,39.4,14.0
+1940,238,87,51742,46.0,16.8
+1950,390,97,58999,66.1,16.4
+1960,477,77,67990,70.2,11.3
+1970,713,37,80603,88.5,4.6

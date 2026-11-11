@@ -32,7 +32,7 @@
   vastgesteld: 2026-11-10
   houdbaarheid_dagen: 180
   status: actueel
-  slides: [SAM-02, SAM-05]
+  slides: [SAM-02, SAM-05, GEO-07]
 
 # SAM-04: auteursrecht
 - id: K-SAM-004
@@ -102,6 +102,17 @@
   vindplaats: "State of AI Report 2026, slide 187"
   vastgesteld: 2026-11-11
   houdbaarheid_dagen: 180
-  status: actueel
+  status: vervangen
+  vervangen_door: K-SAM-010
   slides: [SAM-01]
   noot: "Afgesplitst uit K-SAM-001. Primaire bronnen voor China en het VK nog niet zelf gecontroleerd; voor de EU: artikel 5 van de AI Act."
+- id: K-SAM-010
+  bewering: "China verbiedt sinds 15 juli 2026 virtuele familieleden, partners en andere intieme relaties voor minderjarigen; onder 14 jaar is toestemming van een ouder nodig. De AI Act verbiedt AI die met manipulatieve of misleidende technieken aanzienlijke schade veroorzaakt (art. 5). Het VK kondigde op 15 juli 2026 verplichte pauzes aan voor gebruikers van chatbots onder 18."
+  peildatum: 2026-07-15
+  bron: cac
+  vindplaats: "CAC, Tijdelijke maatregelen voor AI-diensten met menselijke trekken (besluit nr. 21, 10 april 2026), art. 14 en 32 (cac.gov.cn/2026-04/10/c_1777558395078289.htm); Verordening (EU) 2024/1689, art. 5, lid 1, onder a en b; DSIT, persbericht 15 juli 2026 (gov.uk)"
+  vastgesteld: 2026-11-11
+  houdbaarheid_dagen: 180
+  status: actueel
+  slides: [SAM-01]
+  noot: "Vervangt K-SAM-009. Alle drie bij de primaire bron gelezen op 2026-11-11 (bronnen cac, eu-ai-act, vk-overheid). VK: frequentie en ingangsdatum van de pauzes nog niet vastgesteld."

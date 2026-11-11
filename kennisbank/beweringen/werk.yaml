@@ -171,3 +171,14 @@
   status: actueel
   slides: [WRK-07]
   noot: "Onderzoek van Anthropic naar het gebruik van AI bij leren; belang van de bron vermelden. Meet direct leren, geen langetermijnverlies van vaardigheden. Drie van de zes gebruikspatronen die de onderzoekers zagen, hielden het leerresultaat op peil. Vervangt K-WRK-010 (State of AI, slide 105)."
+# Opruimronde D, 2026-11-11
+- id: K-WRK-016
+  bewering: "In de VS groeide het aantal accountants en auditors van 23.000 (1900) via 390.000 (1950) naar 713.000 (1970). Het aantal liftbedienden piekte rond 1950 op 97.000 en daalde tot 37.000 in 1970."
+  peildatum: 1970
+  bron: us-census
+  vindplaats: "U.S. Bureau of the Census, Historical Statistics of the United States, Colonial Times to 1970 (1975), deel 1, Series D 235 en D 587 (blz. 140 en 144)"
+  vastgesteld: 2026-11-11
+  houdbaarheid_dagen: 3650
+  status: actueel
+  slides: [WRK-05]
+  noot: "Personen van 14 jaar en ouder; per jaar in de eigen beroepsindeling van dat jaar. De pdf is een scan; cijfers met de hand overgenomen en in data/WRK-05_beroepen_vs_1900_1970.csv gezet. IPUMS vraagt een login en is niet gebruikt."
