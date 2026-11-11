@@ -142,6 +142,15 @@ data_en_metingen:
     frequentie: kwartaal
     betrouwbaarheid: A
 
+  - id: bls
+    naam: U.S. Bureau of Labor Statistics, Occupational Employment and Wage Statistics (werkgelegenheid per beroep)
+    url: https://www.bls.gov/oes/
+    type: statistiek
+    frequentie: jaarlijks   # cijfers per mei, gepubliceerd in het voorjaar daarna
+    betrouwbaarheid: A
+    hergebruik: publiek domein
+    opmerking: downloads van bestanden geven een 403 voor scripts; gebruik de pagina's per jaar of de openbare API (api.bls.gov)
+
 bedrijfsbronnen:
   # Primair voor omzet, gebruikers en releases. Altijd belang van de bron vermelden.
   - id: lab-blogs

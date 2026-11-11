@@ -419,8 +419,8 @@ slides:
     kern: "De liftbediende verdween, de accountant niet. Automatisering verandert vaker het werk dan dat ze het opheft."
     grafiek: "Verandering in werkgelegenheid in de VS per beroep, mei 2023 tot mei 2025 (data/WRK-05_werkgelegenheid_vs.csv)"
     volatiliteit: stabiel
-    bronnen: [evans]
-    beweringen: [K-WRK-011]
+    bronnen: [evans, bls]
+    beweringen: [K-WRK-011, K-WRK-014]
     status: concept
     noot: "Grafiekdata nog nodig: historische beroepentelling VS (IPUMS of Census); Evans geeft alleen de grafiek. Bewering K-WRK-011 kan als actueel voorbeeld."
   - id: WRK-06
@@ -442,9 +442,9 @@ slides:
     titel: "De bouw van AI levert ook banen op"
     kern: "In de VS naar schatting 320.000 extra banen in infrastructuur en 730.000 in AI-gerelateerde beroepen."
     volatiliteit: kwartaal
-    bronnen: [soai]
-    beweringen: [K-WRK-002, K-WRK-011]
-    status: concept
+    bronnen: [soai, bls]
+    beweringen: [K-WRK-002, K-WRK-011, K-WRK-014]
+    status: gereed
   - id: WRK-09
     titel: "Organisaties worden platter, en de koplopers besteden honderden keren meer"
     kern: "45 procent van de AI-bouwers plant een andere rolverdeling, 33 procent een kleiner team. De top 1 procent besteedt 580 keer zoveel aan AI per medewerker als de mediaan."

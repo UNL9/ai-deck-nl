@@ -210,7 +210,7 @@ In 72 procent van de onderzochte gesprekken leidt de mens en assisteert AI. Bij 
 
 **WRK-05** [S] **Een taak automatiseren is iets anders dan een baan vervangen**  
 De liftbediende verdween, de accountant niet. Automatisering verandert vaker het werk dan dat ze het opheft.
-<br><sub>Bronnen: evans · Open: Grafiekdata nog nodig: historische beroepentelling VS (IPUMS of Census); Evans geeft alleen de grafiek. Bewering K-WRK-011 kan als actueel voorbeeld.</sub>
+<br><sub>Bronnen: evans, bls · Open: Grafiekdata nog nodig: historische beroepentelling VS (IPUMS of Census); Evans geeft alleen de grafiek. Bewering K-WRK-011 kan als actueel voorbeeld.</sub>
 
 **WRK-06** [K] **Jonge werknemers lijken het eerst geraakt**  
 De instroom van 22- tot 25-jarigen in beroepen die AI raakt is vertraagd. De oorzaak is onzeker, de werkloosheid in die beroepen is niet duidelijk gestegen.
@@ -222,7 +222,7 @@ Ontwikkelaars die met AI een nieuwe bibliotheek leerden, konden de code daarna s
 
 **WRK-08** [K] **De bouw van AI levert ook banen op**  
 In de VS naar schatting 320.000 extra banen in infrastructuur en 730.000 in AI-gerelateerde beroepen.
-<br><sub>Bronnen: soai</sub>
+<br><sub>Bronnen: soai, bls</sub>
 
 **WRK-09** [K] **Organisaties worden platter, en de koplopers besteden honderden keren meer**  
 45 procent van de AI-bouwers plant een andere rolverdeling, 33 procent een kleiner team. De top 1 procent besteedt 580 keer zoveel aan AI per medewerker als de mediaan.
