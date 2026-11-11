@@ -70,7 +70,7 @@ Open modellen geven controle, lagere kosten en onafhankelijkheid. Gesloten model
 
 **BAS-11** [S] **Modellen maken fouten die overtuigend klinken**  
 Verzonnen feiten en taken die 'klaar' heten maar dat niet zijn. In labtaken was bijna de helft van de 'klaar'-meldingen onvolledig. Controle blijft nodig.
-<br><sub>Bronnen: soai</sub>
+<br><sub>Bronnen: soai, vectara</sub>
 
 **BAS-12** [K] **Intelligentie wordt snel goedkoper, en toch stijgen de totale uitgaven**  
 De prijs per eenheid prestatie daalt hard. Het gebruik groeit harder, vooral door agents en redeneermodellen.

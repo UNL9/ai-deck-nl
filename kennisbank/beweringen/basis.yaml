@@ -90,3 +90,17 @@
   status: actueel
   slides: [BAS-07]
   noot: "Vervangt K-BAS-004 voor de score bij maximale inspanning (was 58 op versie 5.0). De score van 35 bij lage inspanning en de 59.000 uitvoertokens per taak staan niet op de modelpagina en blijven uit K-BAS-004 (versie 5.0, artikel van 27 oktober). Volgens de modelpagina gebruikte de maximale instelling 218 miljoen uitvoertokens voor de hele index."
+
+# ---------- Verbeterloop, 2026-11-11 ----------
+
+# BAS-11: verzonnen feiten
+- id: K-BAS-009
+  bewering: "Bij het samenvatten van korte documenten voegen ook de nieuwste modellen nog informatie toe die niet in de tekst staat: GPT-6 Astra in 8,7% van de samenvattingen, Claude Opus 5.5 in 9,9% en Gemini 4 Argon in 12,1%. Het laagste percentage op de ranglijst is 1,8%, voor een klein gespecialiseerd model."
+  peildatum: 2026-10-22
+  bron: vectara
+  vindplaats: "https://github.com/vectara/hallucination-leaderboard (README, bijgewerkt 22 oktober 2026)"
+  vastgesteld: 2026-11-11
+  houdbaarheid_dagen: 90
+  status: actueel
+  slides: [BAS-11]
+  noot: "Vectara meet met een eigen evaluatiemodel (HHEM) hoe vaak een samenvatting iets bevat dat niet in de brontekst staat. Eén soort taak; geen maat voor fouten in het algemeen. Claude Fable 5.2 en Gemini 4 Carbon staan er nog niet op."

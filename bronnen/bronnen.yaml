@@ -166,6 +166,14 @@ data_en_metingen:
     betrouwbaarheid: A
     opmerking: leginfo.legislature.ca.gov geeft een 403 aan scripts; gebruik persberichten van de gouverneur of de indiener
 
+  - id: vectara
+    naam: Vectara, Hallucination Leaderboard (hoe vaak modellen iets verzinnen bij het samenvatten)
+    url: https://github.com/vectara/hallucination-leaderboard
+    type: ranglijst
+    frequentie: maandelijks
+    betrouwbaarheid: B
+    hergebruik: cijfers met bronvermelding; meting met het eigen evaluatiemodel van Vectara (HHEM)
+
 bedrijfsbronnen:
   # Primair voor omzet, gebruikers en releases. Altijd belang van de bron vermelden.
   - id: lab-blogs

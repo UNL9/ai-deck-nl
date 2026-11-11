@@ -144,9 +144,9 @@ slides:
     titel: "Modellen maken fouten die overtuigend klinken"
     kern: "Verzonnen feiten en taken die 'klaar' heten maar dat niet zijn. In labtaken was bijna de helft van de 'klaar'-meldingen onvolledig. Controle blijft nodig."
     volatiliteit: stabiel
-    bronnen: [soai]
-    beweringen: [K-FRT-027, K-FRT-025]
-    status: concept
+    bronnen: [soai, vectara]
+    beweringen: [K-FRT-027, K-FRT-025, K-BAS-009]
+    status: gereed
   - id: BAS-12
     titel: "Intelligentie wordt snel goedkoper, en toch stijgen de totale uitgaven"
     kern: "De prijs per eenheid prestatie daalt hard. Het gebruik groeit harder, vooral door agents en redeneermodellen."
@@ -621,7 +621,7 @@ slides:
     volatiliteit: kwartaal
     bronnen: [soai]
     beweringen: [K-GEO-007, K-INF-012]
-    status: concept
+    status: gereed
   - id: GEO-05
     titel: "De AI Act: hoog-risicoregels uitgesteld, transparantieplichten gaan door"
     kern: "Regels voor algemene modellen gelden sinds augustus 2025, transparantieplichten sinds augustus 2026. Hoog-risico schuift naar december 2027 en augustus 2028. Vanaf december 2026 is AI voor niet-consensuele naaktbeelden verboden."
@@ -637,7 +637,7 @@ slides:
     volatiliteit: kwartaal
     bronnen: [soai]
     beweringen: [K-GEO-008]
-    status: concept
+    status: gereed
   - id: GEO-07
     titel: "Verzet tegen datacenters groeit"
     kern: "Amerikaanse staten stellen strengere voorwaarden. Het antwoord van Washington: betaal je eigen stroom."
@@ -669,7 +669,7 @@ slides:
     volatiliteit: kwartaal
     bronnen: [uk-aisi, soai]
     beweringen: [K-VEI-001, K-VEI-006, K-VEI-007]
-    status: concept
+    status: gereed
   - id: VEI-03
     titel: "Misbruik is geen theorie meer"
     kern: "Gedocumenteerd misbruik voor cyberaanvallen, surveillance, beïnvloeding en fraude."
@@ -683,7 +683,7 @@ slides:
     volatiliteit: kwartaal
     bronnen: [uk-aisi, soai]
     beweringen: [K-VEI-002, K-VEI-009]
-    status: concept
+    status: gereed
   - id: VEI-05
     titel: "Agents staan al op laptops voordat de beveiliging het weet, en ze lekken gegevens"
     kern: "Beveiliging hangt af van het model én het harnas. Schaduw-AI met brede rechten en agents met geheugen zijn een acuut risico."
