@@ -326,7 +326,7 @@ slides:
     volatiliteit: kwartaal
     bronnen: [earnings, sec-edgar, soai, evans]
     beweringen: [K-INF-001, K-INF-006, K-INF-007, K-INF-008]
-    status: concept
+    status: gereed
     noot: "SoAI spreekt zichzelf tegen over de stijging (349 of 323 miljard); daarom 'ruim 300 miljard'. De vergelijking met de telecomsector is geschrapt: geen bron."
   - id: INF-02
     titel: "Bijna twee derde gaat naar AI, en kapitaalarme techbedrijven zijn kapitaalintensief geworden"
@@ -335,7 +335,7 @@ slides:
     volatiliteit: kwartaal
     bronnen: [soai, evans, sec-edgar]
     beweringen: [K-INF-002, K-INF-008, K-INF-009, K-INF-010]
-    status: concept
+    status: gereed
     noot: "Voorbeeld van financiering buiten de balans: het leasecontract van Anthropic, 125 miljard dollar over vijf jaar (K-INF-009)."
   - id: INF-03
     titel: "NVIDIA blijft de standaard, maar eigen chips van anderen winnen terrein"
@@ -344,7 +344,7 @@ slides:
     volatiliteit: kwartaal
     bronnen: [soai, earnings, epoch]
     beweringen: [K-INF-011, K-INF-012, K-INF-013]
-    status: concept
+    status: gereed
     noot: "De data laten niet zien of de verschuiving specifiek bij inferentie zit; daarom de algemenere titel."
   - id: INF-04
     titel: "Zonder ASML geen AI: de keten loopt via Veldhoven en Taiwan"
@@ -360,7 +360,7 @@ slides:
     volatiliteit: kwartaal
     bronnen: [soai]
     beweringen: [K-INF-016]
-    status: concept
+    status: gereed
   - id: INF-06
     titel: "Stroom is het nieuwe knelpunt, en Europa betaalt er veel meer voor"
     kern: "AI-bedrijven overbieden energiebedrijven voor turbines. Eén cent per kWh extra kost een datacenter van 1 GW bijna 88 miljoen dollar per jaar; het VK betaalt vier keer de Amerikaanse prijs."
@@ -368,7 +368,7 @@ slides:
     volatiliteit: kwartaal
     bronnen: [soai, iea-energy-ai, eurostat]
     beweringen: [K-INF-005, K-INF-017, K-INF-018, K-SAM-007]
-    status: concept
+    status: gereed
     noot: "VS en VK (SoAI, dollars, ander jaar) niet in dezelfde grafiek als de Eurostat-cijfers."
   - id: INF-07
     titel: "Europa heeft 5 procent van de rekenkracht, en zet 1 miljard euro in tegen honderden miljarden"

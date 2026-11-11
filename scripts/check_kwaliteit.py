@@ -99,7 +99,7 @@ def check_html(sid, pad):
         fouten.append(("stijl", "voetregel noemt het slide-ID niet"))
     if not sid.endswith("-opener") and "<aside>" not in t:
         fouten.append(("stijl", "sprekersnotities ontbreken"))
-    if re.search(r"\d+\.\d+\s?(%|procent)", zichtbare_tekst(t)):
+    if re.search(r"\d\.\d{1,2}(?!\d)\s?(%|procent)", zichtbare_tekst(t)):  # 1.127 procent is een duizendtal
         fouten.append(("stijl", "decimaalpunt in een percentage; gebruik een komma"))
 
     h2 = re.search(r"<h2[^>]*>(.*?)</h2>", t, re.S)
