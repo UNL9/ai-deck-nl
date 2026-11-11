@@ -246,7 +246,7 @@ slides:
     volatiliteit: wekelijks
     bronnen: [soai, lab-blogs, sec-edgar, financiele-pers]
     beweringen: [K-MKT-001, K-MKT-002, K-MKT-010, K-MKT-011, K-MKT-012, K-MKT-015, K-MKT-016]
-    status: concept
+    status: gereed
     noot: "OpenAI-cijfer volgens berichten (K-MKT-015, te verifiëren). Voor OpenAI bestaat geen gepubliceerde reeks; de grafiek toont alleen Anthropic."
   - id: MKT-02
     titel: "De omzet van twee AI-labs is al groter dan hele sectoren die ze willen veranderen"
@@ -409,11 +409,11 @@ slides:
     status: concept
   - id: WRK-04
     titel: "De mens blijft aan het stuur, ook bij agents"
-    kern: "In 72 procent van de onderzochte gesprekken leidt de mens en assisteert AI. Bij taken met meerdere stappen grijpt een mens vaak in, waardoor de winst van agents beperkt blijft."
+    kern: "In 72 procent van de onderzochte gesprekken leidt de mens en assisteert AI."
     volatiliteit: kwartaal
     bronnen: [soai, iconiq, anthropic-econ]
     beweringen: [K-MKT-009, K-WRK-009]
-    status: concept
+    status: gereed
   - id: WRK-05
     titel: "Een taak automatiseren is iets anders dan een baan vervangen"
     kern: "De liftbediende verdween, de accountant niet. Automatisering verandert vaker het werk dan dat ze het opheft."
@@ -476,7 +476,7 @@ slides:
     volatiliteit: kwartaal
     bronnen: [soai, dnb-afm]
     beweringen: [K-SEC-002]
-    status: concept
+    status: gereed
   - id: SEC-04
     titel: "Juridische en professionele diensten: het verdienmodel per uur staat onder druk"
     kern: "Als werk goedkoop wordt, is het uurtarief geen goede maatstaf meer. De labs richten zich expliciet op juridisch, accountancy en advies."
@@ -768,11 +768,11 @@ slides:
     status: gereed
   - id: GOV-02
     titel: "Een AI-strategie begint bij processen en data, en meet waarde in plaats van gebruik"
-    kern: "Aantal gebruikers en tokenuitgaven zeggen weinig, en de kosten van interne AI zijn moeilijk te voorspellen. Meet doorlooptijd, kwaliteit en kosten per proces."
+    kern: "Aantal gebruikers en tokenuitgaven zeggen weinig. Meet doorlooptijd, kwaliteit en kosten per proces."
     volatiliteit: stabiel
     bronnen: [iconiq, soai, gallup, mckinsey-sai]
     beweringen: [K-WRK-007, K-WRK-004, K-MKT-014, K-WRK-013]
-    status: concept
+    status: gereed
   - id: GOV-03
     titel: "Bouwen, kopen of laten doen: de keuze verschuift"
     kern: "Modellen worden uitwisselbaar, aanbieders verkopen werk in plaats van software, en de labs bieden met eigen adviesbedrijven zelf implementatie aan."
@@ -825,7 +825,7 @@ slides:
     volatiliteit: kwartaal
     bronnen: [soai, evans, metr, epoch]
     beweringen: [K-VBK-002, K-VBK-001, K-FRT-033, K-FRT-017, K-FRT-019]
-    status: concept
+    status: gereed
   - id: VBK-03
     titel: "Bronnen en verder lezen"
     kern: "De vaste bronnen achter dit deck, met waar je ze vindt."

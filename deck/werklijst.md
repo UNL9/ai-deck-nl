@@ -16,7 +16,6 @@ Wat in de opzet staat maar nog geen bewering heeft, staat niet als feit op de sl
 | BAS-12 | Epoch-reeks van prijs per token bij gelijke prestatie (analyse loopt tot maart 2025); daarna grafiek bouwen |
 | MKT-06 | Reeks voor de S&P-grafiek |
 | WRK-03 | Cijfer voor klantenservice |
-| WRK-04 | Mensen grijpen vaak in bij taken met meerdere stappen |
 | WRK-05 | Historische beroepentellingen VS (liftbedienden, accountants; IPUMS of Census) |
 | SEC-02 | Radiologie en administratie; voorbeelden uit de Nederlandse zorg |
 | SEC-07 | Zoeken via AI vult zoekmachines vooral aan |
@@ -35,7 +34,6 @@ Wat in de opzet staat maar nog geen bewering heeft, staat niet als feit op de sl
 | VEI-03 | Beïnvloeding en fraude |
 | VEI-06 | Monitors die alleen de redenering zien, missen sabotage |
 | INF-04 | Bron voor TSMC als begrenzing; gemiddelde prijs per EUV-machine bij ASML zelf (het persbericht Q4 2025 gaf een 403) |
-| GOV-02 | Kosten van interne AI zijn moeilijk te voorspellen |
 | VBK-01 | De vier ontbrekende voorspellingen voor 2027 en de stand per voorspelling |
 | NLD-07 | Bestaande regels voor hyperscale datacenters (Eemshaven en Middenmeer; Barro en Bkl) bij de primaire bron vaststellen. De nationale regie volgt in Q1 2027 (K-NLD-014). |
 

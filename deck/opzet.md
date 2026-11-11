@@ -205,7 +205,7 @@ Programmeerhulp levert de grootste productiviteitswinst. In Nederland is marketi
 <br><sub>Bronnen: iconiq, cbs, gallup</sub>
 
 **WRK-04** [K] **De mens blijft aan het stuur, ook bij agents**  
-In 72 procent van de onderzochte gesprekken leidt de mens en assisteert AI. Bij taken met meerdere stappen grijpt een mens vaak in, waardoor de winst van agents beperkt blijft.
+In 72 procent van de onderzochte gesprekken leidt de mens en assisteert AI.
 <br><sub>Bronnen: soai, iconiq, anthropic-econ</sub>
 
 **WRK-05** [S] **Een taak automatiseren is iets anders dan een baan vervangen**  
@@ -400,7 +400,7 @@ Op 30 juni wachtten 15.498 aanvragen van bedrijven en instellingen op netcapacit
 Vijf vragen die elke raad nu moet stellen: over strategie, waarde, risico, mensen en leveranciers.
 
 **GOV-02** [S] **Een AI-strategie begint bij processen en data, en meet waarde in plaats van gebruik**  
-Aantal gebruikers en tokenuitgaven zeggen weinig, en de kosten van interne AI zijn moeilijk te voorspellen. Meet doorlooptijd, kwaliteit en kosten per proces.
+Aantal gebruikers en tokenuitgaven zeggen weinig. Meet doorlooptijd, kwaliteit en kosten per proces.
 <br><sub>Bronnen: iconiq, soai, gallup, mckinsey-sai</sub>
 
 **GOV-03** [S] **Bouwen, kopen of laten doen: de keuze verschuift**  
