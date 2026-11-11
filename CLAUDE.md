@@ -13,6 +13,8 @@ Dit is de bron van een Nederlandstalig overzichtsdeck over AI (circa 100 slides)
 | `deck/stijl.md` | Huisstijl en schrijfregels voor slides |
 | `data/` | CSV's achter elke grafiek, met bron in de kop |
 | `updates/JJJJ-MM-DD.md` | Wekelijks verslag: wat is nieuw, wat is gewijzigd, wat is verlopen |
+| `deck/werklijst.md` | Open punten: ontbrekende beweringen, na te lopen cijfers, keuzes voor Joan |
+| `deck/artifact/` | Bronbestanden van het gepubliceerde Slides-deck, één HTML-bestand per slide-ID |
 | `scripts/` | `render_opzet.py` (opzet naar leesbare markdown), `check_houdbaarheid.py` (verlopen beweringen) |
 
 ## Harde regels
@@ -33,8 +35,10 @@ Draait elke maandagochtend als geplande taak. Werk altijd op een nieuwe branch `
 2. **Kennisbank bijwerken.** Nieuwe of gewijzigde cijfers als nieuwe beweringen toevoegen (regel 2). Alleen opnemen wat materieel is voor het overzicht; geen nieuwsoverzicht van alles wat er gebeurde.
 3. **Houdbaarheid controleren.** Draai `python3 scripts/check_houdbaarheid.py`. Verlopen beweringen opnieuw verifiëren of markeren.
 4. **Slides markeren.** Elke slide waarvan een gekoppelde bewering is vervangen of verlopen: `status: herzien` en een voorstel voor nieuwe titel of kernboodschap in `voorstel`. Wijzig slides met `volatiliteit: stabiel` alleen bij een echte trendbreuk, en zeg dat er expliciet bij.
-5. **Verslag schrijven.** `updates/JJJJ-MM-DD.md`: maximaal 10 punten "wat is er deze week veranderd", per punt de geraakte slide-ID's en de bron. Werk ook slide `OPN-02` (wat is er veranderd) bij.
-6. **Pull request openen** met het verslag als beschrijving. Niet zelf mergen.
+5. **Werklijst.** Pak maximaal vijf punten uit `deck/werklijst.md` op: primaire bron zoeken, bewering toevoegen, slide bijwerken. Haal afgeronde punten weg; keuzes voor Joan blijven staan.
+6. **Slidebestanden bijwerken.** Werk voor elke geraakte slide het bestand `deck/artifact/project/slides/<ID>.html` bij, in dezelfde vorm als de andere slides (grafieken uit `data/`, voetregel met stand, label "gewijzigd JJJJ-MM-DD"). Niet zelf publiceren: na de merge wordt het deck op verzoek van Joan vanuit een lokale sessie gepubliceerd.
+7. **Verslag schrijven.** `updates/JJJJ-MM-DD.md`: maximaal 10 punten "wat is er deze week veranderd", per punt de geraakte slide-ID's en de bron. Werk ook slide `OPN-02` (wat is er veranderd) bij.
+8. **Pull request openen** met het verslag als beschrijving. Niet zelf mergen.
 
 Als er in een week niets materieels is veranderd, zeg dat in het verslag. Dat is een geldige uitkomst.
 
