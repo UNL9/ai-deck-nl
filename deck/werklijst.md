@@ -14,7 +14,6 @@ Geen open punten (opruimronde 2026-11-11).
 
 - VEI-07 of NLD-06: het advies over een Nederlands AI-veiligheidsinstituut (verwacht december 2026). Als het verschijnt: bewering toevoegen en op NLD-06 zetten, dat dan over beleid en toezicht gaat.
 
-- Voorspellingen State of AI (K-VBK-003): de OpenAI-pagina 'Empowering cyber defenders' (openai.com/index/empowering-cyber-defenders, 21 okt. 2026) gaf een 403. Volgens Fortune lanceerde OpenAI op 5 november 2026 een model voor cyberverdediging; als de pagina dat bevestigt, is voorspelling 9 uitgekomen. Hulp van Joan: de pagina met de hand openen.
 
 - Te verifiëren: K-MKT-015 en K-MKT-016 (omzet OpenAI), K-NLD-007 (GPT-NL), K-NLD-011 (GPU's AI-fabriek, aanbesteding januari 2027). Deze staan op de slides met 'volgens berichten' (besluit Joan). OpenAI publiceert geen omzetcijfers; aifabriek.nl was niet bereikbaar voor scripts.
 

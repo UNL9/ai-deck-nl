@@ -31,5 +31,5 @@ Nieuwe bronnen: vs-rechtbanken, cac, vk-overheid, us-census, fda, historische-br
 ## Hulp van Joan nodig
 
 1. **GEO-02:** de uitspraak van het D.C. Circuit van 25 september 2026, zaak 26-1049. De site van het hof vindt het document niet meer, govinfo is leeg, Justia en Leagle geven een 403, CourtListener vraagt een login. Via PACER of de griffie. Dit is het laatste punt op de kwaliteitslat.
-2. **Voorspelling 9 (VBK-01, VBK-02):** de OpenAI-pagina openai.com/index/empowering-cyber-defenders gaf een 403. Als die de lancering van 5 november bevestigt, is die voorspelling uitgekomen.
+2. ~~Voorspelling 9 (VBK-01, VBK-02)~~ Afgehandeld: Joan opende de OpenAI-pagina. Het is een beleidsplan, geen product, en bevestigt de voorspelling dus niet. GPT-6 Cyber (5 november) staat alleen in de vakpers. De uitkomst laten we aan de scorekaart van de auteurs; vastgelegd in K-VBK-003.
 3. **Te verifiëren (tellen niet mee, staan als "volgens berichten" op de slides):** omzet OpenAI (K-MKT-015, K-MKT-016), GPT-NL (K-NLD-007), GPU's van de AI-fabriek (K-NLD-011; aifabriek.nl was niet bereikbaar).
