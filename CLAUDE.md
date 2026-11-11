@@ -15,7 +15,7 @@ Dit is de bron van een Nederlandstalig overzichtsdeck over AI (circa 100 slides)
 | `updates/JJJJ-MM-DD.md` | Wekelijks verslag: wat is nieuw, wat is gewijzigd, wat is verlopen |
 | `deck/werklijst.md` | Open punten: ontbrekende beweringen, na te lopen cijfers, keuzes voor Joan |
 | `deck/artifact/` | Bronbestanden van het gepubliceerde Slides-deck, één HTML-bestand per slide-ID |
-| `scripts/` | `render_opzet.py` (opzet naar leesbare markdown), `check_houdbaarheid.py` (verlopen beweringen) |
+| `scripts/` | `render_opzet.py` (opzet naar leesbare markdown), `check_houdbaarheid.py` (verlopen beweringen), `check_kwaliteit.py` (overtredingen van de kwaliteitslat per slide) |
 
 ## Harde regels
 

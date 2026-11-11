@@ -116,6 +116,13 @@ data_en_metingen:
     frequentie: per publicatie
     betrouwbaarheid: A
     opmerking: over eigen gebruik; let op belang van de bron
+  - id: anthropic-research
+    naam: Anthropic, onderzoekspublicaties (anthropic.com/research, met paper op arXiv)
+    url: https://www.anthropic.com/research
+    type: onderzoek
+    frequentie: per publicatie
+    betrouwbaarheid: A
+    opmerking: onderzoek naar het eigen product; let op belang van de bron
   - id: openai-research
     naam: OpenAI, onderzoek naar gebruik en economie
     url: https://openai.com/research
@@ -142,6 +149,15 @@ data_en_metingen:
     frequentie: kwartaal
     betrouwbaarheid: A
 
+  - id: bls
+    naam: U.S. Bureau of Labor Statistics, Occupational Employment and Wage Statistics (werkgelegenheid per beroep)
+    url: https://www.bls.gov/oes/
+    type: statistiek
+    frequentie: jaarlijks   # cijfers per mei, gepubliceerd in het voorjaar daarna
+    betrouwbaarheid: A
+    hergebruik: publiek domein
+    opmerking: downloads van bestanden geven een 403 voor scripts; gebruik de pagina's per jaar of de openbare API (api.bls.gov)
+
 bedrijfsbronnen:
   # Primair voor omzet, gebruikers en releases. Altijd belang van de bron vermelden.
   - id: lab-blogs
@@ -167,6 +183,21 @@ bedrijfsbronnen:
     frequentie: jaarlijks
     betrouwbaarheid: A
     opmerking: vergelijkingsmateriaal voor de omvang van AI-omzet; boekjaren lopen uiteen
+
+  - id: skild-ai
+    naam: Skild AI, blog (robotmodellen)
+    url: https://www.skild.ai/blogs
+    type: bedrijf
+    frequentie: per publicatie
+    betrouwbaarheid: B
+    opmerking: eigen metingen van het bedrijf op een eigen testset; zo vermelden
+  - id: sunday-robotics
+    naam: Sunday Robotics, blog (huishoudrobots)
+    url: https://www.sunday.ai/blog
+    type: bedrijf
+    frequentie: per publicatie
+    betrouwbaarheid: B
+    opmerking: eigen metingen van het bedrijf in zelf gekozen huizen; zo vermelden
 
 nederland_en_europa:
   - id: cbs

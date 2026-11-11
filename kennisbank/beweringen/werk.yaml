@@ -102,9 +102,10 @@
   vindplaats: "State of AI Report 2026, slide 105 (Anthropic)"
   vastgesteld: 2026-11-10
   houdbaarheid_dagen: 365
-  status: actueel
+  status: vervangen
+  vervangen_door: K-WRK-015
   slides: [WRK-07]
-  noot: "Meet direct leren, geen langetermijnverlies van vaardigheden. Primaire Anthropic-publicatie nog niet gecontroleerd."
+  noot: "Meet direct leren, geen langetermijnverlies van vaardigheden. Primaire Anthropic-publicatie nog niet gecontroleerd. Gecontroleerd op 2026-11-11: klopt; vervangen door K-WRK-015 met de primaire bron."
 
 # WRK-08: banen
 - id: K-WRK-011
@@ -114,9 +115,10 @@
   vindplaats: "State of AI Report 2026, slide 107 (Amerikaanse beroepenstatistiek)"
   vastgesteld: 2026-11-10
   houdbaarheid_dagen: 365
-  status: actueel
+  status: vervangen
+  vervangen_door: K-WRK-014
   slides: [WRK-08, WRK-05]
-  noot: "Primaire bron: BLS Occupational Employment and Wage Statistics; nog niet zelf gecontroleerd."
+  noot: "Primaire bron: BLS Occupational Employment and Wage Statistics; nog niet zelf gecontroleerd. Gecontroleerd op 2026-11-11: datawetenschappers plus 36,2 procent (niet 37); de andere drie kloppen afgerond. Vervangen door K-WRK-014."
 
 # WRK-09: koplopers
 - id: K-WRK-012
@@ -143,3 +145,29 @@
   status: actueel
   slides: [WRK-02]
   noot: "Wereldwijde enquête, 1.719 deelnemers op alle niveaus, 4 mei tot 8 juni 2026; 595 bij organisaties boven 1 miljard dollar omzet, 1.035 bij kleinere. Fasen gelden voor organisaties die AI gebruiken. 'High performers' rekenen minstens 5% van de EBIT toe aan AI en noemen het effect 'significant'. 32% zag af van de aankoop van software omdat die met codeeragents zelf te bouwen is. Data: data/WRK-02_fase_ai_gebruik.csv."
+
+# ---------- Verbeterloop, 2026-11-11 ----------
+
+# WRK-05 en WRK-08: werkgelegenheid per beroep
+- id: K-WRK-014
+  bewering: "In de VS groeide de werkgelegenheid tussen mei 2023 en mei 2025 voor datawetenschappers van 192.710 naar 262.440 (plus 36%) en voor paralegals van 354.890 naar 392.880 (plus 11%). Klantenservice daalde van 2.858.710 naar 2.595.750 (min 9%), data-invoer van 154.230 naar 127.080 (min 18%)."
+  peildatum: 2025-05
+  bron: bls
+  vindplaats: "BLS OEWS, nationale schattingen mei 2023 (https://www.bls.gov/oes/2023/may/oes_nat.htm) en mei 2025 (openbare API, reeksen OEUN000000000000015205101, ...023201101, ...043405101, ...043902101)"
+  vastgesteld: 2026-11-11
+  houdbaarheid_dagen: 365
+  status: actueel
+  slides: [WRK-05, WRK-08]
+  noot: "Eigen berekening van de percentages; zonder zelfstandigen. Beroepscodes 15-2051, 23-2011, 43-4051 en 43-9021. Of AI de oorzaak is, zegt deze statistiek niet. Vervangt K-WRK-011 (State of AI, slide 107), dat 37 procent noemde voor datawetenschappers. Data: data/WRK-05_werkgelegenheid_vs.csv."
+
+# WRK-07: leren met AI
+- id: K-WRK-015
+  bewering: "In een gerandomiseerd experiment van Anthropic leerden 52 (vooral junior) ontwikkelaars de Python-bibliotheek Trio. Wie dat met een AI-assistent deed, scoorde daarna gemiddeld 50% op een toets zonder AI, tegen 67% voor wie zonder AI werkte (p = 0,01). De AI-groep was ongeveer twee minuten sneller klaar; dat verschil was niet significant. Het grootste verschil zat bij vragen over het vinden van fouten."
+  peildatum: 2026-01-29
+  bron: anthropic-research
+  vindplaats: "https://www.anthropic.com/research/AI-assistance-coding-skills ; paper https://arxiv.org/abs/2601.20245"
+  vastgesteld: 2026-11-11
+  houdbaarheid_dagen: 730
+  status: actueel
+  slides: [WRK-07]
+  noot: "Onderzoek van Anthropic naar het gebruik van AI bij leren; belang van de bron vermelden. Meet direct leren, geen langetermijnverlies van vaardigheden. Drie van de zes gebruikspatronen die de onderzoekers zagen, hielden het leerresultaat op peil. Vervangt K-WRK-010 (State of AI, slide 105)."

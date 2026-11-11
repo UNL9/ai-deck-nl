@@ -1,10 +1,10 @@
-# bron: State of AI Report 2026 (Air Street Capital), slide 107, op basis van de Amerikaanse beroepenstatistiek (BLS Occupational Employment and Wage Statistics)
-# url: https://www.stateof.ai
-# licentie: cijfers uit openbaar rapport, met bronvermelding; grafiek is eigen werk
-# opgehaald: 2026-11-10
-# verandering in werkgelegenheid in de VS per beroep, mei 2023 tot mei 2025, in procenten. Zie K-WRK-011. Primaire BLS-cijfers nog niet zelf gecontroleerd.
-beroep,verandering_pct
-Datawetenschappers,37
-Juridisch medewerkers (paralegals),11
-Klantenservice,-9
-Data-invoer,-18
+# bron: U.S. Bureau of Labor Statistics, Occupational Employment and Wage Statistics (OEWS), nationale schattingen mei 2023 en mei 2025
+# url: https://www.bls.gov/oes/2023/may/oes_nat.htm ; https://api.bls.gov/publicAPI/v1/timeseries/data/ (reeksen OEUN0000000000000<SOC>01)
+# licentie: publiek domein (Amerikaanse overheid); grafiek is eigen werk
+# opgehaald: 2026-11-11
+# verandering in werkgelegenheid in de VS per beroep, mei 2023 tot mei 2025, in procenten (eigen berekening; zonder zelfstandigen). Zie K-WRK-014.
+beroep,soc,werkgelegenheid_2023,werkgelegenheid_2025,verandering_pct
+Datawetenschappers,15-2051,192710,262440,36.2
+Juridisch medewerkers (paralegals),23-2011,354890,392880,10.7
+Klantenservice,43-4051,2858710,2595750,-9.2
+Data-invoer,43-9021,154230,127080,-17.6

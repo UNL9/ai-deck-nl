@@ -17,29 +17,29 @@
 <h2 style="font-size:56px;font-weight:700;line-height:1.1;letter-spacing:-0.5px;color:#16181D">Robotica heeft zijn GPT-2-moment: generalisatie groeit mee met voortraining</h2>
 <p style="font-size:32px;line-height:1.3;color:#4A515C">Net als taalmodellen in 2019: meer voortraining, beter in taken die het model nooit zag</p>
 <div style="flex:1;display:flex;flex-direction:column;justify-content:center;gap:40px">
-<p style="font-size:26px;line-height:1.35;color:#4A515C">Aandeel onbekende robottaken dat Skild S1 afrondt na één voorbeeldvideo</p>
+<p style="font-size:26px;line-height:1.35;color:#4A515C">Skild S1 op onbekende taken van 4 tot 8 minuten: gemiddeld aandeel geslaagde stappen</p>
 <div style="display:flex;flex-direction:row;gap:32px">
 <div style="flex:1;display:flex;flex-direction:column;gap:12px;background:#F0F2F5;border-radius:16px;padding:40px">
-<p style="font-size:24px;font-weight:600;color:#4A515C">1.000 uur voortraining</p>
-<p style="font-size:96px;font-weight:700;line-height:1.1;color:#5F6672">0%</p>
-<p style="font-size:26px;line-height:1.35;color:#2A2E35">ongeveer niets</p>
-</div>
-<div style="flex:1;display:flex;flex-direction:column;gap:12px;background:#F0F2F5;border-radius:16px;padding:40px">
-<p style="font-size:24px;font-weight:600;color:#1F4E9E">100.000 uur voortraining</p>
+<p style="font-size:24px;font-weight:600;color:#1F4E9E">Eén video als instructie</p>
 <p style="font-size:96px;font-weight:700;line-height:1.1;color:#1F4E9E">66%</p>
-<p style="font-size:26px;line-height:1.35;color:#2A2E35">twee van de drie taken af</p>
+<p style="font-size:26px;line-height:1.35;color:#2A2E35">na 100.000 uur voortraining, zonder bijtraining</p>
 </div>
 <div style="flex:1;display:flex;flex-direction:column;gap:12px;background:#F0F2F5;border-radius:16px;padding:40px">
 <p style="font-size:24px;font-weight:600;color:#4A515C">Zelfde data, model met taalinstructies</p>
 <p style="font-size:96px;font-weight:700;line-height:1.1;color:#5F6672">9%</p>
 <p style="font-size:26px;line-height:1.35;color:#2A2E35">de aanpak telt, niet alleen de data</p>
 </div>
+<div style="flex:1;display:flex;flex-direction:column;gap:12px;background:#F0F2F5;border-radius:16px;padding:40px">
+<p style="font-size:24px;font-weight:600;color:#4A515C">Bijgetraind met 2.000 voorbeelden</p>
+<p style="font-size:96px;font-weight:700;line-height:1.1;color:#5F6672">86%</p>
+<p style="font-size:26px;line-height:1.35;color:#2A2E35">één video is volgens Skild zo’n 380 voorbeelden waard</p>
 </div>
-<p style="font-size:26px;line-height:1.35;color:#2A2E35;border-left:4px solid #1F4E9E;padding:0 0 0 20px">Data over handelen is het knelpunt; gesimuleerde werelden zijn een deel van de oplossing. Sunday Robotics ziet hetzelfde patroon bij het vouwen van was.</p>
+</div>
+<p style="font-size:26px;line-height:1.35;color:#2A2E35;border-left:4px solid #1F4E9E;padding:0 0 0 20px">Sunday Robotics ziet hetzelfde bij het vouwen van was: het verschil tussen bekende en onbekende huizen zakt met meer voortraining van 82 naar 0 procentpunt.</p>
 </div>
 <div style="position:absolute;left:128px;bottom:64px;width:1664px;display:flex;flex-direction:row;justify-content:space-between">
-<p style="font-size:24px;color:#5E6570">Bron: State of AI 2026 (cijfers van Skild AI en Sunday Robotics). Peildatum 2026</p>
+<p style="font-size:24px;color:#5E6570">Bron: Skild AI (aug. 2026) en Sunday Robotics (juli 2026), eigen metingen. Peildatum aug. 2026</p>
 <p style="font-size:24px;color:#5E6570">FRT-09 · stand 2026-11-10</p>
 </div>
-<aside>Bewering K-FRT-024. GPT-2 (2019) was het taalmodel waarbij bleek dat meer voortraining een model beter maakt in taken waarvoor het niet apart is getraind. Het zijn bedrijfscijfers van Skild AI en Sunday Robotics, via State of AI 2026; de primaire publicaties zijn nog niet gecontroleerd. Daarom geen grafiek, alleen de drie getallen.</aside>
+<aside>Beweringen K-FRT-031 (Skild) en K-FRT-032 (Sunday). GPT-2 (2019) was het taalmodel waarbij bleek dat meer voortraining een model beter maakt in taken waarvoor het niet apart is getraind. Het zijn eigen metingen van de bedrijven, op een eigen testset en in zelf gekozen huizen; daarom geen grafiek. Skild meet het gemiddelde aandeel geslaagde stappen; bij het model met taalinstructies grepen mensen in na een fout. Bij 1.000 uur voortraining scoorde de video-aanpak op bekende taken nog lager dan taalinstructies (43 tegen 53 procent); op onbekende taken groeide het verschil met de schaal. Sunday: in onbekende huizen slaagde ACT-2 in 99,1 procent van 785 pogingen. Het State of AI Report (slide 56) las uit de grafiek van Skild ongeveer 0 procent af bij 1.000 uur; dat getal staat niet in de tekst van Skild.</aside>
 </section>

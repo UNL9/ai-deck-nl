@@ -112,7 +112,7 @@ AI hielp bij de oplossing van tien van de 49 open wiskundeproblemen die Epoch vo
 
 **FRT-09** [K] **Robotica heeft zijn GPT-2-moment: generalisatie groeit mee met voortraining**  
 Robotmodellen generaliseren beter naarmate ze meer voortraining krijgen. Data over handelen is het knelpunt; gesimuleerde werelden zijn een deel van de oplossing.
-<br><sub>Bronnen: soai</sub>
+<br><sub>Bronnen: soai, skild-ai, sunday-robotics</sub>
 
 **FRT-10** [K] **Hoge scores verbergen nog veel half werk**  
 Agents die goed scoren op benchmarks laten in de praktijk analyses onaf, missen fraude en ontdekken de regels van onbekende situaties slecht.
@@ -171,7 +171,7 @@ NVIDIA ontwierp twee derde van alle geïnstalleerde AI-rekenkracht, maar Google'
 <br><sub>Bronnen: soai, earnings, epoch · Open: De data laten niet zien of de verschuiving specifiek bij inferentie zit; daarom de algemenere titel.</sub>
 
 **INF-04** [K] **Zonder ASML geen AI: de keten loopt via Veldhoven en Taiwan**  
-ASML verkocht in 2025 zes EUV-machines meer dan in 2021, tegen een 61 procent hogere gemiddelde prijs. ASML verwacht dat de geplande capaciteit ook in 2027 en 2028 tekortschiet.
+ASML boekte in 2025 de omzet van 48 EUV-machines, vier meer dan een jaar eerder, en verwacht dat de geplande capaciteit ook in 2027 en 2028 tekortschiet.
 <br><sub>Bronnen: soai, earnings · Open: Voor de rol van TSMC als begrenzing is nog geen bron opgenomen.</sub>
 
 **INF-05** [K] **Rekenkracht is schaars: oude chips blijven verhuurd en prijzen stijgen weer**  
@@ -210,7 +210,7 @@ In 72 procent van de onderzochte gesprekken leidt de mens en assisteert AI. Bij 
 
 **WRK-05** [S] **Een taak automatiseren is iets anders dan een baan vervangen**  
 De liftbediende verdween, de accountant niet. Automatisering verandert vaker het werk dan dat ze het opheft.
-<br><sub>Bronnen: evans · Open: Grafiekdata nog nodig: historische beroepentelling VS (IPUMS of Census); Evans geeft alleen de grafiek. Bewering K-WRK-011 kan als actueel voorbeeld.</sub>
+<br><sub>Bronnen: evans, bls · Open: Grafiekdata nog nodig: historische beroepentelling VS (IPUMS of Census); Evans geeft alleen de grafiek. Bewering K-WRK-011 kan als actueel voorbeeld.</sub>
 
 **WRK-06** [K] **Jonge werknemers lijken het eerst geraakt**  
 De instroom van 22- tot 25-jarigen in beroepen die AI raakt is vertraagd. De oorzaak is onzeker, de werkloosheid in die beroepen is niet duidelijk gestegen.
@@ -218,11 +218,11 @@ De instroom van 22- tot 25-jarigen in beroepen die AI raakt is vertraagd. De oor
 
 **WRK-07** [S] **AI kan ook kennis kosten**  
 Ontwikkelaars die met AI een nieuwe bibliotheek leerden, konden de code daarna slechter uitleggen en fouten slechter vinden.
-<br><sub>Bronnen: soai</sub>
+<br><sub>Bronnen: soai, anthropic-research</sub>
 
 **WRK-08** [K] **De bouw van AI levert ook banen op**  
 In de VS naar schatting 320.000 extra banen in infrastructuur en 730.000 in AI-gerelateerde beroepen.
-<br><sub>Bronnen: soai</sub>
+<br><sub>Bronnen: soai, bls</sub>
 
 **WRK-09** [K] **Organisaties worden platter, en de koplopers besteden honderden keren meer**  
 45 procent van de AI-bouwers plant een andere rolverdeling, 33 procent een kleiner team. De top 1 procent besteedt 580 keer zoveel aan AI per medewerker als de mediaan.

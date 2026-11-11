@@ -1,8 +1,8 @@
-# bron: State of AI Report 2026 (Air Street Capital), slide 105, experiment van Anthropic
-# url: https://www.stateof.ai
-# licentie: cijfers uit openbaar rapport, met bronvermelding; grafiek is eigen werk
-# opgehaald: 2026-11-10
-# score op een begripstoets zonder AI na het leren van een nieuwe Python-bibliotheek, 52 ontwikkelaars, in procenten. Zie K-WRK-010. Primaire Anthropic-publicatie nog niet zelf gecontroleerd.
+# bron: Anthropic, How AI assistance impacts the formation of coding skills (29 januari 2026); paper arXiv 2601.20245
+# url: https://www.anthropic.com/research/AI-assistance-coding-skills
+# licentie: cijfers uit openbare publicatie, met bronvermelding; grafiek is eigen werk
+# opgehaald: 2026-11-11
+# gemiddelde score op een toets zonder AI na het leren van de Python-bibliotheek Trio, gerandomiseerd experiment met 52 ontwikkelaars, in procenten (verschil p = 0,01). Zie K-WRK-015.
 groep,score_pct
 Geleerd met AI,50
 Geleerd zonder AI,67

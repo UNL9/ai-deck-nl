@@ -133,9 +133,10 @@
   vindplaats: "State of AI Report 2026, slide 42"
   vastgesteld: 2026-11-10
   houdbaarheid_dagen: 90
-  status: actueel
+  status: vervangen
+  vervangen_door: K-FRT-030
   slides: [FRT-02]
-  noot: "Primaire bronnen (FrontierSWE, MirrorCode) nog niet zelf gecontroleerd."
+  noot: "Primaire bronnen (FrontierSWE, MirrorCode) nog niet zelf gecontroleerd. Gecontroleerd op 2026-11-11: FrontierSWE klopt, MirrorCode geeft 78,9 en 46,7 procent; Claude Fable 5.2 leidt nu op FrontierSWE. Vervangen door K-FRT-030."
 
 # FRT-03: China en open modellen
 - id: K-FRT-014
@@ -257,9 +258,10 @@
   vindplaats: "State of AI Report 2026, slide 56"
   vastgesteld: 2026-11-10
   houdbaarheid_dagen: 180
-  status: actueel
+  status: vervangen
+  vervangen_door: K-FRT-031
   slides: [FRT-09]
-  noot: "Bedrijfscijfers van Skild en Sunday Robotics; primaire publicatie nog niet gecontroleerd."
+  noot: "Bedrijfscijfers van Skild en Sunday Robotics; primaire publicatie nog niet gecontroleerd. Gecontroleerd op 2026-11-11: 66 en 9 procent kloppen (aandeel geslaagde stappen); de ongeveer 0 procent bij 1.000 uur staat niet in de tekst van Skild. Vervangen door K-FRT-031 (Skild) en K-FRT-032 (Sunday)."
 
 # FRT-10: hoge scores, half werk
 - id: K-FRT-025
@@ -313,14 +315,38 @@
   slides: [FRT-06]
   noot: "Menlo is belegger in Anthropic (en in onder meer Lovable en Factory); zo vermelden. Bedragen zijn schattingen van Menlo op basis van een enquête onder bijna 400 Amerikaanse beslissers (Morning Consult, 8-26 september 2026), openbare cijfers en derde partijen."
 
-# ---------- Wekelijkse update 2026-11-11 ----------
+# ---------- Verbeterloop, 2026-11-11 ----------
+
+# FRT-02: lange programmeertaken
 - id: K-FRT-030
-  bewering: "Volgens de eigen R&D Automation Index van Anthropic leidt Claude in augustus 2026 26% van het model-R&D-werk (niveau 'leidt': Claude doet het grootste deel van een taak van begin tot eind, een mens houdt toezicht), tegen minder dan 1% in februari 2026. Voor geen enkel gemeten deel werkt Claude volledig zelfstandig; meer dan 90% van het werk is op of boven het niveau 'werkt samen'."
-  peildatum: 2026-08
-  bron: lab-blogs
-  vindplaats: "Anthropic Institute, 'Measurements for understanding the pace of AI development inside frontier labs', https://www.anthropic.com/institute/measuring-pace-of-ai-development (gelezen 2026-11-11)"
+  bewering: "FrontierSWE v2 (34 taken van tot 20 uur, gemiddelde van vijf pogingen): Claude Fable 5.2 69,9%, GPT-6 Astra 65,5%, Claude Opus 5.5 62,3%, Gemini 4 Carbon 61,2%. Gemiddelde kosten per poging: 169, 1.030, 99 en 62 dollar. MirrorCode (programma's nabouwen zonder broncode): Claude Opus 5.5 78,9%, Claude Fable 5.1 73,3%, GPT-6 Astra 46,7%."
+  peildatum: 2026-11-11
+  bron: epoch
+  vindplaats: "https://www.frontierswe.com (ranglijst v2, opgehaald 2026-11-11; Fable 5.2 nog niet in de Epoch-data); Epoch AI benchmark_data.zip, frontierswe_external.csv en mirrorcode.csv (bijgewerkt 2026-11-10)"
   vastgesteld: 2026-11-11
-  houdbaarheid_dagen: 90
+  houdbaarheid_dagen: 30
   status: actueel
-  slides: [FRT-07, VBK-02]
-  noot: "Primaire bron voor K-FRT-005. Methode: elke week in juli 2026 een steekproef van 20% van het personeel; een Claude-agent maakte uit Slack en interne documenten circa 15.000 taken, een tweede Claude-model kende per categorie een niveau toe op de schaal van Epoch AI (AL0 tot AL5). Overeenstemming model en mens 59%, mens en mens 35%. Zelfmeting, prototype, geen onafhankelijke controle; belang van de bron vermelden. De pagina noemt geen publicatiedatum (volgens vakpers 17 september 2026)."
+  slides: [FRT-02]
+  noot: "FrontierSWE is van Proximal Labs; Epoch neemt de openbare ranglijst over. MirrorCode is van Epoch en METR; Claude Fable 5.2 en Gemini 4 Carbon zijn daar nog niet gemeten. Vervangt K-FRT-013 (State of AI, slide 42), dat MirrorCode afrondde op 77 en 47 procent."
+
+# FRT-09: robotica
+- id: K-FRT-031
+  bewering: "Skild S1 krijgt een taak via één voorbeeldvideo, zonder bijtraining. Op onbekende taken van 4 tot 8 minuten haalt het model bij 100.000 uur voortraining gemiddeld 66% van de stappen, tegen 9% voor een model met taalinstructies op dezelfde data. Een bijgetraind model haalt 86% met 2.000 voorbeelden; één video is volgens Skild ongeveer 380 voorbeelden waard."
+  peildatum: 2026-08-18
+  bron: skild-ai
+  vindplaats: "https://skild.ai/blogs/s1 (Introducing S1: In-Context Learning for Robotics, figuur 4)"
+  vastgesteld: 2026-11-11
+  houdbaarheid_dagen: 180
+  status: actueel
+  slides: [FRT-09]
+  noot: "Eigen metingen van Skild op een eigen testset. Maat: gemiddeld aandeel geslaagde stappen; bij het model met taalinstructies grepen mensen in na een fout, zodat latere stappen toch beoordeeld konden worden. De 380 is een interpolatie. Bij 1.000 uur geeft de tekst alleen bekende taken: 53% (taal) tegen 43% (video)."
+- id: K-FRT-032
+  bewering: "Bij het vouwen van was valt het verschil tussen testen in eigen huis en in onbekende huizen weg naarmate de voortraining groeit: van 82 procentpunt (96% tegen 14%) bij de kleinste schaal naar 0 bij volledige schaal. In onbekende huizen slaagde ACT-2 in 99,1% van 785 pogingen."
+  peildatum: 2026-07-17
+  bron: sunday-robotics
+  vindplaats: "https://www.sunday.ai/blog/act-2-preview (figuur 1)"
+  vastgesteld: 2026-11-11
+  houdbaarheid_dagen: 180
+  status: actueel
+  slides: [FRT-09]
+  noot: "Eigen metingen van Sunday, in huizen die Sunday zelf koos, op één soort taak."

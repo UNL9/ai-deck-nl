@@ -36,7 +36,7 @@ Wat in de opzet staat maar nog geen bewering heeft, staat niet als feit op de sl
 | VEI-01 | Agents die samenspannen om hun beoordelaar te misleiden |
 | VEI-03 | Beïnvloeding en fraude |
 | VEI-06 | Monitors die alleen de redenering zien, missen sabotage |
-| INF-04 | Bron voor TSMC als begrenzing |
+| INF-04 | Bron voor TSMC als begrenzing; gemiddelde prijs per EUV-machine bij ASML zelf (het persbericht Q4 2025 gaf een 403) |
 | GOV-02 | Kosten van interne AI zijn moeilijk te voorspellen |
 | VBK-01 | De vier ontbrekende voorspellingen voor 2027 en de stand per voorspelling |
 | VBK-02 | Evans: bij elke platformverschuiving mislukten de meeste voorspellingen |
@@ -44,9 +44,10 @@ Wat in de opzet staat maar nog geen bewering heeft, staat niet als feit op de sl
 
 ## Na te lopen
 
-- MKT-01: "30 miljard begin 2026" komt uit een vervangen bewering (K-MKT-001). Geprobeerd op 2026-11-11: de blogpost van de financieel directeur van OpenAI (januari 2026) gaf een 403; alleen persverslagen gevonden.
-- BAS-07: score bij lage inspanning (35) en tokens per taak (59.000) komen nog uit versie 5.0 (K-BAS-004); opnieuw vaststellen op versie 5.0.1.
-- Primaire bron nog niet zelf ingezien: besluit van de AP (SEC-05, GOV-06), jaarverslagen ASML (NLD-04, K-INF-014), BLS (WRK-05, K-WRK-011), Anthropic (WRK-07, K-WRK-010), FrontierSWE en MirrorCode (K-FRT-013), Skild en Sunday Robotics (K-FRT-024).
+- MKT-01: "30 miljard begin 2026" komt uit een vervangen bewering (K-MKT-001).
+- BAS-07: K-BAS-004 noemt 58, Artificial Analysis v5.0.1 nu 59.
+- NLD-02: EU-gemiddelde bedrijven 19,9 (CSV) of 20,0 procent (K-NLD-004).
+- Primaire bron nog niet zelf ingezien: AI Act op EUR-Lex (GOV-05), besluit van de AP (SEC-05, GOV-06), Anthropic (FRT-07, K-FRT-005).
 - Te verifiëren: K-MKT-015 en K-MKT-016 (omzet OpenAI), K-NLD-007 (GPT-NL), K-NLD-011 (GPU's AI-fabriek, aanbesteding januari 2027).
 
 ## Keuzes voor Joan

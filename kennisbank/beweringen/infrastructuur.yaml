@@ -140,9 +140,10 @@
   vindplaats: "State of AI Report 2026, slide 136"
   vastgesteld: 2026-11-10
   houdbaarheid_dagen: 365
-  status: actueel
+  status: vervangen
+  vervangen_door: K-INF-020
   slides: [INF-04]
-  noot: "Eenheden en gemiddelde prijs nog niet zelf gecontroleerd in de jaarverslagen van ASML."
+  noot: "Eenheden en gemiddelde prijs nog niet zelf gecontroleerd in de jaarverslagen van ASML. Gecontroleerd op 2026-11-11 in het jaarverslag 2025: 48 EUV-machines klopt. Het jaarverslag (strategisch deel) geeft geen gemiddelde prijs en geen cijfer voor 2021; het persbericht over Q4 2025 gaf een 403. Vervangen door K-INF-020, zonder de prijs."
 - id: K-INF-015
   bewering: "ASML boekte in het derde kwartaal van 2026 11,7 miljard euro omzet en 5,0 miljard nettowinst en verwacht voor heel 2026 44 tot 45 miljard euro. Volgens ASML zal de geplande productiecapaciteit voor 2027 en 2028 de vraag niet volledig dekken, vooral door AI-investeringen van klanten."
   peildatum: 2026-10-14
@@ -197,3 +198,17 @@
   status: actueel
   slides: [INF-07]
   noot: "Data gelezen via zoekfragment van de officiële pagina. 30 miljard en zeven faciliteiten uit het EU-persbericht van 30 juli (via secundaire bronnen); 1 miljard uit SoAI slide 135. Selectie verwacht begin 2027."
+
+# ---------- Verbeterloop, 2026-11-11 ----------
+
+# INF-04: ASML
+- id: K-INF-020
+  bewering: "ASML boekte in 2025 de omzet van 48 EUV-machines, tegen 44 in 2024. In totaal verkocht ASML 327 lithografiemachines (2024: 418). De omzet uit machines was 24,5 miljard euro, de totale omzet 32,7 miljard."
+  peildatum: 2025-12-31
+  bron: earnings
+  vindplaats: "ASML Annual Report 2025, strategisch deel, p. 52 (Financial performance KPIs) en p. 53 (Operating results)"
+  vastgesteld: 2026-11-11
+  houdbaarheid_dagen: 365
+  status: actueel
+  slides: [INF-04]
+  noot: "Primaire bron. 'Recognized' betekent: als omzet geboekt in 2025. Een gemiddelde prijs per EUV-machine geeft het jaarverslag niet; de State of AI noemde 242 miljoen euro (K-INF-014). Wordt na het jaarverslag 2026 vervangen."
