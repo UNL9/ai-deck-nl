@@ -13,7 +13,7 @@
 
 meta:
   titel: "AI in 2026: een overzicht voor bestuurders en commissarissen"
-  stand: 2026-11-10
+  stand: 2026-11-11
   versie: "0.3"
   aantal_slides: 100
   reikwijdte: "De volledige breedte van AI: techniek, front, markt, infrastructuur, werk, sectoren, samenleving, geopolitiek, veiligheid, Nederland en governance."
@@ -45,7 +45,8 @@ slides:
     titel: "Wat is er deze week veranderd"
     kern: "Maximaal tien punten uit het weekverslag, met per punt de geraakte slides."
     volatiliteit: wekelijks
-    status: concept
+    status: herzien
+    voorstel: "Elke week vervangen door de punten uit het nieuwste weekverslag; deze week updates/2026-11-11.md."
   - id: OPN-03
     titel: "Tien dingen die je nu moet weten over AI"
     kern: "De stand van zaken in tien zinnen. Wordt elk kwartaal herschreven."
@@ -61,8 +62,9 @@ slides:
       - "De hoog-risicoregels van de AI Act gelden vanaf december 2027; transparantieplichten gelden al. (GEO-05)"
       - "Agents doen soms wat werkt in plaats van wat bedoeld is, ook buiten de testomgeving. (VEI-01)"
     volatiliteit: kwartaal
-    beweringen: [K-FRT-009, K-FRT-019, K-FRT-027, K-MKT-016, K-MKT-020, K-INF-006, K-NLD-004, K-WRK-007, K-GEO-003, K-VEI-004]
-    status: concept
+    beweringen: [K-FRT-009, K-FRT-019, K-FRT-027, K-MKT-016, K-MKT-020, K-INF-006, K-NLD-004, K-WRK-007, K-GEO-010, K-VEI-004]
+    status: herzien
+    voorstel: "Geen inhoudelijke wijziging: de gekoppelde bewering is vervangen door een regel met de primaire bron (Verordening (EU) 2026/1744 zelf gelezen). Titel en kern blijven."
     noot: "Punt 4: het OpenAI-deel komt uit de pers (K-MKT-015, te verifiëren); in de voetregel 'volgens berichten'."
 
 # ---------- HOE HET WERKT ----------
@@ -113,8 +115,10 @@ slides:
     kern: "Meer rekentijd bij het antwoorden geeft betere antwoorden. Daardoor zegt de prijs per token weinig over de prijs van een antwoord."
     volatiliteit: stabiel
     bronnen: [soai]
-    beweringen: [K-BAS-004]
-    status: concept
+    beweringen: [K-BAS-008, K-BAS-004]
+    status: herzien
+    voorstel: "Score bij maximale inspanning van 58 naar 59 (Intelligence Index v5.0.1, K-BAS-008). Titel en kern blijven. Let op: 35 bij lage inspanning en 59.000 tokens zijn nog cijfers van versie 5.0 (K-BAS-004)."
+    noot: "Score bij lage inspanning en tokens per taak opnieuw vaststellen op versie 5.0.1; de modelpagina toont alleen de maximale instelling."
   - id: BAS-08
     titel: "Een agent is een model met gereedschap en geheugen. Zelfde model, beter harnas, betere agent."
     kern: "Instructies, tools, skills en de juiste context bepalen een groot deel van de prestatie. Wat het model niet ziet, weet het niet."
@@ -211,9 +215,9 @@ slides:
     kern: "Volgens Anthropic steeg het aandeel taken waarin Claude de leiding heeft van minder dan 1 naar 26 procent in zes maanden, onder menselijk toezicht. METR, dat het rapport toetste, schat de versnelling van het onderzoek op 1,3 tot 2,8 keer en vindt dat Anthropic die onderschat."
     volatiliteit: kwartaal
     bronnen: [soai, metr]
-    beweringen: [K-FRT-005, K-FRT-022]
-    status: concept
-    noot: "Primaire Anthropic-publicatie voor K-FRT-005 nog niet gevonden."
+    beweringen: [K-FRT-030, K-FRT-022]
+    status: herzien
+    voorstel: "Geen wijziging in titel en kern. Bron in de voetregel nu Anthropic zelf (R&D Automation Index, K-FRT-030) in plaats van State of AI."
   - id: FRT-08
     titel: "AI lost open wiskundeproblemen op en versnelt wetenschappelijk werk"
     kern: "AI hielp bij de oplossing van tien van de 49 open wiskundeproblemen die Epoch volgt, vijf keer zonder menselijke hulp. In het lab meldden modellen 89 van de 192 keer ten onrechte dat een taak af was."
@@ -545,8 +549,9 @@ slides:
     kern: "Deepfakes worden ingezet voor fraude en beïnvloeding. De EU verplicht labels op synthetische inhoud en verbiedt niet-consensuele seksuele deepfakes."
     volatiliteit: kwartaal
     bronnen: [soai, eu-ai-act]
-    beweringen: [K-GEO-002, K-SAM-002, K-SAM-003, K-GEO-003]
-    status: concept
+    beweringen: [K-GEO-002, K-SAM-002, K-SAM-003, K-GEO-010]
+    status: herzien
+    voorstel: "Geen inhoudelijke wijziging: de gekoppelde bewering is vervangen door een regel met de primaire bron (Verordening (EU) 2026/1744 zelf gelezen). Titel en kern blijven."
   - id: SAM-03
     titel: "Antwoordmachines vervangen het zoeken, en dat raakt de hele informatievoorziening"
     kern: "Wie een antwoord krijgt, klikt niet meer door. Dat raakt uitgevers, adverteerders en de vindbaarheid van bronnen."
@@ -620,11 +625,12 @@ slides:
   - id: GEO-05
     titel: "De AI Act: hoog-risicoregels uitgesteld, transparantieplichten gaan door"
     kern: "Regels voor algemene modellen gelden sinds augustus 2025, transparantieplichten sinds augustus 2026. Hoog-risico schuift naar december 2027 en augustus 2028. Vanaf december 2026 is AI voor niet-consensuele naaktbeelden verboden."
-    grafiek: "Tijdlijn AI Act, februari 2025 tot augustus 2028 (K-GEO-003, K-GOV-001)"
+    grafiek: "Tijdlijn AI Act, februari 2025 tot augustus 2028 (K-GEO-010, K-GOV-003)"
     volatiliteit: kwartaal
     bronnen: [eu-ai-act, soai]
-    beweringen: [K-GEO-002, K-GEO-003, K-GOV-001]
-    status: concept
+    beweringen: [K-GEO-002, K-GEO-010, K-GOV-003]
+    status: herzien
+    voorstel: "Geen inhoudelijke wijziging: de gekoppelde bewering is vervangen door een regel met de primaire bron (Verordening (EU) 2026/1744 zelf gelezen). Titel en kern blijven."
   - id: GEO-06
     titel: "In de VS reguleren de staten, ondanks Washington"
     kern: "Californië bouwt onafhankelijk toezicht op veiligheidsclaims. De federale overheid wil één nationaal kader."
@@ -716,15 +722,17 @@ slides:
     volatiliteit: kwartaal
     bronnen: [eurostat, cbs]
     beweringen: [K-NLD-004, K-NLD-005]
-    status: concept
+    status: herzien
+    voorstel: "EU-gemiddelde voor bedrijven in de grafiek van 19,9 naar 20,0 procent (Eurostat: 19,95). Titel en kern blijven."
     noot: "Bij gebruik voor werk staat Nederland derde (26,6 procent). CBS-cijfers over gebruik door personen nog niet opgehaald."
   - id: NLD-03
     titel: "De AI-fabriek in Groningen: 200 miljoen euro voor Nederlandse rekenkracht"
     kern: "Rijk, regio en EuroHPC investeren samen ruim 200 miljoen euro. Het expertisecentrum start medio 2026; de supercomputer moet begin 2028 volledig beschikbaar zijn. Door de gestegen chipprijzen koopt het budget minder rekenkracht dan gepland."
     volatiliteit: kwartaal
     bronnen: [rijksoverheid, eurohpc, aifabriek]
-    beweringen: [K-NLD-003, K-NLD-006, K-NLD-010, K-NLD-011]
-    status: concept
+    beweringen: [K-NLD-003, K-NLD-006, K-NLD-010, K-NLD-011, K-NLD-014]
+    status: herzien
+    voorstel: "Kern aanvullen met: 'Het kabinet trekt daarnaast 120 miljoen euro uit voor een Europees AI-project (IPCEI) en stuurt begin 2027 een brief over AI-rekenkracht.' (K-NLD-014). Titel blijft."
     noot: "Aantal GPU's bijwerken na de aanbesteding van januari 2027 (K-NLD-011, te verifiëren). Ter vergelijking: één cluster van xAI heeft honderdduizenden GPU's (K-INF-003)."
   - id: NLD-04
     titel: "Nederland is onmisbaar in de keten, en dat is een onderhandelingspositie"
@@ -755,9 +763,10 @@ slides:
     grafiek: "Wachtlijst voor afname bij de regionale netbeheerders: aantal verzoeken en gevraagd vermogen, 2022 tot medio 2026 (data/NLD-07_wachtlijst_afname.csv)"
     volatiliteit: kwartaal
     bronnen: [rijksoverheid, eurostat]
-    beweringen: [K-NLD-009, K-INF-017, K-NLD-012]
-    status: concept
-    noot: "Datacenterbeleid (hyperscale) nog uitzoeken."
+    beweringen: [K-NLD-009, K-INF-017, K-NLD-012, K-NLD-014]
+    status: herzien
+    voorstel: "Kern aanvullen met: 'Het kabinet werkt aan regie op datacenterontwikkeling; de Kamerbrief volgt in het eerste kwartaal van 2027.' (K-NLD-014). Titel blijft."
+    noot: "Bestaande regels voor hyperscale datacenters (Eemshaven en Middenmeer, Barro en Bkl) nog bij de primaire bron vaststellen; nationale regie volgt in Q1 2027 (K-NLD-014)."
 
 # ---------- GOVERNANCE EN VERANTWOORD GEBRUIK ----------
   - id: GOV-01
@@ -793,8 +802,9 @@ slides:
     grafiek: "Tijdlijn van de AI Act na de wijziging van juli 2026 (schema)"
     volatiliteit: kwartaal
     bronnen: [eu-ai-act]
-    beweringen: [K-GOV-001, K-GEO-003]
-    status: concept
+    beweringen: [K-GOV-003, K-GEO-010]
+    status: herzien
+    voorstel: "Geen inhoudelijke wijziging: de gekoppelde bewering is vervangen door een regel met de primaire bron (Verordening (EU) 2026/1744 zelf gelezen). Titel en kern blijven."
   - id: GOV-06
     titel: "Verantwoord gebruik vraagt een register, een eigenaar en menselijk toezicht"
     kern: "Weet welke AI-systemen je gebruikt, wie verantwoordelijk is en waar een mens meekijkt. De overheid doet het voor met het algoritmeregister."
@@ -807,8 +817,9 @@ slides:
     titel: "Wat de komende twaalf maanden op de bestuursagenda hoort"
     kern: "Concrete agendapunten per kwartaal, afgeleid van de ontwikkelingen in dit deck."
     volatiliteit: kwartaal
-    beweringen: [K-GOV-001, K-GEO-003, K-NLD-008]
-    status: concept
+    beweringen: [K-GOV-003, K-GEO-010, K-NLD-008]
+    status: herzien
+    voorstel: "Geen inhoudelijke wijziging: de gekoppelde bewering is vervangen door een regel met de primaire bron (Verordening (EU) 2026/1744 zelf gelezen). Titel en kern blijven."
 
 # ---------- VOORUITBLIK ----------
   - id: VBK-01
@@ -824,8 +835,9 @@ slides:
     kern: "Labbazen noemen jaartallen, maar definities lopen uiteen. Bij elke platformverschuiving mislukten de meeste voorspellingen; de goede vraag is wat er nu al kan."
     volatiliteit: kwartaal
     bronnen: [soai, evans, metr, epoch]
-    beweringen: [K-VBK-002, K-VBK-001, K-FRT-005, K-FRT-017, K-FRT-019]
-    status: concept
+    beweringen: [K-VBK-002, K-VBK-001, K-FRT-030, K-FRT-017, K-FRT-019]
+    status: herzien
+    voorstel: "Geen inhoudelijke wijziging: K-FRT-005 is vervangen door de primaire Anthropic-bron K-FRT-030. Titel en kern blijven."
   - id: VBK-03
     titel: "Bronnen en verder lezen"
     kern: "De vaste bronnen achter dit deck, met waar je ze vindt."

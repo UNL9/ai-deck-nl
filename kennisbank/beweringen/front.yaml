@@ -49,7 +49,8 @@
   vindplaats: "State of AI Report 2026, slide 21 (Anthropic, interne automatiseringsindex)"
   vastgesteld: 2026-11-10
   houdbaarheid_dagen: 90
-  status: actueel
+  status: vervangen
+  vervangen_door: K-FRT-030
   slides: [FRT-07]
 - id: K-FRT-006
   bewering: "Epoch volgt 49 onopgeloste onderzoeksproblemen in de wiskunde; AI wordt gecrediteerd voor negen oplossingen, waarvan vier zonder menselijke hulp."

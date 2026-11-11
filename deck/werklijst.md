@@ -2,7 +2,7 @@
 
 Open punten in het deck die nog een bewering, een controle of een keuze van Joan nodig hebben. De wekelijkse update pakt elke week maximaal vijf punten op (primaire bron zoeken, bewering toevoegen, slide bijwerken) en haalt afgeronde punten hier weg. Keuzes voor Joan blijven staan tot hij beslist.
 
-Stand: 2026-11-11 (na de bouw van alle secties, PR #15).
+Stand: 2026-11-11 (na de eerste wekelijkse update, updates/2026-11-11.md).
 
 ## Ontbrekende beweringen
 
@@ -40,7 +40,7 @@ Wat in de opzet staat maar nog geen bewering heeft, staat niet als feit op de sl
 | GOV-02 | Kosten van interne AI zijn moeilijk te voorspellen |
 | VBK-01 | De vier ontbrekende voorspellingen voor 2027 en de stand per voorspelling |
 | VBK-02 | Evans: bij elke platformverschuiving mislukten de meeste voorspellingen |
-| NLD-07 | Beleid voor hyperscale datacenters |
+| NLD-07 | Bestaande regels voor hyperscale datacenters (Eemshaven en Middenmeer; Barro en Bkl) bij de primaire bron vaststellen. De nationale regie volgt in Q1 2027 (K-NLD-014). |
 
 ## Na te lopen
 
@@ -53,3 +53,5 @@ Wat in de opzet staat maar nog geen bewering heeft, staat niet als feit op de sl
 ## Keuzes voor Joan
 
 - Interpreterende slotzinnen zonder cijfer op BAS-01, WRK-01, WRK-06, SEC-03, SEC-09 en GEO-08: laten staan of schrappen.
+- Kabinetsvisie op AI (6 november 2026, K-NLD-014): het deck heeft geen slide over Nederlands AI-beleid als geheel. Nu staat het als aanvulling op NLD-03 en NLD-07 (status herzien, met voorstel). Alternatief: NLD-06 verbreden van toezicht naar beleid en toezicht. Het adviesrapport over een Nederlands AI-veiligheidsinstituut (verwacht december 2026) kan ook in VEI of NLD.
+- Twaalf slides staan op herzien na deze update. Bij zeven gaat het alleen om de bron (OPN-03, FRT-07, SAM-02, GEO-05, GOV-05, GOV-07, VBK-02: een primaire regel vervangt een secundaire); die kunnen zonder inhoudelijke keuze terug naar concept.

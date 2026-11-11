@@ -30,7 +30,8 @@
   vindplaats: "Verordening (EU) 2026/1744; Addleshaw Goddard, 'EU AI Act: AI Omnibus formally adopted' (1 juli 2026); Dastra en Mondaq"
   vastgesteld: 2026-11-10
   houdbaarheid_dagen: 180
-  status: actueel
+  status: vervangen
+  vervangen_door: K-GEO-010
   slides: [GEO-05, SAM-02]
   noot: "Nummer en publicatiedatum via juridische vakbronnen; EUR-Lex was met de beschikbare middelen niet leesbaar. Voor systemen die al vóór 2 augustus 2026 op de markt waren, geldt voor watermerken een overgangstermijn tot 2 december 2026. AI-geletterdheid is afgezwakt tot een inspanningsverplichting."
 
@@ -100,3 +101,15 @@
   status: actueel
   slides: [GEO-08]
   noot: "Een scenario van de auteurs, geen EU-beleid. Zie K-FRT-014 voor de actuele score van Mistral Large 4 (26 op Index v5)."
+
+# ---------- Wekelijkse update 2026-11-11 ----------
+- id: K-GEO-010
+  bewering: "De Digitale omnibus inzake AI is Verordening (EU) 2026/1744 van 8 juli 2026 (standpunt Parlement 16 juni, besluit Raad 29 juni), bekendgemaakt op 24 juli 2026 en in werking op de derde dag daarna. Hoog-risicoverplichtingen gelden vanaf 2 december 2027 voor systemen uit bijlage III en vanaf 2 augustus 2028 voor systemen in producten uit bijlage I. Nieuwe verboden in artikel 5 (onder meer AI voor niet-consensuele intieme beelden) gelden vanaf 2 december 2026. Wie generatieve systemen al vóór 2 augustus 2026 op de markt had, moet uiterlijk 2 december 2026 aan de markeringsplicht van artikel 50, lid 2 voldoen."
+  peildatum: 2026-07-24
+  bron: eu-ai-act
+  vindplaats: "Verordening (EU) 2026/1744, PB L 2026/1744 van 24.7.2026, Nederlandse tekst via het Publicatiebureau (publications.europa.eu, CELEX 32026R1744), overwegingen 1 en 100, artikel 1 (wijziging artikelen 50 en 113) en slotbepaling"
+  vastgesteld: 2026-11-11
+  houdbaarheid_dagen: 365
+  status: actueel
+  slides: [GEO-05, SAM-02, GOV-05, GOV-07, OPN-03]
+  noot: "Primaire controle van K-GEO-003: data en nummer kloppen. EUR-Lex zelf gaf een botcontrole; de tekst is gelezen via de officiële Cellar-dienst van het Publicatiebureau. Dat transparantieplichten en het toezicht op algemene modellen op 2 augustus 2026 ingingen, volgt uit de oorspronkelijke AI Act (Verordening 2024/1689, artikel 113) en is door de omnibus niet veranderd."

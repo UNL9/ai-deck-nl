@@ -148,3 +148,15 @@
   status: actueel
   slides: [NLD-07]
   noot: "Geen apart cijfer voor datacenters; het kabinet heeft geen overzicht naar sector."
+
+# ---------- Wekelijkse update 2026-11-11: kabinetsvisie op AI ----------
+- id: K-NLD-014
+  bewering: "Het kabinet stelde op 6 november 2026 de Kabinetsvisie op Artificial Intelligence vast ('Kiezen voor AI voor iedereen'). Het stelt 120 miljoen euro beschikbaar voor Nederlandse deelname aan een IPCEI (Europees project van gemeenschappelijk belang) voor AI. Doel: in 2030 gebruikt ten minste 75% van het mkb geavanceerde digitale technologie (AI, cloud, data-analyse). In het eerste kwartaal van 2027 volgen een Kamerbrief over AI-infrastructuur en rekenkracht en een Kamerbrief over regie op datacenterontwikkeling. Een adviesrapport over een Nederlands AI-veiligheidsinstituut gaat naar verwachting in december 2026 naar de Kamer."
+  peildatum: 2026-11-06
+  bron: rijksoverheid
+  vindplaats: "Kamerbrief Kabinetsvisie op Artificial Intelligence, 6 november 2026, kenmerk DGED-DE / 107464302 (https://open.overheid.nl/details/71d01478-bff7-4fc9-bbed-c72d350d0211); nieuwsbericht https://www.rijksoverheid.nl/actueel/nieuws/2026/11/06/kabinet-kiest-voor-ai-die-nederland-vooruithelpt"
+  vastgesteld: 2026-11-11
+  houdbaarheid_dagen: 120
+  status: actueel
+  slides: [NLD-03, NLD-07]
+  noot: "Op voorstel van de staatssecretaris voor Digitale Economie en Soevereiniteit (EZK). Het kabinet steunt Europese AI-gigafabrieken en ziet ruimte voor door de markt gefinancierde AI-infrastructuur in Nederland. Het IPCEI-bedrag staat in de Kamerbrief, niet in het nieuwsbericht. Mogelijk ook relevant voor VEI (AI-veiligheidsinstituut) en GOV; zie werklijst."
