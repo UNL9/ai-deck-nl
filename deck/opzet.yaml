@@ -40,7 +40,7 @@ slides:
     titel: "AI in 2026: een overzicht voor bestuurders en commissarissen"
     kern: "Naslagwerk, wekelijks bijgewerkt. Elke slide heeft een vast ID, een bron en een peildatum."
     volatiliteit: wekelijks
-    status: concept
+    status: gereed
   - id: OPN-02
     titel: "Wat is er deze week veranderd"
     kern: "Maximaal tien punten uit het weekverslag, met per punt de geraakte slides."
@@ -94,14 +94,14 @@ slides:
     kern: "Het principe is eenvoudig. Schaal in data, rekenkracht en modelgrootte maakt het verschil."
     grafiek: "Schema: tekst in, taalmodel, waarschijnlijkheden uit (illustratie zonder cijfers)"
     volatiliteit: stabiel
-    status: concept
+    status: gereed
   - id: BAS-05
     titel: "Een model ontstaat in drie stappen: voortraining, natraining en versterkend leren"
     kern: "Voortraining op tekst, natraining op voorbeelden en voorkeuren, versterkend leren op taken met controleerbare uitkomst. Het recept is inmiddels grotendeels openbaar."
     grafiek: "Drie stappen met per stap data, kosten en resultaat"
     volatiliteit: stabiel
     bronnen: [soai]
-    status: concept
+    status: gereed
   - id: BAS-06
     titel: "Trainen en gebruiken zijn twee verschillende rekenklussen"
     kern: "Training is een eenmalige, enorme klus op duizenden chips. Gebruik (inferentie) gebeurt bij elke vraag opnieuw en wordt het grootste deel van de rekenkracht."
@@ -109,7 +109,7 @@ slides:
     volatiliteit: stabiel
     bronnen: [epoch]
     beweringen: [K-BAS-002, K-BAS-003]
-    status: concept
+    status: gereed
   - id: BAS-07
     titel: "Redeneermodellen denken eerst na, en dat kost rekentijd per antwoord"
     kern: "Meer rekentijd bij het antwoorden geeft betere antwoorden. Daardoor zegt de prijs per token weinig over de prijs van een antwoord."
@@ -540,8 +540,8 @@ slides:
     titel: "AI als gezelschap: chatbots worden vriend en vertrouweling"
     kern: "Voor veel mensen wordt een chatbot een vriend of vertrouweling. Californië regelt nu hoe chatbots relaties met kinderen aangaan; China en de EU hebben eigen regels."
     volatiliteit: kwartaal
-    bronnen: [soai]
-    beweringen: [K-SAM-001]
+    bronnen: [soai, vs-overheid]
+    beweringen: [K-SAM-001, K-SAM-008, K-SAM-009]
     status: concept
     noot: "'Voor veel mensen' nog niet met een cijfer onderbouwd (aandeel gebruikers dat chatbots als gezelschap gebruikt)."
   - id: SAM-02

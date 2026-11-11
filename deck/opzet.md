@@ -274,7 +274,7 @@ Waymo reed tot juli 271 miljoen mijl zonder chauffeur, met 95 procent minder ern
 
 **SAM-01** [K] **AI als gezelschap: chatbots worden vriend en vertrouweling**  
 Voor veel mensen wordt een chatbot een vriend of vertrouweling. Californië regelt nu hoe chatbots relaties met kinderen aangaan; China en de EU hebben eigen regels.
-<br><sub>Bronnen: soai · Open: 'Voor veel mensen' nog niet met een cijfer onderbouwd (aandeel gebruikers dat chatbots als gezelschap gebruikt).</sub>
+<br><sub>Bronnen: soai, vs-overheid · Open: 'Voor veel mensen' nog niet met een cijfer onderbouwd (aandeel gebruikers dat chatbots als gezelschap gebruikt).</sub>
 
 **SAM-02** [K] **Echt en nep zijn steeds moeilijker te onderscheiden**  
 Deepfakes worden ingezet voor fraude en beïnvloeding. De EU verplicht labels op synthetische inhoud en verbiedt niet-consensuele seksuele deepfakes.

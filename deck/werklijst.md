@@ -11,6 +11,7 @@ Wat in de opzet staat maar nog geen bewering heeft, staat niet als feit op de sl
 | Slide | Ontbreekt |
 |---|---|
 | BAS-01, BAS-02 | Tijdlijn vóór 2012 (Dartmouth 1956, expertsystemen); indeling in platformen van Evans |
+| BAS-03 | Cijfer dat de meeste AI-waarde tot nu toe in voorspellende modellen zat (de titel beweert het, de slide toont alleen een eigen indeling) |
 | BAS-09 | Voorbeelden van realtime multimodale modellen |
 | BAS-11 | Recent cijfer over verzonnen feiten (hallucinaties) |
 | BAS-12 | Epoch-reeks van prijs per token bij gelijke prestatie (analyse loopt tot maart 2025); daarna grafiek bouwen |

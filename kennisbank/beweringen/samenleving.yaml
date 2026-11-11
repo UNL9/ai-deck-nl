@@ -9,9 +9,10 @@
   vindplaats: "State of AI Report 2026, slide 187"
   vastgesteld: 2026-11-10
   houdbaarheid_dagen: 180
-  status: actueel
+  status: vervangen
+  vervangen_door: K-SAM-008
   slides: [SAM-01]
-  noot: "De wet is genoemd naar een tiener van wie de ouders stellen dat ChatGPT bijdroeg aan zijn zelfmoord; OpenAI ontkent dat. Wettekst zelf nog niet gecontroleerd."
+  noot: "De wet is genoemd naar een tiener van wie de ouders stellen dat ChatGPT bijdroeg aan zijn zelfmoord; OpenAI ontkent dat. Wettekst zelf nog niet gecontroleerd. Gecontroleerd op 2026-11-11 bij de indiener (Senaat Californië): de limieten van een uur per sessie en twee uur per dag en de datum juli 2027 worden daar niet genoemd. Vervangen door K-SAM-008 (Californië) en K-SAM-009 (China, EU, VK)."
 
 # SAM-02: echt en nep
 - id: K-SAM-002
@@ -80,3 +81,27 @@
   status: actueel
   slides: [SAM-05, INF-06]
   noot: "Het aandeel in 2025 (ruim 1,5%) staat niet in de samenvatting; het is een afleiding uit 485 TWh en een wereldverbruik van circa 30.000 TWh."
+
+# ---------- Verbeterloop, 2026-11-11 ----------
+
+# SAM-01: chatbots als gezelschap
+- id: K-SAM-008
+  bewering: "Gouverneur Newsom tekende op 10 september 2026 SB 1119 ('Adam's Law'). De wet verplicht makers van gezelschapschatbots tot standaardinstellingen voor kinderen die alleen een ouder kan wijzigen (geen meldingen, tijdslimieten, beperkt geheugen), tot een risicoanalyse vóór de lancering en tot onafhankelijke audits. Makers zijn aansprakelijk als ze romantisch rollenspel, overdreven vleien of manipulatie die afhankelijk maakt en isoleert niet voorkomen. Families krijgen een eigen vorderingsrecht."
+  peildatum: 2026-09-10
+  bron: vs-overheid
+  vindplaats: "https://sd18.senate.ca.gov/news/governor-newsom-signs-adams-law (indiener, senator Padilla); https://www.gov.ca.gov/2026/09/10/governor-newsom-signs-the-strongest-child-safety-chatbot-and-social-media-laws-in-the-nation/"
+  vastgesteld: 2026-11-11
+  houdbaarheid_dagen: 365
+  status: actueel
+  slides: [SAM-01]
+  noot: "Persbericht van de indiener; de wettekst op leginfo.legislature.ca.gov gaf een 403. Concrete limieten (de State of AI noemde een uur per sessie en twee uur per dag) en de ingangsdatum staan niet in het persbericht."
+- id: K-SAM-009
+  bewering: "China verbiedt sinds juli 2026 virtuele intieme relaties voor minderjarigen; de EU verbiedt via de AI Act schadelijke manipulatie; het VK kondigde verplichte pauzes aan voor gebruikers onder 18."
+  peildatum: 2026-09
+  bron: soai
+  vindplaats: "State of AI Report 2026, slide 187"
+  vastgesteld: 2026-11-11
+  houdbaarheid_dagen: 180
+  status: actueel
+  slides: [SAM-01]
+  noot: "Afgesplitst uit K-SAM-001. Primaire bronnen voor China en het VK nog niet zelf gecontroleerd; voor de EU: artikel 5 van de AI Act."

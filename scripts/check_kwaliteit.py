@@ -161,8 +161,13 @@ def main():
                 fouten.append(("juist", f"{k} bestaat niet"))
                 continue
             if b.get("status") == "vervangen":
-                if b.get("vervangen_door") and b["vervangen_door"] not in gekoppeld:
-                    fouten.append(("juist", f"{k} is vervangen door {b['vervangen_door']}, die niet aan de slide hangt"))
+                # volg de keten van vervangingen tot de actuele bewering
+                opvolger, gezien = b.get("vervangen_door"), set()
+                while opvolger and opvolger not in gezien and beweringen.get(opvolger, {}).get("status") == "vervangen":
+                    gezien.add(opvolger)
+                    opvolger = beweringen[opvolger].get("vervangen_door")
+                if opvolger and opvolger not in gekoppeld:
+                    fouten.append(("juist", f"{k} is vervangen door {opvolger}, die niet aan de slide hangt"))
                 continue
             if b.get("status") == "te_verifieren":
                 if "volgens berichten" not in slidetekst:
