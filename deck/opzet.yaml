@@ -488,7 +488,7 @@ slides:
     volatiliteit: kwartaal
     bronnen: [soai]
     beweringen: [K-SEC-003, K-MKT-006, K-MKT-017]
-    status: concept
+    status: gereed
   - id: SEC-05
     titel: "Overheid: grote belofte, en een harde les uit de toeslagenaffaire"
     kern: "AI kan dienstverlening en uitvoering verbeteren. De toeslagenaffaire liet zien wat er gebeurt als een risicomodel discrimineert en niemand het controleert."
@@ -502,7 +502,7 @@ slides:
     volatiliteit: kwartaal
     bronnen: [soai]
     beweringen: [K-SEC-005]
-    status: concept
+    status: gereed
   - id: SEC-07
     titel: "Handel: AI-assistenten worden een nieuw winkelkanaal"
     kern: "Verkeer via AI-assistenten groeit hard maar is nog maar 0,4 procent van webwinkelbezoek, en converteert beter. Zoeken via AI vult zoekmachines voorlopig vooral aan."
@@ -574,7 +574,7 @@ slides:
     volatiliteit: kwartaal
     bronnen: [iea-energy-ai, soai]
     beweringen: [K-SAM-006, K-SAM-003, K-INF-018, K-SAM-007]
-    status: concept
+    status: gereed
     noot: "Het aandeel van ruim 1,5 procent is een afleiding uit de IEA-cijfers (K-SAM-007); in de voetregel zo vermelden."
   - id: SAM-06
     titel: "Modellen nemen over wat in de data zit, ook vooroordelen"
@@ -590,7 +590,7 @@ slides:
     volatiliteit: kwartaal
     bronnen: [soai, cbs, ramp, epoch]
     beweringen: [K-NLD-001, K-WRK-012, K-WRK-001, K-INF-003]
-    status: concept
+    status: gereed
 
 # ---------- GEOPOLITIEK EN REGELGEVING ----------
   - id: GEO-01
@@ -599,7 +599,7 @@ slides:
     volatiliteit: kwartaal
     bronnen: [soai]
     beweringen: [K-GEO-004]
-    status: concept
+    status: gereed
   - id: GEO-02
     titel: "Wie bepaalt de grenzen van militair AI-gebruik: de overheid of het lab?"
     kern: "Het conflict tussen Anthropic en het Pentagon, terwijl frontier-AI al in militaire operaties wordt ingezet."

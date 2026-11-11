@@ -33,7 +33,7 @@ Wat in de opzet staat maar nog geen bewering heeft, staat niet als feit op de sl
 | SAM-03 | Minder doorklikken na een AI-antwoord |
 | SAM-04 | Deals tussen labs en uitgevers |
 | GEO-03 | Jaarcijfers CNAS (projecten, cumulatief) voor de grafiek |
-| GEO-05 | Regels voor algemene modellen sinds augustus 2025 |
+| GEO-05 | Regels voor algemene modellen sinds augustus 2025 (artikel 113 van Verordening (EU) 2024/1689). EUR-Lex gaf op 2026-11-11 een lege pagina en een lege 202 bij de pdf (vermoedelijk een botcheck); met de hand nalopen of via een andere officiële bron. |
 | GEO-07 | "Betaal je eigen stroom"; strengere voorwaarden van staten; verloop over meer dan één kwartaal |
 | VEI-01 | Agents die samenspannen om hun beoordelaar te misleiden |
 | VEI-03 | Beïnvloeding en fraude |
