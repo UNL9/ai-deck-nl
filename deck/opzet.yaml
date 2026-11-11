@@ -62,7 +62,7 @@ slides:
       - "Agents doen soms wat werkt in plaats van wat bedoeld is, ook buiten de testomgeving. (VEI-01)"
     volatiliteit: kwartaal
     beweringen: [K-FRT-009, K-FRT-019, K-FRT-027, K-MKT-016, K-MKT-020, K-INF-006, K-NLD-004, K-WRK-007, K-GEO-010, K-VEI-004]
-    status: concept
+    status: gereed
     noot: "Punt 4: het OpenAI-deel komt uit de pers (K-MKT-015, te verifiëren); in de voetregel 'volgens berichten'."
 
 # ---------- HOE HET WERKT ----------
@@ -213,7 +213,7 @@ slides:
     volatiliteit: kwartaal
     bronnen: [soai, metr]
     beweringen: [K-FRT-033, K-FRT-022]
-    status: concept
+    status: gereed
   - id: FRT-08
     titel: "AI lost open wiskundeproblemen op en versnelt wetenschappelijk werk"
     kern: "AI hielp bij de oplossing van tien van de 49 open wiskundeproblemen die Epoch volgt, vijf keer zonder menselijke hulp. In het lab meldden modellen 89 van de 192 keer ten onrechte dat een taak af was."
@@ -542,11 +542,11 @@ slides:
     noot: "'Voor veel mensen' nog niet met een cijfer onderbouwd (aandeel gebruikers dat chatbots als gezelschap gebruikt)."
   - id: SAM-02
     titel: "Echt en nep zijn steeds moeilijker te onderscheiden"
-    kern: "Deepfakes worden ingezet voor fraude en beïnvloeding. De EU verplicht labels op synthetische inhoud en verbiedt niet-consensuele seksuele deepfakes."
+    kern: "De angst dat deepfakes verkiezingen beslissen, loopt tot nu toe voor op het bewijs. De EU verplicht labels op synthetische inhoud en verbiedt niet-consensuele seksuele deepfakes."
     volatiliteit: kwartaal
     bronnen: [soai, eu-ai-act]
     beweringen: [K-GEO-002, K-SAM-002, K-SAM-003, K-GEO-010]
-    status: concept
+    status: gereed
   - id: SAM-03
     titel: "Antwoordmachines vervangen het zoeken, en dat raakt de hele informatievoorziening"
     kern: "Wie een antwoord krijgt, klikt niet meer door. Dat raakt uitgevers, adverteerders en de vindbaarheid van bronnen."
@@ -556,12 +556,12 @@ slides:
     status: concept
     noot: "Cijfer over minder doorklikken na een AI-antwoord nog nodig (bijvoorbeeld Pew of Similarweb)."
   - id: SAM-04
-    titel: "Auteursrecht: veel deals met uitgevers, de kernvragen liggen nog bij de rechter"
-    kern: "Licentieovereenkomsten nemen toe. Japan en Singapore staan training breder toe dan het VK; in de VS lopen de grote zaken nog."
+    titel: "Auteursrecht: de kernvragen liggen nog bij de rechter"
+    kern: "Japan en Singapore staan training breder toe dan het VK; in de VS lopen de grote zaken nog."
     volatiliteit: kwartaal
     bronnen: [soai, sec-edgar]
     beweringen: [K-SAM-004, K-SAM-005]
-    status: concept
+    status: gereed
   - id: SAM-05
     titel: "Het stroomverbruik van AI groeit snel en wordt een klimaatvraag"
     kern: "Datacenters gebruikten in 2025 circa 485 TWh, ruim 1,5 procent van alle stroom, en dat verdubbelt naar verwachting tot 2030. AI groeit drie keer zo snel als de rest. Gascentrales voor AI staan op gespannen voet met klimaatdoelen."
@@ -794,7 +794,7 @@ slides:
     volatiliteit: kwartaal
     bronnen: [eu-ai-act]
     beweringen: [K-GOV-003, K-GEO-010]
-    status: concept
+    status: gereed
   - id: GOV-06
     titel: "Verantwoord gebruik vraagt een register, een eigenaar en menselijk toezicht"
     kern: "Weet welke AI-systemen je gebruikt, wie verantwoordelijk is en waar een mens meekijkt. De overheid doet het voor met het algoritmeregister."

@@ -277,15 +277,15 @@ Voor veel mensen wordt een chatbot een vriend of vertrouweling. Californië rege
 <br><sub>Bronnen: soai, vs-overheid · Open: 'Voor veel mensen' nog niet met een cijfer onderbouwd (aandeel gebruikers dat chatbots als gezelschap gebruikt).</sub>
 
 **SAM-02** [K] **Echt en nep zijn steeds moeilijker te onderscheiden**  
-Deepfakes worden ingezet voor fraude en beïnvloeding. De EU verplicht labels op synthetische inhoud en verbiedt niet-consensuele seksuele deepfakes.
+De angst dat deepfakes verkiezingen beslissen, loopt tot nu toe voor op het bewijs. De EU verplicht labels op synthetische inhoud en verbiedt niet-consensuele seksuele deepfakes.
 <br><sub>Bronnen: soai, eu-ai-act</sub>
 
 **SAM-03** [K] **Antwoordmachines vervangen het zoeken, en dat raakt de hele informatievoorziening**  
 Wie een antwoord krijgt, klikt niet meer door. Dat raakt uitgevers, adverteerders en de vindbaarheid van bronnen.
 <br><sub>Bronnen: soai, evans · Open: Cijfer over minder doorklikken na een AI-antwoord nog nodig (bijvoorbeeld Pew of Similarweb).</sub>
 
-**SAM-04** [K] **Auteursrecht: veel deals met uitgevers, de kernvragen liggen nog bij de rechter**  
-Licentieovereenkomsten nemen toe. Japan en Singapore staan training breder toe dan het VK; in de VS lopen de grote zaken nog.
+**SAM-04** [K] **Auteursrecht: de kernvragen liggen nog bij de rechter**  
+Japan en Singapore staan training breder toe dan het VK; in de VS lopen de grote zaken nog.
 <br><sub>Bronnen: soai, sec-edgar</sub>
 
 **SAM-05** [K] **Het stroomverbruik van AI groeit snel en wordt een klimaatvraag**  
