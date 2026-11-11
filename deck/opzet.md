@@ -1,6 +1,6 @@
 # AI in 2026: een overzicht voor bestuurders en commissarissen
 
-Opzet, stand 2026-11-10. 100 slides. Gegenereerd uit `deck/opzet.yaml`; niet met de hand bewerken.
+Opzet, stand 2026-11-11. 100 slides. Gegenereerd uit `deck/opzet.yaml`; niet met de hand bewerken.
 
 Volatiliteit: **W** = wekelijks gecontroleerd, **K** = per kwartaal, **S** = stabiel.
 
@@ -54,7 +54,7 @@ Training is een eenmalige, enorme klus op duizenden chips. Gebruik (inferentie) 
 
 **BAS-07** [S] **Redeneermodellen denken eerst na, en dat kost rekentijd per antwoord**  
 Meer rekentijd bij het antwoorden geeft betere antwoorden. Daardoor zegt de prijs per token weinig over de prijs van een antwoord.
-<br><sub>Bronnen: soai</sub>
+<br><sub>Bronnen: soai · Open: Score bij lage inspanning en tokens per taak opnieuw vaststellen op versie 5.0.1; de modelpagina toont alleen de maximale instelling.</sub>
 
 **BAS-08** [S] **Een agent is een model met gereedschap en geheugen. Zelfde model, beter harnas, betere agent.**  
 Instructies, tools, skills en de juiste context bepalen een groot deel van de prestatie. Wat het model niet ziet, weet het niet.
@@ -104,7 +104,7 @@ Programmeren is met 34 miljard dollar de grootste post in de zakelijke uitgaven 
 
 **FRT-07** [K] **AI helpt AI bouwen: Claude leidt een kwart van het modelonderzoek bij Anthropic**  
 Volgens Anthropic steeg het aandeel taken waarin Claude de leiding heeft van minder dan 1 naar 26 procent in zes maanden, onder menselijk toezicht. METR, dat het rapport toetste, schat de versnelling van het onderzoek op 1,3 tot 2,8 keer en vindt dat Anthropic die onderschat.
-<br><sub>Bronnen: soai, metr · Open: Primaire Anthropic-publicatie voor K-FRT-005 nog niet gevonden.</sub>
+<br><sub>Bronnen: soai, metr</sub>
 
 **FRT-08** [K] **AI lost open wiskundeproblemen op en versnelt wetenschappelijk werk**  
 AI hielp bij de oplossing van tien van de 49 open wiskundeproblemen die Epoch volgt, vijf keer zonder menselijke hulp. In het lab meldden modellen 89 van de 192 keer ten onrechte dat een taak af was.
@@ -392,7 +392,7 @@ Bestaande toezichthouders houden toezicht binnen hun domein. De AP wordt de toez
 
 **NLD-07** [K] **Netcongestie maakt stroom ook in Nederland een knelpunt voor datacenters**  
 Op 30 juni wachtten 15.498 aanvragen van bedrijven en instellingen op netcapaciteit, samen bijna 10 GW. Eind 2022 waren het er 668. Ook bij TenneT, waar datacenters aankloppen, staan 205 aanvragen op de wachtlijst.
-<br><sub>Bronnen: rijksoverheid, eurostat · Open: Datacenterbeleid (hyperscale) nog uitzoeken.</sub>
+<br><sub>Bronnen: rijksoverheid, eurostat · Open: Bestaande regels voor hyperscale datacenters (Eemshaven en Middenmeer, Barro en Bkl) nog bij de primaire bron vaststellen; nationale regie volgt in Q1 2027 (K-NLD-014).</sub>
 
 ## Governance en verantwoord gebruik (7)
 

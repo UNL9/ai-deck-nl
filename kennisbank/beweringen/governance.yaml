@@ -9,7 +9,8 @@
   vindplaats: "Verordening (EU) 2026/1744; Addleshaw Goddard, 'EU AI Act: AI Omnibus formally adopted' (1 juli 2026)"
   vastgesteld: 2026-11-10
   houdbaarheid_dagen: 365
-  status: actueel
+  status: vervangen
+  vervangen_door: K-GOV-003
   slides: [GOV-05]
   noot: "Zie K-GEO-003. Formulering via juridische vakbron; verordeningstekst op EUR-Lex niet zelf gelezen."
 
@@ -24,3 +25,15 @@
   status: actueel
   slides: [GOV-06]
   noot: "Het register vermeldt geen peildatum; stand bij ophalen. Aantal organisaties niet op de startpagina."
+
+# ---------- Wekelijkse update 2026-11-11 ----------
+- id: K-GOV-003
+  bewering: "Artikel 4 van de AI Act (AI-geletterdheid) geldt sinds 2 februari 2025. Verordening (EU) 2026/1744 wijzigt het: aanbieders en gebruiksverantwoordelijken moeten maatregelen nemen om de ontwikkeling van AI-geletterdheid bij hun personeel te ondersteunen, in plaats van een toereikend niveau te waarborgen."
+  peildatum: 2026-07-24
+  bron: eu-ai-act
+  vindplaats: "Verordening (EU) 2026/1744, PB L 2026/1744 van 24.7.2026, overweging over artikel 4 (Nederlandse tekst via publications.europa.eu, CELEX 32026R1744)"
+  vastgesteld: 2026-11-11
+  houdbaarheid_dagen: 365
+  status: actueel
+  slides: [GOV-05, GOV-07, GEO-05]
+  noot: "Primaire controle van K-GOV-001. De verordening noemt als reden de regeldruk, vooral voor kleinere ondernemingen; de Commissie en de lidstaten moeten de inspanningen ondersteunen."

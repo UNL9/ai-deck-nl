@@ -1,7 +1,7 @@
 # bron: Eurostat, isoc_eb_ai (bedrijven, bijgewerkt 2026-06-15) en isoc_ai_iaiu (personen, bijgewerkt 2026-06-05)
 # url: https://ec.europa.eu/eurostat/databrowser/view/isoc_eb_ai/default/table ; https://ec.europa.eu/eurostat/databrowser/view/isoc_ai_iaiu/default/table
 # licentie: Eurostat, hergebruik met bronvermelding (CC BY 4.0)
-# opgehaald: 2026-11-10
+# opgehaald: 2026-11-10; EU27 bedrijven_ai gecorrigeerd op 2026-11-11 van 19.9 naar 20.0 (API-waarde 19.95)
 # 2025, in procenten. bedrijven_ai: bedrijven met 10 of meer werknemers die minstens één AI-technologie gebruiken. personen_genai: personen (16-74) die generatieve AI gebruikten; personen_genai_werk: idem voor werk. EU-lidstaten plus EU27-gemiddelde.
 land,naam,bedrijven_ai_pct,personen_genai_pct,personen_genai_werk_pct
 AT,Austria,29.9,39.4,21.2
@@ -31,4 +31,4 @@ RO,Romania,5.2,17.8,5.2
 SE,Sweden,35.0,42.0,21.0
 SI,Slovenia,21.6,37.6,15.2
 SK,Slovakia,18.0,30.8,10.9
-EU27_2020,European Union - 27 countries (from 2020),19.9,32.7,15.4
+EU27_2020,European Union - 27 countries (from 2020),20.0,32.7,15.4
