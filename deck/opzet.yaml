@@ -690,7 +690,7 @@ slides:
     volatiliteit: kwartaal
     bronnen: [soai]
     beweringen: [K-VEI-010]
-    status: concept
+    status: gereed
   - id: VEI-06
     titel: "Toezicht op modellen werkt, maar maar half"
     kern: "Monitors die alleen de redenering zien missen sabotage, auditors vinden verborgen gedrag ongeveer de helft van de keren. Waarden aanleren verlaagde chantage in tests van 65 naar 19 procent."
@@ -704,7 +704,7 @@ slides:
     volatiliteit: kwartaal
     bronnen: [soai]
     beweringen: [K-VEI-003, K-VEI-012]
-    status: concept
+    status: gereed
 
 # ---------- NEDERLAND ----------
   - id: NLD-01
@@ -714,7 +714,7 @@ slides:
     volatiliteit: kwartaal
     bronnen: [cbs, eurostat]
     beweringen: [K-NLD-001, K-NLD-002, K-NLD-004, K-SEC-001]
-    status: concept
+    status: gereed
   - id: NLD-02
     titel: "Nederland hoort bij de Europese kopgroep, maar niet bij de top"
     kern: "Een derde van de Nederlandse bedrijven gebruikt AI, tegen een vijfde in de EU. Bijna de helft van de Nederlanders gebruikte generatieve AI in 2025. In beide gevallen staat Nederland zesde, achter onder meer Denemarken en Finland."
@@ -755,7 +755,7 @@ slides:
     volatiliteit: kwartaal
     bronnen: [ap-ran, dnb-afm, rijksoverheid]
     beweringen: [K-NLD-008]
-    status: concept
+    status: gereed
     noot: "Aanwijzing markttoezichthouders verifiëren; het wetsvoorstel is nog niet in werking (K-NLD-008)."
   - id: NLD-07
     titel: "Netcongestie maakt stroom ook in Nederland een knelpunt voor datacenters"
@@ -774,7 +774,7 @@ slides:
     kern: "Vijf vragen die elke raad nu moet stellen: over strategie, waarde, risico, mensen en leveranciers."
     volatiliteit: stabiel
     beweringen: [K-WRK-005, K-WRK-007, K-NLD-005]
-    status: concept
+    status: gereed
   - id: GOV-02
     titel: "Een AI-strategie begint bij processen en data, en meet waarde in plaats van gebruik"
     kern: "Aantal gebruikers en tokenuitgaven zeggen weinig, en de kosten van interne AI zijn moeilijk te voorspellen. Meet doorlooptijd, kwaliteit en kosten per proces."
