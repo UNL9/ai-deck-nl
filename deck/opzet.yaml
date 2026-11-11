@@ -201,10 +201,14 @@ slides:
     titel: "Programmeren is de eerste toepassing die echt kantelt"
     kern: "Programmeren is de grootste post in de zakelijke uitgaven aan AI-toepassingen. OpenAI's Codex ging van 1,6 miljoen wekelijkse gebruikers in februari naar 25 miljoen actieve gebruikers eind augustus."
     volatiliteit: kwartaal
-    bronnen: [soai, evans]
-    beweringen: [K-MKT-004, K-MKT-013, K-FRT-021]
-    status: opzet
-    noot: "Grafiek 'Zakelijke AI-uitgaven per toepassing' pas bouwen als het primaire a16z-cijfer er is (K-FRT-021, te verifiëren); tot dan zonder grafiek. OpenAI wisselde in juli van definitie (wekelijks actief naar actief)."
+    bronnen: [soai, evans, menlo]
+    beweringen: [K-MKT-004, K-MKT-013, K-FRT-021, K-FRT-029]
+    status: herzien
+    noot: "OpenAI wisselde in juli van definitie (wekelijks actief naar actief)."
+    voorstel:
+      kern: "Programmeren is met 34 miljard dollar de grootste post in de zakelijke uitgaven aan AI-toepassingen, 7,7 keer zoveel als een jaar eerder. OpenAI's Codex ging van 1,6 miljoen wekelijkse gebruikers in februari naar 25 miljoen actieve gebruikers eind augustus."
+      grafiek: "Zakelijke uitgaven aan AI-toepassingen per categorie, 2026, met groei ten opzichte van 2025 (data/FRT-06_ai_toepassingen.csv, Menlo Ventures)"
+      reden: "Het a16z-cijfer uit Evans is vervangen door het rapport van Menlo Ventures (3 november 2026), dat bedragen per categorie geeft. Menlo is belegger in Anthropic; in de voetregel vermelden. Titel blijft staan."
   - id: FRT-07
     titel: "AI helpt AI bouwen: Claude leidt een kwart van het modelonderzoek bij Anthropic"
     kern: "Volgens Anthropic steeg het aandeel taken waarin Claude de leiding heeft van minder dan 1 naar 26 procent in zes maanden, onder menselijk toezicht. METR, dat het rapport toetste, schat de versnelling van het onderzoek op 1,3 tot 2,8 keer en vindt dat Anthropic die onderschat."
@@ -267,10 +271,10 @@ slides:
     kern: "Van de tokenuitgaven die Ramp meet, ging eind oktober 60 procent naar Anthropic en 35 procent naar OpenAI. Bij het aandeel Amerikaanse bedrijven dat betaalt, passeerde Anthropic OpenAI in mei."
     grafiek: "Aandeel Amerikaanse bedrijven dat betaalt voor AI, totaal en per aanbieder, per maand sinds 2023 (data/MKT-04_ramp_adoptie.csv, Ramp via FRED)"
     volatiliteit: wekelijks
-    bronnen: [ramp, soai]
-    beweringen: [K-MKT-003, K-MKT-020, K-MKT-021, K-MKT-026]
+    bronnen: [ramp, soai, menlo]
+    beweringen: [K-MKT-003, K-MKT-020, K-MKT-021, K-MKT-026, K-MKT-027]
     status: opzet
-    noot: "Amerikaanse cijfers; zo vermelden."
+    noot: "Amerikaanse cijfers; zo vermelden. Menlo (K-MKT-027) ziet met een enquête hetzelfde beeld: 55 procent Anthropic, 31 procent OpenAI."
   - id: MKT-05
     titel: "Agents breken door buiten de IT-afdeling"
     kern: "Niet-ontwikkelaars gebruiken codeeragents in hoger tempo dan ontwikkelaars. Ruim 1.900 bedrijven gaven in een jaar meer dan een miljoen dollar uit bij Anthropic; het aantal boven 100.000 dollar ging van 950 naar 11.900."
@@ -358,7 +362,7 @@ slides:
     grafiek: "Stroomprijs voor grootverbruikers (meer dan 150 GWh) exclusief btw, Nederland naast EU-landen, per halfjaar (data/INF-06_stroomprijs_bedrijven.csv, Eurostat)"
     volatiliteit: kwartaal
     bronnen: [soai, iea-energy-ai, eurostat]
-    beweringen: [K-INF-005, K-INF-017, K-INF-018]
+    beweringen: [K-INF-005, K-INF-017, K-INF-018, K-SAM-007]
     status: opzet
     noot: "VS en VK (SoAI, dollars, ander jaar) niet in dezelfde grafiek als de Eurostat-cijfers."
   - id: INF-07
@@ -390,9 +394,12 @@ slides:
     kern: "Van de S&P 500-bedrijven heeft 69 procent AI in gebruik, maar 2 procent volgt het effect over tijd. Een kwart van de Amerikaanse werknemers zegt dat hun organisatie een duidelijk plan voor AI heeft."
     volatiliteit: kwartaal
     bronnen: [evans, mckinsey-sai, gallup, soai]
-    beweringen: [K-WRK-004, K-WRK-005, K-WRK-006, K-WRK-007]
-    status: opzet
-    noot: "Grafiek 'Pilot versus productie per functie' pas bouwen als de McKinsey-PDF er is (K-WRK-004, te verifiëren); tot dan zonder grafiek."
+    beweringen: [K-WRK-004, K-WRK-005, K-WRK-006, K-WRK-007, K-WRK-013]
+    status: herzien
+    noot: "Cijfers van McKinsey gecontroleerd in de PDF (K-WRK-013). Wereldwijde enquête; zo vermelden."
+    voorstel:
+      grafiek: "Fase van AI-gebruik bij organisaties die AI gebruiken, 2025 en 2026: experimenteren, pilot, opschalen (data/WRK-02_fase_ai_gebruik.csv, McKinsey)"
+      reden: "De McKinsey-PDF is binnen. Per functie geeft McKinsey alleen cijfers over agents, en die zijn uit de PDF niet betrouwbaar af te lezen; daarom de fasen van AI-gebruik in totaal. 44 procent schaalt op, tegen 38 procent een jaar eerder. Titel en kern blijven staan."
   - id: WRK-03
     titel: "De meeste winst zit nu in programmeren, klantenservice en marketing"
     kern: "Programmeerhulp levert de grootste productiviteitswinst. In Nederland is marketing en verkoop de meest genoemde toepassing."
@@ -558,9 +565,9 @@ slides:
     kern: "Datacenters gebruikten in 2025 circa 485 TWh, ruim 1,5 procent van alle stroom, en dat verdubbelt naar verwachting tot 2030. AI groeit drie keer zo snel als de rest. Gascentrales voor AI staan op gespannen voet met klimaatdoelen."
     volatiliteit: kwartaal
     bronnen: [iea-energy-ai, soai]
-    beweringen: [K-SAM-006, K-SAM-003, K-INF-018]
+    beweringen: [K-SAM-006, K-SAM-003, K-INF-018, K-SAM-007]
     status: opzet
-    noot: "IEA-cijfers verifiëren (K-SAM-006: IEA-document niet zelf geopend). Het aandeel van 1,5 procent is een afleiding; bevestigen bij het IEA."
+    noot: "Het aandeel van ruim 1,5 procent is een afleiding uit de IEA-cijfers (K-SAM-007); in de voetregel zo vermelden."
   - id: SAM-06
     titel: "Modellen nemen over wat in de data zit, ook vooroordelen"
     kern: "Eerlijkheid, uitlegbaarheid en controleerbaarheid zijn geen bijzaak. Ze bepalen of AI in gevoelige beslissingen gebruikt mag worden."
@@ -710,10 +717,13 @@ slides:
     titel: "De AI-fabriek in Groningen: 200 miljoen euro voor Nederlandse rekenkracht"
     kern: "Rijk, regio en EuroHPC investeren samen ruim 200 miljoen euro. Het expertisecentrum start in 2026, de supercomputer met circa 1.800 GPU's draait naar verwachting begin 2028 op volle kracht."
     volatiliteit: kwartaal
-    bronnen: [rijksoverheid, eurohpc]
-    beweringen: [K-NLD-003, K-NLD-006]
-    status: opzet
-    noot: "Status en capaciteit verifiëren (K-NLD-006). Ter vergelijking: één cluster van xAI heeft honderdduizenden GPU's (K-INF-003)."
+    bronnen: [rijksoverheid, eurohpc, aifabriek]
+    beweringen: [K-NLD-003, K-NLD-006, K-NLD-010, K-NLD-011]
+    status: herzien
+    noot: "Aantal GPU's bijwerken na de aanbesteding van januari 2027 (K-NLD-011, te verifiëren). Ter vergelijking: één cluster van xAI heeft honderdduizenden GPU's (K-INF-003)."
+    voorstel:
+      kern: "Rijk, regio en EuroHPC investeren samen ruim 200 miljoen euro. Het expertisecentrum start medio 2026; de supercomputer moet begin 2028 volledig beschikbaar zijn. Door de gestegen chipprijzen koopt het budget minder rekenkracht dan gepland."
+      reden: "Bedragen en planning staan nu in de Kamerbrieven zelf (K-NLD-010). Het budget voor de machine (64 miljoen euro) koopt door hogere GPU-prijzen minder dan de geplande 1.800 GPU's, en de hardware wordt pas in januari 2027 aanbesteed; het aantal GPU's hoort daarom niet meer in de kern. Titel blijft staan."
   - id: NLD-04
     titel: "Nederland is onmisbaar in de keten, en dat is een onderhandelingspositie"
     kern: "Zonder machines van ASML geen geavanceerde chips. Dat geeft Nederland en Europa iets om mee te onderhandelen."
@@ -726,9 +736,9 @@ slides:
     kern: "Een eigen taalmodel draait niet om de frontier, maar om transparantie, taal en onafhankelijkheid."
     volatiliteit: kwartaal
     bronnen: [tno]
-    beweringen: [K-NLD-007]
+    beweringen: [K-NLD-007, K-NLD-013]
     status: opzet
-    noot: "Status GPT-NL verifiëren (K-NLD-007: bèta sinds februari 2026, te verifiëren)"
+    noot: "Bredere uitrol van GPT-NL nog niet bevestigd (K-NLD-007, te verifiëren)."
   - id: NLD-06
     titel: "Wie houdt in Nederland toezicht op AI?"
     kern: "Bestaande toezichthouders houden toezicht binnen hun domein. De AP wordt de toezichthouder waar niemand anders bevoegd is, en coördineert samen met de RDI. De wet die dat regelt, is nog niet in werking."
@@ -742,9 +752,13 @@ slides:
     kern: "Wachtlijsten voor netaansluitingen en beleid voor hyperscale datacenters bepalen waar rekenkracht kan komen."
     volatiliteit: kwartaal
     bronnen: [rijksoverheid, eurostat]
-    beweringen: [K-NLD-009, K-INF-017]
-    status: opzet
-    noot: "Cijfers netbeheerders en datacenterbeleid ophalen (wachtrij: K-NLD-009, te verifiëren; datacenterbeleid nog niet)"
+    beweringen: [K-NLD-009, K-INF-017, K-NLD-012]
+    status: herzien
+    noot: "Datacenterbeleid (hyperscale) nog uitzoeken."
+    voorstel:
+      kern: "Op 30 juni wachtten 15.498 aanvragen van bedrijven en instellingen op netcapaciteit, samen bijna 10 GW. Eind 2022 waren het er 668. Ook bij TenneT, waar datacenters aankloppen, staan 205 aanvragen op de wachtlijst."
+      grafiek: "Wachtlijst voor afname bij de regionale netbeheerders: aantal verzoeken en gevraagd vermogen, 2022 tot medio 2026 (data/NLD-07_wachtlijst_afname.csv)"
+      reden: "Kern had nog geen cijfers. De reeks komt uit de voortgangsrapportage van het Landelijk Actieprogramma Netcongestie (oktober 2026). Een apart cijfer voor datacenters bestaat niet; het kabinet heeft geen overzicht naar sector. Titel blijft staan."
 
 # ---------- GOVERNANCE EN VERANTWOORD GEBRUIK ----------
   - id: GOV-01
@@ -758,7 +772,7 @@ slides:
     kern: "Aantal gebruikers en tokenuitgaven zeggen weinig, en de kosten van interne AI zijn moeilijk te voorspellen. Meet doorlooptijd, kwaliteit en kosten per proces."
     volatiliteit: stabiel
     bronnen: [iconiq, soai, gallup]
-    beweringen: [K-WRK-007, K-WRK-004, K-MKT-014]
+    beweringen: [K-WRK-007, K-WRK-004, K-MKT-014, K-WRK-013]
     status: opzet
   - id: GOV-03
     titel: "Bouwen, kopen of laten doen: de keuze verschuift"

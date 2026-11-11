@@ -62,6 +62,21 @@
   vindplaats: "IEA, Key Questions on Energy and AI (16 april 2026)"
   vastgesteld: 2026-11-10
   houdbaarheid_dagen: 365
-  status: te_verifieren
+  status: vervangen
+  vervangen_door: K-SAM-007
   slides: [SAM-05, INF-06]
-  noot: "IEA-document zelf niet geopend; cijfers via secundaire bronnen die het citeren. In de editie van 2025 was de projectie 945 TWh."
+  noot: "IEA-document zelf niet geopend; cijfers via secundaire bronnen die het citeren. In de editie van 2025 was de projectie 945 TWh. Geverifieerd in de samenvatting van het IEA; 416 TWh (2024) en 155 TWh (AI) staan daar niet en zijn niet overgenomen."
+
+# ---------- Verificatie, 2026-11-10 ----------
+
+# SAM-05: stroomverbruik datacenters
+- id: K-SAM-007
+  bewering: "Het stroomverbruik van datacenters groeide in 2025 met 17% tot 485 TWh; dat van datacenters voor AI met 50%. Het IEA verwacht ruwweg een verdubbeling tot 950 TWh in 2030, ongeveer 3% van het wereldwijde stroomverbruik."
+  peildatum: 2025
+  bron: iea-energy-ai
+  vindplaats: "IEA, Key Questions on Energy and AI (16 april 2026), Executive summary: https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary"
+  vastgesteld: 2026-11-10
+  houdbaarheid_dagen: 365
+  status: actueel
+  slides: [SAM-05, INF-06]
+  noot: "Het aandeel in 2025 (ruim 1,5%) staat niet in de samenvatting; het is een afleiding uit 485 TWh en een wereldverbruik van circa 30.000 TWh."
