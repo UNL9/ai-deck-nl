@@ -99,7 +99,7 @@ METR mat in april 17 uur menselijk expertwerk voor Claude Mythos Preview, tegen 
 <br><sub>Bronnen: metr, epoch, soai · Open: Logaritmische schaal vermelden. METR werkt de reeks sinds 8 september niet meer bij.</sub>
 
 **FRT-06** [K] **Programmeren is de eerste toepassing die echt kantelt**  
-Programmeren is de grootste post in de zakelijke uitgaven aan AI-toepassingen. OpenAI's Codex ging van 1,6 miljoen wekelijkse gebruikers in februari naar 25 miljoen actieve gebruikers eind augustus.
+Programmeren is met 34 miljard dollar de grootste post in de zakelijke uitgaven aan AI-toepassingen, 7,7 keer zoveel als een jaar eerder. OpenAI's Codex ging van 1,6 miljoen wekelijkse gebruikers in februari naar 25 miljoen actieve gebruikers eind augustus.
 <br><sub>Bronnen: soai, evans, menlo · Open: OpenAI wisselde in juli van definitie (wekelijks actief naar actief).</sub>
 
 **FRT-07** [K] **AI helpt AI bouwen: Claude leidt een kwart van het modelonderzoek bij Anthropic**  

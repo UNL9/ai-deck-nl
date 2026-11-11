@@ -160,7 +160,7 @@ slides:
     volatiliteit: wekelijks
     bronnen: [artificial-analysis, epoch, soai]
     beweringen: [K-FRT-001, K-FRT-009, K-FRT-010, K-FRT-011]
-    status: opzet
+    status: concept
     noot: "Huidige stand Artificial Analysis (v5) als voetnoot; de geschiedenis van AA is geen open data."
   - id: FRT-02
     titel: "Welk model het beste is, hangt af van wie meet en wat er gemeten wordt"
@@ -169,7 +169,7 @@ slides:
     volatiliteit: wekelijks
     bronnen: [lmarena, artificial-analysis, epoch, soai]
     beweringen: [K-FRT-002, K-FRT-009, K-FRT-011, K-FRT-012, K-FRT-013]
-    status: opzet
+    status: concept
   - id: FRT-03
     titel: "China leidt bij open modellen, maar loopt aan de top achter"
     kern: "Het beste Chinese model, Kimi K3.1 Pro, scoort 46 op de Intelligence Index tegen 65 voor de koploper. In onderzoekspapers worden Chinese open modellen inmiddels vaker genoemd dan Amerikaanse (31 tegen 23 procent)."
@@ -177,7 +177,7 @@ slides:
     volatiliteit: kwartaal
     bronnen: [soai, artificial-analysis, epoch]
     beweringen: [K-FRT-003, K-FRT-014, K-FRT-015, K-FRT-016]
-    status: opzet
+    status: concept
     noot: "De gewichten van Kimi K3.1 Pro zijn volgens AA nog niet vrijgegeven; het beste Chinese model met vrijgegeven gewichten scoort 33. Vermelden in de toelichting."
   - id: FRT-04
     titel: "Benchmarks die jaren moesten meegaan, zijn binnen maanden verzadigd"
@@ -186,7 +186,7 @@ slides:
     volatiliteit: wekelijks
     bronnen: [epoch, arc-prize, soai]
     beweringen: [K-FRT-004, K-FRT-017, K-FRT-018]
-    status: opzet
+    status: concept
     noot: "In de voetregel vermelden dat OpenAI FrontierMath financiert."
   - id: FRT-05
     titel: "Agents kunnen steeds langere taken aan, maar de meetlat raakt op"
@@ -195,49 +195,48 @@ slides:
     volatiliteit: kwartaal
     bronnen: [metr, epoch, soai]
     beweringen: [K-FRT-019, K-FRT-020]
-    status: opzet
+    status: concept
     noot: "Logaritmische schaal vermelden. METR werkt de reeks sinds 8 september niet meer bij."
   - id: FRT-06
     titel: "Programmeren is de eerste toepassing die echt kantelt"
-    kern: "Programmeren is de grootste post in de zakelijke uitgaven aan AI-toepassingen. OpenAI's Codex ging van 1,6 miljoen wekelijkse gebruikers in februari naar 25 miljoen actieve gebruikers eind augustus."
+    kern: "Programmeren is met 34 miljard dollar de grootste post in de zakelijke uitgaven aan AI-toepassingen, 7,7 keer zoveel als een jaar eerder. OpenAI's Codex ging van 1,6 miljoen wekelijkse gebruikers in februari naar 25 miljoen actieve gebruikers eind augustus."
+    grafiek: "Zakelijke uitgaven aan AI-toepassingen per categorie, 2026, met groei ten opzichte van 2025 (data/FRT-06_ai_toepassingen.csv, Menlo Ventures)"
     volatiliteit: kwartaal
     bronnen: [soai, evans, menlo]
     beweringen: [K-MKT-004, K-MKT-013, K-FRT-021, K-FRT-029]
-    status: herzien
+    status: concept
     noot: "OpenAI wisselde in juli van definitie (wekelijks actief naar actief)."
-    voorstel:
-      kern: "Programmeren is met 34 miljard dollar de grootste post in de zakelijke uitgaven aan AI-toepassingen, 7,7 keer zoveel als een jaar eerder. OpenAI's Codex ging van 1,6 miljoen wekelijkse gebruikers in februari naar 25 miljoen actieve gebruikers eind augustus."
-      grafiek: "Zakelijke uitgaven aan AI-toepassingen per categorie, 2026, met groei ten opzichte van 2025 (data/FRT-06_ai_toepassingen.csv, Menlo Ventures)"
-      reden: "Het a16z-cijfer uit Evans is vervangen door het rapport van Menlo Ventures (3 november 2026), dat bedragen per categorie geeft. Menlo is belegger in Anthropic; in de voetregel vermelden. Titel blijft staan."
   - id: FRT-07
     titel: "AI helpt AI bouwen: Claude leidt een kwart van het modelonderzoek bij Anthropic"
     kern: "Volgens Anthropic steeg het aandeel taken waarin Claude de leiding heeft van minder dan 1 naar 26 procent in zes maanden, onder menselijk toezicht. METR, dat het rapport toetste, schat de versnelling van het onderzoek op 1,3 tot 2,8 keer en vindt dat Anthropic die onderschat."
     volatiliteit: kwartaal
     bronnen: [soai, metr]
     beweringen: [K-FRT-005, K-FRT-022]
-    status: opzet
+    status: concept
     noot: "Primaire Anthropic-publicatie voor K-FRT-005 nog niet gevonden."
   - id: FRT-08
     titel: "AI lost open wiskundeproblemen op en versnelt wetenschappelijk werk"
     kern: "AI hielp bij de oplossing van tien van de 49 open wiskundeproblemen die Epoch volgt, vijf keer zonder menselijke hulp. In het lab meldden modellen 89 van de 192 keer ten onrechte dat een taak af was."
+    grafiek: "De 49 open wiskundeproblemen van Epoch naar wie ze oploste, als raster (data/FRT-08_open_problemen.csv)"
     volatiliteit: kwartaal
     bronnen: [epoch, soai]
     beweringen: [K-FRT-006, K-FRT-023, K-FRT-027]
-    status: opzet
+    status: concept
   - id: FRT-09
     titel: "Robotica heeft zijn GPT-2-moment: generalisatie groeit mee met voortraining"
     kern: "Robotmodellen generaliseren beter naarmate ze meer voortraining krijgen. Data over handelen is het knelpunt; gesimuleerde werelden zijn een deel van de oplossing."
     volatiliteit: kwartaal
     bronnen: [soai]
     beweringen: [K-FRT-024]
-    status: opzet
+    status: concept
   - id: FRT-10
     titel: "Hoge scores verbergen nog veel half werk"
     kern: "Agents die goed scoren op benchmarks laten in de praktijk analyses onaf, missen fraude en ontdekken de regels van onbekende situaties slecht."
+    grafiek: "Score tegenover volledig afgerond, voor FrontierChallenge en OSWorld 2.0 (data/FRT-10_score_vs_af.csv)"
     volatiliteit: kwartaal
     bronnen: [soai]
     beweringen: [K-FRT-025, K-FRT-026, K-FRT-027, K-FRT-028]
-    status: opzet
+    status: concept
 
 # ---------- MARKT EN ECONOMIE ----------
   - id: MKT-01
