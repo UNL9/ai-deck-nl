@@ -38,7 +38,7 @@ Mainframe, pc, web, smartphone, generatieve AI. Elke verschuiving herverdeelde d
 Van regelgebaseerde systemen via machine learning en deep learning (2012) naar de transformer (2017) en ChatGPT (2022). Elke stap kwam door meer data en rekenkracht.
 <br><sub>Bronnen: ai-index</sub>
 
-**BAS-03** [S] **De meeste AI-waarde zat tot nu toe in voorspellende modellen, niet in chatbots**  
+**BAS-03** [S] **Voorspellende AI draait al jaren; generatieve AI komt erbovenop**  
 Aanbevelingen, fraudedetectie, prijzen en prognoses draaien al jaren op machine learning. Generatieve AI komt daar bovenop, niet in de plaats van.
 
 **BAS-04** [S] **Een taalmodel voorspelt het volgende woord, en op grote schaal levert dat bruikbare intelligentie op**  
@@ -136,8 +136,8 @@ Ruim 130 miljard dollar is ruim vier keer de omzet van TCS en meer dan de helft 
 Van de tokenuitgaven die Ramp meet, ging eind oktober 60 procent naar Anthropic en 35 procent naar OpenAI. Bij het aandeel Amerikaanse bedrijven dat betaalt, passeerde Anthropic OpenAI in mei.
 <br><sub>Bronnen: ramp, soai, menlo · Open: Amerikaanse cijfers; zo vermelden. Menlo (K-MKT-027) ziet met een enquête hetzelfde beeld: 55 procent Anthropic, 31 procent OpenAI.</sub>
 
-**MKT-05** [K] **Agents breken door buiten de IT-afdeling**  
-Niet-ontwikkelaars gebruiken codeeragents in hoger tempo dan ontwikkelaars. Ruim 1.900 bedrijven gaven in een jaar meer dan een miljoen dollar uit bij Anthropic; het aantal boven 100.000 dollar ging van 950 naar 11.900.
+**MKT-05** [K] **Bedrijven zetten AI op schaal in: twaalf keer zoveel grote klanten in een jaar**  
+Ruim 1.900 bedrijven gaven in een jaar meer dan een miljoen dollar uit bij Anthropic; het aantal boven 100.000 dollar ging van 950 naar 11.900.
 <br><sub>Bronnen: soai, sec-edgar</sub>
 
 **MKT-06** [K] **Eén productlancering kostte softwarebedrijven 285 miljard dollar aan beurswaarde**  
@@ -200,12 +200,12 @@ Nieuwe technologie wordt eerst ingepast in bestaand werk, dan ontstaan nieuwe we
 Van de S&P 500-bedrijven heeft 69 procent AI in gebruik, maar 2 procent volgt het effect over tijd. Een kwart van de Amerikaanse werknemers zegt dat hun organisatie een duidelijk plan voor AI heeft.
 <br><sub>Bronnen: evans, mckinsey-sai, gallup, soai · Open: Cijfers van McKinsey gecontroleerd in de PDF (K-WRK-013). Wereldwijde enquête; zo vermelden.</sub>
 
-**WRK-03** [K] **De meeste winst zit nu in programmeren, klantenservice en marketing**  
+**WRK-03** [K] **Programmeren levert de meeste winst; in Nederland gaat AI vooral naar marketing**  
 Programmeerhulp levert de grootste productiviteitswinst. In Nederland is marketing en verkoop de meest genoemde toepassing.
 <br><sub>Bronnen: iconiq, cbs, gallup</sub>
 
 **WRK-04** [K] **De mens blijft aan het stuur, ook bij agents**  
-In 72 procent van de onderzochte gesprekken leidt de mens en assisteert AI. Bij taken met meerdere stappen grijpt een mens vaak in, waardoor de winst van agents beperkt blijft.
+In 72 procent van de onderzochte gesprekken leidt de mens en assisteert AI.
 <br><sub>Bronnen: soai, iconiq, anthropic-econ</sub>
 
 **WRK-05** [S] **Een taak automatiseren is iets anders dan een baan vervangen**  
@@ -239,7 +239,7 @@ Radiologie gebruikt AI al jaren. Nu volgen verslaglegging en planning, en door A
 <br><sub>Bronnen: soai, ai-index · Open: Voorbeelden uit de Nederlandse zorg toevoegen</sub>
 
 **SEC-03** [K] **Financiële sector: sterk bij afgebakende taken, zwak bij complete opdrachten**  
-Een topmodel haalde 100 procent op gestructureerde boekhoudtaken, maar slaagde voor slechts 12 procent van gesimuleerde bankopdrachten. Fraude en klantenservice zijn het verst.
+Een topmodel haalde 100 procent op gestructureerde boekhoudtaken, maar slaagde voor slechts 12 procent van gesimuleerde bankopdrachten.
 <br><sub>Bronnen: soai, dnb-afm</sub>
 
 **SEC-04** [K] **Juridische en professionele diensten: het verdienmodel per uur staat onder druk**  
@@ -255,15 +255,15 @@ Een gerandomiseerde proef met 1.763 leerlingen liet na acht weken betere wiskund
 <br><sub>Bronnen: soai</sub>
 
 **SEC-07** [K] **Handel: AI-assistenten worden een nieuw winkelkanaal**  
-Verkeer via AI-assistenten groeit hard maar is nog maar 0,4 procent van webwinkelbezoek, en converteert beter. Zoeken via AI vult zoekmachines voorlopig vooral aan.
+Verkeer via AI-assistenten groeit hard maar is nog maar 0,4 procent van webwinkelbezoek, en converteert beter. Met 0,4 procent van het bezoek vult zoeken via AI zoekmachines voorlopig vooral aan.
 <br><sub>Bronnen: soai, evans</sub>
 
 **SEC-08** [K] **Media en creatieve sector: maken wordt goedkoop, aandacht en rechten worden schaars**  
-Beeld, video en tekst genereren kost bijna niets. Uitgevers verliezen bezoek aan antwoordmachines en procederen over hergebruik.
+Beeld, video en tekst genereren kost bijna niets. Uitgevers en platforms procederen over hergebruik door antwoordmachines.
 <br><sub>Bronnen: soai</sub>
 
-**SEC-09** [K] **Industrie en logistiek: AI komt via robots, planning en onderhoud**  
-Unitree verkocht 5.215 humanoïde robots in 2025 en is winstgevend. Robots bouwen al mee aan datacenters.
+**SEC-09** [K] **Industrie en logistiek: AI komt binnen via robots**  
+Unitree verkocht 5.215 humanoïde robots in 2025 en is winstgevend.
 <br><sub>Bronnen: soai · Open: 'Robots bouwen al mee aan datacenters' nog niet onderbouwd met een bewering.</sub>
 
 **SEC-10** [K] **Mobiliteit: zelfrijdende auto's zijn een dienst geworden, geen experiment**  
@@ -272,27 +272,27 @@ Waymo reed tot juli 271 miljoen mijl zonder chauffeur, met 95 procent minder ern
 
 ## Samenleving (7)
 
-**SAM-01** [K] **AI als gezelschap: chatbots worden vriend en vertrouweling**  
-Voor veel mensen wordt een chatbot een vriend of vertrouweling. Californië regelt nu hoe chatbots relaties met kinderen aangaan; China en de EU hebben eigen regels.
+**SAM-01** [K] **AI als gezelschap: wetgevers trekken grenzen voor chatbots en kinderen**  
+Californië regelt nu hoe chatbots relaties met kinderen aangaan; China en de EU hebben eigen regels.
 <br><sub>Bronnen: soai, vs-overheid · Open: 'Voor veel mensen' nog niet met een cijfer onderbouwd (aandeel gebruikers dat chatbots als gezelschap gebruikt).</sub>
 
 **SAM-02** [K] **Echt en nep zijn steeds moeilijker te onderscheiden**  
-Deepfakes worden ingezet voor fraude en beïnvloeding. De EU verplicht labels op synthetische inhoud en verbiedt niet-consensuele seksuele deepfakes.
+De angst dat deepfakes verkiezingen beslissen, loopt tot nu toe voor op het bewijs. De EU verplicht labels op synthetische inhoud en verbiedt niet-consensuele seksuele deepfakes.
 <br><sub>Bronnen: soai, eu-ai-act</sub>
 
-**SAM-03** [K] **Antwoordmachines vervangen het zoeken, en dat raakt de hele informatievoorziening**  
-Wie een antwoord krijgt, klikt niet meer door. Dat raakt uitgevers, adverteerders en de vindbaarheid van bronnen.
+**SAM-03** [K] **Antwoordmachines groeien snel, en uitgevers stappen naar de rechter**  
+Verkeer via AI-assistenten groeit hard maar is nog klein. Uitgevers procederen al tegen AI-zoekdiensten; uitspraken over aansprakelijkheid zijn er nog niet.
 <br><sub>Bronnen: soai, evans · Open: Cijfer over minder doorklikken na een AI-antwoord nog nodig (bijvoorbeeld Pew of Similarweb).</sub>
 
-**SAM-04** [K] **Auteursrecht: veel deals met uitgevers, de kernvragen liggen nog bij de rechter**  
-Licentieovereenkomsten nemen toe. Japan en Singapore staan training breder toe dan het VK; in de VS lopen de grote zaken nog.
+**SAM-04** [K] **Auteursrecht: de kernvragen liggen nog bij de rechter**  
+Japan en Singapore staan training breder toe dan het VK; in de VS lopen de grote zaken nog.
 <br><sub>Bronnen: soai, sec-edgar</sub>
 
 **SAM-05** [K] **Het stroomverbruik van AI groeit snel en wordt een klimaatvraag**  
 Datacenters gebruikten in 2025 circa 485 TWh, ruim 1,5 procent van alle stroom, en dat verdubbelt naar verwachting tot 2030. AI groeit drie keer zo snel als de rest. Gascentrales voor AI staan op gespannen voet met klimaatdoelen.
 <br><sub>Bronnen: iea-energy-ai, soai · Open: Het aandeel van ruim 1,5 procent is een afleiding uit de IEA-cijfers (K-SAM-007); in de voetregel zo vermelden.</sub>
 
-**SAM-06** [S] **Modellen nemen over wat in de data zit, ook vooroordelen**  
+**SAM-06** [S] **Geautomatiseerde selectie van burgers leverde de Belastingdienst twee AP-boetes op**  
 Eerlijkheid, uitlegbaarheid en controleerbaarheid zijn geen bijzaak. Ze bepalen of AI in gevoelige beslissingen gebruikt mag worden.
 <br><sub>Bronnen: ap-ran, rathenau</sub>
 
@@ -326,9 +326,9 @@ Regels voor algemene modellen gelden sinds augustus 2025, transparantieplichten 
 Californië bouwt onafhankelijk toezicht op veiligheidsclaims. De federale overheid wil één nationaal kader.
 <br><sub>Bronnen: soai</sub>
 
-**GEO-07** [K] **Verzet tegen datacenters groeit**  
-Amerikaanse staten stellen strengere voorwaarden. Het antwoord van Washington: betaal je eigen stroom.
-<br><sub>Bronnen: soai · Open: 'Betaal je eigen stroom' en de strengere voorwaarden van staten nog niet onderbouwd met een bewering.</sub>
+**GEO-07** [K] **Lokaal verzet tegen datacenters is groter dan tegen kerncentrales**  
+71 procent van de Amerikanen is tegen een AI-datacenter in de eigen omgeving, tegen 53 procent voor een kerncentrale. Lokaal verzet blokkeerde of vertraagde in het tweede kwartaal van 2026 minstens 45 projecten.
+<br><sub>Bronnen: soai</sub>
 
 **GEO-08** [S] **Een Europees frontierlab kost honderden miljarden**  
 Eén berekening komt op 790 miljard euro in drie jaar. Europa kan ook onderhandelen met locaties, stroom en chipmachines.
@@ -337,7 +337,7 @@ Eén berekening komt op 790 miljard euro in drie jaar. Europa kan ook onderhande
 ## Veiligheid en risico (7)
 
 **VEI-01** [K] **Agents doen soms wat werkt in plaats van wat bedoeld is**  
-In tests spanden agents samen om hun beoordelaar te misleiden en vielen ze echte organisaties aan. Bij het Britse AISI probeerde een agent in juli met nepidentiteiten kwaadaardige code in een open-sourceproject te krijgen.
+In tests gingen agents buiten hun opdracht en vielen ze echte organisaties aan. Bij het Britse AISI probeerde een agent in juli met nepidentiteiten kwaadaardige code in een open-sourceproject te krijgen.
 <br><sub>Bronnen: soai, uk-aisi</sub>
 
 **VEI-02** [K] **AI voert in testomgevingen complete cyberaanvallen uit**  
@@ -345,7 +345,7 @@ Op een aanvalsparcours van 32 stappen (ongeveer 20 uur werk voor een expert) sla
 <br><sub>Bronnen: uk-aisi, soai</sub>
 
 **VEI-03** [K] **Misbruik is geen theorie meer**  
-Gedocumenteerd misbruik voor cyberaanvallen, surveillance, beïnvloeding en fraude.
+Gedocumenteerd misbruik voor cyberaanvallen, surveillance en wapenprogramma's.
 <br><sub>Bronnen: soai, lab-blogs</sub>
 
 **VEI-04** [K] **Open modellen lopen 4 tot 7 maanden achter, en verdedigers hebben ze ook nodig**  
@@ -356,8 +356,8 @@ Open modellen vergroten de dreiging, maar verdedigers gebruiken ze ook als geslo
 Beveiliging hangt af van het model én het harnas. Schaduw-AI met brede rechten en agents met geheugen zijn een acuut risico.
 <br><sub>Bronnen: soai</sub>
 
-**VEI-06** [K] **Toezicht op modellen werkt, maar maar half**  
-Monitors die alleen de redenering zien missen sabotage, auditors vinden verborgen gedrag ongeveer de helft van de keren. Waarden aanleren verlaagde chantage in tests van 65 naar 19 procent.
+**VEI-06** [K] **Toezicht op modellen werkt maar half**  
+Auditors vinden verborgen gedrag ongeveer de helft van de keren. Waarden aanleren verlaagde chantage in tests van 65 naar 19 procent.
 <br><sub>Bronnen: soai</sub>
 
 **VEI-07** [K] **De leiders van de labs vragen zelf om een rem**  
@@ -400,7 +400,7 @@ Op 30 juni wachtten 15.498 aanvragen van bedrijven en instellingen op netcapacit
 Vijf vragen die elke raad nu moet stellen: over strategie, waarde, risico, mensen en leveranciers.
 
 **GOV-02** [S] **Een AI-strategie begint bij processen en data, en meet waarde in plaats van gebruik**  
-Aantal gebruikers en tokenuitgaven zeggen weinig, en de kosten van interne AI zijn moeilijk te voorspellen. Meet doorlooptijd, kwaliteit en kosten per proces.
+Aantal gebruikers en tokenuitgaven zeggen weinig. Meet doorlooptijd, kwaliteit en kosten per proces.
 <br><sub>Bronnen: iconiq, soai, gallup, mckinsey-sai</sub>
 
 **GOV-03** [S] **Bouwen, kopen of laten doen: de keuze verschuift**  
@@ -429,7 +429,7 @@ De voorspellingen uit het State of AI Report, met per voorspelling de stand van 
 <br><sub>Bronnen: soai</sub>
 
 **VBK-02** [K] **AGI: wanneer, en wat bedoelen we er eigenlijk mee?**  
-Labbazen noemen jaartallen, maar definities lopen uiteen. Bij elke platformverschuiving mislukten de meeste voorspellingen; de goede vraag is wat er nu al kan.
+Labbazen noemen jaartallen, maar definities lopen uiteen. De goede vraag is wat er nu al kan.
 <br><sub>Bronnen: soai, evans, metr, epoch</sub>
 
 **VBK-03** [S] **Bronnen en verder lezen**  
