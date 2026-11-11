@@ -198,7 +198,7 @@ Nieuwe technologie wordt eerst ingepast in bestaand werk, dan ontstaan nieuwe we
 
 **WRK-02** [K] **Iedereen heeft een pilot, weinigen hebben productie**  
 Van de S&P 500-bedrijven heeft 69 procent AI in gebruik, maar 2 procent volgt het effect over tijd. Een kwart van de Amerikaanse werknemers zegt dat hun organisatie een duidelijk plan voor AI heeft.
-<br><sub>Bronnen: evans, mckinsey-sai, gallup, soai · Open: Grafiek 'Pilot versus productie per functie' pas bouwen als de McKinsey-PDF er is (K-WRK-004, te verifiëren); tot dan zonder grafiek.</sub>
+<br><sub>Bronnen: evans, mckinsey-sai, gallup, soai · Open: Cijfers van McKinsey gecontroleerd in de PDF (K-WRK-013). Wereldwijde enquête; zo vermelden.</sub>
 
 **WRK-03** [K] **De meeste winst zit nu in programmeren, klantenservice en marketing**  
 Programmeerhulp levert de grootste productiviteitswinst. In Nederland is marketing en verkoop de meest genoemde toepassing.

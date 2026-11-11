@@ -1,0 +1,8 @@
+# bron: McKinsey, The state of AI in 2026: On the road to ROI (augustus 2026), Exhibit 1 (p. 5)
+# url: https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai
+# licentie: cijfers uit openbaar rapport, met bronvermelding; grafiek is eigen werk
+# opgehaald: 2026-11-11 (PDF in bronnen/pdf/)
+# fase van AI-gebruik bij organisaties die AI gebruiken, % van de respondenten. Wereldwijde enquête, 1.719 deelnemers (2026). Zie K-WRK-013.
+jaar,experimenteren,pilot,opschalen
+2025,32,30,38
+2026,22,34,44

@@ -394,9 +394,12 @@ slides:
     kern: "Van de S&P 500-bedrijven heeft 69 procent AI in gebruik, maar 2 procent volgt het effect over tijd. Een kwart van de Amerikaanse werknemers zegt dat hun organisatie een duidelijk plan voor AI heeft."
     volatiliteit: kwartaal
     bronnen: [evans, mckinsey-sai, gallup, soai]
-    beweringen: [K-WRK-004, K-WRK-005, K-WRK-006, K-WRK-007]
-    status: opzet
-    noot: "Grafiek 'Pilot versus productie per functie' pas bouwen als de McKinsey-PDF er is (K-WRK-004, te verifiëren); tot dan zonder grafiek."
+    beweringen: [K-WRK-004, K-WRK-005, K-WRK-006, K-WRK-007, K-WRK-013]
+    status: herzien
+    noot: "Cijfers van McKinsey gecontroleerd in de PDF (K-WRK-013). Wereldwijde enquête; zo vermelden."
+    voorstel:
+      grafiek: "Fase van AI-gebruik bij organisaties die AI gebruiken, 2025 en 2026: experimenteren, pilot, opschalen (data/WRK-02_fase_ai_gebruik.csv, McKinsey)"
+      reden: "De McKinsey-PDF is binnen. Per functie geeft McKinsey alleen cijfers over agents, en die zijn uit de PDF niet betrouwbaar af te lezen; daarom de fasen van AI-gebruik in totaal. 44 procent schaalt op, tegen 38 procent een jaar eerder. Titel en kern blijven staan."
   - id: WRK-03
     titel: "De meeste winst zit nu in programmeren, klantenservice en marketing"
     kern: "Programmeerhulp levert de grootste productiviteitswinst. In Nederland is marketing en verkoop de meest genoemde toepassing."
@@ -769,7 +772,7 @@ slides:
     kern: "Aantal gebruikers en tokenuitgaven zeggen weinig, en de kosten van interne AI zijn moeilijk te voorspellen. Meet doorlooptijd, kwaliteit en kosten per proces."
     volatiliteit: stabiel
     bronnen: [iconiq, soai, gallup]
-    beweringen: [K-WRK-007, K-WRK-004, K-MKT-014]
+    beweringen: [K-WRK-007, K-WRK-004, K-MKT-014, K-WRK-013]
     status: opzet
   - id: GOV-03
     titel: "Bouwen, kopen of laten doen: de keuze verschuift"

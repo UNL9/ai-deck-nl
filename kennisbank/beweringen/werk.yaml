@@ -37,9 +37,10 @@
   vindplaats: "McKinsey, The state of AI in 2026: On the road to ROI (augustus 2026); enquête 4 mei tot 8 juni 2026, 1.719 deelnemers"
   vastgesteld: 2026-11-10
   houdbaarheid_dagen: 180
-  status: te_verifieren
+  status: vervangen
+  vervangen_door: K-WRK-013
   slides: [WRK-02]
-  noot: "PDF van McKinsey was niet te downloaden; cijfers via zoekfragment van de PDF en secundaire verslagen. Secundair ook: 44% schaalt AI over de hele organisatie, 37% ziet effect op het bedrijfsresultaat, ongeveer 6% 'high performers'. Controleren in de PDF."
+  noot: "PDF van McKinsey was niet te downloaden; cijfers via zoekfragment van de PDF en secundaire verslagen. Secundair ook: 44% schaalt AI over de hele organisatie, 37% ziet effect op het bedrijfsresultaat, ongeveer 6% 'high performers'. Controleren in de PDF. Gecontroleerd in de PDF (2026-11-11): alle cijfers kloppen; vervangen door K-WRK-013."
 - id: K-WRK-005
   bewering: "47% van de Amerikaanse werknemers zegt dat hun organisatie AI heeft ingevoerd; 25% zegt dat de organisatie een duidelijk plan voor AI heeft gecommuniceerd."
   peildatum: 2026-05
@@ -128,3 +129,17 @@
   status: actueel
   slides: [WRK-09]
   noot: "Amerikaanse bedrijven die via Ramp betalen."
+
+# ---------- Verificatie, 2026-11-11: McKinsey-PDF ----------
+
+# WRK-02: pilot en productie
+- id: K-WRK-013
+  bewering: "Bijna negen op de tien organisaties gebruiken AI regelmatig in minstens één functie. Van de organisaties die AI gebruiken, zit 44% in de fase van opschalen (2025: 38%), 34% in de pilotfase (30%) en 22% experimenteert nog (32%). Bij organisaties met meer dan 1 miljard dollar omzet steeg het aandeel dat agents opschaalt in minstens één functie van 27% naar 40%; bij kleinere bleef het op 22%. Ongeveer twee op de tien schalen codeeragents op (31% bij de grote). 37% ziet een bijdrage van AI aan het bedrijfsresultaat (EBIT), vrijwel gelijk aan 2025; ongeveer 6% is 'high performer'."
+  peildatum: 2026-06
+  bron: mckinsey-sai
+  vindplaats: "McKinsey, The state of AI in 2026: On the road to ROI (augustus 2026), p. 3, 5 (Exhibit 1), 6 (Exhibit 2), 7 (Exhibit 3), 9, 12 en 17; bronnen/pdf/the-state-of-ai-in-2026-on-the-road-to-roi-aug-2026.pdf"
+  vastgesteld: 2026-11-11
+  houdbaarheid_dagen: 180
+  status: actueel
+  slides: [WRK-02]
+  noot: "Wereldwijde enquête, 1.719 deelnemers op alle niveaus, 4 mei tot 8 juni 2026; 595 bij organisaties boven 1 miljard dollar omzet, 1.035 bij kleinere. Fasen gelden voor organisaties die AI gebruiken. 'High performers' rekenen minstens 5% van de EBIT toe aan AI en noemen het effect 'significant'. 32% zag af van de aankoop van software omdat die met codeeragents zelf te bouwen is. Data: data/WRK-02_fase_ai_gebruik.csv."
