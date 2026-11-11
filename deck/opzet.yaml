@@ -95,22 +95,22 @@ slides:
     volatiliteit: stabiel
     status: gereed
   - id: BAS-05
-    titel: "Een model ontstaat in drie stappen: voortraining, natraining en versterkend leren"
-    kern: "Voortraining op tekst, natraining op voorbeelden en voorkeuren, versterkend leren op taken met controleerbare uitkomst. Het recept is inmiddels grotendeels openbaar."
+    titel: "Een model ontstaat in drie stappen: pre-training, post-training en reinforcement learning"
+    kern: "Pre-training op tekst, post-training op voorbeelden en voorkeuren, reinforcement learning op taken met controleerbare uitkomst. Het recept is inmiddels grotendeels openbaar."
     grafiek: "Drie stappen met per stap data, kosten en resultaat"
     volatiliteit: stabiel
     bronnen: [soai]
     status: gereed
   - id: BAS-06
     titel: "Trainen en gebruiken zijn twee verschillende rekenklussen"
-    kern: "Training is een eenmalige, enorme klus op duizenden chips. Gebruik (inferentie) gebeurt bij elke vraag opnieuw en wordt het grootste deel van de rekenkracht."
-    grafiek: "Schema training versus inferentie, met een gestapelde balk van de chipinzet bij MAI-Thinking-1 (data/BAS-06_mai_thinking_chips.csv)"
+    kern: "Training is een eenmalige, enorme klus op duizenden chips. Inference (gebruik) gebeurt bij elke vraag opnieuw en wordt het grootste deel van de rekenkracht."
+    grafiek: "Schema training versus inference, met een gestapelde balk van de chipinzet bij MAI-Thinking-1 (data/BAS-06_mai_thinking_chips.csv)"
     volatiliteit: stabiel
     bronnen: [epoch]
     beweringen: [K-BAS-002, K-BAS-003]
     status: gereed
   - id: BAS-07
-    titel: "Redeneermodellen denken eerst na, en dat kost rekentijd per antwoord"
+    titel: "Reasoning-modellen denken eerst na, en dat kost rekentijd per antwoord"
     kern: "Meer rekentijd bij het antwoorden geeft betere antwoorden. Daardoor zegt de prijs per token weinig over de prijs van een antwoord."
     volatiliteit: stabiel
     bronnen: [soai]
@@ -118,9 +118,9 @@ slides:
     status: gereed
     noot: "Score bij lage inspanning en tokens per taak opnieuw vaststellen op versie 5.0.1; de modelpagina toont alleen de maximale instelling."
   - id: BAS-08
-    titel: "Een agent is een model met gereedschap en geheugen. Zelfde model, beter harnas, betere agent."
+    titel: "Een agent is een model met tools en geheugen. Zelfde model, betere harness, betere agent."
     kern: "Instructies, tools, skills en de juiste context bepalen een groot deel van de prestatie. Wat het model niet ziet, weet het niet."
-    grafiek: "Schema: model, harnas, tools, context, omgeving"
+    grafiek: "Schema: model, harness, tools, context, omgeving"
     volatiliteit: stabiel
     bronnen: [soai, iconiq]
     beweringen: [K-BAS-005]
@@ -133,7 +133,7 @@ slides:
     beweringen: [K-BAS-014]
     status: gereed
   - id: BAS-10
-    titel: "Open of gesloten gewichten is een strategische keuze, geen technisch detail"
+    titel: "Open of closed weights is een strategische keuze, geen technisch detail"
     kern: "Open modellen geven controle, lagere kosten en onafhankelijkheid. Gesloten modellen lopen voorop in prestaties. Chinese labs domineren het open segment."
     volatiliteit: kwartaal
     bronnen: [soai]
@@ -141,14 +141,14 @@ slides:
     status: gereed
   - id: BAS-11
     titel: "Modellen maken fouten die overtuigend klinken"
-    kern: "Verzonnen feiten en taken die 'klaar' heten maar dat niet zijn. In labtaken was bijna de helft van de 'klaar'-meldingen onvolledig. Controle blijft nodig."
+    kern: "Hallucinaties en taken die 'klaar' heten maar dat niet zijn. In labtaken was bijna de helft van de 'klaar'-meldingen onvolledig. Controle blijft nodig."
     volatiliteit: stabiel
     bronnen: [soai, vectara]
     beweringen: [K-FRT-027, K-FRT-025, K-BAS-009]
     status: gereed
   - id: BAS-12
     titel: "Intelligentie wordt snel goedkoper, en toch stijgen de totale uitgaven"
-    kern: "De prijs per eenheid prestatie daalt hard. Het gebruik groeit harder, vooral door agents en redeneermodellen."
+    kern: "De prijs per eenheid prestatie daalt hard. Het gebruik groeit harder, vooral door agents en reasoning-modellen."
     grafiek: "Laagste prijs voor het niveau van GPT-4, dollar per miljoen tokens, maart 2023 tot februari 2025, log-schaal (data/BAS-12_prijs_gpt4_niveau.csv)"
     volatiliteit: kwartaal
     bronnen: [soai, epoch, artificial-analysis]
@@ -181,7 +181,7 @@ slides:
     bronnen: [soai, artificial-analysis, epoch]
     beweringen: [K-FRT-003, K-FRT-014, K-FRT-015, K-FRT-016]
     status: gereed
-    noot: "De gewichten van Kimi K3.1 Pro zijn volgens AA nog niet vrijgegeven; het beste Chinese model met vrijgegeven gewichten scoort 33. Vermelden in de toelichting."
+    noot: "De weights van Kimi K3.1 Pro zijn volgens AA nog niet vrijgegeven; het beste Chinese model met vrijgegeven weights scoort 33. Vermelden in de toelichting."
   - id: FRT-04
     titel: "Benchmarks die jaren moesten meegaan, zijn binnen maanden verzadigd"
     kern: "De zwaarste wiskundetest ging in veertien maanden van 22 naar 100 procent; inmiddels halen twee modellen de volle score. ARC-AGI-3 begon in maart op 0,5 procent en staat nu op 81 procent."
@@ -194,7 +194,7 @@ slides:
   - id: FRT-05
     titel: "Agents kunnen steeds langere taken aan, maar de meetlat raakt op"
     kern: "METR mat in april 17 uur menselijk expertwerk voor Claude Mythos Preview, tegen een uur voor Claude 3.7 Sonnet begin 2025. Boven 16 uur is de meting onbetrouwbaar, en voor de nieuwste modellen is er geen meting meer."
-    grafiek: "METR-tijdshorizon per model, logaritmische schaal"
+    grafiek: "METR-time horizon per model, logaritmische schaal"
     volatiliteit: kwartaal
     bronnen: [metr, epoch, soai]
     beweringen: [K-FRT-019, K-FRT-020]
@@ -225,8 +225,8 @@ slides:
     beweringen: [K-FRT-006, K-FRT-023, K-FRT-027]
     status: gereed
   - id: FRT-09
-    titel: "Robotica heeft zijn GPT-2-moment: generalisatie groeit mee met voortraining"
-    kern: "Robotmodellen generaliseren beter naarmate ze meer voortraining krijgen. Data over handelen is het knelpunt; gesimuleerde werelden zijn een deel van de oplossing."
+    titel: "Robotica heeft zijn GPT-2-moment: generalisatie groeit mee met pre-training"
+    kern: "Robotmodellen generaliseren beter naarmate ze meer pre-training krijgen. Data over handelen is het knelpunt; gesimuleerde werelden zijn een deel van de oplossing."
     volatiliteit: kwartaal
     bronnen: [soai, skild-ai, sunday-robotics]
     beweringen: [K-FRT-024, K-FRT-031, K-FRT-032]
@@ -300,7 +300,7 @@ slides:
     status: gereed
   - id: MKT-08
     titel: "AI verkoopt steeds vaker het werk, niet het gereedschap"
-    kern: "Prijzen op basis van verbruik en resultaat nemen toe. Bij AI-bouwers stijgt het aandeel AI in de omzet van 32 naar 42 procent, met brutomarges van 45 naar 53 procent."
+    kern: "Usage-based en outcome-based pricing nemen toe. Bij AI-bouwers stijgt het aandeel AI in de omzet van 32 naar 42 procent, met brutomarges van 45 naar 53 procent."
     grafiek: "Aandeel AI-producten in de omzet en brutomarge bij AI-bouwers, 2025 tot 2027 (data/MKT-08_iconiq_ai_bouwers.csv, ICONIQ)"
     volatiliteit: kwartaal
     bronnen: [iconiq, soai]
@@ -342,7 +342,7 @@ slides:
     bronnen: [soai, earnings, epoch]
     beweringen: [K-INF-011, K-INF-012, K-INF-013]
     status: gereed
-    noot: "De data laten niet zien of de verschuiving specifiek bij inferentie zit; daarom de algemenere titel."
+    noot: "De data laten niet zien of de verschuiving specifiek bij inference zit; daarom de algemenere titel."
   - id: INF-04
     titel: "Zonder ASML geen AI: de keten loopt via Veldhoven en Taiwan"
     kern: "ASML boekte in 2025 de omzet van 48 EUV-machines, vier meer dan een jaar eerder, en verwacht dat de geplande capaciteit ook in 2027 en 2028 tekortschiet. TSMC in Taiwan maakt de chips: 79 procent van zijn waferomzet komt uit 7 nm en kleiner, en de vraag ligt volgens TSMC ver boven wat het kan leveren."
@@ -401,7 +401,7 @@ slides:
     noot: "Cijfers van McKinsey gecontroleerd in de PDF (K-WRK-013). Wereldwijde enquête; zo vermelden."
   - id: WRK-03
     titel: "Programmeren levert de meeste winst; in Nederland gaat AI vooral naar marketing"
-    kern: "Programmeerhulp levert de grootste productiviteitswinst. In Nederland is marketing en verkoop de meest genoemde toepassing."
+    kern: "Coding assistants leveren de grootste productiviteitswinst. In Nederland is marketing en verkoop de meest genoemde toepassing."
     grafiek: "Waarvoor Nederlandse bedrijven die AI gebruiken het inzetten, 2025 (data/WRK-03_toepassingen_nl.csv, CBS)"
     volatiliteit: kwartaal
     bronnen: [iconiq, cbs, gallup]
@@ -506,7 +506,7 @@ slides:
     status: gereed
   - id: SEC-08
     titel: "Media en creatieve sector: maken wordt goedkoop, aandacht en rechten worden schaars"
-    kern: "Beeld, video en tekst genereren kost bijna niets. Uitgevers en platforms procederen over hergebruik door antwoordmachines."
+    kern: "Beeld, video en tekst genereren kost bijna niets. Uitgevers en platforms procederen over hergebruik door answer engines."
     volatiliteit: kwartaal
     bronnen: [soai]
     beweringen: [K-SEC-007]
@@ -544,7 +544,7 @@ slides:
     beweringen: [K-GEO-002, K-SAM-002, K-SAM-003, K-GEO-010]
     status: gereed
   - id: SAM-03
-    titel: "Antwoordmachines groeien snel, en uitgevers stappen naar de rechter"
+    titel: "Answer engines groeien snel, en uitgevers stappen naar de rechter"
     kern: "Verkeer via AI-assistenten groeit hard maar is nog klein. Uitgevers procederen al tegen AI-zoekdiensten; uitspraken over aansprakelijkheid zijn er nog niet."
     volatiliteit: kwartaal
     bronnen: [soai, evans]
@@ -615,7 +615,7 @@ slides:
     status: gereed
   - id: GEO-05
     titel: "De AI Act: hoog-risicoregels uitgesteld, transparantieplichten gaan door"
-    kern: "Regels voor algemene modellen gelden sinds augustus 2025, transparantieplichten sinds augustus 2026. Hoog-risico schuift naar december 2027 en augustus 2028. Vanaf december 2026 is AI voor niet-consensuele naaktbeelden verboden."
+    kern: "Regels voor GPAI-modellen gelden sinds augustus 2025, transparantieplichten sinds augustus 2026. Hoog-risico schuift naar december 2027 en augustus 2028. Vanaf december 2026 is AI voor niet-consensuele naaktbeelden verboden."
     grafiek: "Tijdlijn AI Act, februari 2025 tot augustus 2028 (K-GEO-012, K-GEO-010, K-GOV-003)"
     volatiliteit: kwartaal
     bronnen: [eu-ai-act, soai]
@@ -654,7 +654,7 @@ slides:
     status: gereed
   - id: VEI-02
     titel: "AI voert in testomgevingen complete cyberaanvallen uit"
-    kern: "Op een aanvalsparcours van 32 stappen (ongeveer 20 uur werk voor een expert) slaagde het sterkste model in 6 van de 10 pogingen."
+    kern: "Op een cyber range van 32 stappen (ongeveer 20 uur werk voor een expert) slaagde het sterkste model in 6 van de 10 pogingen."
     volatiliteit: kwartaal
     bronnen: [uk-aisi, soai]
     beweringen: [K-VEI-001, K-VEI-006, K-VEI-007]
@@ -675,7 +675,7 @@ slides:
     status: gereed
   - id: VEI-05
     titel: "Agents staan al op laptops voordat de beveiliging het weet, en ze lekken gegevens"
-    kern: "Beveiliging hangt af van het model én het harnas. Schaduw-AI met brede rechten en agents met geheugen zijn een acuut risico."
+    kern: "Beveiliging hangt af van het model én de harness. Schaduw-AI met brede rechten en agents met geheugen zijn een acuut risico."
     volatiliteit: kwartaal
     bronnen: [soai]
     beweringen: [K-VEI-010]

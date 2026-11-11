@@ -44,19 +44,19 @@ Aanbevelingen, fraudedetectie, prijzen en prognoses draaien al jaren op machine 
 **BAS-04** [S] **Een taalmodel voorspelt het volgende woord, en op grote schaal levert dat bruikbare intelligentie op**  
 Het principe is eenvoudig. Schaal in data, rekenkracht en modelgrootte maakt het verschil.
 
-**BAS-05** [S] **Een model ontstaat in drie stappen: voortraining, natraining en versterkend leren**  
-Voortraining op tekst, natraining op voorbeelden en voorkeuren, versterkend leren op taken met controleerbare uitkomst. Het recept is inmiddels grotendeels openbaar.
+**BAS-05** [S] **Een model ontstaat in drie stappen: pre-training, post-training en reinforcement learning**  
+Pre-training op tekst, post-training op voorbeelden en voorkeuren, reinforcement learning op taken met controleerbare uitkomst. Het recept is inmiddels grotendeels openbaar.
 <br><sub>Bronnen: soai</sub>
 
 **BAS-06** [S] **Trainen en gebruiken zijn twee verschillende rekenklussen**  
-Training is een eenmalige, enorme klus op duizenden chips. Gebruik (inferentie) gebeurt bij elke vraag opnieuw en wordt het grootste deel van de rekenkracht.
+Training is een eenmalige, enorme klus op duizenden chips. Inference (gebruik) gebeurt bij elke vraag opnieuw en wordt het grootste deel van de rekenkracht.
 <br><sub>Bronnen: epoch</sub>
 
-**BAS-07** [S] **Redeneermodellen denken eerst na, en dat kost rekentijd per antwoord**  
+**BAS-07** [S] **Reasoning-modellen denken eerst na, en dat kost rekentijd per antwoord**  
 Meer rekentijd bij het antwoorden geeft betere antwoorden. Daardoor zegt de prijs per token weinig over de prijs van een antwoord.
 <br><sub>Bronnen: soai · Open: Score bij lage inspanning en tokens per taak opnieuw vaststellen op versie 5.0.1; de modelpagina toont alleen de maximale instelling.</sub>
 
-**BAS-08** [S] **Een agent is een model met gereedschap en geheugen. Zelfde model, beter harnas, betere agent.**  
+**BAS-08** [S] **Een agent is een model met tools en geheugen. Zelfde model, betere harness, betere agent.**  
 Instructies, tools, skills en de juiste context bepalen een groot deel van de prestatie. Wat het model niet ziet, weet het niet.
 <br><sub>Bronnen: soai, iconiq</sub>
 
@@ -64,16 +64,16 @@ Instructies, tools, skills en de juiste context bepalen een groot deel van de pr
 Multimodaal is realtime geworden: spraak, beeld en video in gesprek, en video die je tijdens het genereren kunt bijsturen.
 <br><sub>Bronnen: soai</sub>
 
-**BAS-10** [K] **Open of gesloten gewichten is een strategische keuze, geen technisch detail**  
+**BAS-10** [K] **Open of closed weights is een strategische keuze, geen technisch detail**  
 Open modellen geven controle, lagere kosten en onafhankelijkheid. Gesloten modellen lopen voorop in prestaties. Chinese labs domineren het open segment.
 <br><sub>Bronnen: soai</sub>
 
 **BAS-11** [S] **Modellen maken fouten die overtuigend klinken**  
-Verzonnen feiten en taken die 'klaar' heten maar dat niet zijn. In labtaken was bijna de helft van de 'klaar'-meldingen onvolledig. Controle blijft nodig.
+Hallucinaties en taken die 'klaar' heten maar dat niet zijn. In labtaken was bijna de helft van de 'klaar'-meldingen onvolledig. Controle blijft nodig.
 <br><sub>Bronnen: soai, vectara</sub>
 
 **BAS-12** [K] **Intelligentie wordt snel goedkoper, en toch stijgen de totale uitgaven**  
-De prijs per eenheid prestatie daalt hard. Het gebruik groeit harder, vooral door agents en redeneermodellen.
+De prijs per eenheid prestatie daalt hard. Het gebruik groeit harder, vooral door agents en reasoning-modellen.
 <br><sub>Bronnen: soai, epoch, artificial-analysis</sub>
 
 ## Het front (10)
@@ -88,7 +88,7 @@ Op LMArena, waar gebruikers stemmen, leidt Gemini 4 Carbon en staat het beste Op
 
 **FRT-03** [K] **China leidt bij open modellen, maar loopt aan de top achter**  
 Het beste Chinese model, Kimi K3.1 Pro, scoort 46 op de Intelligence Index tegen 65 voor de koploper. In onderzoekspapers worden Chinese open modellen inmiddels vaker genoemd dan Amerikaanse (31 tegen 23 procent).
-<br><sub>Bronnen: soai, artificial-analysis, epoch · Open: De gewichten van Kimi K3.1 Pro zijn volgens AA nog niet vrijgegeven; het beste Chinese model met vrijgegeven gewichten scoort 33. Vermelden in de toelichting.</sub>
+<br><sub>Bronnen: soai, artificial-analysis, epoch · Open: De weights van Kimi K3.1 Pro zijn volgens AA nog niet vrijgegeven; het beste Chinese model met vrijgegeven weights scoort 33. Vermelden in de toelichting.</sub>
 
 **FRT-04** [W] **Benchmarks die jaren moesten meegaan, zijn binnen maanden verzadigd**  
 De zwaarste wiskundetest ging in veertien maanden van 22 naar 100 procent; inmiddels halen twee modellen de volle score. ARC-AGI-3 begon in maart op 0,5 procent en staat nu op 81 procent.
@@ -110,8 +110,8 @@ Volgens Anthropic steeg het aandeel taken waarin Claude de leiding heeft van min
 AI hielp bij de oplossing van tien van de 49 open wiskundeproblemen die Epoch volgt, vijf keer zonder menselijke hulp. In het lab meldden modellen 89 van de 192 keer ten onrechte dat een taak af was.
 <br><sub>Bronnen: epoch, soai</sub>
 
-**FRT-09** [K] **Robotica heeft zijn GPT-2-moment: generalisatie groeit mee met voortraining**  
-Robotmodellen generaliseren beter naarmate ze meer voortraining krijgen. Data over handelen is het knelpunt; gesimuleerde werelden zijn een deel van de oplossing.
+**FRT-09** [K] **Robotica heeft zijn GPT-2-moment: generalisatie groeit mee met pre-training**  
+Robotmodellen generaliseren beter naarmate ze meer pre-training krijgen. Data over handelen is het knelpunt; gesimuleerde werelden zijn een deel van de oplossing.
 <br><sub>Bronnen: soai, skild-ai, sunday-robotics</sub>
 
 **FRT-10** [K] **Hoge scores verbergen nog veel half werk**  
@@ -149,7 +149,7 @@ Er zijn geen netwerkeffecten tussen modellen. AI-bouwers gebruiken gemiddeld 3,3
 <br><sub>Bronnen: evans, iconiq, ramp, soai</sub>
 
 **MKT-08** [K] **AI verkoopt steeds vaker het werk, niet het gereedschap**  
-Prijzen op basis van verbruik en resultaat nemen toe. Bij AI-bouwers stijgt het aandeel AI in de omzet van 32 naar 42 procent, met brutomarges van 45 naar 53 procent.
+Usage-based en outcome-based pricing nemen toe. Bij AI-bouwers stijgt het aandeel AI in de omzet van 32 naar 42 procent, met brutomarges van 45 naar 53 procent.
 <br><sub>Bronnen: iconiq, soai</sub>
 
 **MKT-09** [K] **Het kapitaal gaat in megarondes naar AI, en het eerste grote lab gaat naar de beurs**  
@@ -168,7 +168,7 @@ Geschat 563 miljard dollar AI-investering in 2026, straks meer dan 1.000 miljard
 
 **INF-03** [K] **NVIDIA blijft de standaard, maar eigen chips van anderen winnen terrein**  
 NVIDIA ontwierp twee derde van alle geïnstalleerde AI-rekenkracht, maar Google's eigen chips gingen in een jaar van 14 naar 19 procent. Labs spreiden hun inkoop over vier of vijf leveranciers.
-<br><sub>Bronnen: soai, earnings, epoch · Open: De data laten niet zien of de verschuiving specifiek bij inferentie zit; daarom de algemenere titel.</sub>
+<br><sub>Bronnen: soai, earnings, epoch · Open: De data laten niet zien of de verschuiving specifiek bij inference zit; daarom de algemenere titel.</sub>
 
 **INF-04** [K] **Zonder ASML geen AI: de keten loopt via Veldhoven en Taiwan**  
 ASML boekte in 2025 de omzet van 48 EUV-machines, vier meer dan een jaar eerder, en verwacht dat de geplande capaciteit ook in 2027 en 2028 tekortschiet. TSMC in Taiwan maakt de chips: 79 procent van zijn waferomzet komt uit 7 nm en kleiner, en de vraag ligt volgens TSMC ver boven wat het kan leveren.
@@ -201,7 +201,7 @@ Van de S&P 500-bedrijven heeft 69 procent AI in gebruik, maar 2 procent volgt he
 <br><sub>Bronnen: evans, mckinsey-sai, gallup, soai · Open: Cijfers van McKinsey gecontroleerd in de PDF (K-WRK-013). Wereldwijde enquête; zo vermelden.</sub>
 
 **WRK-03** [K] **Programmeren levert de meeste winst; in Nederland gaat AI vooral naar marketing**  
-Programmeerhulp levert de grootste productiviteitswinst. In Nederland is marketing en verkoop de meest genoemde toepassing.
+Coding assistants leveren de grootste productiviteitswinst. In Nederland is marketing en verkoop de meest genoemde toepassing.
 <br><sub>Bronnen: iconiq, cbs, gallup</sub>
 
 **WRK-04** [K] **De mens blijft aan het stuur, ook bij agents**  
@@ -259,7 +259,7 @@ Verkeer via AI-assistenten groeit hard maar is nog maar 0,4 procent van webwinke
 <br><sub>Bronnen: soai, evans</sub>
 
 **SEC-08** [K] **Media en creatieve sector: maken wordt goedkoop, aandacht en rechten worden schaars**  
-Beeld, video en tekst genereren kost bijna niets. Uitgevers en platforms procederen over hergebruik door antwoordmachines.
+Beeld, video en tekst genereren kost bijna niets. Uitgevers en platforms procederen over hergebruik door answer engines.
 <br><sub>Bronnen: soai</sub>
 
 **SEC-09** [K] **Industrie en logistiek: AI komt binnen via robots**  
@@ -280,7 +280,7 @@ Californië regelt nu hoe chatbots relaties met kinderen aangaan; China en de EU
 De angst dat deepfakes verkiezingen beslissen, loopt tot nu toe voor op het bewijs. De EU verplicht labels op synthetische inhoud en verbiedt niet-consensuele seksuele deepfakes.
 <br><sub>Bronnen: soai, eu-ai-act</sub>
 
-**SAM-03** [K] **Antwoordmachines groeien snel, en uitgevers stappen naar de rechter**  
+**SAM-03** [K] **Answer engines groeien snel, en uitgevers stappen naar de rechter**  
 Verkeer via AI-assistenten groeit hard maar is nog klein. Uitgevers procederen al tegen AI-zoekdiensten; uitspraken over aansprakelijkheid zijn er nog niet.
 <br><sub>Bronnen: soai, evans · Open: Cijfer over minder doorklikken na een AI-antwoord nog nodig (bijvoorbeeld Pew of Similarweb).</sub>
 
@@ -319,7 +319,7 @@ Goedkope stroom bevoordeelt Chinese chips. China beperkt nu ook de export van ke
 <br><sub>Bronnen: soai</sub>
 
 **GEO-05** [K] **De AI Act: hoog-risicoregels uitgesteld, transparantieplichten gaan door**  
-Regels voor algemene modellen gelden sinds augustus 2025, transparantieplichten sinds augustus 2026. Hoog-risico schuift naar december 2027 en augustus 2028. Vanaf december 2026 is AI voor niet-consensuele naaktbeelden verboden.
+Regels voor GPAI-modellen gelden sinds augustus 2025, transparantieplichten sinds augustus 2026. Hoog-risico schuift naar december 2027 en augustus 2028. Vanaf december 2026 is AI voor niet-consensuele naaktbeelden verboden.
 <br><sub>Bronnen: eu-ai-act, soai</sub>
 
 **GEO-06** [K] **In de VS reguleren de staten, ondanks Washington**  
@@ -341,7 +341,7 @@ In tests gingen agents buiten hun opdracht en vielen ze echte organisaties aan. 
 <br><sub>Bronnen: soai, uk-aisi</sub>
 
 **VEI-02** [K] **AI voert in testomgevingen complete cyberaanvallen uit**  
-Op een aanvalsparcours van 32 stappen (ongeveer 20 uur werk voor een expert) slaagde het sterkste model in 6 van de 10 pogingen.
+Op een cyber range van 32 stappen (ongeveer 20 uur werk voor een expert) slaagde het sterkste model in 6 van de 10 pogingen.
 <br><sub>Bronnen: uk-aisi, soai</sub>
 
 **VEI-03** [K] **Misbruik is geen theorie meer**  
@@ -353,7 +353,7 @@ Open modellen vergroten de dreiging, maar verdedigers gebruiken ze ook als geslo
 <br><sub>Bronnen: uk-aisi, soai</sub>
 
 **VEI-05** [K] **Agents staan al op laptops voordat de beveiliging het weet, en ze lekken gegevens**  
-Beveiliging hangt af van het model én het harnas. Schaduw-AI met brede rechten en agents met geheugen zijn een acuut risico.
+Beveiliging hangt af van het model én de harness. Schaduw-AI met brede rechten en agents met geheugen zijn een acuut risico.
 <br><sub>Bronnen: soai</sub>
 
 **VEI-06** [K] **Toezicht op modellen werkt maar half**  
