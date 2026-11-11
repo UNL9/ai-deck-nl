@@ -1,0 +1,11 @@
+# bron: ICONIQ, State of AI 2026: The Builder's Economy (mei 2026)
+# url: https://www.iconiqcapital.com/growth/reports
+# licentie: cijfers uit openbaar rapport, met bronvermelding; grafiek is eigen werk
+# opgehaald: 2026-11-10
+# enquête onder AI-bouwers: aandeel AI-producten in de omzet en brutomarge, in procenten; 2026 en 2027 zijn verwachtingen van de respondenten. Zie K-MKT-007.
+maatstaf,jaar,procent,soort
+aandeel AI-producten in omzet,2025,32,gerealiseerd
+aandeel AI-producten in omzet,2026,42,verwachting
+brutomarge,2025,45,gerealiseerd
+brutomarge,2026,53,verwachting
+brutomarge,2027,59,verwachting

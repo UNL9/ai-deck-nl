@@ -1,0 +1,9 @@
+# bron: Epoch AI, via State of AI Report 2026, slide 134 (K-INF-003)
+# url: https://epoch.ai/data/ai-chip-owners
+# licentie: CC-BY 4.0 (Epoch AI)
+# opgehaald: 2026-11-10
+# aandeel in de gedocumenteerde geïnstalleerde AI-rekenkracht exclusief China, in procenten (stand september 2026). 'Overig' is een afleiding: 100 min VS min EU-27. EU-27: 79.657 H100-equivalenten.
+regio,aandeel_pct,afgeleid
+VS,80,nee
+Overig (zonder China),15,ja
+EU-27,5,nee

@@ -12,4 +12,4 @@ Afspraken:
 - Voetregel: bron met peildatum, slide-ID en "stand JJJJ-MM-DD".
 - Huisstijl: `deck/stijl.md`. Achtergrond #FAFAF7, tekst #16181D, accent #1F4E9E, grijs voor de rest; letter Inter.
 
-Stand: proef met sectie Het front (FRT-01 tot en met FRT-10), 11 november 2026.
+Stand: alle 100 slides plus twaalf sectieopeners als concept, 11 november 2026. OPN-01 is de omslag.

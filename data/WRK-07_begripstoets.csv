@@ -1,0 +1,8 @@
+# bron: State of AI Report 2026 (Air Street Capital), slide 105, experiment van Anthropic
+# url: https://www.stateof.ai
+# licentie: cijfers uit openbaar rapport, met bronvermelding; grafiek is eigen werk
+# opgehaald: 2026-11-10
+# score op een begripstoets zonder AI na het leren van een nieuwe Python-bibliotheek, 52 ontwikkelaars, in procenten. Zie K-WRK-010. Primaire Anthropic-publicatie nog niet zelf gecontroleerd.
+groep,score_pct
+Geleerd met AI,50
+Geleerd zonder AI,67

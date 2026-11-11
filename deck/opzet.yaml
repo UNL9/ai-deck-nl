@@ -40,12 +40,12 @@ slides:
     titel: "AI in 2026: een overzicht voor bestuurders en commissarissen"
     kern: "Naslagwerk, wekelijks bijgewerkt. Elke slide heeft een vast ID, een bron en een peildatum."
     volatiliteit: wekelijks
-    status: opzet
+    status: concept
   - id: OPN-02
     titel: "Wat is er deze week veranderd"
     kern: "Maximaal tien punten uit het weekverslag, met per punt de geraakte slides."
     volatiliteit: wekelijks
-    status: opzet
+    status: concept
   - id: OPN-03
     titel: "Tien dingen die je nu moet weten over AI"
     kern: "De stand van zaken in tien zinnen. Wordt elk kwartaal herschreven."
@@ -62,7 +62,7 @@ slides:
       - "Agents doen soms wat werkt in plaats van wat bedoeld is, ook buiten de testomgeving. (VEI-01)"
     volatiliteit: kwartaal
     beweringen: [K-FRT-009, K-FRT-019, K-FRT-027, K-MKT-016, K-MKT-020, K-INF-006, K-NLD-004, K-WRK-007, K-GEO-003, K-VEI-004]
-    status: opzet
+    status: concept
     noot: "Punt 4: het OpenAI-deel komt uit de pers (K-MKT-015, te verifiëren); in de voetregel 'volgens berichten'."
 
 # ---------- HOE HET WERKT ----------
@@ -72,49 +72,49 @@ slides:
     grafiek: "Tijdlijn van platformverschuivingen"
     volatiliteit: stabiel
     bronnen: [evans]
-    status: opzet
+    status: concept
   - id: BAS-02
     titel: "AI is ouder dan ChatGPT: zeventig jaar van regels naar leren"
     kern: "Van regelgebaseerde systemen via machine learning en deep learning (2012) naar de transformer (2017) en ChatGPT (2022). Elke stap kwam door meer data en rekenkracht."
-    grafiek: "Tijdlijn 1956 tot nu met de doorbraken"
+    grafiek: "Tijdlijn in vijf kaarten: 1956, 1980, 2012, 2017, 2022"
     volatiliteit: stabiel
     bronnen: [ai-index]
     beweringen: [K-BAS-001]
-    status: opzet
+    status: concept
   - id: BAS-03
     titel: "De meeste AI-waarde zat tot nu toe in voorspellende modellen, niet in chatbots"
     kern: "Aanbevelingen, fraudedetectie, prijzen en prognoses draaien al jaren op machine learning. Generatieve AI komt daar bovenop, niet in de plaats van."
     grafiek: "Twee families: voorspellende en generatieve AI, met voorbeelden"
     volatiliteit: stabiel
-    status: opzet
+    status: concept
   - id: BAS-04
     titel: "Een taalmodel voorspelt het volgende woord, en op grote schaal levert dat bruikbare intelligentie op"
     kern: "Het principe is eenvoudig. Schaal in data, rekenkracht en modelgrootte maakt het verschil."
-    grafiek: "Schema: tekst in, waarschijnlijkheden uit"
+    grafiek: "Schema: tekst in, taalmodel, waarschijnlijkheden uit (illustratie zonder cijfers)"
     volatiliteit: stabiel
-    status: opzet
+    status: concept
   - id: BAS-05
     titel: "Een model ontstaat in drie stappen: voortraining, natraining en versterkend leren"
     kern: "Voortraining op tekst, natraining op voorbeelden en voorkeuren, versterkend leren op taken met controleerbare uitkomst. Het recept is inmiddels grotendeels openbaar."
     grafiek: "Drie stappen met per stap data, kosten en resultaat"
     volatiliteit: stabiel
     bronnen: [soai]
-    status: opzet
+    status: concept
   - id: BAS-06
     titel: "Trainen en gebruiken zijn twee verschillende rekenklussen"
     kern: "Training is een eenmalige, enorme klus op duizenden chips. Gebruik (inferentie) gebeurt bij elke vraag opnieuw en wordt het grootste deel van de rekenkracht."
-    grafiek: "Schema training versus inferentie, met de rol van GPU's"
+    grafiek: "Schema training versus inferentie, met een gestapelde balk van de chipinzet bij MAI-Thinking-1 (data/BAS-06_mai_thinking_chips.csv)"
     volatiliteit: stabiel
     bronnen: [epoch]
     beweringen: [K-BAS-002, K-BAS-003]
-    status: opzet
+    status: concept
   - id: BAS-07
     titel: "Redeneermodellen denken eerst na, en dat kost rekentijd per antwoord"
     kern: "Meer rekentijd bij het antwoorden geeft betere antwoorden. Daardoor zegt de prijs per token weinig over de prijs van een antwoord."
     volatiliteit: stabiel
     bronnen: [soai]
     beweringen: [K-BAS-004]
-    status: opzet
+    status: concept
   - id: BAS-08
     titel: "Een agent is een model met gereedschap en geheugen. Zelfde model, beter harnas, betere agent."
     kern: "Instructies, tools, skills en de juiste context bepalen een groot deel van de prestatie. Wat het model niet ziet, weet het niet."
@@ -122,35 +122,35 @@ slides:
     volatiliteit: stabiel
     bronnen: [soai, iconiq]
     beweringen: [K-BAS-005]
-    status: opzet
+    status: concept
   - id: BAS-09
     titel: "Modellen zien, horen en spreken nu in één doorlopende interactie"
     kern: "Multimodaal is realtime geworden: spraak, beeld en video in gesprek, en video die je tijdens het genereren kunt bijsturen."
     volatiliteit: kwartaal
     bronnen: [soai]
-    status: opzet
+    status: concept
   - id: BAS-10
     titel: "Open of gesloten gewichten is een strategische keuze, geen technisch detail"
     kern: "Open modellen geven controle, lagere kosten en onafhankelijkheid. Gesloten modellen lopen voorop in prestaties. Chinese labs domineren het open segment."
     volatiliteit: kwartaal
     bronnen: [soai]
     beweringen: [K-FRT-014, K-FRT-016, K-MKT-026]
-    status: opzet
+    status: concept
   - id: BAS-11
     titel: "Modellen maken fouten die overtuigend klinken"
     kern: "Verzonnen feiten en taken die 'klaar' heten maar dat niet zijn. In labtaken was bijna de helft van de 'klaar'-meldingen onvolledig. Controle blijft nodig."
     volatiliteit: stabiel
     bronnen: [soai]
     beweringen: [K-FRT-027, K-FRT-025]
-    status: opzet
+    status: concept
   - id: BAS-12
     titel: "Intelligentie wordt snel goedkoper, en toch stijgen de totale uitgaven"
     kern: "De prijs per eenheid prestatie daalt hard. Het gebruik groeit harder, vooral door agents en redeneermodellen."
-    grafiek: "Prijs per miljoen tokens bij gelijke prestatie, over tijd (Epoch-data)"
     volatiliteit: kwartaal
     bronnen: [soai, epoch, artificial-analysis]
     beweringen: [K-BAS-006, K-BAS-007, K-BAS-003, K-INF-006]
-    status: opzet
+    status: concept
+    noot: "Gewenste grafiek: Prijs per miljoen tokens bij gelijke prestatie, over tijd (Epoch-data); nu grote getallen; bouwen zodra de Epoch-reeks in data/ staat."
 
 # ---------- HET FRONT ----------
   - id: FRT-01
@@ -246,24 +246,25 @@ slides:
     volatiliteit: wekelijks
     bronnen: [soai, lab-blogs, sec-edgar, financiele-pers]
     beweringen: [K-MKT-001, K-MKT-002, K-MKT-010, K-MKT-011, K-MKT-012, K-MKT-015, K-MKT-016]
-    status: opzet
+    status: concept
     noot: "OpenAI-cijfer volgens berichten (K-MKT-015, te verifiëren). Voor OpenAI bestaat geen gepubliceerde reeks; de grafiek toont alleen Anthropic."
   - id: MKT-02
     titel: "De omzet van twee AI-labs is al groter dan hele sectoren die ze willen veranderen"
     kern: "Ruim 130 miljard dollar is ruim vier keer de omzet van TCS en meer dan de helft van die van de Big Four samen (220 miljard)."
+    grafiek: "Omzet van Anthropic en OpenAI op jaarbasis naast de jaaromzet van de Big Four en TCS, miljard dollar (data/MKT-02_omzet_vergelijking.csv)"
     volatiliteit: kwartaal
     bronnen: [soai, sec-edgar, jaarcijfers-dienstverleners]
     beweringen: [K-MKT-001, K-MKT-016, K-MKT-017]
-    status: opzet
+    status: concept
     noot: "Het OpenAI-deel van de som komt uit de pers (K-MKT-016, te verifiëren); in de voetregel 'volgens berichten'. Infosys in dollars nog niet vastgesteld."
   - id: MKT-03
     titel: "Ruim een miljard mensen gebruikt ChatGPT, maar meestal oppervlakkig"
     kern: "1,2 miljard wekelijkse gebruikers in september 2026, tegen 800 miljoen een jaar eerder. In 2025 stuurde minstens 80 procent minder dan 1.000 berichten in het hele jaar."
-    grafiek: "Wekelijkse gebruikers ChatGPT over tijd"
+    grafiek: "Wekelijkse gebruikers ChatGPT, oktober 2025, februari 2026 en september 2026 (data/MKT-03_chatgpt_gebruikers.csv)"
     volatiliteit: kwartaal
     bronnen: [evans, openai-research, lab-blogs]
     beweringen: [K-MKT-005, K-MKT-018, K-MKT-019]
-    status: opzet
+    status: concept
     noot: "Het betaalde aandeel (5 procent) gold bij 900 miljoen gebruikers; weer opnemen als er een nieuw cijfer is."
   - id: MKT-04
     titel: "Zakelijke AI-uitgaven gaan vrijwel volledig naar twee labs"
@@ -272,7 +273,7 @@ slides:
     volatiliteit: wekelijks
     bronnen: [ramp, soai, menlo]
     beweringen: [K-MKT-003, K-MKT-020, K-MKT-021, K-MKT-026, K-MKT-027]
-    status: opzet
+    status: concept
     noot: "Amerikaanse cijfers; zo vermelden. Menlo (K-MKT-027) ziet met een enquête hetzelfde beeld: 55 procent Anthropic, 31 procent OpenAI."
   - id: MKT-05
     titel: "Agents breken door buiten de IT-afdeling"
@@ -280,56 +281,57 @@ slides:
     volatiliteit: kwartaal
     bronnen: [soai, sec-edgar]
     beweringen: [K-MKT-004, K-MKT-013, K-MKT-014]
-    status: opzet
+    status: concept
   - id: MKT-06
     titel: "Eén productlancering kostte softwarebedrijven 285 miljard dollar aan beurswaarde"
     kern: "Na de lancering van Claude Cowork daalde de softwarebeurs in februari scherp. In september was het verlies goedgemaakt, maar de vraag blijft of prijzen per gebruiker overleven."
-    grafiek: "S&P 500 software-index, oktober 2025 tot nu"
     volatiliteit: kwartaal
     bronnen: [soai]
     beweringen: [K-MKT-006]
-    status: opzet
+    status: concept
+    noot: "Gewenste grafiek: S&P 500 software-index, oktober 2025 tot nu; nu zonder grafiek; de S&P-reeks staat niet in data/."
   - id: MKT-07
     titel: "Modellen zijn uitwisselbaar, en bedrijven gebruiken er meerdere naast elkaar"
     kern: "Er zijn geen netwerkeffecten tussen modellen. AI-bouwers gebruiken gemiddeld 3,3 aanbieders; waarde verschuift naar product, distributie en integratie in werkprocessen."
     volatiliteit: kwartaal
     bronnen: [evans, iconiq, ramp, soai]
     beweringen: [K-MKT-008, K-MKT-021, K-MKT-026]
-    status: opzet
+    status: concept
   - id: MKT-08
     titel: "AI verkoopt steeds vaker het werk, niet het gereedschap"
     kern: "Prijzen op basis van verbruik en resultaat nemen toe. Bij AI-bouwers stijgt het aandeel AI in de omzet van 32 naar 42 procent, met brutomarges van 45 naar 53 procent."
+    grafiek: "Aandeel AI-producten in de omzet en brutomarge bij AI-bouwers, 2025 tot 2027 (data/MKT-08_iconiq_ai_bouwers.csv, ICONIQ)"
     volatiliteit: kwartaal
     bronnen: [iconiq, soai]
     beweringen: [K-MKT-007]
-    status: opzet
+    status: concept
   - id: MKT-09
     titel: "Het kapitaal gaat in megarondes naar AI, en het eerste grote lab gaat naar de beurs"
     kern: "94 procent van het geïnvesteerde geld in 2026 zat in rondes van 250 miljoen dollar of meer. Waarderingen verdubbelden in 3,5 tot 13 maanden. Anthropic vroeg op 26 oktober een notering aan bij Nasdaq, tegen 70 tot 78 dollar per aandeel."
     volatiliteit: kwartaal
     bronnen: [soai, sec-edgar]
     beweringen: [K-MKT-011, K-MKT-022, K-MKT-023, K-MKT-024]
-    status: opzet
+    status: concept
     noot: "Het kwartaal met operationele winst van Anthropic (Q2 2026) kan in de toelichting."
 
 # ---------- INFRASTRUCTUUR, CHIPS EN ENERGIE ----------
   - id: INF-01
     titel: "De vier grote clouds investeren dit jaar 733 miljard dollar"
     kern: "Een stijging van ruim 300 miljard in één jaar. Alleen al in het derde kwartaal gaven ze samen ruim 200 miljard uit."
-    grafiek: "Jaarlijkse investeringen per bedrijf, 2010 tot 2025, uit de jaarverslagen (data/INF-01_capex_hyperscalers.csv), met de verwachting voor 2026 als losse markering"
+    grafiek: "Jaarlijkse investeringen van de vier samen, 2010 tot 2025, uit de jaarverslagen (data/INF-01_capex_hyperscalers.csv), met de verwachting voor 2026 als aparte staaf"
     volatiliteit: kwartaal
     bronnen: [earnings, sec-edgar, soai, evans]
     beweringen: [K-INF-001, K-INF-006, K-INF-007, K-INF-008]
-    status: opzet
+    status: concept
     noot: "SoAI spreekt zichzelf tegen over de stijging (349 of 323 miljard); daarom 'ruim 300 miljard'. De vergelijking met de telecomsector is geschrapt: geen bron."
   - id: INF-02
     titel: "Bijna twee derde gaat naar AI, en kapitaalarme techbedrijven zijn kapitaalintensief geworden"
     kern: "Geschat 563 miljard dollar AI-investering in 2026, straks meer dan 1.000 miljard per jaar. Financiering loopt steeds vaker via constructies buiten de balans."
-    grafiek: "Investeringen als percentage van omzet per bedrijf, 2010 tot 2025 (kolom capex_pct_omzet in data/INF-01_capex_hyperscalers.csv)"
+    grafiek: "Investeringen als percentage van omzet per bedrijf, 2010 tot 2025, Microsoft tot en met boekjaar 2026 (kolom capex_pct_omzet in data/INF-01_capex_hyperscalers.csv)"
     volatiliteit: kwartaal
     bronnen: [soai, evans, sec-edgar]
     beweringen: [K-INF-002, K-INF-008, K-INF-009, K-INF-010]
-    status: opzet
+    status: concept
     noot: "Voorbeeld van financiering buiten de balans: het leasecontract van Anthropic, 125 miljard dollar over vijf jaar (K-INF-009)."
   - id: INF-03
     titel: "NVIDIA blijft de standaard, maar eigen chips van anderen winnen terrein"
@@ -338,7 +340,7 @@ slides:
     volatiliteit: kwartaal
     bronnen: [soai, earnings, epoch]
     beweringen: [K-INF-011, K-INF-012, K-INF-013]
-    status: opzet
+    status: concept
     noot: "De data laten niet zien of de verschuiving specifiek bij inferentie zit; daarom de algemenere titel."
   - id: INF-04
     titel: "Zonder ASML geen AI: de keten loopt via Veldhoven en Taiwan"
@@ -346,7 +348,7 @@ slides:
     volatiliteit: kwartaal
     bronnen: [soai, earnings]
     beweringen: [K-INF-014, K-INF-015]
-    status: opzet
+    status: concept
     noot: "Voor de rol van TSMC als begrenzing is nog geen bron opgenomen."
   - id: INF-05
     titel: "Rekenkracht is schaars: oude chips blijven verhuurd en prijzen stijgen weer"
@@ -354,7 +356,7 @@ slides:
     volatiliteit: kwartaal
     bronnen: [soai]
     beweringen: [K-INF-016]
-    status: opzet
+    status: concept
   - id: INF-06
     titel: "Stroom is het nieuwe knelpunt, en Europa betaalt er veel meer voor"
     kern: "AI-bedrijven overbieden energiebedrijven voor turbines. Eén cent per kWh extra kost een datacenter van 1 GW bijna 88 miljoen dollar per jaar; het VK betaalt vier keer de Amerikaanse prijs."
@@ -362,16 +364,16 @@ slides:
     volatiliteit: kwartaal
     bronnen: [soai, iea-energy-ai, eurostat]
     beweringen: [K-INF-005, K-INF-017, K-INF-018, K-SAM-007]
-    status: opzet
+    status: concept
     noot: "VS en VK (SoAI, dollars, ander jaar) niet in dezelfde grafiek als de Eurostat-cijfers."
   - id: INF-07
     titel: "Europa heeft 5 procent van de rekenkracht, en zet 1 miljard euro in tegen honderden miljarden"
     kern: "Exclusief China heeft de VS 80 procent. Eén cluster van xAI heeft 3,5 keer zoveel als de hele EU. Het eerste EU-bedrag voor gigafabrieken is 1 miljard euro."
-    grafiek: "Geïnstalleerde AI-rekenkracht per regio (Epoch-data)"
+    grafiek: "Aandeel in de gedocumenteerde AI-rekenkracht buiten China: VS, EU-27 en overig (data/INF-07_rekenkracht_regio.csv, Epoch via State of AI)"
     volatiliteit: kwartaal
     bronnen: [epoch, soai, eurohpc]
     beweringen: [K-INF-003, K-INF-004, K-INF-019]
-    status: opzet
+    status: concept
     noot: "De aanbesteding sluit op 3 december 2026 (grote gigafabrieken) en 4 februari 2027 (middelgrote). De EU mikt op meer dan 30 miljard aan investeringen in totaal; dat getal hoort naast de 1 miljard."
   - id: INF-08
     titel: "Is dit een bubbel? De betere vraag is wanneer gebruik en kosten in evenwicht komen"
@@ -379,7 +381,7 @@ slides:
     volatiliteit: stabiel
     bronnen: [evans]
     beweringen: [K-INF-008, K-INF-016]
-    status: opzet
+    status: concept
 
 # ---------- WERK EN ORGANISATIE ----------
   - id: WRK-01
@@ -387,40 +389,39 @@ slides:
     kern: "Nieuwe technologie wordt eerst ingepast in bestaand werk, dan ontstaan nieuwe werkwijzen, pas daarna nieuwe bedrijven en markten."
     volatiliteit: stabiel
     bronnen: [evans]
-    status: opzet
+    status: concept
   - id: WRK-02
     titel: "Iedereen heeft een pilot, weinigen hebben productie"
     kern: "Van de S&P 500-bedrijven heeft 69 procent AI in gebruik, maar 2 procent volgt het effect over tijd. Een kwart van de Amerikaanse werknemers zegt dat hun organisatie een duidelijk plan voor AI heeft."
+    grafiek: "Fase van AI-gebruik bij organisaties die AI gebruiken, 2025 en 2026: experimenteren, pilot, opschalen (data/WRK-02_fase_ai_gebruik.csv, McKinsey)"
     volatiliteit: kwartaal
     bronnen: [evans, mckinsey-sai, gallup, soai]
     beweringen: [K-WRK-004, K-WRK-005, K-WRK-006, K-WRK-007, K-WRK-013]
-    status: herzien
+    status: concept
     noot: "Cijfers van McKinsey gecontroleerd in de PDF (K-WRK-013). Wereldwijde enquête; zo vermelden."
-    voorstel:
-      grafiek: "Fase van AI-gebruik bij organisaties die AI gebruiken, 2025 en 2026: experimenteren, pilot, opschalen (data/WRK-02_fase_ai_gebruik.csv, McKinsey)"
-      reden: "De McKinsey-PDF is binnen. Per functie geeft McKinsey alleen cijfers over agents, en die zijn uit de PDF niet betrouwbaar af te lezen; daarom de fasen van AI-gebruik in totaal. 44 procent schaalt op, tegen 38 procent een jaar eerder. Titel en kern blijven staan."
   - id: WRK-03
     titel: "De meeste winst zit nu in programmeren, klantenservice en marketing"
     kern: "Programmeerhulp levert de grootste productiviteitswinst. In Nederland is marketing en verkoop de meest genoemde toepassing."
+    grafiek: "Waarvoor Nederlandse bedrijven die AI gebruiken het inzetten, 2025 (data/WRK-03_toepassingen_nl.csv, CBS)"
     volatiliteit: kwartaal
     bronnen: [iconiq, cbs, gallup]
     beweringen: [K-NLD-002, K-WRK-006, K-WRK-008]
-    status: opzet
+    status: concept
   - id: WRK-04
     titel: "De mens blijft aan het stuur, ook bij agents"
     kern: "In 72 procent van de onderzochte gesprekken leidt de mens en assisteert AI. Bij taken met meerdere stappen grijpt een mens vaak in, waardoor de winst van agents beperkt blijft."
     volatiliteit: kwartaal
     bronnen: [soai, iconiq, anthropic-econ]
     beweringen: [K-MKT-009, K-WRK-009]
-    status: opzet
+    status: concept
   - id: WRK-05
     titel: "Een taak automatiseren is iets anders dan een baan vervangen"
     kern: "De liftbediende verdween, de accountant niet. Automatisering verandert vaker het werk dan dat ze het opheft."
-    grafiek: "Liftbedienden en accountants als aandeel van werkgelegenheid"
+    grafiek: "Verandering in werkgelegenheid in de VS per beroep, mei 2023 tot mei 2025 (data/WRK-05_werkgelegenheid_vs.csv)"
     volatiliteit: stabiel
     bronnen: [evans]
     beweringen: [K-WRK-011]
-    status: opzet
+    status: concept
     noot: "Grafiekdata nog nodig: historische beroepentelling VS (IPUMS of Census); Evans geeft alleen de grafiek. Bewering K-WRK-011 kan als actueel voorbeeld."
   - id: WRK-06
     titel: "Jonge werknemers lijken het eerst geraakt"
@@ -428,28 +429,29 @@ slides:
     volatiliteit: kwartaal
     bronnen: [soai, anthropic-econ]
     beweringen: [K-WRK-001]
-    status: opzet
+    status: concept
   - id: WRK-07
     titel: "AI kan ook kennis kosten"
     kern: "Ontwikkelaars die met AI een nieuwe bibliotheek leerden, konden de code daarna slechter uitleggen en fouten slechter vinden."
+    grafiek: "Score op een begripstoets zonder AI, geleerd met en zonder AI (data/WRK-07_begripstoets.csv)"
     volatiliteit: stabiel
     bronnen: [soai]
     beweringen: [K-WRK-010]
-    status: opzet
+    status: concept
   - id: WRK-08
     titel: "De bouw van AI levert ook banen op"
     kern: "In de VS naar schatting 320.000 extra banen in infrastructuur en 730.000 in AI-gerelateerde beroepen."
     volatiliteit: kwartaal
     bronnen: [soai]
     beweringen: [K-WRK-002, K-WRK-011]
-    status: opzet
+    status: concept
   - id: WRK-09
     titel: "Organisaties worden platter, en de koplopers besteden honderden keren meer"
     kern: "45 procent van de AI-bouwers plant een andere rolverdeling, 33 procent een kleiner team. De top 1 procent besteedt 580 keer zoveel aan AI per medewerker als de mediaan."
     volatiliteit: kwartaal
     bronnen: [iconiq, soai, ramp]
     beweringen: [K-WRK-003, K-WRK-012]
-    status: opzet
+    status: concept
 
 # ---------- TOEPASSINGEN PER SECTOR ----------
   - id: SEC-01
@@ -459,14 +461,14 @@ slides:
     volatiliteit: kwartaal
     bronnen: [cbs, gallup, eurostat]
     beweringen: [K-NLD-002, K-SEC-001]
-    status: opzet
+    status: concept
   - id: SEC-02
     titel: "Zorg: van beeldherkenning naar administratie en medicijnontwikkeling"
     kern: "Radiologie gebruikt AI al jaren. Nu volgen verslaglegging en planning, en door AI ontdekte medicijnen zitten in fase 3."
     volatiliteit: kwartaal
     bronnen: [soai, ai-index]
     beweringen: [K-FRT-007]
-    status: opzet
+    status: concept
     noot: "Voorbeelden uit de Nederlandse zorg toevoegen"
   - id: SEC-03
     titel: "Financiële sector: sterk bij afgebakende taken, zwak bij complete opdrachten"
@@ -474,59 +476,60 @@ slides:
     volatiliteit: kwartaal
     bronnen: [soai, dnb-afm]
     beweringen: [K-SEC-002]
-    status: opzet
+    status: concept
   - id: SEC-04
     titel: "Juridische en professionele diensten: het verdienmodel per uur staat onder druk"
     kern: "Als werk goedkoop wordt, is het uurtarief geen goede maatstaf meer. De labs richten zich expliciet op juridisch, accountancy en advies."
+    grafiek: "Omzet van de Big Four, boekjaar 2025 (data/SEC-04_omzet_big_four.csv)"
     volatiliteit: kwartaal
     bronnen: [soai]
     beweringen: [K-SEC-003, K-MKT-006, K-MKT-017]
-    status: opzet
+    status: concept
   - id: SEC-05
     titel: "Overheid: grote belofte, en een harde les uit de toeslagenaffaire"
     kern: "AI kan dienstverlening en uitvoering verbeteren. De toeslagenaffaire liet zien wat er gebeurt als een risicomodel discrimineert en niemand het controleert."
     volatiliteit: stabiel
     bronnen: [rijksoverheid, ap-ran]
     beweringen: [K-SEC-004]
-    status: opzet
+    status: concept
   - id: SEC-06
     titel: "Onderwijs: de beste tutor geeft niet meteen het antwoord"
     kern: "Een gerandomiseerde proef met 1.763 leerlingen liet na acht weken betere wiskundescores zien. Algemene assistenten helpen te veel; leren vraagt ander gedrag."
     volatiliteit: kwartaal
     bronnen: [soai]
     beweringen: [K-SEC-005]
-    status: opzet
+    status: concept
   - id: SEC-07
     titel: "Handel: AI-assistenten worden een nieuw winkelkanaal"
     kern: "Verkeer via AI-assistenten groeit hard maar is nog maar 0,4 procent van webwinkelbezoek, en converteert beter. Zoeken via AI vult zoekmachines voorlopig vooral aan."
     volatiliteit: kwartaal
     bronnen: [soai, evans]
     beweringen: [K-SEC-006]
-    status: opzet
+    status: concept
   - id: SEC-08
     titel: "Media en creatieve sector: maken wordt goedkoop, aandacht en rechten worden schaars"
     kern: "Beeld, video en tekst genereren kost bijna niets. Uitgevers verliezen bezoek aan antwoordmachines en procederen over hergebruik."
     volatiliteit: kwartaal
     bronnen: [soai]
     beweringen: [K-SEC-007]
-    status: opzet
+    status: concept
   - id: SEC-09
     titel: "Industrie en logistiek: AI komt via robots, planning en onderhoud"
     kern: "Unitree verkocht 5.215 humanoïde robots in 2025 en is winstgevend. Robots bouwen al mee aan datacenters."
+    grafiek: "Verkochte humanoïde robots van Unitree, 2024 en 2025 (data/SEC-09_unitree_humanoiden.csv)"
     volatiliteit: kwartaal
     bronnen: [soai]
     beweringen: [K-SEC-008]
-    status: opzet
+    status: concept
     noot: "'Robots bouwen al mee aan datacenters' nog niet onderbouwd met een bewering."
   - id: SEC-10
     titel: "Mobiliteit: zelfrijdende auto's zijn een dienst geworden, geen experiment"
     kern: "Waymo reed tot juli 271 miljoen mijl zonder chauffeur, met 95 procent minder ernstige ongevallen dan menselijke bestuurders op dezelfde wegen. Het bedrijf doet ruim 500.000 betaalde ritten per week."
-    grafiek: "Waymo-mijlen zonder chauffeur over tijd"
     volatiliteit: kwartaal
     bronnen: [soai, lab-blogs]
     beweringen: [K-FRT-008, K-SEC-009]
-    status: opzet
-    noot: "Stand in Europa toevoegen. Ritten per week en aantal steden zijn nog de SoAI-stand. Het zijn eigen cijfers van Waymo; zo vermelden."
+    status: concept
+    noot: "Stand in Europa toevoegen. Ritten per week en aantal steden zijn nog de SoAI-stand. Het zijn eigen cijfers van Waymo; zo vermelden. Gewenste grafiek: Waymo-mijlen zonder chauffeur over tijd; nu zonder grafiek; twee meetpunten zijn te weinig voor een reeks over tijd."
 
 # ---------- SAMENLEVING ----------
   - id: SAM-01
@@ -535,22 +538,22 @@ slides:
     volatiliteit: kwartaal
     bronnen: [soai]
     beweringen: [K-SAM-001]
-    status: opzet
+    status: concept
     noot: "'Voor veel mensen' nog niet met een cijfer onderbouwd (aandeel gebruikers dat chatbots als gezelschap gebruikt)."
   - id: SAM-02
     titel: "Echt en nep zijn steeds moeilijker te onderscheiden"
     kern: "Deepfakes worden ingezet voor fraude en beïnvloeding. De EU verplicht labels op synthetische inhoud en verbiedt niet-consensuele seksuele deepfakes."
     volatiliteit: kwartaal
     bronnen: [soai, eu-ai-act]
-    beweringen: [K-GEO-002, K-SAM-002, K-SAM-003]
-    status: opzet
+    beweringen: [K-GEO-002, K-SAM-002, K-SAM-003, K-GEO-003]
+    status: concept
   - id: SAM-03
     titel: "Antwoordmachines vervangen het zoeken, en dat raakt de hele informatievoorziening"
     kern: "Wie een antwoord krijgt, klikt niet meer door. Dat raakt uitgevers, adverteerders en de vindbaarheid van bronnen."
     volatiliteit: kwartaal
     bronnen: [soai, evans]
     beweringen: [K-SEC-006, K-SEC-007]
-    status: opzet
+    status: concept
     noot: "Cijfer over minder doorklikken na een AI-antwoord nog nodig (bijvoorbeeld Pew of Similarweb)."
   - id: SAM-04
     titel: "Auteursrecht: veel deals met uitgevers, de kernvragen liggen nog bij de rechter"
@@ -558,14 +561,15 @@ slides:
     volatiliteit: kwartaal
     bronnen: [soai, sec-edgar]
     beweringen: [K-SAM-004, K-SAM-005]
-    status: opzet
+    status: concept
   - id: SAM-05
     titel: "Het stroomverbruik van AI groeit snel en wordt een klimaatvraag"
     kern: "Datacenters gebruikten in 2025 circa 485 TWh, ruim 1,5 procent van alle stroom, en dat verdubbelt naar verwachting tot 2030. AI groeit drie keer zo snel als de rest. Gascentrales voor AI staan op gespannen voet met klimaatdoelen."
+    grafiek: "Stroomverbruik van datacenters wereldwijd, 2025 gemeten en 2030 verwachting van het IEA (data/SAM-05_stroom_datacenters.csv)"
     volatiliteit: kwartaal
     bronnen: [iea-energy-ai, soai]
     beweringen: [K-SAM-006, K-SAM-003, K-INF-018, K-SAM-007]
-    status: opzet
+    status: concept
     noot: "Het aandeel van ruim 1,5 procent is een afleiding uit de IEA-cijfers (K-SAM-007); in de voetregel zo vermelden."
   - id: SAM-06
     titel: "Modellen nemen over wat in de data zit, ook vooroordelen"
@@ -573,14 +577,15 @@ slides:
     volatiliteit: stabiel
     bronnen: [ap-ran, rathenau]
     beweringen: [K-SEC-004]
-    status: opzet
+    status: concept
   - id: SAM-07
     titel: "Wie profiteert? Het risico van een tweedeling"
     kern: "Tussen bedrijven (koplopers versus microbedrijven), tussen werknemers (ervaren versus starters) en tussen landen (wie rekenkracht heeft en wie niet)."
+    grafiek: "Nederlandse bedrijven die AI gebruiken naar aantal werkzame personen, 2025 (data/SAM-07_ai_gebruik_naar_grootte.csv, CBS)"
     volatiliteit: kwartaal
     bronnen: [soai, cbs, ramp, epoch]
     beweringen: [K-NLD-001, K-WRK-012, K-WRK-001, K-INF-003]
-    status: opzet
+    status: concept
 
 # ---------- GEOPOLITIEK EN REGELGEVING ----------
   - id: GEO-01
@@ -589,59 +594,60 @@ slides:
     volatiliteit: kwartaal
     bronnen: [soai]
     beweringen: [K-GEO-004]
-    status: opzet
+    status: concept
   - id: GEO-02
     titel: "Wie bepaalt de grenzen van militair AI-gebruik: de overheid of het lab?"
     kern: "Het conflict tussen Anthropic en het Pentagon, terwijl frontier-AI al in militaire operaties wordt ingezet."
     volatiliteit: kwartaal
     bronnen: [soai]
     beweringen: [K-GEO-005]
-    status: opzet
+    status: concept
   - id: GEO-03
     titel: "67 landen bouwen aan soevereine AI, maar soevereiniteit kun je niet huren"
     kern: "Buiten de VS en China lopen 184 overheidsprojecten met samen circa 84 miljard dollar. Wie niet aan de frontier meedoet, moet onderhandelen over toegang."
-    grafiek: "Aantal soevereine AI-projecten, cumulatief"
     volatiliteit: kwartaal
     bronnen: [cnas-sovereign, soai]
     beweringen: [K-GEO-001, K-GEO-006]
-    status: opzet
+    status: concept
+    noot: "Gewenste grafiek: Aantal soevereine AI-projecten, cumulatief; vraagt jaarcijfers van CNAS; de kennisbank heeft alleen 2023 (18) en 2026 (184)."
   - id: GEO-04
     titel: "China bouwt een eigen keten, van stroom tot chips"
     kern: "Goedkope stroom bevoordeelt Chinese chips. China beperkt nu ook de export van kennis."
     volatiliteit: kwartaal
     bronnen: [soai]
     beweringen: [K-GEO-007, K-INF-012]
-    status: opzet
+    status: concept
   - id: GEO-05
     titel: "De AI Act: hoog-risicoregels uitgesteld, transparantieplichten gaan door"
     kern: "Regels voor algemene modellen gelden sinds augustus 2025, transparantieplichten sinds augustus 2026. Hoog-risico schuift naar december 2027 en augustus 2028. Vanaf december 2026 is AI voor niet-consensuele naaktbeelden verboden."
-    grafiek: "Tijdlijn AI Act"
+    grafiek: "Tijdlijn AI Act, februari 2025 tot augustus 2028 (K-GEO-003, K-GOV-001)"
     volatiliteit: kwartaal
     bronnen: [eu-ai-act, soai]
-    beweringen: [K-GEO-002, K-GEO-003]
-    status: opzet
+    beweringen: [K-GEO-002, K-GEO-003, K-GOV-001]
+    status: concept
   - id: GEO-06
     titel: "In de VS reguleren de staten, ondanks Washington"
     kern: "Californië bouwt onafhankelijk toezicht op veiligheidsclaims. De federale overheid wil één nationaal kader."
     volatiliteit: kwartaal
     bronnen: [soai]
     beweringen: [K-GEO-008]
-    status: opzet
+    status: concept
   - id: GEO-07
     titel: "Verzet tegen datacenters groeit"
     kern: "Amerikaanse staten stellen strengere voorwaarden. Het antwoord van Washington: betaal je eigen stroom."
+    grafiek: "Amerikanen tegen een AI-datacenter of kerncentrale in de eigen omgeving (data/GEO-07_verzet_lokaal.csv)"
     volatiliteit: kwartaal
     bronnen: [soai]
     beweringen: [K-SAM-003]
-    status: opzet
+    status: concept
     noot: "'Betaal je eigen stroom' en de strengere voorwaarden van staten nog niet onderbouwd met een bewering."
   - id: GEO-08
     titel: "Een Europees frontierlab kost honderden miljarden"
     kern: "Eén berekening komt op 790 miljard euro in drie jaar. Europa kan ook onderhandelen met locaties, stroom en chipmachines."
     volatiliteit: stabiel
     bronnen: [soai]
-    beweringen: [K-GEO-009]
-    status: opzet
+    beweringen: [K-GEO-009, K-FRT-014, K-FRT-009]
+    status: concept
 
 # ---------- VEILIGHEID EN RISICO ----------
   - id: VEI-01
@@ -650,59 +656,59 @@ slides:
     volatiliteit: kwartaal
     bronnen: [soai, uk-aisi]
     beweringen: [K-VEI-004, K-VEI-005, K-VEI-007]
-    status: opzet
+    status: concept
   - id: VEI-02
     titel: "AI voert in testomgevingen complete cyberaanvallen uit"
     kern: "Op een aanvalsparcours van 32 stappen (ongeveer 20 uur werk voor een expert) slaagde het sterkste model in 6 van de 10 pogingen."
     volatiliteit: kwartaal
     bronnen: [uk-aisi, soai]
     beweringen: [K-VEI-001, K-VEI-006, K-VEI-007]
-    status: opzet
+    status: concept
   - id: VEI-03
     titel: "Misbruik is geen theorie meer"
     kern: "Gedocumenteerd misbruik voor cyberaanvallen, surveillance, beïnvloeding en fraude."
     volatiliteit: kwartaal
     bronnen: [soai, lab-blogs]
     beweringen: [K-VEI-008]
-    status: opzet
+    status: concept
   - id: VEI-04
     titel: "Open modellen lopen 4 tot 7 maanden achter, en verdedigers hebben ze ook nodig"
     kern: "Open modellen vergroten de dreiging, maar verdedigers gebruiken ze ook als gesloten modellen weigeren."
     volatiliteit: kwartaal
     bronnen: [uk-aisi, soai]
     beweringen: [K-VEI-002, K-VEI-009]
-    status: opzet
+    status: concept
   - id: VEI-05
     titel: "Agents staan al op laptops voordat de beveiliging het weet, en ze lekken gegevens"
     kern: "Beveiliging hangt af van het model én het harnas. Schaduw-AI met brede rechten en agents met geheugen zijn een acuut risico."
     volatiliteit: kwartaal
     bronnen: [soai]
     beweringen: [K-VEI-010]
-    status: opzet
+    status: concept
   - id: VEI-06
     titel: "Toezicht op modellen werkt, maar maar half"
     kern: "Monitors die alleen de redenering zien missen sabotage, auditors vinden verborgen gedrag ongeveer de helft van de keren. Waarden aanleren verlaagde chantage in tests van 65 naar 19 procent."
     volatiliteit: kwartaal
     bronnen: [soai]
     beweringen: [K-VEI-011]
-    status: opzet
+    status: concept
   - id: VEI-07
     titel: "De leiders van de labs vragen zelf om een rem"
     kern: "Labbazen en 1.386 medewerkers willen dat overheden het tempo kunnen vertragen. Wie mag pauzeren en wie controleert, is onbeslist."
     volatiliteit: kwartaal
     bronnen: [soai]
     beweringen: [K-VEI-003, K-VEI-012]
-    status: opzet
+    status: concept
 
 # ---------- NEDERLAND ----------
   - id: NLD-01
     titel: "Eén op de zes Nederlandse bedrijven gebruikt AI, bij grote bedrijven twee derde"
     kern: "17 procent in 2025, tegen 8 procent in 2023. Bij 250 of meer medewerkers 66 procent; in ICT 54 procent, in bouw en horeca 6 tot 7 procent."
-    grafiek: "AI-gebruik naar bedrijfsgrootte, 2023 tot 2025 (CBS)"
+    grafiek: "AI-gebruik naar bedrijfsgrootte, 2025 (data/NLD-01_ai_gebruik_grootte.csv, CBS)"
     volatiliteit: kwartaal
     bronnen: [cbs, eurostat]
     beweringen: [K-NLD-001, K-NLD-002, K-NLD-004, K-SEC-001]
-    status: opzet
+    status: concept
   - id: NLD-02
     titel: "Nederland hoort bij de Europese kopgroep, maar niet bij de top"
     kern: "Een derde van de Nederlandse bedrijven gebruikt AI, tegen een vijfde in de EU. Bijna de helft van de Nederlanders gebruikte generatieve AI in 2025. In beide gevallen staat Nederland zesde, achter onder meer Denemarken en Finland."
@@ -710,33 +716,30 @@ slides:
     volatiliteit: kwartaal
     bronnen: [eurostat, cbs]
     beweringen: [K-NLD-004, K-NLD-005]
-    status: opzet
+    status: concept
     noot: "Bij gebruik voor werk staat Nederland derde (26,6 procent). CBS-cijfers over gebruik door personen nog niet opgehaald."
   - id: NLD-03
     titel: "De AI-fabriek in Groningen: 200 miljoen euro voor Nederlandse rekenkracht"
-    kern: "Rijk, regio en EuroHPC investeren samen ruim 200 miljoen euro. Het expertisecentrum start in 2026, de supercomputer met circa 1.800 GPU's draait naar verwachting begin 2028 op volle kracht."
+    kern: "Rijk, regio en EuroHPC investeren samen ruim 200 miljoen euro. Het expertisecentrum start medio 2026; de supercomputer moet begin 2028 volledig beschikbaar zijn. Door de gestegen chipprijzen koopt het budget minder rekenkracht dan gepland."
     volatiliteit: kwartaal
     bronnen: [rijksoverheid, eurohpc, aifabriek]
     beweringen: [K-NLD-003, K-NLD-006, K-NLD-010, K-NLD-011]
-    status: herzien
+    status: concept
     noot: "Aantal GPU's bijwerken na de aanbesteding van januari 2027 (K-NLD-011, te verifiëren). Ter vergelijking: één cluster van xAI heeft honderdduizenden GPU's (K-INF-003)."
-    voorstel:
-      kern: "Rijk, regio en EuroHPC investeren samen ruim 200 miljoen euro. Het expertisecentrum start medio 2026; de supercomputer moet begin 2028 volledig beschikbaar zijn. Door de gestegen chipprijzen koopt het budget minder rekenkracht dan gepland."
-      reden: "Bedragen en planning staan nu in de Kamerbrieven zelf (K-NLD-010). Het budget voor de machine (64 miljoen euro) koopt door hogere GPU-prijzen minder dan de geplande 1.800 GPU's, en de hardware wordt pas in januari 2027 aanbesteed; het aantal GPU's hoort daarom niet meer in de kern. Titel blijft staan."
   - id: NLD-04
     titel: "Nederland is onmisbaar in de keten, en dat is een onderhandelingspositie"
     kern: "Zonder machines van ASML geen geavanceerde chips. Dat geeft Nederland en Europa iets om mee te onderhandelen."
     volatiliteit: stabiel
     bronnen: [earnings, soai]
     beweringen: [K-INF-014, K-INF-015, K-GEO-009]
-    status: opzet
+    status: concept
   - id: NLD-05
     titel: "GPT-NL en andere Nederlandse modellen: wat is het doel?"
     kern: "Een eigen taalmodel draait niet om de frontier, maar om transparantie, taal en onafhankelijkheid."
     volatiliteit: kwartaal
     bronnen: [tno]
     beweringen: [K-NLD-007, K-NLD-013]
-    status: opzet
+    status: concept
     noot: "Bredere uitrol van GPT-NL nog niet bevestigd (K-NLD-007, te verifiëren)."
   - id: NLD-06
     titel: "Wie houdt in Nederland toezicht op AI?"
@@ -744,86 +747,88 @@ slides:
     volatiliteit: kwartaal
     bronnen: [ap-ran, dnb-afm, rijksoverheid]
     beweringen: [K-NLD-008]
-    status: opzet
+    status: concept
     noot: "Aanwijzing markttoezichthouders verifiëren; het wetsvoorstel is nog niet in werking (K-NLD-008)."
   - id: NLD-07
     titel: "Netcongestie maakt stroom ook in Nederland een knelpunt voor datacenters"
-    kern: "Wachtlijsten voor netaansluitingen en beleid voor hyperscale datacenters bepalen waar rekenkracht kan komen."
+    kern: "Op 30 juni wachtten 15.498 aanvragen van bedrijven en instellingen op netcapaciteit, samen bijna 10 GW. Eind 2022 waren het er 668. Ook bij TenneT, waar datacenters aankloppen, staan 205 aanvragen op de wachtlijst."
+    grafiek: "Wachtlijst voor afname bij de regionale netbeheerders: aantal verzoeken en gevraagd vermogen, 2022 tot medio 2026 (data/NLD-07_wachtlijst_afname.csv)"
     volatiliteit: kwartaal
     bronnen: [rijksoverheid, eurostat]
     beweringen: [K-NLD-009, K-INF-017, K-NLD-012]
-    status: herzien
+    status: concept
     noot: "Datacenterbeleid (hyperscale) nog uitzoeken."
-    voorstel:
-      kern: "Op 30 juni wachtten 15.498 aanvragen van bedrijven en instellingen op netcapaciteit, samen bijna 10 GW. Eind 2022 waren het er 668. Ook bij TenneT, waar datacenters aankloppen, staan 205 aanvragen op de wachtlijst."
-      grafiek: "Wachtlijst voor afname bij de regionale netbeheerders: aantal verzoeken en gevraagd vermogen, 2022 tot medio 2026 (data/NLD-07_wachtlijst_afname.csv)"
-      reden: "Kern had nog geen cijfers. De reeks komt uit de voortgangsrapportage van het Landelijk Actieprogramma Netcongestie (oktober 2026). Een apart cijfer voor datacenters bestaat niet; het kabinet heeft geen overzicht naar sector. Titel blijft staan."
 
 # ---------- GOVERNANCE EN VERANTWOORD GEBRUIK ----------
   - id: GOV-01
     titel: "AI hoort op de agenda van bestuur en raad van commissarissen"
     kern: "Vijf vragen die elke raad nu moet stellen: over strategie, waarde, risico, mensen en leveranciers."
     volatiliteit: stabiel
-    beweringen: [K-WRK-005, K-WRK-007]
-    status: opzet
+    beweringen: [K-WRK-005, K-WRK-007, K-NLD-005]
+    status: concept
   - id: GOV-02
     titel: "Een AI-strategie begint bij processen en data, en meet waarde in plaats van gebruik"
     kern: "Aantal gebruikers en tokenuitgaven zeggen weinig, en de kosten van interne AI zijn moeilijk te voorspellen. Meet doorlooptijd, kwaliteit en kosten per proces."
     volatiliteit: stabiel
-    bronnen: [iconiq, soai, gallup]
+    bronnen: [iconiq, soai, gallup, mckinsey-sai]
     beweringen: [K-WRK-007, K-WRK-004, K-MKT-014, K-WRK-013]
-    status: opzet
+    status: concept
   - id: GOV-03
     titel: "Bouwen, kopen of laten doen: de keuze verschuift"
     kern: "Modellen worden uitwisselbaar, aanbieders verkopen werk in plaats van software, en de labs bieden met eigen adviesbedrijven zelf implementatie aan."
     volatiliteit: stabiel
-    bronnen: [soai, evans, iconiq]
-    beweringen: [K-SEC-003, K-MKT-008]
-    status: opzet
+    bronnen: [soai, evans, iconiq, mckinsey-sai]
+    beweringen: [K-SEC-003, K-MKT-008, K-WRK-013, K-MKT-006]
+    status: concept
   - id: GOV-04
     titel: "Ken je risico's: schaduw-AI, datalekken en afhankelijkheid van twee leveranciers"
     kern: "De drie risico's die nu het vaakst onderschat worden."
     volatiliteit: stabiel
+    bronnen: [soai, ramp]
     beweringen: [K-VEI-010, K-MKT-020, K-MKT-021]
-    status: opzet
+    status: concept
   - id: GOV-05
     titel: "AI-geletterdheid blijft een plicht, maar wordt een inspanningsverplichting"
     kern: "Sinds de wijziging van de AI Act in juli 2026 moeten organisaties maatregelen nemen om de AI-kennis van hun mensen te ondersteunen. Een bepaald niveau per persoon hoeven ze niet te garanderen."
+    grafiek: "Tijdlijn van de AI Act na de wijziging van juli 2026 (schema)"
     volatiliteit: kwartaal
     bronnen: [eu-ai-act]
-    beweringen: [K-GOV-001]
-    status: opzet
+    beweringen: [K-GOV-001, K-GEO-003]
+    status: concept
   - id: GOV-06
     titel: "Verantwoord gebruik vraagt een register, een eigenaar en menselijk toezicht"
     kern: "Weet welke AI-systemen je gebruikt, wie verantwoordelijk is en waar een mens meekijkt. De overheid doet het voor met het algoritmeregister."
+    grafiek: "Voorbeeld van een register van AI-toepassingen (tabel)"
     volatiliteit: stabiel
     bronnen: [ap-ran, eu-ai-act, rijksoverheid]
     beweringen: [K-GOV-002, K-SEC-004]
-    status: opzet
+    status: concept
   - id: GOV-07
     titel: "Wat de komende twaalf maanden op de bestuursagenda hoort"
     kern: "Concrete agendapunten per kwartaal, afgeleid van de ontwikkelingen in dit deck."
     volatiliteit: kwartaal
-    status: opzet
+    beweringen: [K-GOV-001, K-GEO-003, K-NLD-008]
+    status: concept
 
 # ---------- VOORUITBLIK ----------
   - id: VBK-01
-    titel: "Negen voorspellingen voor de komende twaalf maanden, en welke al uitkomen"
+    titel: "Negen voorspellingen voor de komende twaalf maanden; vorig jaar kwamen er twee van de tien uit"
     kern: "De voorspellingen uit het State of AI Report, met per voorspelling de stand van zaken."
+    grafiek: "De tien voorspellingen van 2025 naar uitkomst volgens de auteurs, als raster (data/VBK-01_voorspellingen_2025.csv)"
     volatiliteit: kwartaal
     bronnen: [soai]
     beweringen: [K-VBK-001, K-VBK-002]
-    status: opzet
+    status: concept
   - id: VBK-02
     titel: "AGI: wanneer, en wat bedoelen we er eigenlijk mee?"
     kern: "Labbazen noemen jaartallen, maar definities lopen uiteen. Bij elke platformverschuiving mislukten de meeste voorspellingen; de goede vraag is wat er nu al kan."
     volatiliteit: kwartaal
-    bronnen: [soai, evans]
-    beweringen: [K-VBK-002, K-VBK-001]
-    status: opzet
+    bronnen: [soai, evans, metr, epoch]
+    beweringen: [K-VBK-002, K-VBK-001, K-FRT-005, K-FRT-017, K-FRT-019]
+    status: concept
   - id: VBK-03
     titel: "Bronnen en verder lezen"
     kern: "De vaste bronnen achter dit deck, met waar je ze vindt."
     volatiliteit: stabiel
     bronnen: [soai, evans, iconiq, ai-index, epoch, cbs]
-    status: opzet
+    status: concept

@@ -1,0 +1,10 @@
+# bron: State of AI Report 2026 (Air Street Capital), slide 107, op basis van de Amerikaanse beroepenstatistiek (BLS Occupational Employment and Wage Statistics)
+# url: https://www.stateof.ai
+# licentie: cijfers uit openbaar rapport, met bronvermelding; grafiek is eigen werk
+# opgehaald: 2026-11-10
+# verandering in werkgelegenheid in de VS per beroep, mei 2023 tot mei 2025, in procenten. Zie K-WRK-011. Primaire BLS-cijfers nog niet zelf gecontroleerd.
+beroep,verandering_pct
+Datawetenschappers,37
+Juridisch medewerkers (paralegals),11
+Klantenservice,-9
+Data-invoer,-18

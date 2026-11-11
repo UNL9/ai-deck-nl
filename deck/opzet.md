@@ -74,7 +74,7 @@ Verzonnen feiten en taken die 'klaar' heten maar dat niet zijn. In labtaken was 
 
 **BAS-12** [K] **Intelligentie wordt snel goedkoper, en toch stijgen de totale uitgaven**  
 De prijs per eenheid prestatie daalt hard. Het gebruik groeit harder, vooral door agents en redeneermodellen.
-<br><sub>Bronnen: soai, epoch, artificial-analysis</sub>
+<br><sub>Bronnen: soai, epoch, artificial-analysis · Open: Gewenste grafiek: Prijs per miljoen tokens bij gelijke prestatie, over tijd (Epoch-data); nu grote getallen; bouwen zodra de Epoch-reeks in data/ staat.</sub>
 
 ## Het front (10)
 
@@ -142,7 +142,7 @@ Niet-ontwikkelaars gebruiken codeeragents in hoger tempo dan ontwikkelaars. Ruim
 
 **MKT-06** [K] **Eén productlancering kostte softwarebedrijven 285 miljard dollar aan beurswaarde**  
 Na de lancering van Claude Cowork daalde de softwarebeurs in februari scherp. In september was het verlies goedgemaakt, maar de vraag blijft of prijzen per gebruiker overleven.
-<br><sub>Bronnen: soai</sub>
+<br><sub>Bronnen: soai · Open: Gewenste grafiek: S&P 500 software-index, oktober 2025 tot nu; nu zonder grafiek; de S&P-reeks staat niet in data/.</sub>
 
 **MKT-07** [K] **Modellen zijn uitwisselbaar, en bedrijven gebruiken er meerdere naast elkaar**  
 Er zijn geen netwerkeffecten tussen modellen. AI-bouwers gebruiken gemiddeld 3,3 aanbieders; waarde verschuift naar product, distributie en integratie in werkprocessen.
@@ -268,7 +268,7 @@ Unitree verkocht 5.215 humanoïde robots in 2025 en is winstgevend. Robots bouwe
 
 **SEC-10** [K] **Mobiliteit: zelfrijdende auto's zijn een dienst geworden, geen experiment**  
 Waymo reed tot juli 271 miljoen mijl zonder chauffeur, met 95 procent minder ernstige ongevallen dan menselijke bestuurders op dezelfde wegen. Het bedrijf doet ruim 500.000 betaalde ritten per week.
-<br><sub>Bronnen: soai, lab-blogs · Open: Stand in Europa toevoegen. Ritten per week en aantal steden zijn nog de SoAI-stand. Het zijn eigen cijfers van Waymo; zo vermelden.</sub>
+<br><sub>Bronnen: soai, lab-blogs · Open: Stand in Europa toevoegen. Ritten per week en aantal steden zijn nog de SoAI-stand. Het zijn eigen cijfers van Waymo; zo vermelden. Gewenste grafiek: Waymo-mijlen zonder chauffeur over tijd; nu zonder grafiek; twee meetpunten zijn te weinig voor een reeks over tijd.</sub>
 
 ## Samenleving (7)
 
@@ -312,7 +312,7 @@ Het conflict tussen Anthropic en het Pentagon, terwijl frontier-AI al in militai
 
 **GEO-03** [K] **67 landen bouwen aan soevereine AI, maar soevereiniteit kun je niet huren**  
 Buiten de VS en China lopen 184 overheidsprojecten met samen circa 84 miljard dollar. Wie niet aan de frontier meedoet, moet onderhandelen over toegang.
-<br><sub>Bronnen: cnas-sovereign, soai</sub>
+<br><sub>Bronnen: cnas-sovereign, soai · Open: Gewenste grafiek: Aantal soevereine AI-projecten, cumulatief; vraagt jaarcijfers van CNAS; de kennisbank heeft alleen 2023 (18) en 2026 (184).</sub>
 
 **GEO-04** [K] **China bouwt een eigen keten, van stroom tot chips**  
 Goedkope stroom bevoordeelt Chinese chips. China beperkt nu ook de export van kennis.
@@ -375,7 +375,7 @@ Een derde van de Nederlandse bedrijven gebruikt AI, tegen een vijfde in de EU. B
 <br><sub>Bronnen: eurostat, cbs · Open: Bij gebruik voor werk staat Nederland derde (26,6 procent). CBS-cijfers over gebruik door personen nog niet opgehaald.</sub>
 
 **NLD-03** [K] **De AI-fabriek in Groningen: 200 miljoen euro voor Nederlandse rekenkracht**  
-Rijk, regio en EuroHPC investeren samen ruim 200 miljoen euro. Het expertisecentrum start in 2026, de supercomputer met circa 1.800 GPU's draait naar verwachting begin 2028 op volle kracht.
+Rijk, regio en EuroHPC investeren samen ruim 200 miljoen euro. Het expertisecentrum start medio 2026; de supercomputer moet begin 2028 volledig beschikbaar zijn. Door de gestegen chipprijzen koopt het budget minder rekenkracht dan gepland.
 <br><sub>Bronnen: rijksoverheid, eurohpc, aifabriek · Open: Aantal GPU's bijwerken na de aanbesteding van januari 2027 (K-NLD-011, te verifiëren). Ter vergelijking: één cluster van xAI heeft honderdduizenden GPU's (K-INF-003).</sub>
 
 **NLD-04** [S] **Nederland is onmisbaar in de keten, en dat is een onderhandelingspositie**  
@@ -391,7 +391,7 @@ Bestaande toezichthouders houden toezicht binnen hun domein. De AP wordt de toez
 <br><sub>Bronnen: ap-ran, dnb-afm, rijksoverheid · Open: Aanwijzing markttoezichthouders verifiëren; het wetsvoorstel is nog niet in werking (K-NLD-008).</sub>
 
 **NLD-07** [K] **Netcongestie maakt stroom ook in Nederland een knelpunt voor datacenters**  
-Wachtlijsten voor netaansluitingen en beleid voor hyperscale datacenters bepalen waar rekenkracht kan komen.
+Op 30 juni wachtten 15.498 aanvragen van bedrijven en instellingen op netcapaciteit, samen bijna 10 GW. Eind 2022 waren het er 668. Ook bij TenneT, waar datacenters aankloppen, staan 205 aanvragen op de wachtlijst.
 <br><sub>Bronnen: rijksoverheid, eurostat · Open: Datacenterbeleid (hyperscale) nog uitzoeken.</sub>
 
 ## Governance en verantwoord gebruik (7)
@@ -401,14 +401,15 @@ Vijf vragen die elke raad nu moet stellen: over strategie, waarde, risico, mense
 
 **GOV-02** [S] **Een AI-strategie begint bij processen en data, en meet waarde in plaats van gebruik**  
 Aantal gebruikers en tokenuitgaven zeggen weinig, en de kosten van interne AI zijn moeilijk te voorspellen. Meet doorlooptijd, kwaliteit en kosten per proces.
-<br><sub>Bronnen: iconiq, soai, gallup</sub>
+<br><sub>Bronnen: iconiq, soai, gallup, mckinsey-sai</sub>
 
 **GOV-03** [S] **Bouwen, kopen of laten doen: de keuze verschuift**  
 Modellen worden uitwisselbaar, aanbieders verkopen werk in plaats van software, en de labs bieden met eigen adviesbedrijven zelf implementatie aan.
-<br><sub>Bronnen: soai, evans, iconiq</sub>
+<br><sub>Bronnen: soai, evans, iconiq, mckinsey-sai</sub>
 
 **GOV-04** [S] **Ken je risico's: schaduw-AI, datalekken en afhankelijkheid van twee leveranciers**  
 De drie risico's die nu het vaakst onderschat worden.
+<br><sub>Bronnen: soai, ramp</sub>
 
 **GOV-05** [K] **AI-geletterdheid blijft een plicht, maar wordt een inspanningsverplichting**  
 Sinds de wijziging van de AI Act in juli 2026 moeten organisaties maatregelen nemen om de AI-kennis van hun mensen te ondersteunen. Een bepaald niveau per persoon hoeven ze niet te garanderen.
@@ -423,13 +424,13 @@ Concrete agendapunten per kwartaal, afgeleid van de ontwikkelingen in dit deck.
 
 ## Vooruitblik (3)
 
-**VBK-01** [K] **Negen voorspellingen voor de komende twaalf maanden, en welke al uitkomen**  
+**VBK-01** [K] **Negen voorspellingen voor de komende twaalf maanden; vorig jaar kwamen er twee van de tien uit**  
 De voorspellingen uit het State of AI Report, met per voorspelling de stand van zaken.
 <br><sub>Bronnen: soai</sub>
 
 **VBK-02** [K] **AGI: wanneer, en wat bedoelen we er eigenlijk mee?**  
 Labbazen noemen jaartallen, maar definities lopen uiteen. Bij elke platformverschuiving mislukten de meeste voorspellingen; de goede vraag is wat er nu al kan.
-<br><sub>Bronnen: soai, evans</sub>
+<br><sub>Bronnen: soai, evans, metr, epoch</sub>
 
 **VBK-03** [S] **Bronnen en verder lezen**  
 De vaste bronnen achter dit deck, met waar je ze vindt.

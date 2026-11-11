@@ -1,0 +1,10 @@
+# bron: CBS, Bedrijven gebruiken AI vaakst voor marketing of verkoop (12 december 2025)
+# url: https://www.cbs.nl/nl-nl/nieuws/2025/50/bedrijven-gebruiken-ai-vaakst-voor-marketing-of-verkoop
+# licentie: CBS, hergebruik met bronvermelding (CC BY 4.0)
+# opgehaald: 2026-11-10
+# Nederlandse bedrijven die AI gebruiken, 2025, in procenten, naar aantal werkzame personen. 'Alle bedrijven' telt vanaf 2 werkzame personen. Zie K-NLD-001.
+grootte,label,pct
+2+,Alle bedrijven,17
+10-50,10 tot 50 personen,27
+50-250,50 tot 250 personen,45
+250+,250 of meer personen,66
