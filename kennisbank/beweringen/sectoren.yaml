@@ -119,3 +119,43 @@
   status: actueel
   slides: [SEC-05, SAM-06, GOV-06]
   noot: "Bedragen uit de Kamerbrieven van het ministerie van Financiën. De FSV-boete bestaat uit zes delen van 250.000 tot 1 miljoen euro; twee van de drie boetes van 2021 zijn verhoogd omdat de verwerking discriminerend was. 'Hoogste tot dan toe' staat op de nieuwspagina van de AP (april 2022); die site geeft een 403 aan scripts en is via de zoekindex gelezen. De AP legde later hogere boetes op."
+# Opruimronde D, 2026-11-11
+- id: K-SEC-011
+  bewering: "De Amerikaanse FDA had tot en met juni 2026 1.614 AI-toepassingen als medisch hulpmiddel toegelaten, de eerste in 1995; 1.230 daarvan (76 procent) zijn voor radiologie."
+  peildatum: 2026-06-29
+  bron: fda
+  vindplaats: "FDA, List of Artificial Intelligence-Enabled Medical Devices (CSV, fda.gov/media/178541/download)"
+  vastgesteld: 2026-11-11
+  houdbaarheid_dagen: 180
+  status: actueel
+  slides: [SEC-02]
+  noot: "Radiologie = hoofdpanel 'Radiology'. De FDA zegt dat de lijst niet uitputtend is. Per jaar in data/SEC-02_fda_ai_apparaten.csv."
+- id: K-SEC-012
+  bewering: "Het ministerie van VWS startte in oktober 2025 het Programma Realisatie AI in de zorg, met als eerste focus het verlichten van administratieve lasten; het AZWA wil de administratietijd in 2030 terugbrengen tot maximaal 20 procent van de werktijd van een zorgverlener. Voorbeelden: spraakgestuurd rapporteren in de ouderenzorg en dossiers die AI automatisch structureert bij Kempenhaeghe."
+  peildatum: 2025-10-06
+  bron: rijksoverheid
+  vindplaats: "Kamerbrief VWS, Inzet op realisatie AI in de zorg, 6 oktober 2025, Kamerstuk 27 529, nr. 350"
+  vastgesteld: 2026-11-11
+  houdbaarheid_dagen: 365
+  status: actueel
+  slides: [SEC-02]
+- id: K-SEC-013
+  bewering: "Waymo reed in april 2026 meer dan 500.000 volledig autonome ritten per week, een verdubbeling in minder dan een jaar. Eind oktober 2026 reed Waymo in 15 Amerikaanse steden en had het meer dan 300 miljoen autonome mijlen gereden; uitbreiding naar Canada, Duitsland, Singapore en Spanje is gepland."
+  peildatum: 2026-10-28
+  bron: earnings
+  vindplaats: "Alphabet, CEO-bericht bij de kwartaalcijfers Q1 2026 (29 april 2026) en Q3 2026 (28 oktober 2026), blog.google"
+  vastgesteld: 2026-11-11
+  houdbaarheid_dagen: 90
+  status: actueel
+  slides: [SEC-10]
+  noot: "Eigen cijfers van Alphabet/Waymo. Een nieuwer weekcijfer dan april 2026 is niet gepubliceerd. Vervangt de ritten en steden uit K-FRT-008 (State of AI)."
+- id: K-SEC-014
+  bewering: "In Europa rijdt nog geen robotaxi zonder iemand aan boord op grote schaal. In Londen rijden sinds 3 september 2026 auto's van Wayve via Uber, met een bestuurder aan boord die kan ingrijpen; Waymo bereidt Londen voor maar vervoert er nog geen passagiers (10 november 2026)."
+  peildatum: 2026-11-10
+  bron: wayve
+  vindplaats: "Wayve, persberichten 5 aug. en 3 sep. 2026 (wayve.ai/press); Waymo-blog 10 nov. 2026 (waymo.com/blog/2026/11/uk-accessibility-network)"
+  vastgesteld: 2026-11-11
+  houdbaarheid_dagen: 90
+  status: actueel
+  slides: [SEC-10]
+  noot: "Verne (Zagreb, met Pony.ai en Uber) zou sinds april 2026 rijden, maar alleen in secundaire bronnen; verne.hr was niet bereikbaar. Niet op de slide."

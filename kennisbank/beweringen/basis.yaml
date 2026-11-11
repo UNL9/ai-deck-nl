@@ -65,7 +65,8 @@
   vindplaats: "https://epoch.ai/data-insights/llm-inference-price-trends"
   vastgesteld: 2026-11-10
   houdbaarheid_dagen: 365
-  status: actueel
+  status: vervangen
+  vervangen_door: K-BAS-011
   slides: [BAS-12]
   noot: "Analyse over drie jaar tot maart 2025; actualisering zoeken."
 - id: K-BAS-007
@@ -104,3 +105,53 @@
   status: actueel
   slides: [BAS-11]
   noot: "Vectara meet met een eigen evaluatiemodel (HHEM) hoe vaak een samenvatting iets bevat dat niet in de brontekst staat. Eén soort taak; geen maat voor fouten in het algemeen. Claude Fable 5.2 en Gemini 4 Carbon staan er nog niet op."
+# Opruimronde D, 2026-11-11
+- id: K-BAS-010
+  bewering: "De laagste prijs voor een model op het niveau van GPT-4 daalde van 37,50 dollar per miljoen tokens (maart 2023) naar 0,18 dollar op algemene kennis (MMLU, Gemini 2.0 Flash, februari 2025) en 0,12 dollar op vragen op promotieniveau (GPQA Diamond, Phi 4, december 2024)."
+  peildatum: 2025-03-12
+  bron: epoch
+  vindplaats: "Epoch AI, LLM inference prices have fallen rapidly but unequally across tasks (12 maart 2025), lowest_price_models_data.csv"
+  vastgesteld: 2026-11-11
+  houdbaarheid_dagen: 730
+  status: actueel
+  slides: [BAS-12]
+  noot: "Historische reeks, CC BY. Data in data/BAS-12_prijs_gpt4_niveau.csv. De analyse loopt tot maart 2025; de actuele daling staat in K-BAS-011."
+- id: K-BAS-011
+  bewering: "Volgens Epoch dalen de kosten om een vast prestatieniveau te halen sinds 2023 met ongeveer 47 procent per kwartaal, 13 keer per jaar; bij wiskunde 50 tot 52 procent, bij puzzels 39 tot 43 procent per kwartaal."
+  peildatum: 2026-09-22
+  bron: epoch
+  vindplaats: "Epoch AI, The plunging price of thought (Emberson en Roodman, 22 sep. 2026), Key takeaways"
+  vastgesteld: 2026-11-11
+  houdbaarheid_dagen: 365
+  status: actueel
+  slides: [BAS-12]
+  noot: "Vervangt K-BAS-006 (factor 9 tot 900 per jaar, analyse tot maart 2025). CC BY."
+- id: K-BAS-012
+  bewering: "Benedict Evans deelt de techgeschiedenis in vijf platformverschuivingen in (mainframes, pc's, web, smartphones, generatieve AI) en stelt dat er elke 10 tot 15 jaar een verschuiving plaatsvindt."
+  peildatum: 2026-05
+  bron: evans
+  vindplaats: "Benedict Evans, AI eats the world (mei 2026), p. 4: 'Every 10-15 years, a platform shift reshapes technology'"
+  vastgesteld: 2026-11-11
+  houdbaarheid_dagen: 3650
+  status: actueel
+  slides: [BAS-01]
+  noot: "Evans geeft geen jaartallen per platform; de decennia op de slide zijn een eigen indeling."
+- id: K-BAS-013
+  bewering: "De term artificial intelligence komt uit het voorstel van McCarthy, Minsky, Rochester en Shannon (31 augustus 1955) voor een studie van twee maanden met tien mensen in de zomer van 1956 aan Dartmouth College. Het expertsysteem R1 (later XCON) configureerde sinds januari 1980 bij Digital bijna alle VAX-11-systemen, met ongeveer 850 regels."
+  peildatum: 1981-08
+  bron: historische-bronnen
+  vindplaats: "McCarthy e.a., A Proposal for the Dartmouth Summer Research Project on Artificial Intelligence (31 aug. 1955), www-formal.stanford.edu/jmc/history/dartmouth/dartmouth.html; McDermott en Steele, Extending a Knowledge-Based System to Deal with Ad Hoc Constraints, IJCAI 1981, p. 824 (ijcai.org/Proceedings/81-2/Papers/047.pdf)"
+  vastgesteld: 2026-11-11
+  houdbaarheid_dagen: 3650
+  status: actueel
+  slides: [BAS-02]
+  noot: "Beide zelf gelezen op 2026-11-11. Bevestigd door McDermott, R1: The Formative Years, AI Magazine 1981 (samenvatting op aitopics.org)."
+- id: K-BAS-014
+  bewering: "Interactiemodellen zien, horen en spreken in stappen van ongeveer 200 milliseconden, zonder vaste beurtwisseling (Thinking Machines, preview; MiniCPM-o 4.5 met 9 miljard parameters draait op apparaten met minder dan 12 GB geheugen; ByteDance SeedRealtime). Video wordt realtime: fal H3 Max maakt een clip van vijf seconden in minder dan drie seconden, en prompts sturen het volgende segment bij."
+  peildatum: 2026-10
+  bron: soai
+  vindplaats: "State of AI Report 2026, slides 48 en 49 (pdf-pagina's)"
+  vastgesteld: 2026-11-11
+  houdbaarheid_dagen: 180
+  status: actueel
+  slides: [BAS-09]

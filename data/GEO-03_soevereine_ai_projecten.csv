@@ -1,0 +1,21 @@
+# bron: CNAS, Sovereign AI Index (Chavez, Chilukuri, Scanlon), grafiek "Sovereign AI Projects Have Accelerated"; gepubliceerd 20 april 2026, bijgewerkt 18 augustus 2026; data tot en met juni 2026
+# url: https://interactives.cnas.org/sovereign-ai-index  (data: https://datawrapper.dwcdn.net/qoh2w/19/dataset.csv, de dataset achter de Datawrapper-grafiek op die pagina)
+# licentie: openbare cijfers met bronvermelding; geen expliciete open licentie; grafiek is eigen werk
+# opgehaald: 2026-11-11
+# cumulatief aantal door overheden gesteunde AI-projecten buiten de VS en China, per kwartaal (naar aankondigingsdatum). Eindstand 184 en 18 eind 2023 komen overeen met K-GEO-001.
+kwartaal,projecten_cumulatief
+2022-12-31,0
+2023-03-31,1
+2023-06-30,7
+2023-09-30,14
+2023-12-31,18
+2024-03-31,24
+2024-06-30,37
+2024-09-30,39
+2024-12-31,57
+2025-03-31,74
+2025-06-30,94
+2025-09-30,113
+2025-12-31,145
+2026-03-31,171
+2026-06-30,184

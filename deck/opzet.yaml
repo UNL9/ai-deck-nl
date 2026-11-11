@@ -72,15 +72,16 @@ slides:
     grafiek: "Tijdlijn van platformverschuivingen"
     volatiliteit: stabiel
     bronnen: [evans]
-    status: concept
+    beweringen: [K-BAS-012]
+    status: gereed
   - id: BAS-02
     titel: "AI is ouder dan ChatGPT: zeventig jaar van regels naar leren"
     kern: "Van regelgebaseerde systemen via machine learning en deep learning (2012) naar de transformer (2017) en ChatGPT (2022). Elke stap kwam door meer data en rekenkracht."
     grafiek: "Tijdlijn in vijf kaarten: 1956, 1980, 2012, 2017, 2022"
     volatiliteit: stabiel
-    bronnen: [ai-index]
-    beweringen: [K-BAS-001]
-    status: concept
+    bronnen: [historische-bronnen, ai-index]
+    beweringen: [K-BAS-001, K-BAS-013]
+    status: gereed
   - id: BAS-03
     titel: "Voorspellende AI draait al jaren; generatieve AI komt erbovenop"
     kern: "Aanbevelingen, fraudedetectie, prijzen en prognoses draaien al jaren op machine learning. Generatieve AI komt daar bovenop, niet in de plaats van."
@@ -129,7 +130,8 @@ slides:
     kern: "Multimodaal is realtime geworden: spraak, beeld en video in gesprek, en video die je tijdens het genereren kunt bijsturen."
     volatiliteit: kwartaal
     bronnen: [soai]
-    status: concept
+    beweringen: [K-BAS-014]
+    status: gereed
   - id: BAS-10
     titel: "Open of gesloten gewichten is een strategische keuze, geen technisch detail"
     kern: "Open modellen geven controle, lagere kosten en onafhankelijkheid. Gesloten modellen lopen voorop in prestaties. Chinese labs domineren het open segment."
@@ -147,11 +149,11 @@ slides:
   - id: BAS-12
     titel: "Intelligentie wordt snel goedkoper, en toch stijgen de totale uitgaven"
     kern: "De prijs per eenheid prestatie daalt hard. Het gebruik groeit harder, vooral door agents en redeneermodellen."
+    grafiek: "Laagste prijs voor het niveau van GPT-4, dollar per miljoen tokens, maart 2023 tot februari 2025, log-schaal (data/BAS-12_prijs_gpt4_niveau.csv)"
     volatiliteit: kwartaal
     bronnen: [soai, epoch, artificial-analysis]
-    beweringen: [K-BAS-006, K-BAS-007, K-BAS-003, K-INF-006]
-    status: concept
-    noot: "Gewenste grafiek: Prijs per miljoen tokens bij gelijke prestatie, over tijd (Epoch-data); nu grote getallen; bouwen zodra de Epoch-reeks in data/ staat."
+    beweringen: [K-BAS-010, K-BAS-011, K-BAS-007, K-BAS-003, K-INF-006]
+    status: gereed
 
 # ---------- HET FRONT ----------
   - id: FRT-01
@@ -288,8 +290,7 @@ slides:
     volatiliteit: kwartaal
     bronnen: [soai]
     beweringen: [K-MKT-006]
-    status: concept
-    noot: "Gewenste grafiek: S&P 500 software-index, oktober 2025 tot nu; nu zonder grafiek; de S&P-reeks staat niet in data/."
+    status: gereed
   - id: MKT-07
     titel: "Modellen zijn uitwisselbaar, en bedrijven gebruiken er meerdere naast elkaar"
     kern: "Er zijn geen netwerkeffecten tussen modellen. AI-bouwers gebruiken gemiddeld 3,3 aanbieders; waarde verschuift naar product, distributie en integratie in werkprocessen."
@@ -344,12 +345,11 @@ slides:
     noot: "De data laten niet zien of de verschuiving specifiek bij inferentie zit; daarom de algemenere titel."
   - id: INF-04
     titel: "Zonder ASML geen AI: de keten loopt via Veldhoven en Taiwan"
-    kern: "ASML boekte in 2025 de omzet van 48 EUV-machines, vier meer dan een jaar eerder, en verwacht dat de geplande capaciteit ook in 2027 en 2028 tekortschiet."
+    kern: "ASML boekte in 2025 de omzet van 48 EUV-machines, vier meer dan een jaar eerder, en verwacht dat de geplande capaciteit ook in 2027 en 2028 tekortschiet. TSMC in Taiwan maakt de chips: 79 procent van zijn waferomzet komt uit 7 nm en kleiner, en de vraag ligt volgens TSMC ver boven wat het kan leveren."
     volatiliteit: kwartaal
-    bronnen: [soai, earnings]
-    beweringen: [K-INF-014, K-INF-015, K-INF-020]
-    status: concept
-    noot: "Voor de rol van TSMC als begrenzing is nog geen bron opgenomen."
+    bronnen: [earnings, soai]
+    beweringen: [K-INF-014, K-INF-015, K-INF-020, K-INF-021, K-INF-022]
+    status: gereed
   - id: INF-05
     titel: "Rekenkracht is schaars: oude chips blijven verhuurd en prijzen stijgen weer"
     kern: "GPU-huurprijzen liggen boven hun dieptepunt. Chips van zes en negen jaar oud worden nog verhuurd."
@@ -416,13 +416,12 @@ slides:
     status: gereed
   - id: WRK-05
     titel: "Een taak automatiseren is iets anders dan een baan vervangen"
-    kern: "De liftbediende verdween, de accountant niet. Automatisering verandert vaker het werk dan dat ze het opheft."
+    kern: "Het aantal liftbedienden in de VS daalde tussen 1950 en 1970 met bijna twee derde; het aantal accountants verdubbelde bijna. Automatisering verandert vaker het werk dan dat ze het opheft."
     grafiek: "Verandering in werkgelegenheid in de VS per beroep, mei 2023 tot mei 2025 (data/WRK-05_werkgelegenheid_vs.csv)"
     volatiliteit: stabiel
-    bronnen: [evans, bls]
-    beweringen: [K-WRK-011, K-WRK-014]
-    status: concept
-    noot: "Grafiekdata nog nodig: historische beroepentelling VS (IPUMS of Census); Evans geeft alleen de grafiek. Bewering K-WRK-011 kan als actueel voorbeeld."
+    bronnen: [evans, bls, us-census]
+    beweringen: [K-WRK-011, K-WRK-014, K-WRK-016]
+    status: gereed
   - id: WRK-06
     titel: "Jonge werknemers lijken het eerst geraakt"
     kern: "De instroom van 22- tot 25-jarigen in beroepen die AI raakt is vertraagd. De oorzaak is onzeker, de werkloosheid in die beroepen is niet duidelijk gestegen."
@@ -464,12 +463,11 @@ slides:
     status: gereed
   - id: SEC-02
     titel: "Zorg: van beeldherkenning naar administratie en medicijnontwikkeling"
-    kern: "Radiologie gebruikt AI al jaren. Nu volgen verslaglegging en planning, en door AI ontdekte medicijnen zitten in fase 3."
+    kern: "Radiologie gebruikt AI al jaren: driekwart van de AI-hulpmiddelen die de FDA toeliet, is voor radiologie. Nu volgt de administratie, waar VWS in Nederland eerst op inzet, en door AI ontdekte medicijnen zitten in fase 3."
     volatiliteit: kwartaal
-    bronnen: [soai, ai-index]
-    beweringen: [K-FRT-007]
-    status: concept
-    noot: "Voorbeelden uit de Nederlandse zorg toevoegen"
+    bronnen: [fda, rijksoverheid, soai]
+    beweringen: [K-FRT-007, K-SEC-011, K-SEC-012]
+    status: gereed
   - id: SEC-03
     titel: "Financiële sector: sterk bij afgebakende taken, zwak bij complete opdrachten"
     kern: "Een topmodel haalde 100 procent op gestructureerde boekhoudtaken, maar slaagde voor slechts 12 procent van gesimuleerde bankopdrachten."
@@ -524,22 +522,20 @@ slides:
     noot: "'Robots bouwen al mee aan datacenters' nog niet onderbouwd met een bewering."
   - id: SEC-10
     titel: "Mobiliteit: zelfrijdende auto's zijn een dienst geworden, geen experiment"
-    kern: "Waymo reed tot juli 271 miljoen mijl zonder chauffeur, met 95 procent minder ernstige ongevallen dan menselijke bestuurders op dezelfde wegen. Het bedrijf doet ruim 500.000 betaalde ritten per week."
+    kern: "Waymo reed tot juli 271 miljoen mijl zonder chauffeur, met 95 procent minder ernstige ongevallen dan menselijke bestuurders op dezelfde wegen. Het bedrijf doet meer dan 500.000 ritten per week en rijdt in 15 Amerikaanse steden. In Europa rijdt nog geen robotaxi zonder iemand aan boord."
     volatiliteit: kwartaal
-    bronnen: [soai, lab-blogs]
-    beweringen: [K-FRT-008, K-SEC-009]
-    status: concept
-    noot: "Stand in Europa toevoegen. Ritten per week en aantal steden zijn nog de SoAI-stand. Het zijn eigen cijfers van Waymo; zo vermelden. Gewenste grafiek: Waymo-mijlen zonder chauffeur over tijd; nu zonder grafiek; twee meetpunten zijn te weinig voor een reeks over tijd."
+    bronnen: [lab-blogs, earnings, wayve]
+    beweringen: [K-SEC-009, K-SEC-013, K-SEC-014]
+    status: gereed
 
 # ---------- SAMENLEVING ----------
   - id: SAM-01
     titel: "AI als gezelschap: wetgevers trekken grenzen voor chatbots en kinderen"
     kern: "Californië regelt nu hoe chatbots relaties met kinderen aangaan; China en de EU hebben eigen regels."
     volatiliteit: kwartaal
-    bronnen: [soai, vs-overheid]
-    beweringen: [K-SAM-001, K-SAM-008, K-SAM-009]
-    status: concept
-    noot: "'Voor veel mensen' nog niet met een cijfer onderbouwd (aandeel gebruikers dat chatbots als gezelschap gebruikt)."
+    bronnen: [vs-overheid, cac, eu-ai-act, vk-overheid]
+    beweringen: [K-SAM-001, K-SAM-008, K-SAM-010]
+    status: gereed
   - id: SAM-02
     titel: "Echt en nep zijn steeds moeilijker te onderscheiden"
     kern: "De angst dat deepfakes verkiezingen beslissen, loopt tot nu toe voor op het bewijs. De EU verplicht labels op synthetische inhoud en verbiedt niet-consensuele seksuele deepfakes."
@@ -599,17 +595,17 @@ slides:
     titel: "Wie bepaalt de grenzen van militair AI-gebruik: de overheid of het lab?"
     kern: "Het conflict tussen Anthropic en het Pentagon, terwijl frontier-AI al in militaire operaties wordt ingezet."
     volatiliteit: kwartaal
-    bronnen: [soai]
-    beweringen: [K-GEO-005]
-    status: concept
+    bronnen: [vs-rechtbanken, soai]
+    beweringen: [K-GEO-011, K-GEO-016, K-GEO-015]
+    status: gereed
   - id: GEO-03
     titel: "67 landen bouwen aan soevereine AI, maar soevereiniteit kun je niet huren"
     kern: "Buiten de VS en China lopen 184 overheidsprojecten met samen circa 84 miljard dollar. Wie niet aan de frontier meedoet, moet onderhandelen over toegang."
+    grafiek: "Soevereine AI-projecten buiten de VS en China, cumulatief, 2023 tot juni 2026 (data/GEO-03_soevereine_ai_projecten.csv)"
     volatiliteit: kwartaal
     bronnen: [cnas-sovereign, soai]
-    beweringen: [K-GEO-001, K-GEO-006]
-    status: concept
-    noot: "Gewenste grafiek: Aantal soevereine AI-projecten, cumulatief; vraagt jaarcijfers van CNAS; de kennisbank heeft alleen 2023 (18) en 2026 (184)."
+    beweringen: [K-GEO-001, K-GEO-006, K-GEO-014]
+    status: gereed
   - id: GEO-04
     titel: "China bouwt een eigen keten, van stroom tot chips"
     kern: "Goedkope stroom bevoordeelt Chinese chips. China beperkt nu ook de export van kennis."
@@ -620,11 +616,11 @@ slides:
   - id: GEO-05
     titel: "De AI Act: hoog-risicoregels uitgesteld, transparantieplichten gaan door"
     kern: "Regels voor algemene modellen gelden sinds augustus 2025, transparantieplichten sinds augustus 2026. Hoog-risico schuift naar december 2027 en augustus 2028. Vanaf december 2026 is AI voor niet-consensuele naaktbeelden verboden."
-    grafiek: "Tijdlijn AI Act, februari 2025 tot augustus 2028 (K-GEO-010, K-GOV-003)"
+    grafiek: "Tijdlijn AI Act, februari 2025 tot augustus 2028 (K-GEO-012, K-GEO-010, K-GOV-003)"
     volatiliteit: kwartaal
     bronnen: [eu-ai-act, soai]
-    beweringen: [K-GEO-002, K-GEO-010, K-GOV-003]
-    status: concept
+    beweringen: [K-GEO-012, K-GEO-010, K-GOV-003]
+    status: gereed
   - id: GEO-06
     titel: "In de VS reguleren de staten, ondanks Washington"
     kern: "Californië bouwt onafhankelijk toezicht op veiligheidsclaims. De federale overheid wil één nationaal kader."
@@ -750,13 +746,12 @@ slides:
     noot: "Aanwijzing markttoezichthouders verifiëren; het wetsvoorstel is nog niet in werking (K-NLD-008)."
   - id: NLD-07
     titel: "Netcongestie maakt stroom ook in Nederland een knelpunt voor datacenters"
-    kern: "Op 30 juni wachtten 15.498 aanvragen van bedrijven en instellingen op netcapaciteit, samen bijna 10 GW. Eind 2022 waren het er 668. Ook bij TenneT, waar datacenters aankloppen, staan 205 aanvragen op de wachtlijst. Het kabinet werkt aan regie op datacenterontwikkeling; de Kamerbrief volgt in het eerste kwartaal van 2027."
+    kern: "Op 30 juni wachtten 15.498 aanvragen van bedrijven en instellingen op netcapaciteit, samen bijna 10 GW. Eind 2022 waren het er 668. Ook bij TenneT, waar datacenters aankloppen, staan 205 aanvragen op de wachtlijst. Hyperscale datacenters mogen sinds 2024 alleen in de Eemshaven en bij Middenmeer. Het kabinet werkt aan regie op datacenterontwikkeling; de Kamerbrief volgt in het eerste kwartaal van 2027."
     grafiek: "Wachtlijst voor afname bij de regionale netbeheerders: aantal verzoeken en gevraagd vermogen, 2022 tot medio 2026 (data/NLD-07_wachtlijst_afname.csv)"
     volatiliteit: kwartaal
     bronnen: [rijksoverheid, eurostat]
-    beweringen: [K-NLD-009, K-INF-017, K-NLD-012, K-NLD-014]
-    status: concept
-    noot: "Bestaande regels voor hyperscale datacenters (Eemshaven en Middenmeer, Barro en Bkl) nog bij de primaire bron vaststellen; nationale regie volgt in Q1 2027 (K-NLD-014)."
+    beweringen: [K-NLD-009, K-INF-017, K-NLD-012, K-NLD-014, K-NLD-016]
+    status: gereed
 
 # ---------- GOVERNANCE EN VERANTWOORD GEBRUIK ----------
   - id: GOV-01
@@ -816,8 +811,8 @@ slides:
     grafiek: "De tien voorspellingen van 2025 naar uitkomst volgens de auteurs, als raster (data/VBK-01_voorspellingen_2025.csv)"
     volatiliteit: kwartaal
     bronnen: [soai]
-    beweringen: [K-VBK-001, K-VBK-002]
-    status: concept
+    beweringen: [K-VBK-001, K-VBK-002, K-VBK-003]
+    status: gereed
   - id: VBK-02
     titel: "AGI: wanneer, en wat bedoelen we er eigenlijk mee?"
     kern: "Labbazen noemen jaartallen, maar definities lopen uiteen. De goede vraag is wat er nu al kan."

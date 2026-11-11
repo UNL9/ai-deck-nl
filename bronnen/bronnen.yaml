@@ -166,6 +166,52 @@ data_en_metingen:
     betrouwbaarheid: A
     opmerking: leginfo.legislature.ca.gov geeft een 403 aan scripts; gebruik persberichten van de gouverneur of de indiener
 
+  - id: vs-rechtbanken
+    naam: Amerikaanse federale rechtbanken (uitspraken en processtukken)
+    url: https://www.uscourts.gov
+    type: rechtspraak
+    frequentie: per publicatie
+    betrouwbaarheid: A
+    opmerking: CourtListener vraagt een login; uitspraken van het D.C. Circuit staan maar kort op media.cadc.uscourts.gov
+
+  - id: cac
+    naam: Cyberspace Administration of China (CAC), regelgeving
+    url: https://www.cac.gov.cn
+    type: overheid
+    frequentie: per publicatie
+    betrouwbaarheid: A
+
+  - id: vk-overheid
+    naam: Britse regering (gov.uk), persberichten en beleid
+    url: https://www.gov.uk
+    type: overheid
+    frequentie: per publicatie
+    betrouwbaarheid: A
+
+  - id: us-census
+    naam: U.S. Census Bureau, historische statistiek (o.a. Historical Statistics of the United States)
+    url: https://www.census.gov
+    type: statistiek
+    frequentie: per publicatie
+    betrouwbaarheid: A
+    hergebruik: publiek domein
+
+  - id: fda
+    naam: U.S. Food and Drug Administration, lijst van toegelaten AI-hulpmiddelen
+    url: https://www.fda.gov/medical-devices/artificial-intelligence-enabled-medical-devices/list-artificial-intelligence-enabled-medical-devices
+    type: dataset
+    frequentie: halfjaarlijks
+    betrouwbaarheid: A
+    hergebruik: publiek domein
+
+  - id: historische-bronnen
+    naam: Oorspronkelijke publicaties uit de geschiedenis van AI (voorstellen, congresbundels)
+    url: http://www-formal.stanford.edu/jmc/history/dartmouth/dartmouth.html
+    type: publicatie
+    frequentie: nooit
+    betrouwbaarheid: A
+    opmerking: ojs.aaai.org heeft een botcheck; IJCAI-bundels (ijcai.org/Proceedings) zijn wel leesbaar
+
   - id: vectara
     naam: Vectara, Hallucination Leaderboard (hoe vaak modellen iets verzinnen bij het samenvatten)
     url: https://github.com/vectara/hallucination-leaderboard
@@ -180,6 +226,13 @@ bedrijfsbronnen:
     naam: Nieuws- en onderzoekspagina's van Anthropic, OpenAI, Google DeepMind, Meta, Mistral, DeepSeek, Qwen
     type: bedrijfsbron
     frequentie: dagelijks
+    betrouwbaarheid: A
+
+  - id: wayve
+    naam: Wayve, persberichten (zelfrijdende auto's, Londen)
+    url: https://wayve.ai/press
+    type: bedrijfsbron
+    frequentie: per publicatie
     betrouwbaarheid: A
   - id: earnings
     naam: Kwartaalcijfers Microsoft, Alphabet, Amazon, Meta, NVIDIA, TSMC, ASML

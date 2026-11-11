@@ -175,3 +175,14 @@
   status: actueel
   slides: [NLD-05]
   noot: "Bericht van TNO zelf; nog geen resultaten. DPG Media leverde trainingsdata via NDP Nieuwsmedia. Vervangt K-NLD-013."
+# Opruimronde D, 2026-11-11
+- id: K-NLD-016
+  bewering: "Sinds 1 januari 2024 mogen omgevingsplannen geen hyperscale datacentra (meer dan 10 hectare vloeroppervlak en 70 MW aansluitvermogen of meer) toelaten, behalve op enkele locaties in Het Hogeland (Eemshaven) en Hollands Kroon (Agriport A7, bij Middenmeer)."
+  peildatum: 2024-01-01
+  bron: rijksoverheid
+  vindplaats: "Besluit kwaliteit leefomgeving, art. 5.161ba tot en met 5.161bc (Stb. 2023, 492, zoek.officielebekendmakingen.nl/stb-2023-492.html), met toelichting"
+  vastgesteld: 2026-11-11
+  houdbaarheid_dagen: 730
+  status: actueel
+  slides: [NLD-07]
+  noot: "Zelf gelezen. De locaties Eemshaven en Agriport A7 staan in de toelichting; de exacte grenzen in een ministeriële regeling (niet ingezien). Gemeenten hebben tot 1 januari 2032 om hun omgevingsplan aan te passen."
