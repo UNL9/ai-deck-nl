@@ -18,7 +18,7 @@ De stand van zaken in tien zinnen. Wordt elk kwartaal herschreven.
 1. Aan de top strijden Anthropic, OpenAI en Google; sinds eind oktober stonden er drie verschillende modellen bovenaan. (FRT-01)
 2. Agents kunnen steeds langere taken aan, en de meetlat raakt op: boven 16 uur kan METR niet meer betrouwbaar meten. (FRT-05)
 3. Hoge scores verbergen half werk: in labtaken was bijna de helft van de 'klaar'-meldingen onterecht. (FRT-10)
-4. Anthropic en OpenAI hebben samen ruim 130 miljard dollar omzet op jaarbasis, tegen 30 miljard begin 2026. (MKT-01)
+4. Anthropic en OpenAI hebben samen ruim 130 miljard dollar omzet op jaarbasis. (MKT-01)
 5. Twee labs krijgen 95 procent van de zakelijke tokenuitgaven die Ramp meet. (MKT-04)
 6. Microsoft, Alphabet, Amazon en Meta investeren dit jaar samen rond 730 miljard dollar. (INF-01)
 7. Een derde van de Nederlandse bedrijven gebruikt AI, tegen een vijfde in de EU; Nederland staat zesde. (NLD-02)
@@ -121,7 +121,7 @@ Agents die goed scoren op benchmarks laten in de praktijk analyses onaf, missen 
 ## Markt en economie (9)
 
 **MKT-01** [W] **OpenAI en Anthropic groeien elk jaar meer dan drie keer, vanaf een steeds hogere basis**  
-Anthropic zat eind oktober op 81 miljard dollar omzet op jaarbasis. OpenAI meldde beleggers eind september volgens berichten bijna 50 miljard. Samen ruim 130 miljard, tegen 30 miljard begin 2026. Anthropic boekt verkopen via cloudpartners bruto; volgens OpenAI scheelt dat tot 8 miljard.
+Anthropic zat eind oktober op 81 miljard dollar omzet op jaarbasis. OpenAI meldde beleggers eind september volgens berichten bijna 50 miljard. Samen ruim 130 miljard. Anthropic boekte in het derde kwartaal 17,0 miljard dollar omzet, tegen 1,4 miljard een jaar eerder. Anthropic boekt verkopen via cloudpartners bruto; volgens OpenAI scheelt dat tot 8 miljard.
 <br><sub>Bronnen: soai, lab-blogs, sec-edgar, financiele-pers · Open: OpenAI-cijfer volgens berichten (K-MKT-015, te verifiëren). Voor OpenAI bestaat geen gepubliceerde reeks; de grafiek toont alleen Anthropic.</sub>
 
 **MKT-02** [K] **De omzet van twee AI-labs is al groter dan hele sectoren die ze willen veranderen**  
@@ -375,7 +375,7 @@ Een derde van de Nederlandse bedrijven gebruikt AI, tegen een vijfde in de EU. B
 <br><sub>Bronnen: eurostat, cbs · Open: Bij gebruik voor werk staat Nederland derde (26,6 procent). CBS-cijfers over gebruik door personen nog niet opgehaald.</sub>
 
 **NLD-03** [K] **De AI-fabriek in Groningen: 200 miljoen euro voor Nederlandse rekenkracht**  
-Rijk, regio en EuroHPC investeren samen ruim 200 miljoen euro. Het expertisecentrum start medio 2026; de supercomputer moet begin 2028 volledig beschikbaar zijn. Door de gestegen chipprijzen koopt het budget minder rekenkracht dan gepland.
+Rijk, regio en EuroHPC investeren samen ruim 200 miljoen euro. Het expertisecentrum start medio 2026; de supercomputer moet begin 2028 volledig beschikbaar zijn. Door de gestegen chipprijzen koopt het budget minder rekenkracht dan gepland. Het kabinet trekt daarnaast 120 miljoen euro uit voor een Europees AI-project (IPCEI) en stuurt begin 2027 een brief over AI-rekenkracht.
 <br><sub>Bronnen: rijksoverheid, eurohpc, aifabriek · Open: Aantal GPU's bijwerken na de aanbesteding van januari 2027 (K-NLD-011, te verifiëren). Ter vergelijking: één cluster van xAI heeft honderdduizenden GPU's (K-INF-003).</sub>
 
 **NLD-04** [S] **Nederland is onmisbaar in de keten, en dat is een onderhandelingspositie**  
@@ -391,7 +391,7 @@ Bestaande toezichthouders houden toezicht binnen hun domein. De AP wordt de toez
 <br><sub>Bronnen: ap-ran, dnb-afm, rijksoverheid · Open: Aanwijzing markttoezichthouders verifiëren; het wetsvoorstel is nog niet in werking (K-NLD-008).</sub>
 
 **NLD-07** [K] **Netcongestie maakt stroom ook in Nederland een knelpunt voor datacenters**  
-Op 30 juni wachtten 15.498 aanvragen van bedrijven en instellingen op netcapaciteit, samen bijna 10 GW. Eind 2022 waren het er 668. Ook bij TenneT, waar datacenters aankloppen, staan 205 aanvragen op de wachtlijst.
+Op 30 juni wachtten 15.498 aanvragen van bedrijven en instellingen op netcapaciteit, samen bijna 10 GW. Eind 2022 waren het er 668. Ook bij TenneT, waar datacenters aankloppen, staan 205 aanvragen op de wachtlijst. Het kabinet werkt aan regie op datacenterontwikkeling; de Kamerbrief volgt in het eerste kwartaal van 2027.
 <br><sub>Bronnen: rijksoverheid, eurostat · Open: Bestaande regels voor hyperscale datacenters (Eemshaven en Middenmeer, Barro en Bkl) nog bij de primaire bron vaststellen; nationale regie volgt in Q1 2027 (K-NLD-014).</sub>
 
 ## Governance en verantwoord gebruik (7)

@@ -18,15 +18,18 @@ def laad():
     opzet = yaml.safe_load((ROOT / "deck/opzet.yaml").read_text(encoding="utf-8"))
     bronnen_doc = yaml.safe_load((ROOT / "bronnen/bronnen.yaml").read_text(encoding="utf-8"))
     bronnen = {b["id"] for groep in bronnen_doc.values() for b in groep}
-    beweringen = {}
+    beweringen, dubbel = {}, []
     for f in sorted(glob.glob(str(ROOT / "kennisbank/beweringen/*.yaml"))):
         for b in yaml.safe_load(Path(f).read_text(encoding="utf-8")) or []:
+            if b["id"] in beweringen:
+                dubbel.append(b["id"])
             beweringen[b["id"]] = b
+    laad.dubbel = dubbel
     return opzet, bronnen, beweringen
 
 
 def controleer(opzet, bronnen, beweringen):
-    fouten = []
+    fouten = [f"dubbel bewering-ID: {k}" for k in getattr(laad, "dubbel", [])]
     codes = {s["code"] for s in opzet["secties"]}
     ids = [s["id"] for s in opzet["slides"]]
     for i in {x for x in ids if ids.count(x) > 1}:

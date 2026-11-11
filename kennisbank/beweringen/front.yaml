@@ -50,8 +50,9 @@
   vastgesteld: 2026-11-10
   houdbaarheid_dagen: 90
   status: vervangen
-  vervangen_door: K-FRT-030
+  vervangen_door: K-FRT-033
   slides: [FRT-07]
+  noot: "Vervangen door de primaire bron van Anthropic (K-FRT-033; stond eerst als K-FRT-030, dat ID is nu FrontierSWE)."
 - id: K-FRT-006
   bewering: "Epoch volgt 49 onopgeloste onderzoeksproblemen in de wiskunde; AI wordt gecrediteerd voor negen oplossingen, waarvan vier zonder menselijke hulp."
   peildatum: 2026-09
@@ -350,3 +351,15 @@
   status: actueel
   slides: [FRT-09]
   noot: "Eigen metingen van Sunday, in huizen die Sunday zelf koos, op één soort taak."
+
+# FRT-07, VBK-02: AI helpt AI bouwen (hersteld)
+- id: K-FRT-033
+  bewering: "Volgens de eigen R&D Automation Index van Anthropic leidt Claude in augustus 2026 26% van het model-R&D-werk (niveau 'leidt': Claude doet het grootste deel van een taak van begin tot eind, een mens houdt toezicht), tegen minder dan 1% in februari 2026. Voor geen enkel gemeten deel werkt Claude volledig zelfstandig; meer dan 90% van het werk is op of boven het niveau 'werkt samen'."
+  peildatum: 2026-08
+  bron: lab-blogs
+  vindplaats: "Anthropic Institute, 'Measurements for understanding the pace of AI development inside frontier labs', https://www.anthropic.com/institute/measuring-pace-of-ai-development (gelezen 2026-11-11)"
+  vastgesteld: 2026-11-11
+  houdbaarheid_dagen: 90
+  status: actueel
+  slides: [FRT-07, VBK-02]
+  noot: "Primaire bron voor K-FRT-005. Methode: elke week in juli 2026 een steekproef van 20% van het personeel; een Claude-agent maakte uit Slack en interne documenten circa 15.000 taken, een tweede Claude-model kende per categorie een niveau toe op de schaal van Epoch AI (AL0 tot AL5). Overeenstemming model en mens 59%, mens en mens 35%. Zelfmeting, prototype, geen onafhankelijke controle; belang van de bron vermelden. De pagina noemt geen publicatiedatum (volgens vakpers 17 september 2026). Hersteld op 2026-11-11: deze bewering stond eerst als K-FRT-030 in de wekelijkse update en ging verloren bij het samenvoegen met de verbeterloop, die K-FRT-030 voor FrontierSWE gebruikte."

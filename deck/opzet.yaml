@@ -45,8 +45,7 @@ slides:
     titel: "Wat is er deze week veranderd"
     kern: "Maximaal tien punten uit het weekverslag, met per punt de geraakte slides."
     volatiliteit: wekelijks
-    status: herzien
-    voorstel: "Elke week vervangen door de punten uit het nieuwste weekverslag; deze week updates/2026-11-11.md."
+    status: concept
   - id: OPN-03
     titel: "Tien dingen die je nu moet weten over AI"
     kern: "De stand van zaken in tien zinnen. Wordt elk kwartaal herschreven."
@@ -54,7 +53,7 @@ slides:
       - "Aan de top strijden Anthropic, OpenAI en Google; sinds eind oktober stonden er drie verschillende modellen bovenaan. (FRT-01)"
       - "Agents kunnen steeds langere taken aan, en de meetlat raakt op: boven 16 uur kan METR niet meer betrouwbaar meten. (FRT-05)"
       - "Hoge scores verbergen half werk: in labtaken was bijna de helft van de 'klaar'-meldingen onterecht. (FRT-10)"
-      - "Anthropic en OpenAI hebben samen ruim 130 miljard dollar omzet op jaarbasis, tegen 30 miljard begin 2026. (MKT-01)"
+      - "Anthropic en OpenAI hebben samen ruim 130 miljard dollar omzet op jaarbasis. (MKT-01)"
       - "Twee labs krijgen 95 procent van de zakelijke tokenuitgaven die Ramp meet. (MKT-04)"
       - "Microsoft, Alphabet, Amazon en Meta investeren dit jaar samen rond 730 miljard dollar. (INF-01)"
       - "Een derde van de Nederlandse bedrijven gebruikt AI, tegen een vijfde in de EU; Nederland staat zesde. (NLD-02)"
@@ -63,8 +62,7 @@ slides:
       - "Agents doen soms wat werkt in plaats van wat bedoeld is, ook buiten de testomgeving. (VEI-01)"
     volatiliteit: kwartaal
     beweringen: [K-FRT-009, K-FRT-019, K-FRT-027, K-MKT-016, K-MKT-020, K-INF-006, K-NLD-004, K-WRK-007, K-GEO-010, K-VEI-004]
-    status: herzien
-    voorstel: "Geen inhoudelijke wijziging: de gekoppelde bewering is vervangen door een regel met de primaire bron (Verordening (EU) 2026/1744 zelf gelezen). Titel en kern blijven."
+    status: concept
     noot: "Punt 4: het OpenAI-deel komt uit de pers (K-MKT-015, te verifiëren); in de voetregel 'volgens berichten'."
 
 # ---------- HOE HET WERKT ----------
@@ -116,8 +114,7 @@ slides:
     volatiliteit: stabiel
     bronnen: [soai]
     beweringen: [K-BAS-008, K-BAS-004]
-    status: herzien
-    voorstel: "Score bij maximale inspanning van 58 naar 59 (Intelligence Index v5.0.1, K-BAS-008). Titel en kern blijven. Let op: 35 bij lage inspanning en 59.000 tokens zijn nog cijfers van versie 5.0 (K-BAS-004)."
+    status: concept
     noot: "Score bij lage inspanning en tokens per taak opnieuw vaststellen op versie 5.0.1; de modelpagina toont alleen de maximale instelling."
   - id: BAS-08
     titel: "Een agent is een model met gereedschap en geheugen. Zelfde model, beter harnas, betere agent."
@@ -215,9 +212,8 @@ slides:
     kern: "Volgens Anthropic steeg het aandeel taken waarin Claude de leiding heeft van minder dan 1 naar 26 procent in zes maanden, onder menselijk toezicht. METR, dat het rapport toetste, schat de versnelling van het onderzoek op 1,3 tot 2,8 keer en vindt dat Anthropic die onderschat."
     volatiliteit: kwartaal
     bronnen: [soai, metr]
-    beweringen: [K-FRT-030, K-FRT-022]
-    status: herzien
-    voorstel: "Geen wijziging in titel en kern. Bron in de voetregel nu Anthropic zelf (R&D Automation Index, K-FRT-030) in plaats van State of AI."
+    beweringen: [K-FRT-033, K-FRT-022]
+    status: concept
   - id: FRT-08
     titel: "AI lost open wiskundeproblemen op en versnelt wetenschappelijk werk"
     kern: "AI hielp bij de oplossing van tien van de 49 open wiskundeproblemen die Epoch volgt, vijf keer zonder menselijke hulp. In het lab meldden modellen 89 van de 192 keer ten onrechte dat een taak af was."
@@ -245,7 +241,7 @@ slides:
 # ---------- MARKT EN ECONOMIE ----------
   - id: MKT-01
     titel: "OpenAI en Anthropic groeien elk jaar meer dan drie keer, vanaf een steeds hogere basis"
-    kern: "Anthropic zat eind oktober op 81 miljard dollar omzet op jaarbasis. OpenAI meldde beleggers eind september volgens berichten bijna 50 miljard. Samen ruim 130 miljard, tegen 30 miljard begin 2026. Anthropic boekt verkopen via cloudpartners bruto; volgens OpenAI scheelt dat tot 8 miljard."
+    kern: "Anthropic zat eind oktober op 81 miljard dollar omzet op jaarbasis. OpenAI meldde beleggers eind september volgens berichten bijna 50 miljard. Samen ruim 130 miljard. Anthropic boekte in het derde kwartaal 17,0 miljard dollar omzet, tegen 1,4 miljard een jaar eerder. Anthropic boekt verkopen via cloudpartners bruto; volgens OpenAI scheelt dat tot 8 miljard."
     grafiek: "Kwartaalomzet Anthropic (GAAP) 2025 tot nu, uit het prospectus (data/MKT-01_anthropic_kwartaalomzet.csv). Voor OpenAI bestaat geen gepubliceerde reeks."
     volatiliteit: wekelijks
     bronnen: [soai, lab-blogs, sec-edgar, financiele-pers]
@@ -550,8 +546,7 @@ slides:
     volatiliteit: kwartaal
     bronnen: [soai, eu-ai-act]
     beweringen: [K-GEO-002, K-SAM-002, K-SAM-003, K-GEO-010]
-    status: herzien
-    voorstel: "Geen inhoudelijke wijziging: de gekoppelde bewering is vervangen door een regel met de primaire bron (Verordening (EU) 2026/1744 zelf gelezen). Titel en kern blijven."
+    status: concept
   - id: SAM-03
     titel: "Antwoordmachines vervangen het zoeken, en dat raakt de hele informatievoorziening"
     kern: "Wie een antwoord krijgt, klikt niet meer door. Dat raakt uitgevers, adverteerders en de vindbaarheid van bronnen."
@@ -629,8 +624,7 @@ slides:
     volatiliteit: kwartaal
     bronnen: [eu-ai-act, soai]
     beweringen: [K-GEO-002, K-GEO-010, K-GOV-003]
-    status: herzien
-    voorstel: "Geen inhoudelijke wijziging: de gekoppelde bewering is vervangen door een regel met de primaire bron (Verordening (EU) 2026/1744 zelf gelezen). Titel en kern blijven."
+    status: concept
   - id: GEO-06
     titel: "In de VS reguleren de staten, ondanks Washington"
     kern: "Californië bouwt onafhankelijk toezicht op veiligheidsclaims. De federale overheid wil één nationaal kader."
@@ -722,17 +716,15 @@ slides:
     volatiliteit: kwartaal
     bronnen: [eurostat, cbs]
     beweringen: [K-NLD-004, K-NLD-005]
-    status: herzien
-    voorstel: "EU-gemiddelde voor bedrijven in de grafiek van 19,9 naar 20,0 procent (Eurostat: 19,95). Titel en kern blijven."
+    status: concept
     noot: "Bij gebruik voor werk staat Nederland derde (26,6 procent). CBS-cijfers over gebruik door personen nog niet opgehaald."
   - id: NLD-03
     titel: "De AI-fabriek in Groningen: 200 miljoen euro voor Nederlandse rekenkracht"
-    kern: "Rijk, regio en EuroHPC investeren samen ruim 200 miljoen euro. Het expertisecentrum start medio 2026; de supercomputer moet begin 2028 volledig beschikbaar zijn. Door de gestegen chipprijzen koopt het budget minder rekenkracht dan gepland."
+    kern: "Rijk, regio en EuroHPC investeren samen ruim 200 miljoen euro. Het expertisecentrum start medio 2026; de supercomputer moet begin 2028 volledig beschikbaar zijn. Door de gestegen chipprijzen koopt het budget minder rekenkracht dan gepland. Het kabinet trekt daarnaast 120 miljoen euro uit voor een Europees AI-project (IPCEI) en stuurt begin 2027 een brief over AI-rekenkracht."
     volatiliteit: kwartaal
     bronnen: [rijksoverheid, eurohpc, aifabriek]
     beweringen: [K-NLD-003, K-NLD-006, K-NLD-010, K-NLD-011, K-NLD-014]
-    status: herzien
-    voorstel: "Kern aanvullen met: 'Het kabinet trekt daarnaast 120 miljoen euro uit voor een Europees AI-project (IPCEI) en stuurt begin 2027 een brief over AI-rekenkracht.' (K-NLD-014). Titel blijft."
+    status: concept
     noot: "Aantal GPU's bijwerken na de aanbesteding van januari 2027 (K-NLD-011, te verifiëren). Ter vergelijking: één cluster van xAI heeft honderdduizenden GPU's (K-INF-003)."
   - id: NLD-04
     titel: "Nederland is onmisbaar in de keten, en dat is een onderhandelingspositie"
@@ -759,13 +751,12 @@ slides:
     noot: "Aanwijzing markttoezichthouders verifiëren; het wetsvoorstel is nog niet in werking (K-NLD-008)."
   - id: NLD-07
     titel: "Netcongestie maakt stroom ook in Nederland een knelpunt voor datacenters"
-    kern: "Op 30 juni wachtten 15.498 aanvragen van bedrijven en instellingen op netcapaciteit, samen bijna 10 GW. Eind 2022 waren het er 668. Ook bij TenneT, waar datacenters aankloppen, staan 205 aanvragen op de wachtlijst."
+    kern: "Op 30 juni wachtten 15.498 aanvragen van bedrijven en instellingen op netcapaciteit, samen bijna 10 GW. Eind 2022 waren het er 668. Ook bij TenneT, waar datacenters aankloppen, staan 205 aanvragen op de wachtlijst. Het kabinet werkt aan regie op datacenterontwikkeling; de Kamerbrief volgt in het eerste kwartaal van 2027."
     grafiek: "Wachtlijst voor afname bij de regionale netbeheerders: aantal verzoeken en gevraagd vermogen, 2022 tot medio 2026 (data/NLD-07_wachtlijst_afname.csv)"
     volatiliteit: kwartaal
     bronnen: [rijksoverheid, eurostat]
     beweringen: [K-NLD-009, K-INF-017, K-NLD-012, K-NLD-014]
-    status: herzien
-    voorstel: "Kern aanvullen met: 'Het kabinet werkt aan regie op datacenterontwikkeling; de Kamerbrief volgt in het eerste kwartaal van 2027.' (K-NLD-014). Titel blijft."
+    status: concept
     noot: "Bestaande regels voor hyperscale datacenters (Eemshaven en Middenmeer, Barro en Bkl) nog bij de primaire bron vaststellen; nationale regie volgt in Q1 2027 (K-NLD-014)."
 
 # ---------- GOVERNANCE EN VERANTWOORD GEBRUIK ----------
@@ -803,8 +794,7 @@ slides:
     volatiliteit: kwartaal
     bronnen: [eu-ai-act]
     beweringen: [K-GOV-003, K-GEO-010]
-    status: herzien
-    voorstel: "Geen inhoudelijke wijziging: de gekoppelde bewering is vervangen door een regel met de primaire bron (Verordening (EU) 2026/1744 zelf gelezen). Titel en kern blijven."
+    status: concept
   - id: GOV-06
     titel: "Verantwoord gebruik vraagt een register, een eigenaar en menselijk toezicht"
     kern: "Weet welke AI-systemen je gebruikt, wie verantwoordelijk is en waar een mens meekijkt. De overheid doet het voor met het algoritmeregister."
@@ -818,8 +808,7 @@ slides:
     kern: "Concrete agendapunten per kwartaal, afgeleid van de ontwikkelingen in dit deck."
     volatiliteit: kwartaal
     beweringen: [K-GOV-003, K-GEO-010, K-NLD-008]
-    status: herzien
-    voorstel: "Geen inhoudelijke wijziging: de gekoppelde bewering is vervangen door een regel met de primaire bron (Verordening (EU) 2026/1744 zelf gelezen). Titel en kern blijven."
+    status: concept
 
 # ---------- VOORUITBLIK ----------
   - id: VBK-01
@@ -835,9 +824,8 @@ slides:
     kern: "Labbazen noemen jaartallen, maar definities lopen uiteen. Bij elke platformverschuiving mislukten de meeste voorspellingen; de goede vraag is wat er nu al kan."
     volatiliteit: kwartaal
     bronnen: [soai, evans, metr, epoch]
-    beweringen: [K-VBK-002, K-VBK-001, K-FRT-030, K-FRT-017, K-FRT-019]
-    status: herzien
-    voorstel: "Geen inhoudelijke wijziging: K-FRT-005 is vervangen door de primaire Anthropic-bron K-FRT-030. Titel en kern blijven."
+    beweringen: [K-VBK-002, K-VBK-001, K-FRT-033, K-FRT-017, K-FRT-019]
+    status: concept
   - id: VBK-03
     titel: "Bronnen en verder lezen"
     kern: "De vaste bronnen achter dit deck, met waar je ze vindt."
