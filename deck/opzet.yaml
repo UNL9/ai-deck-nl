@@ -164,7 +164,7 @@ slides:
     volatiliteit: wekelijks
     bronnen: [artificial-analysis, epoch, soai]
     beweringen: [K-FRT-001, K-FRT-009, K-FRT-010, K-FRT-011]
-    status: concept
+    status: gereed
     noot: "Huidige stand Artificial Analysis (v5) als voetnoot; de geschiedenis van AA is geen open data."
   - id: FRT-02
     titel: "Welk model het beste is, hangt af van wie meet en wat er gemeten wordt"
@@ -181,7 +181,7 @@ slides:
     volatiliteit: kwartaal
     bronnen: [soai, artificial-analysis, epoch]
     beweringen: [K-FRT-003, K-FRT-014, K-FRT-015, K-FRT-016]
-    status: concept
+    status: gereed
     noot: "De gewichten van Kimi K3.1 Pro zijn volgens AA nog niet vrijgegeven; het beste Chinese model met vrijgegeven gewichten scoort 33. Vermelden in de toelichting."
   - id: FRT-04
     titel: "Benchmarks die jaren moesten meegaan, zijn binnen maanden verzadigd"
@@ -190,7 +190,7 @@ slides:
     volatiliteit: wekelijks
     bronnen: [epoch, arc-prize, soai]
     beweringen: [K-FRT-004, K-FRT-017, K-FRT-018]
-    status: concept
+    status: gereed
     noot: "In de voetregel vermelden dat OpenAI FrontierMath financiert."
   - id: FRT-05
     titel: "Agents kunnen steeds langere taken aan, maar de meetlat raakt op"
@@ -199,7 +199,7 @@ slides:
     volatiliteit: kwartaal
     bronnen: [metr, epoch, soai]
     beweringen: [K-FRT-019, K-FRT-020]
-    status: concept
+    status: gereed
     noot: "Logaritmische schaal vermelden. METR werkt de reeks sinds 8 september niet meer bij."
   - id: FRT-06
     titel: "Programmeren is de eerste toepassing die echt kantelt"
@@ -746,8 +746,8 @@ slides:
     kern: "Een eigen taalmodel draait niet om de frontier, maar om transparantie, taal en onafhankelijkheid."
     volatiliteit: kwartaal
     bronnen: [tno]
-    beweringen: [K-NLD-007, K-NLD-013]
-    status: concept
+    beweringen: [K-NLD-007, K-NLD-013, K-NLD-015]
+    status: gereed
     noot: "Bredere uitrol van GPT-NL nog niet bevestigd (K-NLD-007, te verifiëren)."
   - id: NLD-06
     titel: "Wie houdt in Nederland toezicht op AI?"

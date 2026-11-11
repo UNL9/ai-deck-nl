@@ -133,9 +133,10 @@
   vindplaats: "https://www.tno.nl/en/digital/artificial-intelligence/gpt-nl/"
   vastgesteld: 2026-11-10
   houdbaarheid_dagen: 90
-  status: actueel
+  status: vervangen
+  vervangen_door: K-NLD-015
   slides: [NLD-05]
-  noot: "De pagina verwijst naar een voortgangsrapportage (Nederlands) en een bericht over de test bij DPG Media; die zijn niet zelf gelezen."
+  noot: "De pagina verwijst naar een voortgangsrapportage (Nederlands) en een bericht over de test bij DPG Media; die zijn niet zelf gelezen. Bericht over DPG Media gelezen op 2026-11-11; vervangen door K-NLD-015."
 
 # NLD-07: netcongestie
 - id: K-NLD-012
@@ -160,3 +161,17 @@
   status: actueel
   slides: [NLD-03, NLD-07]
   noot: "Op voorstel van de staatssecretaris voor Digitale Economie en Soevereiniteit (EZK). Het kabinet steunt Europese AI-gigafabrieken en ziet ruimte voor door de markt gefinancierde AI-infrastructuur in Nederland. Het IPCEI-bedrag staat in de Kamerbrief, niet in het nieuwsbericht. Mogelijk ook relevant voor VEI (AI-veiligheidsinstituut) en GOV; zie werklijst."
+
+# ---------- Verbeterloop, 2026-11-11 ----------
+
+# NLD-05: GPT-NL
+- id: K-NLD-015
+  bewering: "GPT-NL wordt gebouwd door TNO, SURF en het NFI, met 13,5 miljoen euro van RVO namens het ministerie van Economische Zaken. De broncode is open source; de gewichten komen beschikbaar onder een gecontroleerde licentie. Rechthebbenden praten mee via een Content Board en krijgen een deel van de opbrengst. DPG Media en TNO begonnen op 10 november 2026 een haalbaarheidsstudie op de redactie (koppen maken en een AI-eindredacteur), die loopt tot eind januari 2027."
+  peildatum: 2026-11-10
+  bron: tno
+  vindplaats: "https://www.tno.nl/en/digital/artificial-intelligence/gpt-nl/ ; https://www.tno.nl/nl/newsroom/insights/2026/11/dpg-media-test-gpt-nl/"
+  vastgesteld: 2026-11-11
+  houdbaarheid_dagen: 90
+  status: actueel
+  slides: [NLD-05]
+  noot: "Bericht van TNO zelf; nog geen resultaten. DPG Media leverde trainingsdata via NDP Nieuwsmedia. Vervangt K-NLD-013."
