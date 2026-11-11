@@ -10,7 +10,7 @@ Wat in de opzet staat maar nog geen bewering heeft, staat niet als feit op de sl
 
 | Slide | Ontbreekt |
 |---|---|
-| BAS-01, BAS-02 | Tijdlijn vóór 2012 (Dartmouth 1956, expertsystemen); indeling in platformen van Evans |
+| BAS-01, BAS-02 | Tijdlijn vóór 2012 (Dartmouth 1956, expertsystemen); indeling in platformen van Evans. Bronnen gevonden maar niet leesbaar voor scripts: het voorstel voor Dartmouth (31 augustus 1955, herdrukt in AI Magazine 27(4), 2006, ojs.aaai.org/index.php/aimagazine/article/view/1904; botcheck) en McDermott, R1 (AAAI-80, cdn.aaai.org/AAAI/1980/AAAI80-076.pdf; scan zonder tekst). Volgens de zoekindex: R1 configureerde VAX-11/780-systemen en was sinds januari 1980 in gebruik bij Digital. Met de hand nalopen. |
 | BAS-03 | Cijfer dat de meeste AI-waarde tot nu toe in voorspellende modellen zat (de titel beweert het, de slide toont alleen een eigen indeling) |
 | BAS-09 | Voorbeelden van realtime multimodale modellen |
 | BAS-11 | Recent cijfer over verzonnen feiten (hallucinaties) |

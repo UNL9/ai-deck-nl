@@ -377,7 +377,7 @@ slides:
     volatiliteit: kwartaal
     bronnen: [epoch, soai, eurohpc]
     beweringen: [K-INF-003, K-INF-004, K-INF-019]
-    status: concept
+    status: gereed
     noot: "De aanbesteding sluit op 3 december 2026 (grote gigafabrieken) en 4 februari 2027 (middelgrote). De EU mikt op meer dan 30 miljard aan investeringen in totaal; dat getal hoort naast de 1 miljard."
   - id: INF-08
     titel: "Is dit een bubbel? De betere vraag is wanneer gebruik en kosten in evenwicht komen"
@@ -385,7 +385,7 @@ slides:
     volatiliteit: stabiel
     bronnen: [evans]
     beweringen: [K-INF-008, K-INF-016]
-    status: concept
+    status: gereed
 
 # ---------- WERK EN ORGANISATIE ----------
   - id: WRK-01
@@ -401,7 +401,7 @@ slides:
     volatiliteit: kwartaal
     bronnen: [evans, mckinsey-sai, gallup, soai]
     beweringen: [K-WRK-004, K-WRK-005, K-WRK-006, K-WRK-007, K-WRK-013]
-    status: concept
+    status: gereed
     noot: "Cijfers van McKinsey gecontroleerd in de PDF (K-WRK-013). Wereldwijde enquête; zo vermelden."
   - id: WRK-03
     titel: "De meeste winst zit nu in programmeren, klantenservice en marketing"
@@ -455,7 +455,7 @@ slides:
     volatiliteit: kwartaal
     bronnen: [iconiq, soai, ramp]
     beweringen: [K-WRK-003, K-WRK-012]
-    status: concept
+    status: gereed
 
 # ---------- TOEPASSINGEN PER SECTOR ----------
   - id: SEC-01
@@ -465,7 +465,7 @@ slides:
     volatiliteit: kwartaal
     bronnen: [cbs, gallup, eurostat]
     beweringen: [K-NLD-002, K-SEC-001]
-    status: concept
+    status: gereed
   - id: SEC-02
     titel: "Zorg: van beeldherkenning naar administratie en medicijnontwikkeling"
     kern: "Radiologie gebruikt AI al jaren. Nu volgen verslaglegging en planning, en door AI ontdekte medicijnen zitten in fase 3."
