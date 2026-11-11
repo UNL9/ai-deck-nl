@@ -136,8 +136,8 @@ Ruim 130 miljard dollar is ruim vier keer de omzet van TCS en meer dan de helft 
 Van de tokenuitgaven die Ramp meet, ging eind oktober 60 procent naar Anthropic en 35 procent naar OpenAI. Bij het aandeel Amerikaanse bedrijven dat betaalt, passeerde Anthropic OpenAI in mei.
 <br><sub>Bronnen: ramp, soai, menlo · Open: Amerikaanse cijfers; zo vermelden. Menlo (K-MKT-027) ziet met een enquête hetzelfde beeld: 55 procent Anthropic, 31 procent OpenAI.</sub>
 
-**MKT-05** [K] **Agents breken door buiten de IT-afdeling**  
-Niet-ontwikkelaars gebruiken codeeragents in hoger tempo dan ontwikkelaars. Ruim 1.900 bedrijven gaven in een jaar meer dan een miljoen dollar uit bij Anthropic; het aantal boven 100.000 dollar ging van 950 naar 11.900.
+**MKT-05** [K] **Bedrijven zetten AI op schaal in: twaalf keer zoveel grote klanten in een jaar**  
+Ruim 1.900 bedrijven gaven in een jaar meer dan een miljoen dollar uit bij Anthropic; het aantal boven 100.000 dollar ging van 950 naar 11.900.
 <br><sub>Bronnen: soai, sec-edgar</sub>
 
 **MKT-06** [K] **Eén productlancering kostte softwarebedrijven 285 miljard dollar aan beurswaarde**  

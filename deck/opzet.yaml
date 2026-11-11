@@ -45,7 +45,7 @@ slides:
     titel: "Wat is er deze week veranderd"
     kern: "Maximaal tien punten uit het weekverslag, met per punt de geraakte slides."
     volatiliteit: wekelijks
-    status: concept
+    status: gereed
   - id: OPN-03
     titel: "Tien dingen die je nu moet weten over AI"
     kern: "De stand van zaken in tien zinnen. Wordt elk kwartaal herschreven."
@@ -276,12 +276,12 @@ slides:
     status: gereed
     noot: "Amerikaanse cijfers; zo vermelden. Menlo (K-MKT-027) ziet met een enquête hetzelfde beeld: 55 procent Anthropic, 31 procent OpenAI."
   - id: MKT-05
-    titel: "Agents breken door buiten de IT-afdeling"
-    kern: "Niet-ontwikkelaars gebruiken codeeragents in hoger tempo dan ontwikkelaars. Ruim 1.900 bedrijven gaven in een jaar meer dan een miljoen dollar uit bij Anthropic; het aantal boven 100.000 dollar ging van 950 naar 11.900."
+    titel: "Bedrijven zetten AI op schaal in: twaalf keer zoveel grote klanten in een jaar"
+    kern: "Ruim 1.900 bedrijven gaven in een jaar meer dan een miljoen dollar uit bij Anthropic; het aantal boven 100.000 dollar ging van 950 naar 11.900."
     volatiliteit: kwartaal
     bronnen: [soai, sec-edgar]
     beweringen: [K-MKT-004, K-MKT-013, K-MKT-014]
-    status: concept
+    status: gereed
   - id: MKT-06
     titel: "Eén productlancering kostte softwarebedrijven 285 miljard dollar aan beurswaarde"
     kern: "Na de lancering van Claude Cowork daalde de softwarebeurs in februari scherp. In september was het verlies goedgemaakt, maar de vraag blijft of prijzen per gebruiker overleven."
@@ -303,8 +303,8 @@ slides:
     grafiek: "Aandeel AI-producten in de omzet en brutomarge bij AI-bouwers, 2025 tot 2027 (data/MKT-08_iconiq_ai_bouwers.csv, ICONIQ)"
     volatiliteit: kwartaal
     bronnen: [iconiq, soai]
-    beweringen: [K-MKT-007]
-    status: concept
+    beweringen: [K-MKT-007, K-MKT-028]
+    status: gereed
   - id: MKT-09
     titel: "Het kapitaal gaat in megarondes naar AI, en het eerste grote lab gaat naar de beurs"
     kern: "94 procent van het geïnvesteerde geld in 2026 zat in rondes van 250 miljoen dollar of meer. Waarderingen verdubbelden in 3,5 tot 13 maanden. Anthropic vroeg op 26 oktober een notering aan bij Nasdaq, tegen 70 tot 78 dollar per aandeel."
@@ -732,7 +732,7 @@ slides:
     volatiliteit: stabiel
     bronnen: [earnings, soai]
     beweringen: [K-INF-014, K-INF-015, K-GEO-009, K-INF-020]
-    status: concept
+    status: gereed
   - id: NLD-05
     titel: "GPT-NL en andere Nederlandse modellen: wat is het doel?"
     kern: "Een eigen taalmodel draait niet om de frontier, maar om transparantie, taal en onafhankelijkheid."
@@ -779,7 +779,7 @@ slides:
     volatiliteit: stabiel
     bronnen: [soai, evans, iconiq, mckinsey-sai]
     beweringen: [K-SEC-003, K-MKT-008, K-WRK-013, K-MKT-006]
-    status: concept
+    status: gereed
   - id: GOV-04
     titel: "Ken je risico's: schaduw-AI, datalekken en afhankelijkheid van twee leveranciers"
     kern: "De drie risico's die nu het vaakst onderschat worden."

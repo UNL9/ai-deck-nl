@@ -14,9 +14,7 @@ Wat in de opzet staat maar nog geen bewering heeft, staat niet als feit op de sl
 | BAS-03 | Cijfer dat de meeste AI-waarde tot nu toe in voorspellende modellen zat (de titel beweert het, de slide toont alleen een eigen indeling) |
 | BAS-09 | Voorbeelden van realtime multimodale modellen |
 | BAS-12 | Epoch-reeks van prijs per token bij gelijke prestatie (analyse loopt tot maart 2025); daarna grafiek bouwen |
-| MKT-05 | "Niet-ontwikkelaars gebruiken codeeragents" |
 | MKT-06 | Reeks voor de S&P-grafiek |
-| MKT-08 | "Prijzen op basis van verbruik en resultaat nemen toe" |
 | WRK-03 | Cijfer voor klantenservice |
 | WRK-04 | Mensen grijpen vaak in bij taken met meerdere stappen |
 | WRK-05 | Historische beroepentellingen VS (liftbedienden, accountants; IPUMS of Census) |

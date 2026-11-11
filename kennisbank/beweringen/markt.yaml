@@ -270,3 +270,17 @@
   status: actueel
   slides: [MKT-04]
   noot: "Enquete onder bijna 400 Amerikaanse beslissers, gewogen naar AI-uitgaven. Menlo is belegger in Anthropic. Komt overeen met de richting van Ramp (K-MKT-020)."
+
+# ---------- Verbeterloop, 2026-11-11 ----------
+
+# MKT-08: prijsmodellen
+- id: K-MKT-028
+  bewering: "Bij AI-bouwers groeide het aandeel dat AI-producten prijst op basis van verbruik van 35% (eind 2025) naar 42% (mei 2026), en op basis van resultaat van 18% naar 23%. Abonnementen blijven het meest gebruikt (57%). Bedrijven combineren gemiddeld 1,7 prijsmodellen, tegen 1,5 een halfjaar eerder."
+  peildatum: 2026-05
+  bron: iconiq
+  vindplaats: "ICONIQ, State of AI 2026: The Builder's Economy, p. 17 (AI Pricing Strategies) en p. 5; bronnen/pdf"
+  vastgesteld: 2026-11-11
+  houdbaarheid_dagen: 180
+  status: actueel
+  slides: [MKT-08]
+  noot: "Enquête onder AI-bouwers (n = 297 in december 2025, n = 305 in mei 2026); meerdere antwoorden mogelijk. Zetels als prijsmodel gingen van 23 naar 28 procent."
