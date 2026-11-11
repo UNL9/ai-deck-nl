@@ -46,7 +46,6 @@ Wat in de opzet staat maar nog geen bewering heeft, staat niet als feit op de sl
 
 ## Na te lopen
 
-- MKT-01: "30 miljard begin 2026" komt uit een vervangen bewering (K-MKT-001).
 - BAS-07: K-BAS-004 noemt 58, Artificial Analysis v5.0.1 nu 59.
 - NLD-02: EU-gemiddelde bedrijven 19,9 (CSV) of 20,0 procent (K-NLD-004).
 - Primaire bron nog niet zelf ingezien: AI Act op EUR-Lex (GOV-05), Anthropic (FRT-07, K-FRT-005).
@@ -55,6 +54,8 @@ Wat in de opzet staat maar nog geen bewering heeft, staat niet als feit op de sl
 - GEO-02 (K-GEO-005): de uitspraken zelf (N.D. Cal., rechter Rita Lin, 27 augustus 2026; D.C. Circuit nr. 26-1049, 25 september 2026) zijn niet bereikbaar: CourtListener vraagt een login. Vakpers en advocatenkantoren (Nextgov, Taft) bevestigen de gang van zaken. Opnieuw proberen via de site van het D.C. Circuit.
 
 ## Keuzes voor Joan
+
+- MKT-01: "tegen 30 miljard begin 2026" is niet bij een primaire bron te controleren. De S-1/A van Anthropic geeft geen omzet op jaarbasis voor januari 2026 en OpenAI publiceert geen cijfers; het getal komt uit State of AI 2026 (K-MKT-001, vervangen). Voorstel: schrappen, of vervangen door de GAAP-omzet van Anthropic: 17,0 miljard dollar in het derde kwartaal van 2026, tegen 1,4 miljard een jaar eerder (K-MKT-011, S-1/A).
 
 - Interpreterende slotzinnen zonder cijfer op BAS-01, WRK-01, WRK-06, SEC-03, SEC-09 en GEO-08: laten staan of schrappen.
 - Kabinetsvisie op AI (6 november 2026, K-NLD-014): het deck heeft geen slide over Nederlands AI-beleid als geheel. Nu staat het als aanvulling op NLD-03 en NLD-07 (status herzien, met voorstel). Alternatief: NLD-06 verbreden van toezicht naar beleid en toezicht. Het adviesrapport over een Nederlands AI-veiligheidsinstituut (verwacht december 2026) kan ook in VEI of NLD.

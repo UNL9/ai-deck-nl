@@ -259,7 +259,7 @@ slides:
     volatiliteit: kwartaal
     bronnen: [soai, sec-edgar, jaarcijfers-dienstverleners]
     beweringen: [K-MKT-001, K-MKT-016, K-MKT-017]
-    status: concept
+    status: gereed
     noot: "Het OpenAI-deel van de som komt uit de pers (K-MKT-016, te verifiëren); in de voetregel 'volgens berichten'. Infosys in dollars nog niet vastgesteld."
   - id: MKT-03
     titel: "Ruim een miljard mensen gebruikt ChatGPT, maar meestal oppervlakkig"
@@ -268,7 +268,7 @@ slides:
     volatiliteit: kwartaal
     bronnen: [evans, openai-research, lab-blogs]
     beweringen: [K-MKT-005, K-MKT-018, K-MKT-019]
-    status: concept
+    status: gereed
     noot: "Het betaalde aandeel (5 procent) gold bij 900 miljoen gebruikers; weer opnemen als er een nieuw cijfer is."
   - id: MKT-04
     titel: "Zakelijke AI-uitgaven gaan vrijwel volledig naar twee labs"
@@ -277,7 +277,7 @@ slides:
     volatiliteit: wekelijks
     bronnen: [ramp, soai, menlo]
     beweringen: [K-MKT-003, K-MKT-020, K-MKT-021, K-MKT-026, K-MKT-027]
-    status: concept
+    status: gereed
     noot: "Amerikaanse cijfers; zo vermelden. Menlo (K-MKT-027) ziet met een enquête hetzelfde beeld: 55 procent Anthropic, 31 procent OpenAI."
   - id: MKT-05
     titel: "Agents breken door buiten de IT-afdeling"
@@ -300,7 +300,7 @@ slides:
     volatiliteit: kwartaal
     bronnen: [evans, iconiq, ramp, soai]
     beweringen: [K-MKT-008, K-MKT-021, K-MKT-026]
-    status: concept
+    status: gereed
   - id: MKT-08
     titel: "AI verkoopt steeds vaker het werk, niet het gereedschap"
     kern: "Prijzen op basis van verbruik en resultaat nemen toe. Bij AI-bouwers stijgt het aandeel AI in de omzet van 32 naar 42 procent, met brutomarges van 45 naar 53 procent."
@@ -315,7 +315,7 @@ slides:
     volatiliteit: kwartaal
     bronnen: [soai, sec-edgar]
     beweringen: [K-MKT-011, K-MKT-022, K-MKT-023, K-MKT-024]
-    status: concept
+    status: gereed
     noot: "Het kwartaal met operationele winst van Anthropic (Q2 2026) kan in de toelichting."
 
 # ---------- INFRASTRUCTUUR, CHIPS EN ENERGIE ----------
