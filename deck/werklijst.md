@@ -17,10 +17,8 @@ Wat in de opzet staat maar nog geen bewering heeft, staat niet als feit op de sl
 | WRK-05 | Historische beroepentellingen VS (liftbedienden, accountants; IPUMS of Census) |
 | SEC-02 | Radiologie en administratie; voorbeelden uit de Nederlandse zorg |
 | SEC-10 | Stand in Europa; ritten per week en aantal steden opnieuw vaststellen (nu State of AI) |
-| SAM-06 | Bewijs dat modellen vooroordelen uit hun data overnemen; de AP-boetes op de slide gaan over een nationaliteitskenmerk dat bewust in het risicomodel zat, en dragen de titel daarom maar half |
 | GEO-03 | Jaarcijfers CNAS (projecten, cumulatief) voor de grafiek |
 | GEO-05 | Regels voor algemene modellen sinds augustus 2025 (artikel 113 van Verordening (EU) 2024/1689). EUR-Lex gaf op 2026-11-11 een lege pagina en een lege 202 bij de pdf (vermoedelijk een botcheck); met de hand nalopen of via een andere officiële bron. |
-| GEO-07 | "Betaal je eigen stroom"; strengere voorwaarden van staten; verloop over meer dan één kwartaal |
 | INF-04 | Bron voor TSMC als begrenzing; gemiddelde prijs per EUV-machine bij ASML zelf (het persbericht Q4 2025 gaf een 403) |
 | VBK-01 | De vier ontbrekende voorspellingen voor 2027 en de stand per voorspelling |
 | NLD-07 | Bestaande regels voor hyperscale datacenters (Eemshaven en Middenmeer; Barro en Bkl) bij de primaire bron vaststellen. De nationale regie volgt in Q1 2027 (K-NLD-014). |

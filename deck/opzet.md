@@ -292,7 +292,7 @@ Japan en Singapore staan training breder toe dan het VK; in de VS lopen de grote
 Datacenters gebruikten in 2025 circa 485 TWh, ruim 1,5 procent van alle stroom, en dat verdubbelt naar verwachting tot 2030. AI groeit drie keer zo snel als de rest. Gascentrales voor AI staan op gespannen voet met klimaatdoelen.
 <br><sub>Bronnen: iea-energy-ai, soai · Open: Het aandeel van ruim 1,5 procent is een afleiding uit de IEA-cijfers (K-SAM-007); in de voetregel zo vermelden.</sub>
 
-**SAM-06** [S] **Modellen nemen over wat in de data zit, ook vooroordelen**  
+**SAM-06** [S] **Geautomatiseerde selectie van burgers leverde de Belastingdienst twee AP-boetes op**  
 Eerlijkheid, uitlegbaarheid en controleerbaarheid zijn geen bijzaak. Ze bepalen of AI in gevoelige beslissingen gebruikt mag worden.
 <br><sub>Bronnen: ap-ran, rathenau</sub>
 
@@ -326,9 +326,9 @@ Regels voor algemene modellen gelden sinds augustus 2025, transparantieplichten 
 Californië bouwt onafhankelijk toezicht op veiligheidsclaims. De federale overheid wil één nationaal kader.
 <br><sub>Bronnen: soai</sub>
 
-**GEO-07** [K] **Verzet tegen datacenters groeit**  
-Amerikaanse staten stellen strengere voorwaarden. Het antwoord van Washington: betaal je eigen stroom.
-<br><sub>Bronnen: soai · Open: 'Betaal je eigen stroom' en de strengere voorwaarden van staten nog niet onderbouwd met een bewering.</sub>
+**GEO-07** [K] **Lokaal verzet tegen datacenters is groter dan tegen kerncentrales**  
+71 procent van de Amerikanen is tegen een AI-datacenter in de eigen omgeving, tegen 53 procent voor een kerncentrale. Lokaal verzet blokkeerde of vertraagde in het tweede kwartaal van 2026 minstens 45 projecten.
+<br><sub>Bronnen: soai</sub>
 
 **GEO-08** [S] **Een Europees frontierlab kost honderden miljarden**  
 Eén berekening komt op 790 miljard euro in drie jaar. Europa kan ook onderhandelen met locaties, stroom en chipmachines.

@@ -572,12 +572,12 @@ slides:
     status: gereed
     noot: "Het aandeel van ruim 1,5 procent is een afleiding uit de IEA-cijfers (K-SAM-007); in de voetregel zo vermelden."
   - id: SAM-06
-    titel: "Modellen nemen over wat in de data zit, ook vooroordelen"
+    titel: "Geautomatiseerde selectie van burgers leverde de Belastingdienst twee AP-boetes op"
     kern: "Eerlijkheid, uitlegbaarheid en controleerbaarheid zijn geen bijzaak. Ze bepalen of AI in gevoelige beslissingen gebruikt mag worden."
     volatiliteit: stabiel
     bronnen: [ap-ran, rathenau]
     beweringen: [K-SEC-004, K-SEC-010]
-    status: concept
+    status: gereed
   - id: SAM-07
     titel: "Wie profiteert? Het risico van een tweedeling"
     kern: "Tussen bedrijven (koplopers versus microbedrijven), tussen werknemers (ervaren versus starters) en tussen landen (wie rekenkracht heeft en wie niet)."
@@ -633,14 +633,13 @@ slides:
     beweringen: [K-GEO-008]
     status: gereed
   - id: GEO-07
-    titel: "Verzet tegen datacenters groeit"
-    kern: "Amerikaanse staten stellen strengere voorwaarden. Het antwoord van Washington: betaal je eigen stroom."
+    titel: "Lokaal verzet tegen datacenters is groter dan tegen kerncentrales"
+    kern: "71 procent van de Amerikanen is tegen een AI-datacenter in de eigen omgeving, tegen 53 procent voor een kerncentrale. Lokaal verzet blokkeerde of vertraagde in het tweede kwartaal van 2026 minstens 45 projecten."
     grafiek: "Amerikanen tegen een AI-datacenter of kerncentrale in de eigen omgeving (data/GEO-07_verzet_lokaal.csv)"
     volatiliteit: kwartaal
     bronnen: [soai]
     beweringen: [K-SAM-003]
-    status: concept
-    noot: "'Betaal je eigen stroom' en de strengere voorwaarden van staten nog niet onderbouwd met een bewering."
+    status: gereed
   - id: GEO-08
     titel: "Een Europees frontierlab kost honderden miljarden"
     kern: "Eén berekening komt op 790 miljard euro in drie jaar. Europa kan ook onderhandelen met locaties, stroom en chipmachines."
