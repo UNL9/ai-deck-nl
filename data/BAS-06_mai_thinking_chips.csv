@@ -1,0 +1,8 @@
+# bron: State of AI Report 2026 (Air Street Capital), slide 27
+# url: https://www.stateof.ai
+# licentie: cijfers uit openbaar rapport, met bronvermelding; grafiek is eigen werk
+# opgehaald: 2026-11-10
+# inzet van de 4.864 GB200-chips tijdens de training van MAI-Thinking-1: leren tegenover antwoorden genereren (inferentie). Leren afgeleid als 4.864 min 4.096. Zie K-BAS-002.
+taak,chips
+leren,768
+antwoorden genereren,4096

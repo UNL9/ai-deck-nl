@@ -1,0 +1,8 @@
+# bron: IEA, Key Questions on Energy and AI (16 april 2026), Executive summary
+# url: https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary
+# licentie: cijfers uit openbaar rapport, met bronvermelding; grafiek is eigen werk
+# opgehaald: 2026-11-10
+# wereldwijd stroomverbruik van datacenters in TWh: 2025 gemeten, 2030 verwachting van het IEA (ongeveer 3% van het wereldverbruik). Zie K-SAM-007.
+jaar,soort,twh
+2025,gemeten,485
+2030,verwachting,950

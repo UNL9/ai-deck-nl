@@ -1,0 +1,13 @@
+# bron: Anthropic S-1/A (SEC EDGAR, run-rate 31 oktober 2026); financiële pers (OpenAI, volgens berichten, eind september 2026); jaarcijfers Deloitte, PwC, EY, KPMG (boekjaar 2025) en TCS (boekjaar 2026)
+# url: https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/anthropicpbc-sx1ax2.htm
+# licentie: openbare cijfers met bronvermelding; grafiek is eigen werk
+# opgehaald: 2026-11-10
+# omzet in miljard dollar. Let op: Anthropic en OpenAI zijn omzet op jaarbasis (run-rate: een maand maal 12 of 13), de dienstverleners jaaromzet over een boekjaar. Het OpenAI-cijfer is niet officieel (K-MKT-015, te verifiëren). Zie K-MKT-010, K-MKT-015, K-MKT-017.
+organisatie,soort,miljard_usd,maatstaf
+Anthropic,AI-lab,81.0,run-rate oktober 2026
+Deloitte,dienstverlener,70.5,boekjaar 2025
+PwC,dienstverlener,56.9,boekjaar 2025
+EY,dienstverlener,53.2,boekjaar 2025
+OpenAI,AI-lab,50.0,run-rate september 2026 (volgens berichten; bijna 50)
+KPMG,dienstverlener,39.8,boekjaar 2025
+TCS,dienstverlener,30.0,boekjaar 2026

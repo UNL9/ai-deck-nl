@@ -1,0 +1,10 @@
+# bron: jaarcijfers van Deloitte, PwC, EY en KPMG, via CPA Practice Advisor
+# url: https://www.cpapracticeadvisor.com
+# licentie: cijfers uit openbare jaarcijfers, met bronvermelding; grafiek is eigen werk
+# opgehaald: 2026-11-10
+# wereldwijde omzet in boekjaar 2025, miljard dollar; boekjaren eindigen in verschillende maanden. Samen 220,4 miljard. Zie K-MKT-017.
+firma,omzet_miljard_usd
+Deloitte,70.5
+PwC,56.9
+EY,53.2
+KPMG,39.8
