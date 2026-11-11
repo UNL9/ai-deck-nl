@@ -400,13 +400,13 @@ slides:
     status: gereed
     noot: "Cijfers van McKinsey gecontroleerd in de PDF (K-WRK-013). Wereldwijde enquête; zo vermelden."
   - id: WRK-03
-    titel: "De meeste winst zit nu in programmeren, klantenservice en marketing"
+    titel: "Programmeren levert de meeste winst; in Nederland gaat AI vooral naar marketing"
     kern: "Programmeerhulp levert de grootste productiviteitswinst. In Nederland is marketing en verkoop de meest genoemde toepassing."
     grafiek: "Waarvoor Nederlandse bedrijven die AI gebruiken het inzetten, 2025 (data/WRK-03_toepassingen_nl.csv, CBS)"
     volatiliteit: kwartaal
     bronnen: [iconiq, cbs, gallup]
     beweringen: [K-NLD-002, K-WRK-006, K-WRK-008]
-    status: concept
+    status: gereed
   - id: WRK-04
     titel: "De mens blijft aan het stuur, ook bij agents"
     kern: "In 72 procent van de onderzochte gesprekken leidt de mens en assisteert AI."
@@ -508,11 +508,11 @@ slides:
     status: gereed
   - id: SEC-08
     titel: "Media en creatieve sector: maken wordt goedkoop, aandacht en rechten worden schaars"
-    kern: "Beeld, video en tekst genereren kost bijna niets. Uitgevers verliezen bezoek aan antwoordmachines en procederen over hergebruik."
+    kern: "Beeld, video en tekst genereren kost bijna niets. Uitgevers en platforms procederen over hergebruik door antwoordmachines."
     volatiliteit: kwartaal
     bronnen: [soai]
     beweringen: [K-SEC-007]
-    status: concept
+    status: gereed
   - id: SEC-09
     titel: "Industrie en logistiek: AI komt binnen via robots"
     kern: "Unitree verkocht 5.215 humanoïde robots in 2025 en is winstgevend."

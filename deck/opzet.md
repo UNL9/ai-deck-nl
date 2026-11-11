@@ -200,7 +200,7 @@ Nieuwe technologie wordt eerst ingepast in bestaand werk, dan ontstaan nieuwe we
 Van de S&P 500-bedrijven heeft 69 procent AI in gebruik, maar 2 procent volgt het effect over tijd. Een kwart van de Amerikaanse werknemers zegt dat hun organisatie een duidelijk plan voor AI heeft.
 <br><sub>Bronnen: evans, mckinsey-sai, gallup, soai · Open: Cijfers van McKinsey gecontroleerd in de PDF (K-WRK-013). Wereldwijde enquête; zo vermelden.</sub>
 
-**WRK-03** [K] **De meeste winst zit nu in programmeren, klantenservice en marketing**  
+**WRK-03** [K] **Programmeren levert de meeste winst; in Nederland gaat AI vooral naar marketing**  
 Programmeerhulp levert de grootste productiviteitswinst. In Nederland is marketing en verkoop de meest genoemde toepassing.
 <br><sub>Bronnen: iconiq, cbs, gallup</sub>
 
@@ -259,7 +259,7 @@ Verkeer via AI-assistenten groeit hard maar is nog maar 0,4 procent van webwinke
 <br><sub>Bronnen: soai, evans</sub>
 
 **SEC-08** [K] **Media en creatieve sector: maken wordt goedkoop, aandacht en rechten worden schaars**  
-Beeld, video en tekst genereren kost bijna niets. Uitgevers verliezen bezoek aan antwoordmachines en procederen over hergebruik.
+Beeld, video en tekst genereren kost bijna niets. Uitgevers en platforms procederen over hergebruik door antwoordmachines.
 <br><sub>Bronnen: soai</sub>
 
 **SEC-09** [K] **Industrie en logistiek: AI komt binnen via robots**  

@@ -14,10 +14,8 @@ Wat in de opzet staat maar nog geen bewering heeft, staat niet als feit op de sl
 | BAS-09 | Voorbeelden van realtime multimodale modellen |
 | BAS-12 | Epoch-reeks van prijs per token bij gelijke prestatie (analyse loopt tot maart 2025); daarna grafiek bouwen |
 | MKT-06 | Reeks voor de S&P-grafiek |
-| WRK-03 | Cijfer voor klantenservice |
 | WRK-05 | Historische beroepentellingen VS (liftbedienden, accountants; IPUMS of Census) |
 | SEC-02 | Radiologie en administratie; voorbeelden uit de Nederlandse zorg |
-| SEC-08 | Verlies aan bezoek bij uitgevers |
 | SEC-10 | Stand in Europa; ritten per week en aantal steden opnieuw vaststellen (nu State of AI) |
 | SAM-06 | Bewijs dat modellen vooroordelen uit hun data overnemen; de AP-boetes op de slide gaan over een nationaliteitskenmerk dat bewust in het risicomodel zat, en dragen de titel daarom maar half |
 | GEO-03 | Jaarcijfers CNAS (projecten, cumulatief) voor de grafiek |
