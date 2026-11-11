@@ -168,6 +168,21 @@ bedrijfsbronnen:
     betrouwbaarheid: A
     opmerking: vergelijkingsmateriaal voor de omvang van AI-omzet; boekjaren lopen uiteen
 
+  - id: skild-ai
+    naam: Skild AI, blog (robotmodellen)
+    url: https://www.skild.ai/blogs
+    type: bedrijf
+    frequentie: per publicatie
+    betrouwbaarheid: B
+    opmerking: eigen metingen van het bedrijf op een eigen testset; zo vermelden
+  - id: sunday-robotics
+    naam: Sunday Robotics, blog (huishoudrobots)
+    url: https://www.sunday.ai/blog
+    type: bedrijf
+    frequentie: per publicatie
+    betrouwbaarheid: B
+    opmerking: eigen metingen van het bedrijf in zelf gekozen huizen; zo vermelden
+
 nederland_en_europa:
   - id: cbs
     naam: CBS, ICT-gebruik en AI bij bedrijven en personen

@@ -257,9 +257,10 @@
   vindplaats: "State of AI Report 2026, slide 56"
   vastgesteld: 2026-11-10
   houdbaarheid_dagen: 180
-  status: actueel
+  status: vervangen
+  vervangen_door: K-FRT-031
   slides: [FRT-09]
-  noot: "Bedrijfscijfers van Skild en Sunday Robotics; primaire publicatie nog niet gecontroleerd."
+  noot: "Bedrijfscijfers van Skild en Sunday Robotics; primaire publicatie nog niet gecontroleerd. Gecontroleerd op 2026-11-11: 66 en 9 procent kloppen (aandeel geslaagde stappen); de ongeveer 0 procent bij 1.000 uur staat niet in de tekst van Skild. Vervangen door K-FRT-031 (Skild) en K-FRT-032 (Sunday)."
 
 # FRT-10: hoge scores, half werk
 - id: K-FRT-025
@@ -326,3 +327,25 @@
   status: actueel
   slides: [FRT-02]
   noot: "FrontierSWE is van Proximal Labs; Epoch neemt de openbare ranglijst over. MirrorCode is van Epoch en METR; Claude Fable 5.2 en Gemini 4 Carbon zijn daar nog niet gemeten. Vervangt K-FRT-013 (State of AI, slide 42), dat MirrorCode afrondde op 77 en 47 procent."
+
+# FRT-09: robotica
+- id: K-FRT-031
+  bewering: "Skild S1 krijgt een taak via één voorbeeldvideo, zonder bijtraining. Op onbekende taken van 4 tot 8 minuten haalt het model bij 100.000 uur voortraining gemiddeld 66% van de stappen, tegen 9% voor een model met taalinstructies op dezelfde data. Een bijgetraind model haalt 86% met 2.000 voorbeelden; één video is volgens Skild ongeveer 380 voorbeelden waard."
+  peildatum: 2026-08-18
+  bron: skild-ai
+  vindplaats: "https://skild.ai/blogs/s1 (Introducing S1: In-Context Learning for Robotics, figuur 4)"
+  vastgesteld: 2026-11-11
+  houdbaarheid_dagen: 180
+  status: actueel
+  slides: [FRT-09]
+  noot: "Eigen metingen van Skild op een eigen testset. Maat: gemiddeld aandeel geslaagde stappen; bij het model met taalinstructies grepen mensen in na een fout, zodat latere stappen toch beoordeeld konden worden. De 380 is een interpolatie. Bij 1.000 uur geeft de tekst alleen bekende taken: 53% (taal) tegen 43% (video)."
+- id: K-FRT-032
+  bewering: "Bij het vouwen van was valt het verschil tussen testen in eigen huis en in onbekende huizen weg naarmate de voortraining groeit: van 82 procentpunt (96% tegen 14%) bij de kleinste schaal naar 0 bij volledige schaal. In onbekende huizen slaagde ACT-2 in 99,1% van 785 pogingen."
+  peildatum: 2026-07-17
+  bron: sunday-robotics
+  vindplaats: "https://www.sunday.ai/blog/act-2-preview (figuur 1)"
+  vastgesteld: 2026-11-11
+  houdbaarheid_dagen: 180
+  status: actueel
+  slides: [FRT-09]
+  noot: "Eigen metingen van Sunday, in huizen die Sunday zelf koos, op één soort taak."

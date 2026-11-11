@@ -226,9 +226,9 @@ slides:
     titel: "Robotica heeft zijn GPT-2-moment: generalisatie groeit mee met voortraining"
     kern: "Robotmodellen generaliseren beter naarmate ze meer voortraining krijgen. Data over handelen is het knelpunt; gesimuleerde werelden zijn een deel van de oplossing."
     volatiliteit: kwartaal
-    bronnen: [soai]
-    beweringen: [K-FRT-024]
-    status: concept
+    bronnen: [soai, skild-ai, sunday-robotics]
+    beweringen: [K-FRT-024, K-FRT-031, K-FRT-032]
+    status: gereed
   - id: FRT-10
     titel: "Hoge scores verbergen nog veel half werk"
     kern: "Agents die goed scoren op benchmarks laten in de praktijk analyses onaf, missen fraude en ontdekken de regels van onbekende situaties slecht."

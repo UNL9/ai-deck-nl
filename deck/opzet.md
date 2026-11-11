@@ -112,7 +112,7 @@ AI hielp bij de oplossing van tien van de 49 open wiskundeproblemen die Epoch vo
 
 **FRT-09** [K] **Robotica heeft zijn GPT-2-moment: generalisatie groeit mee met voortraining**  
 Robotmodellen generaliseren beter naarmate ze meer voortraining krijgen. Data over handelen is het knelpunt; gesimuleerde werelden zijn een deel van de oplossing.
-<br><sub>Bronnen: soai</sub>
+<br><sub>Bronnen: soai, skild-ai, sunday-robotics</sub>
 
 **FRT-10** [K] **Hoge scores verbergen nog veel half werk**  
 Agents die goed scoren op benchmarks laten in de praktijk analyses onaf, missen fraude en ontdekken de regels van onbekende situaties slecht.
