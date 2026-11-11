@@ -52,6 +52,8 @@ Wat in de opzet staat maar nog geen bewering heeft, staat niet als feit op de sl
 - Primaire bron nog niet zelf ingezien: AI Act op EUR-Lex (GOV-05), Anthropic (FRT-07, K-FRT-005).
 - Te verifiëren: K-MKT-015 en K-MKT-016 (omzet OpenAI), K-NLD-007 (GPT-NL), K-NLD-011 (GPU's AI-fabriek, aanbesteding januari 2027).
 
+- GEO-02 (K-GEO-005): de uitspraken zelf (N.D. Cal., rechter Rita Lin, 27 augustus 2026; D.C. Circuit nr. 26-1049, 25 september 2026) zijn niet bereikbaar: CourtListener vraagt een login. Vakpers en advocatenkantoren (Nextgov, Taft) bevestigen de gang van zaken. Opnieuw proberen via de site van het D.C. Circuit.
+
 ## Keuzes voor Joan
 
 - Interpreterende slotzinnen zonder cijfer op BAS-01, WRK-01, WRK-06, SEC-03, SEC-09 en GEO-08: laten staan of schrappen.

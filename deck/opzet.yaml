@@ -126,7 +126,7 @@ slides:
     volatiliteit: stabiel
     bronnen: [soai, iconiq]
     beweringen: [K-BAS-005]
-    status: concept
+    status: gereed
   - id: BAS-09
     titel: "Modellen zien, horen en spreken nu in één doorlopende interactie"
     kern: "Multimodaal is realtime geworden: spraak, beeld en video in gesprek, en video die je tijdens het genereren kunt bijsturen."
@@ -139,7 +139,7 @@ slides:
     volatiliteit: kwartaal
     bronnen: [soai]
     beweringen: [K-FRT-014, K-FRT-016, K-MKT-026]
-    status: concept
+    status: gereed
   - id: BAS-11
     titel: "Modellen maken fouten die overtuigend klinken"
     kern: "Verzonnen feiten en taken die 'klaar' heten maar dat niet zijn. In labtaken was bijna de helft van de 'klaar'-meldingen onvolledig. Controle blijft nodig."
@@ -208,7 +208,7 @@ slides:
     volatiliteit: kwartaal
     bronnen: [soai, evans, menlo]
     beweringen: [K-MKT-004, K-MKT-013, K-FRT-021, K-FRT-029]
-    status: concept
+    status: gereed
     noot: "OpenAI wisselde in juli van definitie (wekelijks actief naar actief)."
   - id: FRT-07
     titel: "AI helpt AI bouwen: Claude leidt een kwart van het modelonderzoek bij Anthropic"
@@ -225,7 +225,7 @@ slides:
     volatiliteit: kwartaal
     bronnen: [epoch, soai]
     beweringen: [K-FRT-006, K-FRT-023, K-FRT-027]
-    status: concept
+    status: gereed
   - id: FRT-09
     titel: "Robotica heeft zijn GPT-2-moment: generalisatie groeit mee met voortraining"
     kern: "Robotmodellen generaliseren beter naarmate ze meer voortraining krijgen. Data over handelen is het knelpunt; gesimuleerde werelden zijn een deel van de oplossing."
@@ -240,7 +240,7 @@ slides:
     volatiliteit: kwartaal
     bronnen: [soai]
     beweringen: [K-FRT-025, K-FRT-026, K-FRT-027, K-FRT-028]
-    status: concept
+    status: gereed
 
 # ---------- MARKT EN ECONOMIE ----------
   - id: MKT-01
