@@ -345,7 +345,7 @@ Op een aanvalsparcours van 32 stappen (ongeveer 20 uur werk voor een expert) sla
 <br><sub>Bronnen: uk-aisi, soai</sub>
 
 **VEI-03** [K] **Misbruik is geen theorie meer**  
-Gedocumenteerd misbruik voor cyberaanvallen, surveillance, beïnvloeding en fraude.
+Gedocumenteerd misbruik voor cyberaanvallen, surveillance en wapenprogramma's.
 <br><sub>Bronnen: soai, lab-blogs</sub>
 
 **VEI-04** [K] **Open modellen lopen 4 tot 7 maanden achter, en verdedigers hebben ze ook nodig**  
@@ -356,8 +356,8 @@ Open modellen vergroten de dreiging, maar verdedigers gebruiken ze ook als geslo
 Beveiliging hangt af van het model én het harnas. Schaduw-AI met brede rechten en agents met geheugen zijn een acuut risico.
 <br><sub>Bronnen: soai</sub>
 
-**VEI-06** [K] **Toezicht op modellen werkt, maar maar half**  
-Monitors die alleen de redenering zien missen sabotage, auditors vinden verborgen gedrag ongeveer de helft van de keren. Waarden aanleren verlaagde chantage in tests van 65 naar 19 procent.
+**VEI-06** [K] **Toezicht op modellen werkt maar half**  
+Auditors vinden verborgen gedrag ongeveer de helft van de keren. Waarden aanleren verlaagde chantage in tests van 65 naar 19 procent.
 <br><sub>Bronnen: soai</sub>
 
 **VEI-07** [K] **De leiders van de labs vragen zelf om een rem**  

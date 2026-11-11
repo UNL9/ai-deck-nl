@@ -666,11 +666,11 @@ slides:
     status: gereed
   - id: VEI-03
     titel: "Misbruik is geen theorie meer"
-    kern: "Gedocumenteerd misbruik voor cyberaanvallen, surveillance, beïnvloeding en fraude."
+    kern: "Gedocumenteerd misbruik voor cyberaanvallen, surveillance en wapenprogramma's."
     volatiliteit: kwartaal
     bronnen: [soai, lab-blogs]
     beweringen: [K-VEI-008]
-    status: concept
+    status: gereed
   - id: VEI-04
     titel: "Open modellen lopen 4 tot 7 maanden achter, en verdedigers hebben ze ook nodig"
     kern: "Open modellen vergroten de dreiging, maar verdedigers gebruiken ze ook als gesloten modellen weigeren."
@@ -686,12 +686,12 @@ slides:
     beweringen: [K-VEI-010]
     status: gereed
   - id: VEI-06
-    titel: "Toezicht op modellen werkt, maar maar half"
-    kern: "Monitors die alleen de redenering zien missen sabotage, auditors vinden verborgen gedrag ongeveer de helft van de keren. Waarden aanleren verlaagde chantage in tests van 65 naar 19 procent."
+    titel: "Toezicht op modellen werkt maar half"
+    kern: "Auditors vinden verborgen gedrag ongeveer de helft van de keren. Waarden aanleren verlaagde chantage in tests van 65 naar 19 procent."
     volatiliteit: kwartaal
     bronnen: [soai]
     beweringen: [K-VEI-011]
-    status: concept
+    status: gereed
   - id: VEI-07
     titel: "De leiders van de labs vragen zelf om een rem"
     kern: "Labbazen en 1.386 medewerkers willen dat overheden het tempo kunnen vertragen. Wie mag pauzeren en wie controleert, is onbeslist."
