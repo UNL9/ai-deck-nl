@@ -21,8 +21,6 @@ Wat in de opzet staat maar nog geen bewering heeft, staat niet als feit op de sl
 | SEC-08 | Verlies aan bezoek bij uitgevers |
 | SEC-10 | Stand in Europa; ritten per week en aantal steden opnieuw vaststellen (nu State of AI) |
 | SAM-06 | Bewijs dat modellen vooroordelen uit hun data overnemen; de AP-boetes op de slide gaan over een nationaliteitskenmerk dat bewust in het risicomodel zat, en dragen de titel daarom maar half |
-| SAM-01 | Chatbots als gezelschap |
-| SAM-03 | Minder doorklikken na een AI-antwoord |
 | GEO-03 | Jaarcijfers CNAS (projecten, cumulatief) voor de grafiek |
 | GEO-05 | Regels voor algemene modellen sinds augustus 2025 (artikel 113 van Verordening (EU) 2024/1689). EUR-Lex gaf op 2026-11-11 een lege pagina en een lege 202 bij de pdf (vermoedelijk een botcheck); met de hand nalopen of via een andere officiële bron. |
 | GEO-07 | "Betaal je eigen stroom"; strengere voorwaarden van staten; verloop over meer dan één kwartaal |

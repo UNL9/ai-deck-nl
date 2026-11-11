@@ -533,8 +533,8 @@ slides:
 
 # ---------- SAMENLEVING ----------
   - id: SAM-01
-    titel: "AI als gezelschap: chatbots worden vriend en vertrouweling"
-    kern: "Voor veel mensen wordt een chatbot een vriend of vertrouweling. Californië regelt nu hoe chatbots relaties met kinderen aangaan; China en de EU hebben eigen regels."
+    titel: "AI als gezelschap: wetgevers trekken grenzen voor chatbots en kinderen"
+    kern: "Californië regelt nu hoe chatbots relaties met kinderen aangaan; China en de EU hebben eigen regels."
     volatiliteit: kwartaal
     bronnen: [soai, vs-overheid]
     beweringen: [K-SAM-001, K-SAM-008, K-SAM-009]
@@ -548,12 +548,12 @@ slides:
     beweringen: [K-GEO-002, K-SAM-002, K-SAM-003, K-GEO-010]
     status: gereed
   - id: SAM-03
-    titel: "Antwoordmachines vervangen het zoeken, en dat raakt de hele informatievoorziening"
-    kern: "Wie een antwoord krijgt, klikt niet meer door. Dat raakt uitgevers, adverteerders en de vindbaarheid van bronnen."
+    titel: "Antwoordmachines groeien snel, en uitgevers stappen naar de rechter"
+    kern: "Verkeer via AI-assistenten groeit hard maar is nog klein. Uitgevers procederen al tegen AI-zoekdiensten; uitspraken over aansprakelijkheid zijn er nog niet."
     volatiliteit: kwartaal
     bronnen: [soai, evans]
     beweringen: [K-SEC-006, K-SEC-007]
-    status: concept
+    status: gereed
     noot: "Cijfer over minder doorklikken na een AI-antwoord nog nodig (bijvoorbeeld Pew of Similarweb)."
   - id: SAM-04
     titel: "Auteursrecht: de kernvragen liggen nog bij de rechter"
@@ -808,7 +808,7 @@ slides:
     kern: "Concrete agendapunten per kwartaal, afgeleid van de ontwikkelingen in dit deck."
     volatiliteit: kwartaal
     beweringen: [K-GOV-003, K-GEO-010, K-NLD-008]
-    status: concept
+    status: gereed
 
 # ---------- VOORUITBLIK ----------
   - id: VBK-01

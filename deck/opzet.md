@@ -272,16 +272,16 @@ Waymo reed tot juli 271 miljoen mijl zonder chauffeur, met 95 procent minder ern
 
 ## Samenleving (7)
 
-**SAM-01** [K] **AI als gezelschap: chatbots worden vriend en vertrouweling**  
-Voor veel mensen wordt een chatbot een vriend of vertrouweling. Californië regelt nu hoe chatbots relaties met kinderen aangaan; China en de EU hebben eigen regels.
+**SAM-01** [K] **AI als gezelschap: wetgevers trekken grenzen voor chatbots en kinderen**  
+Californië regelt nu hoe chatbots relaties met kinderen aangaan; China en de EU hebben eigen regels.
 <br><sub>Bronnen: soai, vs-overheid · Open: 'Voor veel mensen' nog niet met een cijfer onderbouwd (aandeel gebruikers dat chatbots als gezelschap gebruikt).</sub>
 
 **SAM-02** [K] **Echt en nep zijn steeds moeilijker te onderscheiden**  
 De angst dat deepfakes verkiezingen beslissen, loopt tot nu toe voor op het bewijs. De EU verplicht labels op synthetische inhoud en verbiedt niet-consensuele seksuele deepfakes.
 <br><sub>Bronnen: soai, eu-ai-act</sub>
 
-**SAM-03** [K] **Antwoordmachines vervangen het zoeken, en dat raakt de hele informatievoorziening**  
-Wie een antwoord krijgt, klikt niet meer door. Dat raakt uitgevers, adverteerders en de vindbaarheid van bronnen.
+**SAM-03** [K] **Antwoordmachines groeien snel, en uitgevers stappen naar de rechter**  
+Verkeer via AI-assistenten groeit hard maar is nog klein. Uitgevers procederen al tegen AI-zoekdiensten; uitspraken over aansprakelijkheid zijn er nog niet.
 <br><sub>Bronnen: soai, evans · Open: Cijfer over minder doorklikken na een AI-antwoord nog nodig (bijvoorbeeld Pew of Similarweb).</sub>
 
 **SAM-04** [K] **Auteursrecht: de kernvragen liggen nog bij de rechter**  
