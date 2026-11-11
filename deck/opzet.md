@@ -171,7 +171,7 @@ NVIDIA ontwierp twee derde van alle geïnstalleerde AI-rekenkracht, maar Google'
 <br><sub>Bronnen: soai, earnings, epoch · Open: De data laten niet zien of de verschuiving specifiek bij inferentie zit; daarom de algemenere titel.</sub>
 
 **INF-04** [K] **Zonder ASML geen AI: de keten loopt via Veldhoven en Taiwan**  
-ASML verkocht in 2025 zes EUV-machines meer dan in 2021, tegen een 61 procent hogere gemiddelde prijs. ASML verwacht dat de geplande capaciteit ook in 2027 en 2028 tekortschiet.
+ASML boekte in 2025 de omzet van 48 EUV-machines, vier meer dan een jaar eerder, en verwacht dat de geplande capaciteit ook in 2027 en 2028 tekortschiet.
 <br><sub>Bronnen: soai, earnings · Open: Voor de rol van TSMC als begrenzing is nog geen bron opgenomen.</sub>
 
 **INF-05** [K] **Rekenkracht is schaars: oude chips blijven verhuurd en prijzen stijgen weer**  

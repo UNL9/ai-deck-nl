@@ -344,10 +344,10 @@ slides:
     noot: "De data laten niet zien of de verschuiving specifiek bij inferentie zit; daarom de algemenere titel."
   - id: INF-04
     titel: "Zonder ASML geen AI: de keten loopt via Veldhoven en Taiwan"
-    kern: "ASML verkocht in 2025 zes EUV-machines meer dan in 2021, tegen een 61 procent hogere gemiddelde prijs. ASML verwacht dat de geplande capaciteit ook in 2027 en 2028 tekortschiet."
+    kern: "ASML boekte in 2025 de omzet van 48 EUV-machines, vier meer dan een jaar eerder, en verwacht dat de geplande capaciteit ook in 2027 en 2028 tekortschiet."
     volatiliteit: kwartaal
     bronnen: [soai, earnings]
-    beweringen: [K-INF-014, K-INF-015]
+    beweringen: [K-INF-014, K-INF-015, K-INF-020]
     status: concept
     noot: "Voor de rol van TSMC als begrenzing is nog geen bron opgenomen."
   - id: INF-05
@@ -731,7 +731,7 @@ slides:
     kern: "Zonder machines van ASML geen geavanceerde chips. Dat geeft Nederland en Europa iets om mee te onderhandelen."
     volatiliteit: stabiel
     bronnen: [earnings, soai]
-    beweringen: [K-INF-014, K-INF-015, K-GEO-009]
+    beweringen: [K-INF-014, K-INF-015, K-GEO-009, K-INF-020]
     status: concept
   - id: NLD-05
     titel: "GPT-NL en andere Nederlandse modellen: wat is het doel?"

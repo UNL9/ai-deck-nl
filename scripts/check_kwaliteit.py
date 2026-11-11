@@ -30,7 +30,8 @@ MARKETING = ["transformatief", "transformationeel", "game-changer", "gamechanger
              "baanbrekend", "revolutionair", "naadloos", "synergie", "holistisch", "best-in-class",
              "wereldklasse", "next level", "disruptief"]
 ONGECONTROLEERD = re.compile(
-    r"niet (zelf )?(gecontroleerd|ingezien|gelezen|geopend)|nog niet (bij de primaire bron |zelf )?gecontroleerd"
+    r"niet zelf (gecontroleerd|ingezien|gelezen|geopend)|zelf niet (gecontroleerd|ingezien|gelezen|geopend)"
+    r"|nog niet (bij de primaire bron |zelf )?gecontroleerd"
     r"|primaire (bron|publicatie)[^.]*(nog niet|niet) (gevonden|gecontroleerd|ingezien)", re.I)
 ID = re.compile(r"\b[A-Z]{3}-\d{2}\b")
 
