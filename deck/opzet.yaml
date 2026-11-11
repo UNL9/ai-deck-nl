@@ -389,7 +389,7 @@ slides:
     kern: "Nieuwe technologie wordt eerst ingepast in bestaand werk, dan ontstaan nieuwe werkwijzen, pas daarna nieuwe bedrijven en markten."
     volatiliteit: stabiel
     bronnen: [evans]
-    status: concept
+    status: gereed
   - id: WRK-02
     titel: "Iedereen heeft een pilot, weinigen hebben productie"
     kern: "Van de S&P 500-bedrijven heeft 69 procent AI in gebruik, maar 2 procent volgt het effect over tijd. Een kwart van de Amerikaanse werknemers zegt dat hun organisatie een duidelijk plan voor AI heeft."
@@ -429,7 +429,7 @@ slides:
     volatiliteit: kwartaal
     bronnen: [soai, anthropic-econ]
     beweringen: [K-WRK-001]
-    status: concept
+    status: gereed
   - id: WRK-07
     titel: "AI kan ook kennis kosten"
     kern: "Ontwikkelaars die met AI een nieuwe bibliotheek leerden, konden de code daarna slechter uitleggen en fouten slechter vinden."
@@ -472,7 +472,7 @@ slides:
     noot: "Voorbeelden uit de Nederlandse zorg toevoegen"
   - id: SEC-03
     titel: "Financiële sector: sterk bij afgebakende taken, zwak bij complete opdrachten"
-    kern: "Een topmodel haalde 100 procent op gestructureerde boekhoudtaken, maar slaagde voor slechts 12 procent van gesimuleerde bankopdrachten. Fraude en klantenservice zijn het verst."
+    kern: "Een topmodel haalde 100 procent op gestructureerde boekhoudtaken, maar slaagde voor slechts 12 procent van gesimuleerde bankopdrachten."
     volatiliteit: kwartaal
     bronnen: [soai, dnb-afm]
     beweringen: [K-SEC-002]
@@ -647,7 +647,7 @@ slides:
     volatiliteit: stabiel
     bronnen: [soai]
     beweringen: [K-GEO-009, K-FRT-014, K-FRT-009]
-    status: concept
+    status: gereed
 
 # ---------- VEILIGHEID EN RISICO ----------
   - id: VEI-01
@@ -786,7 +786,7 @@ slides:
     volatiliteit: stabiel
     bronnen: [soai, ramp]
     beweringen: [K-VEI-010, K-MKT-020, K-MKT-021]
-    status: concept
+    status: gereed
   - id: GOV-05
     titel: "AI-geletterdheid blijft een plicht, maar wordt een inspanningsverplichting"
     kern: "Sinds de wijziging van de AI Act in juli 2026 moeten organisaties maatregelen nemen om de AI-kennis van hun mensen te ondersteunen. Een bepaald niveau per persoon hoeven ze niet te garanderen."
@@ -821,7 +821,7 @@ slides:
     status: concept
   - id: VBK-02
     titel: "AGI: wanneer, en wat bedoelen we er eigenlijk mee?"
-    kern: "Labbazen noemen jaartallen, maar definities lopen uiteen. Bij elke platformverschuiving mislukten de meeste voorspellingen; de goede vraag is wat er nu al kan."
+    kern: "Labbazen noemen jaartallen, maar definities lopen uiteen. De goede vraag is wat er nu al kan."
     volatiliteit: kwartaal
     bronnen: [soai, evans, metr, epoch]
     beweringen: [K-VBK-002, K-VBK-001, K-FRT-033, K-FRT-017, K-FRT-019]
@@ -831,4 +831,4 @@ slides:
     kern: "De vaste bronnen achter dit deck, met waar je ze vindt."
     volatiliteit: stabiel
     bronnen: [soai, evans, iconiq, ai-index, epoch, cbs]
-    status: concept
+    status: gereed

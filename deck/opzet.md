@@ -239,7 +239,7 @@ Radiologie gebruikt AI al jaren. Nu volgen verslaglegging en planning, en door A
 <br><sub>Bronnen: soai, ai-index · Open: Voorbeelden uit de Nederlandse zorg toevoegen</sub>
 
 **SEC-03** [K] **Financiële sector: sterk bij afgebakende taken, zwak bij complete opdrachten**  
-Een topmodel haalde 100 procent op gestructureerde boekhoudtaken, maar slaagde voor slechts 12 procent van gesimuleerde bankopdrachten. Fraude en klantenservice zijn het verst.
+Een topmodel haalde 100 procent op gestructureerde boekhoudtaken, maar slaagde voor slechts 12 procent van gesimuleerde bankopdrachten.
 <br><sub>Bronnen: soai, dnb-afm</sub>
 
 **SEC-04** [K] **Juridische en professionele diensten: het verdienmodel per uur staat onder druk**  
@@ -429,7 +429,7 @@ De voorspellingen uit het State of AI Report, met per voorspelling de stand van 
 <br><sub>Bronnen: soai</sub>
 
 **VBK-02** [K] **AGI: wanneer, en wat bedoelen we er eigenlijk mee?**  
-Labbazen noemen jaartallen, maar definities lopen uiteen. Bij elke platformverschuiving mislukten de meeste voorspellingen; de goede vraag is wat er nu al kan.
+Labbazen noemen jaartallen, maar definities lopen uiteen. De goede vraag is wat er nu al kan.
 <br><sub>Bronnen: soai, evans, metr, epoch</sub>
 
 **VBK-03** [S] **Bronnen en verder lezen**  

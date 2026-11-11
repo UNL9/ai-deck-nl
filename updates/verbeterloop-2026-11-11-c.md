@@ -8,3 +8,4 @@ Start: 52 overtredingen  (juist 2, onderbouwd 38, actueel 0, leesbaar 0, stijl 0
 
 | Ronde | Slides | Wat er gebeurde | Totaal na de ronde |
 |---|---|---|---|
+| 1 | BAS-07, NLD-02, FRT-07, GOV-05, VBK-02, SEC-03, WRK-01, WRK-06, GEO-08, GOV-04, VBK-03 | Werklijst opgeschoond: BAS-07 (59), NLD-02 (20,0) en de primaire bronnen voor FRT-07 en GOV-05 waren al verwerkt. Keuze: twee zinnen zonder bron uit de kern gehaald, omdat ze niet op de slide staan: VBK-02 (bij elke platformverschuiving mislukten de meeste voorspellingen) en SEC-03 (fraude en klantenservice het verst). Getoetst op de PDF: WRK-01 en GOV-04 kaarten gelijk hoog gemaakt; VBK-03 woordbreuk en verouderd aantal bronnen hersteld; WRK-06 en GEO-08 in orde. Vijf slides gereed. | 47 |

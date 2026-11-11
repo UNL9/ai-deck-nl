@@ -21,7 +21,6 @@ Wat in de opzet staat maar nog geen bewering heeft, staat niet als feit op de sl
 | WRK-04 | Mensen grijpen vaak in bij taken met meerdere stappen |
 | WRK-05 | Historische beroepentellingen VS (liftbedienden, accountants; IPUMS of Census) |
 | SEC-02 | Radiologie en administratie; voorbeelden uit de Nederlandse zorg |
-| SEC-03 | "Fraude en klantenservice zijn het verst" |
 | SEC-07 | Zoeken via AI vult zoekmachines vooral aan |
 | SEC-08 | Verlies aan bezoek bij uitgevers |
 | SEC-09 | Robots bouwen mee aan datacenters |
@@ -40,16 +39,12 @@ Wat in de opzet staat maar nog geen bewering heeft, staat niet als feit op de sl
 | INF-04 | Bron voor TSMC als begrenzing; gemiddelde prijs per EUV-machine bij ASML zelf (het persbericht Q4 2025 gaf een 403) |
 | GOV-02 | Kosten van interne AI zijn moeilijk te voorspellen |
 | VBK-01 | De vier ontbrekende voorspellingen voor 2027 en de stand per voorspelling |
-| VBK-02 | Evans: bij elke platformverschuiving mislukten de meeste voorspellingen |
 | NLD-07 | Bestaande regels voor hyperscale datacenters (Eemshaven en Middenmeer; Barro en Bkl) bij de primaire bron vaststellen. De nationale regie volgt in Q1 2027 (K-NLD-014). |
 
 ## Na te lopen
 
 - VEI-07 of NLD-06: het advies over een Nederlands AI-veiligheidsinstituut (verwacht december 2026). Als het verschijnt: bewering toevoegen en op NLD-06 zetten, dat dan over beleid en toezicht gaat.
 
-- BAS-07: K-BAS-004 noemt 58, Artificial Analysis v5.0.1 nu 59.
-- NLD-02: EU-gemiddelde bedrijven 19,9 (CSV) of 20,0 procent (K-NLD-004).
-- Primaire bron nog niet zelf ingezien: AI Act op EUR-Lex (GOV-05), Anthropic (FRT-07, K-FRT-005).
 - Te verifiëren: K-MKT-015 en K-MKT-016 (omzet OpenAI), K-NLD-007 (GPT-NL), K-NLD-011 (GPU's AI-fabriek, aanbesteding januari 2027).
 
 - GEO-02 (K-GEO-005): de uitspraken zelf (N.D. Cal., rechter Rita Lin, 27 augustus 2026; D.C. Circuit nr. 26-1049, 25 september 2026) zijn niet bereikbaar: CourtListener vraagt een login. Vakpers en advocatenkantoren (Nextgov, Taft) bevestigen de gang van zaken. Opnieuw proberen via de site van het D.C. Circuit.
