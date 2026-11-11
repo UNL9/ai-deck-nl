@@ -11,6 +11,7 @@ De lat, in volgorde van belang:
                   titel, raken labels elkaar niet)
 
 Een slide op status gereed telt niet mee. Keuzes voor Joan (werklijst) worden getoond maar niet geteld.
+Een bewering die nog te verifiëren is, telt niet als de slide zichtbaar "volgens berichten" vermeldt (besluit Joan, 2026-11-11).
 
 Gebruik: python3 scripts/check_kwaliteit.py [--datum JJJJ-MM-DD] [--alles] [--slide ID]
 """
@@ -152,6 +153,8 @@ def main():
         if s.get("status") == "herzien":
             fouten.append(("onderbouwd", "status herzien: voorstel wacht op verwerking"))
         gekoppeld = s.get("beweringen", [])
+        pad = SLIDES / f"{sid}.html"
+        slidetekst = zichtbare_tekst(pad.read_text(encoding="utf-8")).lower() if pad.exists() else ""
         for k in gekoppeld:
             b = beweringen.get(k)
             if not b:
@@ -162,7 +165,8 @@ def main():
                     fouten.append(("juist", f"{k} is vervangen door {b['vervangen_door']}, die niet aan de slide hangt"))
                 continue
             if b.get("status") == "te_verifieren":
-                fouten.append(("juist", f"{k} is nog te verifiëren"))
+                if "volgens berichten" not in slidetekst:
+                    fouten.append(("juist", f"{k} is nog te verifiëren (en de slide zegt niet 'volgens berichten')"))
             elif betrouw.get(b.get("bron")) == "C":
                 fouten.append(("juist", f"{k} komt uit een secundaire bron ({b['bron']}, betrouwbaarheid C)"))
             elif ONGECONTROLEERD.search(b.get("noot", "") or ""):
