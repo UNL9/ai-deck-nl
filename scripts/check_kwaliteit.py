@@ -11,6 +11,7 @@ De lat, in volgorde van belang:
                   titel, raken labels elkaar niet)
 
 Een slide op status gereed telt niet mee. Keuzes voor Joan (werklijst) worden getoond maar niet geteld.
+Een bewering die nog te verifiëren is, telt niet als de slide zichtbaar "volgens berichten" vermeldt (besluit Joan, 2026-11-11).
 
 Gebruik: python3 scripts/check_kwaliteit.py [--datum JJJJ-MM-DD] [--alles] [--slide ID]
 """
@@ -98,7 +99,7 @@ def check_html(sid, pad):
         fouten.append(("stijl", "voetregel noemt het slide-ID niet"))
     if not sid.endswith("-opener") and "<aside>" not in t:
         fouten.append(("stijl", "sprekersnotities ontbreken"))
-    if re.search(r"\d+\.\d+\s?(%|procent)", zichtbare_tekst(t)):
+    if re.search(r"\d\.\d{1,2}(?!\d)\s?(%|procent)", zichtbare_tekst(t)):  # 1.127 procent is een duizendtal
         fouten.append(("stijl", "decimaalpunt in een percentage; gebruik een komma"))
 
     h2 = re.search(r"<h2[^>]*>(.*?)</h2>", t, re.S)
@@ -152,17 +153,25 @@ def main():
         if s.get("status") == "herzien":
             fouten.append(("onderbouwd", "status herzien: voorstel wacht op verwerking"))
         gekoppeld = s.get("beweringen", [])
+        pad = SLIDES / f"{sid}.html"
+        slidetekst = zichtbare_tekst(pad.read_text(encoding="utf-8")).lower() if pad.exists() else ""
         for k in gekoppeld:
             b = beweringen.get(k)
             if not b:
                 fouten.append(("juist", f"{k} bestaat niet"))
                 continue
             if b.get("status") == "vervangen":
-                if b.get("vervangen_door") and b["vervangen_door"] not in gekoppeld:
-                    fouten.append(("juist", f"{k} is vervangen door {b['vervangen_door']}, die niet aan de slide hangt"))
+                # volg de keten van vervangingen tot de actuele bewering
+                opvolger, gezien = b.get("vervangen_door"), set()
+                while opvolger and opvolger not in gezien and beweringen.get(opvolger, {}).get("status") == "vervangen":
+                    gezien.add(opvolger)
+                    opvolger = beweringen[opvolger].get("vervangen_door")
+                if opvolger and opvolger not in gekoppeld:
+                    fouten.append(("juist", f"{k} is vervangen door {opvolger}, die niet aan de slide hangt"))
                 continue
             if b.get("status") == "te_verifieren":
-                fouten.append(("juist", f"{k} is nog te verifiëren"))
+                if "volgens berichten" not in slidetekst:
+                    fouten.append(("juist", f"{k} is nog te verifiëren (en de slide zegt niet 'volgens berichten')"))
             elif betrouw.get(b.get("bron")) == "C":
                 fouten.append(("juist", f"{k} komt uit een secundaire bron ({b['bron']}, betrouwbaarheid C)"))
             elif ONGECONTROLEERD.search(b.get("noot", "") or ""):

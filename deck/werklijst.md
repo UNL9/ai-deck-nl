@@ -10,9 +10,9 @@ Wat in de opzet staat maar nog geen bewering heeft, staat niet als feit op de sl
 
 | Slide | Ontbreekt |
 |---|---|
-| BAS-01, BAS-02 | Tijdlijn vóór 2012 (Dartmouth 1956, expertsystemen); indeling in platformen van Evans |
+| BAS-01, BAS-02 | Tijdlijn vóór 2012 (Dartmouth 1956, expertsystemen); indeling in platformen van Evans. Bronnen gevonden maar niet leesbaar voor scripts: het voorstel voor Dartmouth (31 augustus 1955, herdrukt in AI Magazine 27(4), 2006, ojs.aaai.org/index.php/aimagazine/article/view/1904; botcheck) en McDermott, R1 (AAAI-80, cdn.aaai.org/AAAI/1980/AAAI80-076.pdf; scan zonder tekst). Volgens de zoekindex: R1 configureerde VAX-11/780-systemen en was sinds januari 1980 in gebruik bij Digital. Met de hand nalopen. |
+| BAS-03 | Cijfer dat de meeste AI-waarde tot nu toe in voorspellende modellen zat (de titel beweert het, de slide toont alleen een eigen indeling) |
 | BAS-09 | Voorbeelden van realtime multimodale modellen |
-| BAS-11 | Recent cijfer over verzonnen feiten (hallucinaties) |
 | BAS-12 | Epoch-reeks van prijs per token bij gelijke prestatie (analyse loopt tot maart 2025); daarna grafiek bouwen |
 | MKT-05 | "Niet-ontwikkelaars gebruiken codeeragents" |
 | MKT-06 | Reeks voor de S&P-grafiek |
@@ -26,12 +26,13 @@ Wat in de opzet staat maar nog geen bewering heeft, staat niet als feit op de sl
 | SEC-08 | Verlies aan bezoek bij uitgevers |
 | SEC-09 | Robots bouwen mee aan datacenters |
 | SEC-10 | Stand in Europa; ritten per week en aantal steden opnieuw vaststellen (nu State of AI) |
+| SAM-06 | Bewijs dat modellen vooroordelen uit hun data overnemen; de AP-boetes op de slide gaan over een nationaliteitskenmerk dat bewust in het risicomodel zat, en dragen de titel daarom maar half |
 | SAM-01 | Chatbots als gezelschap |
 | SAM-02 | Fraude met deepfakes |
 | SAM-03 | Minder doorklikken na een AI-antwoord |
 | SAM-04 | Deals tussen labs en uitgevers |
 | GEO-03 | Jaarcijfers CNAS (projecten, cumulatief) voor de grafiek |
-| GEO-05 | Regels voor algemene modellen sinds augustus 2025 |
+| GEO-05 | Regels voor algemene modellen sinds augustus 2025 (artikel 113 van Verordening (EU) 2024/1689). EUR-Lex gaf op 2026-11-11 een lege pagina en een lege 202 bij de pdf (vermoedelijk een botcheck); met de hand nalopen of via een andere officiële bron. |
 | GEO-07 | "Betaal je eigen stroom"; strengere voorwaarden van staten; verloop over meer dan één kwartaal |
 | VEI-01 | Agents die samenspannen om hun beoordelaar te misleiden |
 | VEI-03 | Beïnvloeding en fraude |
@@ -44,13 +45,16 @@ Wat in de opzet staat maar nog geen bewering heeft, staat niet als feit op de sl
 
 ## Na te lopen
 
-- MKT-01: "30 miljard begin 2026" komt uit een vervangen bewering (K-MKT-001).
 - BAS-07: K-BAS-004 noemt 58, Artificial Analysis v5.0.1 nu 59.
 - NLD-02: EU-gemiddelde bedrijven 19,9 (CSV) of 20,0 procent (K-NLD-004).
-- Primaire bron nog niet zelf ingezien: AI Act op EUR-Lex (GOV-05), besluit van de AP (SEC-05, GOV-06), Anthropic (FRT-07, K-FRT-005).
+- Primaire bron nog niet zelf ingezien: AI Act op EUR-Lex (GOV-05), Anthropic (FRT-07, K-FRT-005).
 - Te verifiëren: K-MKT-015 en K-MKT-016 (omzet OpenAI), K-NLD-007 (GPT-NL), K-NLD-011 (GPU's AI-fabriek, aanbesteding januari 2027).
 
+- GEO-02 (K-GEO-005): de uitspraken zelf (N.D. Cal., rechter Rita Lin, 27 augustus 2026; D.C. Circuit nr. 26-1049, 25 september 2026) zijn niet bereikbaar: CourtListener vraagt een login. Vakpers en advocatenkantoren (Nextgov, Taft) bevestigen de gang van zaken. Opnieuw proberen via de site van het D.C. Circuit.
+
 ## Keuzes voor Joan
+
+- MKT-01: "tegen 30 miljard begin 2026" is niet bij een primaire bron te controleren. De S-1/A van Anthropic geeft geen omzet op jaarbasis voor januari 2026 en OpenAI publiceert geen cijfers; het getal komt uit State of AI 2026 (K-MKT-001, vervangen). Voorstel: schrappen, of vervangen door de GAAP-omzet van Anthropic: 17,0 miljard dollar in het derde kwartaal van 2026, tegen 1,4 miljard een jaar eerder (K-MKT-011, S-1/A).
 
 - Interpreterende slotzinnen zonder cijfer op BAS-01, WRK-01, WRK-06, SEC-03, SEC-09 en GEO-08: laten staan of schrappen.
 - Kabinetsvisie op AI (6 november 2026, K-NLD-014): het deck heeft geen slide over Nederlands AI-beleid als geheel. Nu staat het als aanvulling op NLD-03 en NLD-07 (status herzien, met voorstel). Alternatief: NLD-06 verbreden van toezicht naar beleid en toezicht. Het adviesrapport over een Nederlands AI-veiligheidsinstituut (verwacht december 2026) kan ook in VEI of NLD.

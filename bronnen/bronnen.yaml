@@ -158,6 +158,22 @@ data_en_metingen:
     hergebruik: publiek domein
     opmerking: downloads van bestanden geven een 403 voor scripts; gebruik de pagina's per jaar of de openbare API (api.bls.gov)
 
+  - id: vs-overheid
+    naam: Amerikaanse overheden (federaal en staten), wetgevers en uitvoerders; persberichten en wetteksten
+    url: https://www.gov.ca.gov
+    type: overheid
+    frequentie: per publicatie
+    betrouwbaarheid: A
+    opmerking: leginfo.legislature.ca.gov geeft een 403 aan scripts; gebruik persberichten van de gouverneur of de indiener
+
+  - id: vectara
+    naam: Vectara, Hallucination Leaderboard (hoe vaak modellen iets verzinnen bij het samenvatten)
+    url: https://github.com/vectara/hallucination-leaderboard
+    type: ranglijst
+    frequentie: maandelijks
+    betrouwbaarheid: B
+    hergebruik: cijfers met bronvermelding; meting met het eigen evaluatiemodel van Vectara (HHEM)
+
 bedrijfsbronnen:
   # Primair voor omzet, gebruikers en releases. Altijd belang van de bron vermelden.
   - id: lab-blogs

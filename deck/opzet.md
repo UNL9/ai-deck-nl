@@ -70,7 +70,7 @@ Open modellen geven controle, lagere kosten en onafhankelijkheid. Gesloten model
 
 **BAS-11** [S] **Modellen maken fouten die overtuigend klinken**  
 Verzonnen feiten en taken die 'klaar' heten maar dat niet zijn. In labtaken was bijna de helft van de 'klaar'-meldingen onvolledig. Controle blijft nodig.
-<br><sub>Bronnen: soai</sub>
+<br><sub>Bronnen: soai, vectara</sub>
 
 **BAS-12** [K] **Intelligentie wordt snel goedkoper, en toch stijgen de totale uitgaven**  
 De prijs per eenheid prestatie daalt hard. Het gebruik groeit harder, vooral door agents en redeneermodellen.
@@ -274,7 +274,7 @@ Waymo reed tot juli 271 miljoen mijl zonder chauffeur, met 95 procent minder ern
 
 **SAM-01** [K] **AI als gezelschap: chatbots worden vriend en vertrouweling**  
 Voor veel mensen wordt een chatbot een vriend of vertrouweling. Californië regelt nu hoe chatbots relaties met kinderen aangaan; China en de EU hebben eigen regels.
-<br><sub>Bronnen: soai · Open: 'Voor veel mensen' nog niet met een cijfer onderbouwd (aandeel gebruikers dat chatbots als gezelschap gebruikt).</sub>
+<br><sub>Bronnen: soai, vs-overheid · Open: 'Voor veel mensen' nog niet met een cijfer onderbouwd (aandeel gebruikers dat chatbots als gezelschap gebruikt).</sub>
 
 **SAM-02** [K] **Echt en nep zijn steeds moeilijker te onderscheiden**  
 Deepfakes worden ingezet voor fraude en beïnvloeding. De EU verplicht labels op synthetische inhoud en verbiedt niet-consensuele seksuele deepfakes.
