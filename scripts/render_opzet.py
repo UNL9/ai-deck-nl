@@ -67,6 +67,10 @@ def render(opzet):
         for s in slides:
             regels.append(f"**{s['id']}** [{letter.get(s['volatiliteit'], '?')}] **{s['titel']}**  ")
             regels.append(f"{s['kern']}")
+            if s.get("punten"):
+                regels.append("")
+                regels += [f"{n}. {p}" for n, p in enumerate(s["punten"], 1)]
+                regels.append("")
             extra = []
             if s.get("bronnen"):
                 extra.append("Bronnen: " + ", ".join(s["bronnen"]))
