@@ -16,7 +16,7 @@ De volledige werkafspraken staan in [`CLAUDE.md`](CLAUDE.md).
 
 - [x] Fase 1: structuur, bronnenregister, opzet van 100 slides
 - [x] Fase 2: kennisbank vullen en grafiekdata verzamelen per sectie
-- [ ] Fase 3: slides uitwerken en deck publiceren
+- [ ] Fase 3: slides uitwerken en deck publiceren (proef met sectie FRT staat klaar, zie `deck/artifact/`)
 - [ ] Fase 4: wekelijkse update aanzetten
 
 ## Handige commando's
