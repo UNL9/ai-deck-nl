@@ -116,6 +116,13 @@ data_en_metingen:
     frequentie: per publicatie
     betrouwbaarheid: A
     opmerking: over eigen gebruik; let op belang van de bron
+  - id: anthropic-research
+    naam: Anthropic, onderzoekspublicaties (anthropic.com/research, met paper op arXiv)
+    url: https://www.anthropic.com/research
+    type: onderzoek
+    frequentie: per publicatie
+    betrouwbaarheid: A
+    opmerking: onderzoek naar het eigen product; let op belang van de bron
   - id: openai-research
     naam: OpenAI, onderzoek naar gebruik en economie
     url: https://openai.com/research

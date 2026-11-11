@@ -435,9 +435,9 @@ slides:
     kern: "Ontwikkelaars die met AI een nieuwe bibliotheek leerden, konden de code daarna slechter uitleggen en fouten slechter vinden."
     grafiek: "Score op een begripstoets zonder AI, geleerd met en zonder AI (data/WRK-07_begripstoets.csv)"
     volatiliteit: stabiel
-    bronnen: [soai]
-    beweringen: [K-WRK-010]
-    status: concept
+    bronnen: [soai, anthropic-research]
+    beweringen: [K-WRK-010, K-WRK-015]
+    status: gereed
   - id: WRK-08
     titel: "De bouw van AI levert ook banen op"
     kern: "In de VS naar schatting 320.000 extra banen in infrastructuur en 730.000 in AI-gerelateerde beroepen."

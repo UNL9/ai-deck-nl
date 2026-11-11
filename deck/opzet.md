@@ -218,7 +218,7 @@ De instroom van 22- tot 25-jarigen in beroepen die AI raakt is vertraagd. De oor
 
 **WRK-07** [S] **AI kan ook kennis kosten**  
 Ontwikkelaars die met AI een nieuwe bibliotheek leerden, konden de code daarna slechter uitleggen en fouten slechter vinden.
-<br><sub>Bronnen: soai</sub>
+<br><sub>Bronnen: soai, anthropic-research</sub>
 
 **WRK-08** [K] **De bouw van AI levert ook banen op**  
 In de VS naar schatting 320.000 extra banen in infrastructuur en 730.000 in AI-gerelateerde beroepen.

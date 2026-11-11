@@ -102,9 +102,10 @@
   vindplaats: "State of AI Report 2026, slide 105 (Anthropic)"
   vastgesteld: 2026-11-10
   houdbaarheid_dagen: 365
-  status: actueel
+  status: vervangen
+  vervangen_door: K-WRK-015
   slides: [WRK-07]
-  noot: "Meet direct leren, geen langetermijnverlies van vaardigheden. Primaire Anthropic-publicatie nog niet gecontroleerd."
+  noot: "Meet direct leren, geen langetermijnverlies van vaardigheden. Primaire Anthropic-publicatie nog niet gecontroleerd. Gecontroleerd op 2026-11-11: klopt; vervangen door K-WRK-015 met de primaire bron."
 
 # WRK-08: banen
 - id: K-WRK-011
@@ -158,3 +159,15 @@
   status: actueel
   slides: [WRK-05, WRK-08]
   noot: "Eigen berekening van de percentages; zonder zelfstandigen. Beroepscodes 15-2051, 23-2011, 43-4051 en 43-9021. Of AI de oorzaak is, zegt deze statistiek niet. Vervangt K-WRK-011 (State of AI, slide 107), dat 37 procent noemde voor datawetenschappers. Data: data/WRK-05_werkgelegenheid_vs.csv."
+
+# WRK-07: leren met AI
+- id: K-WRK-015
+  bewering: "In een gerandomiseerd experiment van Anthropic leerden 52 (vooral junior) ontwikkelaars de Python-bibliotheek Trio. Wie dat met een AI-assistent deed, scoorde daarna gemiddeld 50% op een toets zonder AI, tegen 67% voor wie zonder AI werkte (p = 0,01). De AI-groep was ongeveer twee minuten sneller klaar; dat verschil was niet significant. Het grootste verschil zat bij vragen over het vinden van fouten."
+  peildatum: 2026-01-29
+  bron: anthropic-research
+  vindplaats: "https://www.anthropic.com/research/AI-assistance-coding-skills ; paper https://arxiv.org/abs/2601.20245"
+  vastgesteld: 2026-11-11
+  houdbaarheid_dagen: 730
+  status: actueel
+  slides: [WRK-07]
+  noot: "Onderzoek van Anthropic naar het gebruik van AI bij leren; belang van de bron vermelden. Meet direct leren, geen langetermijnverlies van vaardigheden. Drie van de zes gebruikspatronen die de onderzoekers zagen, hielden het leerresultaat op peil. Vervangt K-WRK-010 (State of AI, slide 105)."
