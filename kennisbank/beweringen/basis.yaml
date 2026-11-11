@@ -41,7 +41,8 @@
   vindplaats: "Artificial Analysis, artikel over Intelligence Index v5 (27 oktober 2026)"
   vastgesteld: 2026-11-10
   houdbaarheid_dagen: 180
-  status: actueel
+  status: vervangen
+  vervangen_door: K-BAS-008
   slides: [BAS-07]
   noot: "Cijfers via zoekfragmenten van de AA-artikelpagina's; de score bij maximale inspanning staat nu op 59 (v5.0.1)."
 
@@ -77,3 +78,15 @@
   status: actueel
   slides: [BAS-12]
   noot: "Eigen bewering van Anthropic in het prospectus."
+
+# ---------- Wekelijkse update 2026-11-11 ----------
+- id: K-BAS-008
+  bewering: "Claude Opus 5.5 scoort bij maximale inspanning 59 op de Intelligence Index van Artificial Analysis (versie 5.0.1)."
+  peildatum: 2026-11-11
+  bron: artificial-analysis
+  vindplaats: "https://artificialanalysis.ai/models/claude-opus-5-5 en https://artificialanalysis.ai/leaderboards/models (opgehaald 2026-11-11)"
+  vastgesteld: 2026-11-11
+  houdbaarheid_dagen: 180
+  status: actueel
+  slides: [BAS-07]
+  noot: "Vervangt K-BAS-004 voor de score bij maximale inspanning (was 58 op versie 5.0). De score van 35 bij lage inspanning en de 59.000 uitvoertokens per taak staan niet op de modelpagina en blijven uit K-BAS-004 (versie 5.0, artikel van 27 oktober). Volgens de modelpagina gebruikte de maximale instelling 218 miljoen uitvoertokens voor de hele index."

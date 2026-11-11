@@ -1,5 +1,8 @@
 # Wijzigingen
 
+## 2026-11-11
+- Eerste wekelijkse update (updates/2026-11-11.md): kabinetsvisie op AI, vier cijfers bij de primaire bron gecontroleerd, OPN-02 bijgewerkt.
+
 ## 2026-11-10 (versie 0.2)
 - Reikwijdte verbreed naar de volledige breedte van AI, los van de inhoud van een specifieke training.
 - Nieuwe secties: Toepassingen per sector (10 slides) en Samenleving (7 slides).

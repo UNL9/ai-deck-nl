@@ -49,7 +49,8 @@
   vindplaats: "State of AI Report 2026, slide 21 (Anthropic, interne automatiseringsindex)"
   vastgesteld: 2026-11-10
   houdbaarheid_dagen: 90
-  status: actueel
+  status: vervangen
+  vervangen_door: K-FRT-030
   slides: [FRT-07]
 - id: K-FRT-006
   bewering: "Epoch volgt 49 onopgeloste onderzoeksproblemen in de wiskunde; AI wordt gecrediteerd voor negen oplossingen, waarvan vier zonder menselijke hulp."
@@ -311,3 +312,15 @@
   status: actueel
   slides: [FRT-06]
   noot: "Menlo is belegger in Anthropic (en in onder meer Lovable en Factory); zo vermelden. Bedragen zijn schattingen van Menlo op basis van een enquête onder bijna 400 Amerikaanse beslissers (Morning Consult, 8-26 september 2026), openbare cijfers en derde partijen."
+
+# ---------- Wekelijkse update 2026-11-11 ----------
+- id: K-FRT-030
+  bewering: "Volgens de eigen R&D Automation Index van Anthropic leidt Claude in augustus 2026 26% van het model-R&D-werk (niveau 'leidt': Claude doet het grootste deel van een taak van begin tot eind, een mens houdt toezicht), tegen minder dan 1% in februari 2026. Voor geen enkel gemeten deel werkt Claude volledig zelfstandig; meer dan 90% van het werk is op of boven het niveau 'werkt samen'."
+  peildatum: 2026-08
+  bron: lab-blogs
+  vindplaats: "Anthropic Institute, 'Measurements for understanding the pace of AI development inside frontier labs', https://www.anthropic.com/institute/measuring-pace-of-ai-development (gelezen 2026-11-11)"
+  vastgesteld: 2026-11-11
+  houdbaarheid_dagen: 90
+  status: actueel
+  slides: [FRT-07, VBK-02]
+  noot: "Primaire bron voor K-FRT-005. Methode: elke week in juli 2026 een steekproef van 20% van het personeel; een Claude-agent maakte uit Slack en interne documenten circa 15.000 taken, een tweede Claude-model kende per categorie een niveau toe op de schaal van Epoch AI (AL0 tot AL5). Overeenstemming model en mens 59%, mens en mens 35%. Zelfmeting, prototype, geen onafhankelijke controle; belang van de bron vermelden. De pagina noemt geen publicatiedatum (volgens vakpers 17 september 2026)."
