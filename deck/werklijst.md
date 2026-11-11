@@ -26,6 +26,7 @@ Wat in de opzet staat maar nog geen bewering heeft, staat niet als feit op de sl
 | SEC-08 | Verlies aan bezoek bij uitgevers |
 | SEC-09 | Robots bouwen mee aan datacenters |
 | SEC-10 | Stand in Europa; ritten per week en aantal steden opnieuw vaststellen (nu State of AI) |
+| SAM-06 | Bewijs dat modellen vooroordelen uit hun data overnemen; de AP-boetes op de slide gaan over een nationaliteitskenmerk dat bewust in het risicomodel zat, en dragen de titel daarom maar half |
 | SAM-01 | Chatbots als gezelschap |
 | SAM-02 | Fraude met deepfakes |
 | SAM-03 | Minder doorklikken na een AI-antwoord |
@@ -47,7 +48,7 @@ Wat in de opzet staat maar nog geen bewering heeft, staat niet als feit op de sl
 - MKT-01: "30 miljard begin 2026" komt uit een vervangen bewering (K-MKT-001).
 - BAS-07: K-BAS-004 noemt 58, Artificial Analysis v5.0.1 nu 59.
 - NLD-02: EU-gemiddelde bedrijven 19,9 (CSV) of 20,0 procent (K-NLD-004).
-- Primaire bron nog niet zelf ingezien: AI Act op EUR-Lex (GOV-05), besluit van de AP (SEC-05, GOV-06), Anthropic (FRT-07, K-FRT-005).
+- Primaire bron nog niet zelf ingezien: AI Act op EUR-Lex (GOV-05), Anthropic (FRT-07, K-FRT-005).
 - Te verifiëren: K-MKT-015 en K-MKT-016 (omzet OpenAI), K-NLD-007 (GPT-NL), K-NLD-011 (GPU's AI-fabriek, aanbesteding januari 2027).
 
 ## Keuzes voor Joan

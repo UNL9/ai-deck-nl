@@ -44,9 +44,10 @@
   vindplaats: "Kamerstuk 31066-1001 en AP-besluiten; https://zoek.officielebekendmakingen.nl/kst-31066-1001.html"
   vastgesteld: 2026-11-10
   houdbaarheid_dagen: 1825
-  status: actueel
+  status: vervangen
+  vervangen_door: K-SEC-010
   slides: [SEC-05]
-  noot: "Historisch feit; bedragen via Kamerstukken en vakpers, AP-besluit niet zelf ingezien. Bron-ID ap-ran staat voor de AP in het algemeen."
+  noot: "Historisch feit; bedragen via Kamerstukken en vakpers, AP-besluit niet zelf ingezien. Bron-ID ap-ran staat voor de AP in het algemeen. Gecontroleerd op 2026-11-11 in de twee Kamerbrieven: klopt; vervangen door K-SEC-010."
 
 # SEC-06: onderwijs
 - id: K-SEC-005
@@ -104,3 +105,17 @@
   status: actueel
   slides: [SEC-10]
   noot: "Eigen cijfers van Waymo (belang van de bron). Vervangt de mijlen en het veiligheidscijfer uit K-FRT-008; het aantal ritten en steden komt nog uit SoAI. Bron-ID lab-blogs bij gebrek aan een aparte bedrijfsbron."
+
+# ---------- Verbeterloop, 2026-11-11 ----------
+
+# SEC-05, SAM-06, GOV-06: boetes van de AP
+- id: K-SEC-010
+  bewering: "De Autoriteit Persoonsgegevens legde de minister van Financiën (Belastingdienst) op 7 december 2021 drie boetes op van samen 2,75 miljoen euro voor de onrechtmatige en discriminerende verwerking van de (dubbele) nationaliteit van aanvragers van kinderopvangtoeslag. Op 12 april 2022 volgden zes boetes van samen 3,7 miljoen euro voor de Fraude Signalering Voorziening (FSV), volgens de AP de hoogste boete die zij tot dan toe oplegde."
+  peildatum: 2022-04-12
+  bron: rijksoverheid
+  vindplaats: "Kamerbrief 7 december 2021 over het boetebesluit van de AP (tweedekamer.nl, 2021Z22818); Kamerstuk 31066, nr. 1001 (12 april 2022)"
+  vastgesteld: 2026-11-11
+  houdbaarheid_dagen: 1825
+  status: actueel
+  slides: [SEC-05, SAM-06, GOV-06]
+  noot: "Bedragen uit de Kamerbrieven van het ministerie van Financiën. De FSV-boete bestaat uit zes delen van 250.000 tot 1 miljoen euro; twee van de drie boetes van 2021 zijn verhoogd omdat de verwerking discriminerend was. 'Hoogste tot dan toe' staat op de nieuwspagina van de AP (april 2022); die site geeft een 403 aan scripts en is via de zoekindex gelezen. De AP legde later hogere boetes op."

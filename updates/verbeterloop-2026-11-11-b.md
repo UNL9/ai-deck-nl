@@ -8,3 +8,4 @@ Start: 112 overtredingen (juist 8, onderbouwd 51, actueel 0, leesbaar 3, stijl 1
 
 | Ronde | Slides | Wat er gebeurde | Totaal na de ronde |
 |---|---|---|---|
+| 1 | SEC-05, SAM-06, GOV-06, FRT-03 | AP-boetes gecontroleerd in de Kamerbrieven van 7 december 2021 en 12 april 2022 (K-SEC-010 vervangt K-SEC-004; de AP-site geeft een 403). Getoetst op de PDF: SEC-05 gereed; GOV-06 woordbreuk in de tabel hersteld, gereed; SAM-06 titel niet gedragen, naar de werklijst; FRT-03 lijnen door de aslabels, volgt. | 108 |

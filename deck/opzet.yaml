@@ -494,8 +494,8 @@ slides:
     kern: "AI kan dienstverlening en uitvoering verbeteren. De toeslagenaffaire liet zien wat er gebeurt als een risicomodel discrimineert en niemand het controleert."
     volatiliteit: stabiel
     bronnen: [rijksoverheid, ap-ran]
-    beweringen: [K-SEC-004]
-    status: concept
+    beweringen: [K-SEC-004, K-SEC-010]
+    status: gereed
   - id: SEC-06
     titel: "Onderwijs: de beste tutor geeft niet meteen het antwoord"
     kern: "Een gerandomiseerde proef met 1.763 leerlingen liet na acht weken betere wiskundescores zien. Algemene assistenten helpen te veel; leren vraagt ander gedrag."
@@ -581,7 +581,7 @@ slides:
     kern: "Eerlijkheid, uitlegbaarheid en controleerbaarheid zijn geen bijzaak. Ze bepalen of AI in gevoelige beslissingen gebruikt mag worden."
     volatiliteit: stabiel
     bronnen: [ap-ran, rathenau]
-    beweringen: [K-SEC-004]
+    beweringen: [K-SEC-004, K-SEC-010]
     status: concept
   - id: SAM-07
     titel: "Wie profiteert? Het risico van een tweedeling"
@@ -811,8 +811,8 @@ slides:
     grafiek: "Voorbeeld van een register van AI-toepassingen (tabel)"
     volatiliteit: stabiel
     bronnen: [ap-ran, eu-ai-act, rijksoverheid]
-    beweringen: [K-GOV-002, K-SEC-004]
-    status: concept
+    beweringen: [K-GOV-002, K-SEC-004, K-SEC-010]
+    status: gereed
   - id: GOV-07
     titel: "Wat de komende twaalf maanden op de bestuursagenda hoort"
     kern: "Concrete agendapunten per kwartaal, afgeleid van de ontwikkelingen in dit deck."
