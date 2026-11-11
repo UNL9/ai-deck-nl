@@ -47,7 +47,7 @@ Wat in de opzet staat maar nog geen bewering heeft, staat niet als feit op de sl
 - MKT-01: "30 miljard begin 2026" komt uit een vervangen bewering (K-MKT-001).
 - BAS-07: K-BAS-004 noemt 58, Artificial Analysis v5.0.1 nu 59.
 - NLD-02: EU-gemiddelde bedrijven 19,9 (CSV) of 20,0 procent (K-NLD-004).
-- Primaire bron nog niet zelf ingezien: AI Act op EUR-Lex (GOV-05), besluit van de AP (SEC-05, GOV-06), jaarverslagen ASML (NLD-04, K-INF-014), BLS (WRK-05, K-WRK-011), Anthropic (WRK-07, K-WRK-010; FRT-07, K-FRT-005), FrontierSWE en MirrorCode (K-FRT-013), Skild en Sunday Robotics (K-FRT-024).
+- Primaire bron nog niet zelf ingezien: AI Act op EUR-Lex (GOV-05), besluit van de AP (SEC-05, GOV-06), jaarverslagen ASML (NLD-04, K-INF-014), BLS (WRK-05, K-WRK-011), Anthropic (WRK-07, K-WRK-010; FRT-07, K-FRT-005), Skild en Sunday Robotics (K-FRT-024).
 - Te verifiëren: K-MKT-015 en K-MKT-016 (omzet OpenAI), K-NLD-007 (GPT-NL), K-NLD-011 (GPU's AI-fabriek, aanbesteding januari 2027).
 
 ## Keuzes voor Joan

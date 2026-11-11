@@ -132,9 +132,10 @@
   vindplaats: "State of AI Report 2026, slide 42"
   vastgesteld: 2026-11-10
   houdbaarheid_dagen: 90
-  status: actueel
+  status: vervangen
+  vervangen_door: K-FRT-030
   slides: [FRT-02]
-  noot: "Primaire bronnen (FrontierSWE, MirrorCode) nog niet zelf gecontroleerd."
+  noot: "Primaire bronnen (FrontierSWE, MirrorCode) nog niet zelf gecontroleerd. Gecontroleerd op 2026-11-11: FrontierSWE klopt, MirrorCode geeft 78,9 en 46,7 procent; Claude Fable 5.2 leidt nu op FrontierSWE. Vervangen door K-FRT-030."
 
 # FRT-03: China en open modellen
 - id: K-FRT-014
@@ -311,3 +312,17 @@
   status: actueel
   slides: [FRT-06]
   noot: "Menlo is belegger in Anthropic (en in onder meer Lovable en Factory); zo vermelden. Bedragen zijn schattingen van Menlo op basis van een enquête onder bijna 400 Amerikaanse beslissers (Morning Consult, 8-26 september 2026), openbare cijfers en derde partijen."
+
+# ---------- Verbeterloop, 2026-11-11 ----------
+
+# FRT-02: lange programmeertaken
+- id: K-FRT-030
+  bewering: "FrontierSWE v2 (34 taken van tot 20 uur, gemiddelde van vijf pogingen): Claude Fable 5.2 69,9%, GPT-6 Astra 65,5%, Claude Opus 5.5 62,3%, Gemini 4 Carbon 61,2%. Gemiddelde kosten per poging: 169, 1.030, 99 en 62 dollar. MirrorCode (programma's nabouwen zonder broncode): Claude Opus 5.5 78,9%, Claude Fable 5.1 73,3%, GPT-6 Astra 46,7%."
+  peildatum: 2026-11-11
+  bron: epoch
+  vindplaats: "https://www.frontierswe.com (ranglijst v2, opgehaald 2026-11-11; Fable 5.2 nog niet in de Epoch-data); Epoch AI benchmark_data.zip, frontierswe_external.csv en mirrorcode.csv (bijgewerkt 2026-11-10)"
+  vastgesteld: 2026-11-11
+  houdbaarheid_dagen: 30
+  status: actueel
+  slides: [FRT-02]
+  noot: "FrontierSWE is van Proximal Labs; Epoch neemt de openbare ranglijst over. MirrorCode is van Epoch en METR; Claude Fable 5.2 en Gemini 4 Carbon zijn daar nog niet gemeten. Vervangt K-FRT-013 (State of AI, slide 42), dat MirrorCode afrondde op 77 en 47 procent."

@@ -168,8 +168,8 @@ slides:
     grafiek: "Vijf labs, drie ranglijsten: rangorde van het beste model per lab op AA, LMArena en ECI (data/FRT-02_drie_ranglijsten.csv)"
     volatiliteit: wekelijks
     bronnen: [lmarena, artificial-analysis, epoch, soai]
-    beweringen: [K-FRT-002, K-FRT-009, K-FRT-011, K-FRT-012, K-FRT-013]
-    status: concept
+    beweringen: [K-FRT-002, K-FRT-009, K-FRT-011, K-FRT-012, K-FRT-013, K-FRT-030]
+    status: gereed
   - id: FRT-03
     titel: "China leidt bij open modellen, maar loopt aan de top achter"
     kern: "Het beste Chinese model, Kimi K3.1 Pro, scoort 46 op de Intelligence Index tegen 65 voor de koploper. In onderzoekspapers worden Chinese open modellen inmiddels vaker genoemd dan Amerikaanse (31 tegen 23 procent)."
