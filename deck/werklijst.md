@@ -14,10 +14,7 @@ Geen open punten (opruimronde 2026-11-11).
 
 - VEI-07 of NLD-06: het advies over een Nederlands AI-veiligheidsinstituut (verwacht december 2026). Als het verschijnt: bewering toevoegen en op NLD-06 zetten, dat dan over beleid en toezicht gaat.
 
-
 - Te verifiëren: K-MKT-015 en K-MKT-016 (omzet OpenAI), K-NLD-007 (GPT-NL), K-NLD-011 (GPU's AI-fabriek, aanbesteding januari 2027). Deze staan op de slides met 'volgens berichten' (besluit Joan). OpenAI publiceert geen omzetcijfers; aifabriek.nl was niet bereikbaar voor scripts.
-
-- GEO-02 (K-GEO-013): de uitspraak van het D.C. Circuit van 25 september 2026 (nr. 26-1049) is niet bereikbaar: media.cadc.uscourts.gov vindt het document niet meer, govinfo geeft een lege zoekpagina, Justia en Leagle een 403, CourtListener vraagt een login. De uitspraak van de rechter in Californië is wel gelezen (K-GEO-011). Hulp van Joan: de PDF via PACER of de site van het hof.
 
 ## Keuzes voor Joan
 

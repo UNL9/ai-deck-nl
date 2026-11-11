@@ -124,7 +124,7 @@
   houdbaarheid_dagen: 180
   status: actueel
   slides: [GEO-02]
-  noot: "Vervangt K-GEO-005 voor het Californische deel; de uitspraak zelf gelezen op 2026-11-11. Belang: Anthropic is partij. Het hoger beroep in Washington staat in K-GEO-013."
+  noot: "Vervangt K-GEO-005 voor het Californische deel; de uitspraak zelf gelezen op 2026-11-11. Belang: Anthropic is partij. De uitspraak in Washington staat in K-GEO-016."
 - id: K-GEO-013
   bewering: "Op 25 september 2026 handhaafde het hof van beroep in Washington (D.C. Circuit, zaak 26-1049, gevoegd met 26-1162) de aparte aanwijzing van Anthropic onder 41 U.S.C. § 4713, met twee stemmen tegen één (tegenstem rechter Henderson). Anthropic vroeg om behandeling door het voltallige hof."
   peildatum: 2026-09-25
@@ -132,7 +132,8 @@
   vindplaats: "Volgens Clark Hill, Taft, Holland & Knight, Miller & Chevalier en Courthouse News; de uitspraak zelf niet bereikbaar"
   vastgesteld: 2026-11-11
   houdbaarheid_dagen: 90
-  status: te_verifieren
+  status: vervangen
+  vervangen_door: K-GEO-016
   slides: [GEO-02]
   noot: "De uitspraak staat niet meer op media.cadc.uscourts.gov (document niet gevonden), govinfo gaf een lege zoekpagina, Justia en Leagle een 403, CourtListener vraagt een login. Op de slide als 'volgens berichten'. Joan kan de PDF via PACER of de site van het hof opvragen."
 - id: K-GEO-015
@@ -165,3 +166,13 @@
   status: actueel
   slides: [GEO-03]
   noot: "Reeks per kwartaal in data/GEO-03_soevereine_ai_projecten.csv. Eindstand en 2023 kloppen met K-GEO-001."
+- id: K-GEO-016
+  bewering: "Op 25 september 2026 wees het hof van beroep in Washington (D.C. Circuit, zaak 26-1049, gevoegd met 26-1162) de verzoeken van Anthropic af en handhaafde het de uitsluiting van Claude uit de toeleveringsketen van het ministerie onder 41 U.S.C. § 4713, met twee stemmen tegen één (rechters Katsas en Rao; afwijkende mening van rechter Henderson). Volgens het hof vereist die wet, anders dan 10 U.S.C. § 3252, geen kwade opzet; dat Anthropic Claude via training laat weigeren, valt onder 'manipulate'."
+  peildatum: 2026-09-25
+  bron: vs-rechtbanken
+  vindplaats: "U.S. Court of Appeals for the D.C. Circuit, Anthropic PBC v. U.S. Department of War, nr. 26-1049, beslist 25 sep. 2026, opinie Katsas p. 4-5, 23-24, 30 en 43; afwijkende mening Henderson (pdf aangeleverd door Joan)"
+  vastgesteld: 2026-11-11
+  houdbaarheid_dagen: 90
+  status: actueel
+  slides: [GEO-02]
+  noot: "Vervangt K-GEO-013. Uitspraak zelf gelezen. Het hof noemt ook dat Anthropic mediaberichten in het dossier bracht over zorgen bij Palantir over de rol van Claude bij de operatie tegen Maduro (3 januari 2026), p. 10. Dat Anthropic om behandeling door het voltallige hof vroeg, staat alleen in de vakpers en niet in deze uitspraak."

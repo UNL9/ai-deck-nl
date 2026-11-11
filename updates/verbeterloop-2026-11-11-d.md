@@ -1,6 +1,6 @@
 # Opruimronde, 11 november 2026
 
-Doel: alle open punten van de kwaliteitslat in één keer wegwerken. Begonnen op 16 overtredingen (juist 2, onderbouwd 14), geëindigd op 1. Daarvan staan 99 van de 100 slides op gereed. Het ene open punt (GEO-02) wacht op een uitspraak die alleen Joan kan opvragen.
+Doel: alle open punten van de kwaliteitslat in één keer wegwerken. Begonnen op 16 overtredingen (juist 2, onderbouwd 14), geëindigd op 0. Alle 100 slides staan op gereed. Het laatste punt (GEO-02) is gesloten met de uitspraak van het D.C. Circuit die Joan aanleverde.
 
 Alle slides hieronder zijn gerenderd en getoetst: draagt de slide de titel, raken labels of lijnen elkaar niet, valt niets buiten beeld.
 
@@ -9,7 +9,7 @@ Alle slides hieronder zijn gerenderd en getoetst: draagt de slide de titel, rake
 | Slide | Wat er gebeurde | Nieuwe beweringen |
 |---|---|---|
 | SAM-01 | China, EU en VK bij de primaire bron gelezen (CAC-besluit nr. 21, AI Act art. 5, gov.uk). China: sinds 15 juli 2026. Kaarten gelijk hoog gemaakt. | K-SAM-010 (vervangt K-SAM-009) |
-| GEO-02 | Uitspraak van rechter Rita Lin (N.D. Cal., 27 augustus) zelf gelezen. De uitspraak van het hof in Washington (25 september) is niet bereikbaar; op de slide nu als "volgens berichten". Kaarten gelijk hoog gemaakt. **Blijft open: zie hulp van Joan.** | K-GEO-011 (vervangt K-GEO-005), K-GEO-013 (te verifiëren), K-GEO-015 |
+| GEO-02 | Uitspraak van rechter Rita Lin (N.D. Cal., 27 augustus) zelf gelezen. Uitspraak van het D.C. Circuit (25 september) aangeleverd door Joan en gelezen: uitsluiting onder § 4713 blijft staan, twee tegen één. "Volgens berichten" van de slide gehaald. Kaarten gelijk hoog gemaakt. | K-GEO-011 (vervangt K-GEO-005), K-GEO-016 (vervangt K-GEO-013), K-GEO-015 |
 | GEO-05 | Artikel 113 van de AI Act zelf gelezen via het Publicatiebureau. Tijdlijn kreeg de stap "2 augustus 2025: regels voor algemene modellen"; de stap van februari 2025 noemt nu ook de verboden praktijken. | K-GEO-012 |
 | GEO-03 | Grafiek gebouwd uit de CNAS Sovereign AI Index: 18 projecten eind 2023, 57, 145, 184 in juni 2026. | K-GEO-014 |
 | BAS-12 | Grafiek gebouwd uit Epoch (CC BY): laagste prijs voor GPT-4-niveau van 37,50 naar 0,18 dollar per miljoen tokens. Nieuwe Epoch-analyse (september 2026): 47 procent per kwartaal. | K-BAS-010, K-BAS-011 (vervangt K-BAS-006) |
@@ -30,6 +30,6 @@ Nieuwe bronnen: vs-rechtbanken, cac, vk-overheid, us-census, fda, historische-br
 
 ## Hulp van Joan nodig
 
-1. **GEO-02:** de uitspraak van het D.C. Circuit van 25 september 2026, zaak 26-1049. De site van het hof vindt het document niet meer, govinfo is leeg, Justia en Leagle geven een 403, CourtListener vraagt een login. Via PACER of de griffie. Dit is het laatste punt op de kwaliteitslat.
+1. ~~GEO-02~~ Afgehandeld: Joan leverde de uitspraak van het D.C. Circuit aan (K-GEO-016).
 2. ~~Voorspelling 9 (VBK-01, VBK-02)~~ Afgehandeld: Joan opende de OpenAI-pagina. Het is een beleidsplan, geen product, en bevestigt de voorspelling dus niet. GPT-6 Cyber (5 november) staat alleen in de vakpers. De uitkomst laten we aan de scorekaart van de auteurs; vastgelegd in K-VBK-003.
 3. **Te verifiëren (tellen niet mee, staan als "volgens berichten" op de slides):** omzet OpenAI (K-MKT-015, K-MKT-016), GPT-NL (K-NLD-007), GPU's van de AI-fabriek (K-NLD-011; aifabriek.nl was niet bereikbaar).

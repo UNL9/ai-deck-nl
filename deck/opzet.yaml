@@ -596,8 +596,8 @@ slides:
     kern: "Het conflict tussen Anthropic en het Pentagon, terwijl frontier-AI al in militaire operaties wordt ingezet."
     volatiliteit: kwartaal
     bronnen: [vs-rechtbanken, soai]
-    beweringen: [K-GEO-011, K-GEO-013, K-GEO-015]
-    status: concept
+    beweringen: [K-GEO-011, K-GEO-016, K-GEO-015]
+    status: gereed
   - id: GEO-03
     titel: "67 landen bouwen aan soevereine AI, maar soevereiniteit kun je niet huren"
     kern: "Buiten de VS en China lopen 184 overheidsprojecten met samen circa 84 miljard dollar. Wie niet aan de frontier meedoet, moet onderhandelen over toegang."
